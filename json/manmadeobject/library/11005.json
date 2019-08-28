@@ -2,11 +2,15 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
-            "label": "AusstellungBiography",
+            "label": "Exhibition catalogs",
             "type": "Type"
         },
         {
-            "label": "Exhibition catalogs",
+            "label": "Ausstellung",
+            "type": "Type"
+        },
+        {
+            "label": "Biography",
             "type": "Type"
         }
     ],
@@ -21,20 +25,10 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/11005",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "type": "Name",
-            "value": "American painting of the 1970s: essay "
-        },
         {
             "classified_as": [
                 {
@@ -46,6 +40,17 @@
             "id": "http://data.okeeffemuseum.org/library/11005/050",
             "type": "Identifier",
             "value": "ND212 .A4475 1978"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "American painting of the 1970s: essay "
         }
     ],
     "label": null,
@@ -59,7 +64,7 @@
                 "carried_out_by": [
                     {
                         "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/albright-knox-art-gallery",
+                        "id": "http://data.okeeffemuseum.org/person/356",
                         "identified_by": [
                             {
                                 "classified_as": [
@@ -69,11 +74,26 @@
                                         "type": "Type"
                                     }
                                 ],
-                                "id": "http://data.okeeffemuseum.org/person/albright-knox-art-gallery/name",
+                                "exact_match": [
+                                    "ulan:500278842"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/356/name/0",
                                 "type": "Name",
                                 "value": "Albright-Knox Art Gallery"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:former"
+                                ],
+                                "exact_match": [
+                                    "ulan:500278842"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/356/name/1",
+                                "type": "Name",
+                                "value": "Buffalo fine Arts Academy"
                             }
                         ],
+                        "label": "Albright-Knox Art Gallery",
                         "type": "Actor"
                     }
                 ],
@@ -94,24 +114,12 @@
             "begin_of_the_begin": "1978-01-01T00:00:00",
             "end_of_the_end": "1978-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/11005/production/timespan",
-            "label": "1978.",
+            "label": "1978",
             "type": "TimeSpan"
         },
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266038",
-                    "label": "format",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/11005/300abc",
-            "type": "LinguisticObject",
-            "value": "vi, 112 pages :color illustrations ;28 cm."
-        },
         {
             "classified_as": [
                 {
@@ -122,7 +130,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/11005/500a",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Personal Library.Page marker found between pp. 46-47 ; 92-93."
+            "value": "Georgia O'Keeffe Personal Library.<br>Page marker found between pp. 46-47 ; 92-93."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266038",
+                    "label": "format",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/11005/300abc",
+            "type": "LinguisticObject",
+            "value": "vi, 112 pages : color illustrations ; 28 cm."
         },
         {
             "classified_as": [
@@ -140,6 +160,7 @@
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

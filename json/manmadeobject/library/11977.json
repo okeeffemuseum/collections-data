@@ -2,11 +2,11 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
-            "label": "History",
+            "label": "Specimens",
             "type": "Type"
         },
         {
-            "label": "Specimens",
+            "label": "History",
             "type": "Type"
         }
     ],
@@ -21,6 +21,7 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/11977",
     "identified_by": [
@@ -61,6 +62,43 @@
                 "carried_out_by": [
                     {
                         "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/1807",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "http://id.loc.gov/authorities/names/n50062227"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/1807/name/0",
+                                "type": "Name",
+                                "value": "Alfred A. Knopf"
+                            }
+                        ],
+                        "label": "Alfred A. Knopf",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/11977/production/publishing",
+                "technique": [
+                    {
+                        "id": "relators:pbl",
+                        "label": "Publisher",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/van-vechten-carl-",
                         "identified_by": [
                             {
@@ -89,39 +127,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/alfred-a-knopf",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/alfred-a-knopf/name",
-                                "type": "Name",
-                                "value": "Alfred A. Knopf"
-                            }
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/11977/production/publishing",
-                "technique": [
-                    {
-                        "id": "relators:pbl",
-                        "label": "Publisher",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/11977/production",
@@ -129,7 +134,7 @@
             "begin_of_the_begin": "1922-01-01T00:00:00",
             "end_of_the_end": "1922-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/11977/production/timespan",
-            "label": "1922.",
+            "label": "1922",
             "type": "TimeSpan"
         },
         "type": "Production"
@@ -145,7 +150,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/11977/500a",
             "type": "LinguisticObject",
-            "value": "Ephemera found inside front cover : Compliments card from Alfred A. Knopf's, undated.Georgia O'Keeffe Personal Library."
+            "value": "Ephemera found inside front cover : Compliments card from Alfred A. Knopf's, undated.<br>Georgia O'Keeffe Personal Library."
         },
         {
             "classified_as": [
@@ -157,7 +162,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/11977/590a",
             "type": "LinguisticObject",
-            "value": "abq copy : good condition ; dust jacket : good condition.SColl abq : Inscription on front loose endpaper from Carl Van Vechten to Alfred Stieglitz, December 4, 1922 : For Alfred Stieglitz, / Who lived also in / those days when 'The / days were wonderful and / The nights were wonderful / & The life was pleasant.' / Carl Van Vechten / December 4, 1922 / New York."
+            "value": "abq copy : good condition ; dust jacket : good condition.|SColl abq : Inscription on front loose endpaper from Carl Van Vechten to Alfred Stieglitz, December 4, 1922 : For Alfred Stieglitz, / Who lived also in / those days when 'The / days were wonderful and / The nights were wonderful / & The life was pleasant.' / Carl Van Vechten / December 4, 1922 / New York."
         },
         {
             "classified_as": [
@@ -169,12 +174,13 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/11977/300abc",
             "type": "LinguisticObject",
-            "value": "4 preliminary leaves, 247 pages ;20 cm."
+            "value": "4 preliminary leaves, 247 pages ; 20 cm."
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

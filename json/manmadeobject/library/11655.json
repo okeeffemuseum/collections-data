@@ -2,7 +2,11 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
-            "label": "AusstellungExhibition catalogs",
+            "label": "Ausstellung",
+            "type": "Type"
+        },
+        {
+            "label": "Exhibition catalogs",
             "type": "Type"
         }
     ],
@@ -17,6 +21,7 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/11655",
     "identified_by": [
@@ -61,17 +66,6 @@
                         "identified_by": [
                             {
                                 "classified_as": [
-                                    "aat:former"
-                                ],
-                                "exact_match": [
-                                    "ulan:500304669"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/381/name/1",
-                                "type": "Name",
-                                "value": "The Art Institute of Chicago"
-                            },
-                            {
-                                "classified_as": [
                                     {
                                         "id": "aat:300404670",
                                         "label": "preferred terms",
@@ -84,6 +78,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/381/name/0",
                                 "type": "Name",
                                 "value": "Art Institute of Chicago"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:former"
+                                ],
+                                "exact_match": [
+                                    "ulan:500304669"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/381/name/1",
+                                "type": "Name",
+                                "value": "The Art Institute of Chicago"
                             }
                         ],
                         "label": "Art Institute of Chicago",
@@ -140,12 +145,24 @@
             "begin_of_the_begin": "1982-01-01T00:00:00",
             "end_of_the_end": "1982-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/11655/production/timespan",
-            "label": "1982.",
+            "label": "1982",
             "type": "TimeSpan"
         },
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300411780",
+                    "label": "descriptions (documents)",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/11655/500a",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Personal Library.<br>Accompanied by Bennett's contributions (4 p.) and inserted at end.<br>This catalogue is published in connection with the exhibition 'Edward H. Bennett: architect and city planner, 1874-1954,' organized by the Art Institute of Chicago and presented March 4-July 4, 1982--Title page verso."
+        },
         {
             "classified_as": [
                 {
@@ -161,18 +178,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300411780",
-                    "label": "descriptions (documents)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/11655/500a",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Personal Library.Accompanied by Bennett's contributions (4 p.) and inserted at end.This catalogue is published in connection with the exhibition 'Edward H. Bennett: architect and city planner, 1874-1954,' organized by the Art Institute of Chicago and presented March 4-July 4, 1982--Title page verso."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266038",
                     "label": "format",
                     "type": "Type"
@@ -180,12 +185,13 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/11655/300abc",
             "type": "LinguisticObject",
-            "value": "63 pages :illustrations ;28 cm."
+            "value": "63 pages : illustrations ; 28 cm."
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

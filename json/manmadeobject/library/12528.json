@@ -12,6 +12,7 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/12528",
     "identified_by": [
@@ -52,39 +53,6 @@
                 "carried_out_by": [
                     {
                         "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/museum-of-modern-art-brooklyn-museum",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/museum-of-modern-art-brooklyn-museum/name",
-                                "type": "Name",
-                                "value": "Museum of Modern Art & Brooklyn Museum"
-                            }
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/12528/production/publishing",
-                "technique": [
-                    {
-                        "id": "relators:pbl",
-                        "label": "Publisher",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/keck-caroline-k-",
                         "identified_by": [
                             {
@@ -113,6 +81,56 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/1325",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500303609",
+                                    "http://id.loc.gov/authorities/names/n50056582"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/1325/name/0",
+                                "type": "Name",
+                                "value": "Museum of Modern Art"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "http://id.loc.gov/authorities/names/n50056582",
+                                    "ulan:500303609"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/1325/name/1",
+                                "type": "Name",
+                                "value": "MoMA"
+                            }
+                        ],
+                        "label": "Museum of Modern Art",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/12528/production/publishing",
+                "technique": [
+                    {
+                        "id": "relators:pbl",
+                        "label": "Publisher",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/12528/production",
@@ -120,12 +138,24 @@
             "begin_of_the_begin": "1954-01-01T00:00:00",
             "end_of_the_end": "1954-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/12528/production/timespan",
-            "label": "\u00a91954.",
+            "label": "1954",
             "type": "TimeSpan"
         },
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266038",
+                    "label": "format",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/12528/300abc",
+            "type": "LinguisticObject",
+            "value": "54 pages illustrations"
+        },
         {
             "classified_as": [
                 {
@@ -141,18 +171,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266038",
-                    "label": "format",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/12528/300abc",
-            "type": "LinguisticObject",
-            "value": "54 pagesillustrations"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300411780",
                     "label": "descriptions (documents)",
                     "type": "Type"
@@ -160,12 +178,13 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/12528/500a",
             "type": "LinguisticObject",
-            "value": "Ephemera found between pp. 26-27 : Blank check.Georgia O'Keeffe Personal Library."
+            "value": "Ephemera found between pp. 26-27 : Blank check.<br>Georgia O'Keeffe Personal Library."
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

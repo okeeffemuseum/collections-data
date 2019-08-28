@@ -2,11 +2,11 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
-            "label": "Psychological fiction",
+            "label": "Love stories",
             "type": "Type"
         },
         {
-            "label": "Love stories",
+            "label": "Psychological fiction",
             "type": "Type"
         },
         {
@@ -25,9 +25,21 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/12679",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "Women in love "
+        },
         {
             "classified_as": [
                 {
@@ -39,17 +51,6 @@
             "id": "http://data.okeeffemuseum.org/library/12679/050",
             "type": "Identifier",
             "value": "PR6023.A93 W63 1920"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "type": "Name",
-            "value": "Women in love "
         }
     ],
     "label": null,
@@ -61,39 +62,6 @@
             "http://data.okeeffemuseum.org/person/lawrence-d-h-"
         ],
         "consists_of": [
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/lawrence-d-h-",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/lawrence-d-h-/name",
-                                "type": "Name",
-                                "value": "Lawrence, D. H."
-                            }
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/12679/production/author",
-                "technique": [
-                    {
-                        "id": "relators:aut",
-                        "label": "Author",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
             {
                 "carried_out_by": [
                     {
@@ -126,6 +94,39 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/lawrence-d-h-",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/lawrence-d-h-/name",
+                                "type": "Name",
+                                "value": "Lawrence, D. H."
+                            }
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/12679/production/author",
+                "technique": [
+                    {
+                        "id": "relators:aut",
+                        "label": "Author",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/12679/production",
@@ -133,7 +134,7 @@
             "begin_of_the_begin": "1920-01-01T00:00:00",
             "end_of_the_end": "1920-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/12679/production/timespan",
-            "label": "1920.",
+            "label": "1920",
             "type": "TimeSpan"
         },
         "type": "Production"
@@ -149,19 +150,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/12679/590a",
             "type": "LinguisticObject",
-            "value": "abq copy : good condition ; slipcase : fair condition.SColl abq : 1,250 copies of this book have been printed of which this is no. 340--Preliminary p. [2].SColl abq : Bookseller sticker inside back cover : The Sunwise Turn Inc., 51 E 44th St NY."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266038",
-                    "label": "format",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/12679/300abc",
-            "type": "LinguisticObject",
-            "value": "3 pages, 1., [3]-536 pages25 cm."
+            "value": "abq copy : good condition ; slipcase : fair condition.|SColl abq : 1,250 copies of this book have been printed of which this is no. 340--Preliminary p. [2].|SColl abq : Bookseller sticker inside back cover : The Sunwise Turn Inc., 51 E 44th St NY."
         },
         {
             "classified_as": [
@@ -174,11 +163,24 @@
             "id": "http://data.okeeffemuseum.org/library/12679/500a",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe Personal Library."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266038",
+                    "label": "format",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/12679/300abc",
+            "type": "LinguisticObject",
+            "value": "3 pages, 1., [3]-536 pages 25 cm."
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

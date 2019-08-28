@@ -28,9 +28,24 @@
         "label": "Georgia O'Keeffe Museum (Santa Fe)",
         "type": "Actor"
     },
-    "depicts": [],
+    "custody_transferred_through": [],
+    "depicts": [
+        "http://data.okeeffemuseum.org/person/964"
+    ],
     "id": "http://data.okeeffemuseum.org/object/6531",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/accessionnumber",
+            "type": "Identifier",
+            "value": "2011.1.1"
+        },
         {
             "classified_as": [
                 {
@@ -39,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6531/title",
-            "type": "Name",
-            "value": "Untitled (Ida O'Keeffe)"
+            "id": "http://data.okeeffemuseum.org/object/6531/identifier",
+            "type": "Identifier",
+            "value": "6531"
         },
         {
             "classified_as": [
@@ -63,21 +78,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6531/identifier",
-            "type": "Identifier",
-            "value": "6531"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/accessionnumber",
-            "type": "Identifier",
-            "value": "2011.1.1"
+            "id": "http://data.okeeffemuseum.org/object/6531/title",
+            "type": "Name",
+            "value": "Untitled (Ida O'Keeffe)"
         }
     ],
     "label": "Alfred Stieglitz. Untitled (Ida O'Keeffe), 1924. Gelatin silver print, 4 1/2 x 3 5/8 inches. Georgia O'Keeffe Museum. Gift of June O'Keeffe Sebring. [2011.1.1]",
@@ -92,9 +95,47 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/260"
+            "http://data.okeeffemuseum.org/person/260",
+            "http://data.okeeffemuseum.org/person/964"
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/964",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500399516"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/964/name/0",
+                                "type": "Name",
+                                "value": "Ida Ten Eyck O'Keeffe"
+                            }
+                        ],
+                        "label": "Ida Ten Eyck O'Keeffe",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/6531/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -154,55 +195,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "id": "aat:300080091",
+                    "label": "description (activity)",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6531/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/6531/Description/",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of June O'Keeffe Sebring      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/maker_role",
-            "type": "LinguisticObject",
-            "value": "Photographer: Alfred Stieglitz"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "Portrait of Ida O'Keeffe smiling, wearing a mink fur on the v-neck of her coat; her portrait is on angle from the lower right of the picture frame."
         },
         {
             "classified_as": [
@@ -224,6 +224,45 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Alfred Stieglitz\nDepicted: Ida Ten Eyck O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media (artists' materials)",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 4 1/2 x 3 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -232,6 +271,59 @@
             "id": "http://data.okeeffemuseum.org/object/6531/caption/",
             "label": "Alfred Stieglitz. Untitled (Ida O'Keeffe), 1924. Gelatin silver print, 4 1/2 x 3 5/8 inches. Georgia O'Keeffe Museum. Gift of June O'Keeffe Sebring. [2011.1.1]",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of June O'Keeffe Sebring      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials (substances)",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6531/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
         },
         {
             "classified_as": [
@@ -258,57 +350,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of Ida O'Keeffe smiling, wearing a mink fur on the v-neck of her coat; her portrait is on angle from the lower right of the picture frame."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 4 1/2 x 3 5/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6531/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -322,6 +363,7 @@
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []

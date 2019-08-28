@@ -2,15 +2,15 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
+            "label": "Manuscripts",
+            "type": "Type"
+        },
+        {
             "label": "Facsimiles",
             "type": "Type"
         },
         {
             "label": "Diaries",
-            "type": "Type"
-        },
-        {
-            "label": "Manuscripts",
             "type": "Type"
         }
     ],
@@ -25,9 +25,21 @@
     "crm:P57_has_number_of_parts": null,
     "current_keeper": null,
     "current_owner": null,
+    "custody_transferred_through": [],
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/10925",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "The nightmare notebook "
+        },
         {
             "classified_as": [
                 {
@@ -39,17 +51,6 @@
             "id": "http://data.okeeffemuseum.org/library/10925/050",
             "type": "Identifier",
             "value": "PS3525.I5454 Z5245 1975"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "type": "Name",
-            "value": "The nightmare notebook "
         }
     ],
     "label": null,
@@ -61,39 +62,6 @@
             "http://data.okeeffemuseum.org/person/miller-henry-"
         ],
         "consists_of": [
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/miller-henry-",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/miller-henry-/name",
-                                "type": "Name",
-                                "value": "Miller, Henry,"
-                            }
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/10925/production/author",
-                "technique": [
-                    {
-                        "id": "relators:aut",
-                        "label": "Author",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
             {
                 "carried_out_by": [
                     {
@@ -126,6 +94,39 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/miller-henry-",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/miller-henry-/name",
+                                "type": "Name",
+                                "value": "Miller, Henry,"
+                            }
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/10925/production/author",
+                "technique": [
+                    {
+                        "id": "relators:aut",
+                        "label": "Author",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/10925/production",
@@ -133,7 +134,7 @@
             "begin_of_the_begin": "1975-01-01T00:00:00",
             "end_of_the_end": "1975-01-01T00:00:00",
             "id": "http://data.okeeffemuseum.org/library/10925/production/timespan",
-            "label": "\u00a91975.",
+            "label": "1975",
             "type": "TimeSpan"
         },
         "type": "Production"
@@ -149,7 +150,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/10925/300abc",
             "type": "LinguisticObject",
-            "value": "approximately 200 pages :illustrations (some color) ;28 cm."
+            "value": "approximately 200 pages : illustrations (some color) ; 28 cm."
         },
         {
             "classified_as": [
@@ -161,7 +162,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/10925/500a",
             "type": "LinguisticObject",
-            "value": "Ephemera found inside front cover : postcard with image of Prosper Berry's Lock St. Barthelemy, F.W.I from Esther, undated : Happy Christmas. / Good to hear you / voice! / Esther.Georgia O'Keeffe Personal Library.No. 92 of 700, signed by author.Page marker in front of p. From Rolland's ; Boogie Woogie.Photoreproduction of holograph of the author's Notebook of American tour, being one of the sources for his The air-conditioned nightmare and Remember to remember."
+            "value": "Ephemera found inside front cover : postcard with image of Prosper Berry's Lock St. Barthelemy, F.W.I from Esther, undated : Happy Christmas. / Good to hear you / voice! / Esther.<br>Georgia O'Keeffe Personal Library.<br>No. 92 of 700, signed by author.<br>Page marker in front of p. From Rolland's ; Boogie Woogie.<br>Photoreproduction of holograph of the author's Notebook of American tour, being one of the sources for his The air-conditioned nightmare and Remember to remember."
         },
         {
             "classified_as": [
@@ -173,12 +174,13 @@
             ],
             "id": "http://data.okeeffemuseum.org/library/10925/590a",
             "type": "LinguisticObject",
-            "value": "abq copy : good condition.SColl abq : Inscription on front loose endpaper from Esther M. [Johnson ?] to Georgia [O'Keeffe] : Esther M. [Johnson?] / To Georgia."
+            "value": "abq copy : good condition.|SColl abq : Inscription on front loose endpaper from Esther M. [Johnson ?] to Georgia [O'Keeffe] : Esther M. [Johnson?] / To Georgia."
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [],
+    "specific_technique": [],
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": []
