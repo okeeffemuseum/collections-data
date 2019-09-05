@@ -7,38 +7,6 @@
                 "http://data.okeeffemuseum.org/library/7610"
             ],
             "classified_as": [
-                "relationships:dates-classifications",
-                "aat:300417473"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/7334/relationships/date/aat/300028051",
-            "related": [
-                {
-                    "begin_of_the_begin": 1988,
-                    "id": "http://data.okeeffemuseum.org/library/7334/relationships/date/aat/300028051/timespan",
-                    "type": "TimeSpan"
-                },
-                {
-                    "id": "aat:300028051",
-                    "label": "books",
-                    "type": [
-                        "crm:E1_CRM_Entity",
-                        "Type",
-                        "crm:E70_Thing",
-                        "crm:E28_Conceptual_Object",
-                        "http://www.w3.org/2002/07/owl#Thing",
-                        "crm:E77_Persistent_Item",
-                        "crm:E71_Man-Made_Thing"
-                    ]
-                }
-            ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
-                "http://data.okeeffemuseum.org/library/3779",
-                "http://data.okeeffemuseum.org/library/7610"
-            ],
-            "classified_as": [
                 "relationships:dates",
                 "aat:300417473"
             ],
@@ -51,11 +19,43 @@
                 }
             ],
             "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/library/3779",
+                "http://data.okeeffemuseum.org/library/7610"
+            ],
+            "classified_as": [
+                "relationships:dates-classifications",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/7334/relationships/date/aat/300028051",
+            "related": [
+                {
+                    "id": "aat:300028051",
+                    "label": "books",
+                    "type": [
+                        "crm:E28_Conceptual_Object",
+                        "crm:E71_Man-Made_Thing",
+                        "crm:E70_Thing",
+                        "crm:E1_CRM_Entity",
+                        "http://www.w3.org/2002/07/owl#Thing",
+                        "crm:E77_Persistent_Item",
+                        "Type"
+                    ]
+                },
+                {
+                    "begin_of_the_begin": 1988,
+                    "id": "http://data.okeeffemuseum.org/library/7334/relationships/date/aat/300028051/timespan",
+                    "type": "TimeSpan"
+                }
+            ],
+            "type": "Aggregation"
         }
     ],
     "id": "http://data.okeeffemuseum.org/library/7334",
     "type": [
-        "crm:E19_Physical_Object",
-        "ManMadeObject"
+        "ManMadeObject",
+        "crm:E19_Physical_Object"
     ]
 }

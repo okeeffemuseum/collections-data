@@ -3,30 +3,6 @@
     "aggregated_by": [
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/library/10866",
-                "http://data.okeeffemuseum.org/library/11061",
-                "http://data.okeeffemuseum.org/library/10868",
-                "http://data.okeeffemuseum.org/object/194",
-                "http://data.okeeffemuseum.org/archive/component/aspace_ref453_4cv",
-                "http://data.okeeffemuseum.org/library/404",
-                "http://data.okeeffemuseum.org/library/10895"
-            ],
-            "classified_as": [
-                "relationships:dates",
-                "aat:300417473"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/10884/relationships/date",
-            "related": [
-                {
-                    "begin_of_the_begin": 1986,
-                    "id": "http://data.okeeffemuseum.org/library/10884/relationships/date/timespan",
-                    "type": "TimeSpan"
-                }
-            ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
                 "http://data.okeeffemuseum.org/archive/component/aspace_ref453_4cv"
             ],
             "classified_as": [
@@ -36,24 +12,24 @@
             "id": "http://data.okeeffemuseum.org/library/10884/relationships/date/archives",
             "related": [
                 {
-                    "begin_of_the_begin": 1986,
-                    "id": "http://data.okeeffemuseum.org/library/10884/relationships/date/archives/timespan",
-                    "type": "TimeSpan"
-                },
-                {
                     "id": "aat:300375748",
                     "label": "archives",
                     "type": "Type"
+                },
+                {
+                    "begin_of_the_begin": 1986,
+                    "id": "http://data.okeeffemuseum.org/library/10884/relationships/date/archives/timespan",
+                    "type": "TimeSpan"
                 }
             ],
             "type": "Aggregation"
         },
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/library/10868",
-                "http://data.okeeffemuseum.org/library/404",
                 "http://data.okeeffemuseum.org/library/10895",
+                "http://data.okeeffemuseum.org/library/10868",
                 "http://data.okeeffemuseum.org/library/10866",
+                "http://data.okeeffemuseum.org/library/404",
                 "http://data.okeeffemuseum.org/library/11061"
             ],
             "classified_as": [
@@ -67,12 +43,12 @@
                     "label": "books",
                     "type": [
                         "crm:E77_Persistent_Item",
-                        "crm:E70_Thing",
                         "crm:E1_CRM_Entity",
-                        "crm:E28_Conceptual_Object",
                         "crm:E71_Man-Made_Thing",
                         "http://www.w3.org/2002/07/owl#Thing",
-                        "Type"
+                        "crm:E70_Thing",
+                        "Type",
+                        "crm:E28_Conceptual_Object"
                     ]
                 },
                 {
@@ -82,11 +58,35 @@
                 }
             ],
             "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/archive/component/aspace_ref453_4cv",
+                "http://data.okeeffemuseum.org/library/10895",
+                "http://data.okeeffemuseum.org/library/10868",
+                "http://data.okeeffemuseum.org/library/10866",
+                "http://data.okeeffemuseum.org/library/404",
+                "http://data.okeeffemuseum.org/library/11061",
+                "http://data.okeeffemuseum.org/object/194"
+            ],
+            "classified_as": [
+                "aat:300417473",
+                "relationships:dates"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/10884/relationships/date",
+            "related": [
+                {
+                    "begin_of_the_begin": 1986,
+                    "id": "http://data.okeeffemuseum.org/library/10884/relationships/date/timespan",
+                    "type": "TimeSpan"
+                }
+            ],
+            "type": "Aggregation"
         }
     ],
     "id": "http://data.okeeffemuseum.org/library/10884",
     "type": [
-        "ManMadeObject",
-        "crm:E19_Physical_Object"
+        "crm:E19_Physical_Object",
+        "ManMadeObject"
     ]
 }
