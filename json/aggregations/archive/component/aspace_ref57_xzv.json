@@ -3,49 +3,6 @@
     "aggregated_by": [
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/library/7778"
-            ],
-            "classified_as": [
-                "aat:300417473",
-                "relationships:direct"
-            ],
-            "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/direct",
-            "related": [],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
-                "http://data.okeeffemuseum.org/archive/component/aspace_ref75_pyz"
-            ],
-            "classified_as": [
-                "aat:300417473",
-                "relationships:dates-classifications"
-            ],
-            "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/date/aat/300026877",
-            "related": [
-                {
-                    "id": "aat:300026877",
-                    "label": "correspondence",
-                    "type": [
-                        "http://www.w3.org/2002/07/owl#Thing",
-                        "crm:E71_Man-Made_Thing",
-                        "crm:E1_CRM_Entity",
-                        "Type",
-                        "crm:E28_Conceptual_Object",
-                        "crm:E77_Persistent_Item",
-                        "crm:E70_Thing"
-                    ]
-                },
-                {
-                    "begin_of_the_begin": 2019,
-                    "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/date/aat/300026877/timespan",
-                    "type": "TimeSpan"
-                }
-            ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
                 "http://data.okeeffemuseum.org/archive/component/aspace_ref75_pyz"
             ],
             "classified_as": [
@@ -62,17 +19,17 @@
                 {
                     "id": "aat:300375748",
                     "label": [
-                        "archives (groupings)",
-                        "archives"
+                        "archives",
+                        "archives (groupings)"
                     ],
                     "type": [
                         "crm:E71_Man-Made_Thing",
-                        "crm:E70_Thing",
+                        "Type",
+                        "http://www.w3.org/2002/07/owl#Thing",
+                        "crm:E77_Persistent_Item",
                         "crm:E1_CRM_Entity",
                         "crm:E28_Conceptual_Object",
-                        "Type",
-                        "crm:E77_Persistent_Item",
-                        "http://www.w3.org/2002/07/owl#Thing"
+                        "crm:E70_Thing"
                     ]
                 }
             ],
@@ -83,8 +40,8 @@
                 "http://data.okeeffemuseum.org/archive/component/aspace_ref75_pyz"
             ],
             "classified_as": [
-                "aat:300417473",
-                "relationships:dates"
+                "relationships:dates",
+                "aat:300417473"
             ],
             "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/date",
             "related": [
@@ -95,11 +52,54 @@
                 }
             ],
             "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/archive/component/aspace_ref75_pyz"
+            ],
+            "classified_as": [
+                "relationships:dates-classifications",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/date/aat/300026877",
+            "related": [
+                {
+                    "id": "aat:300026877",
+                    "label": "correspondence",
+                    "type": [
+                        "http://www.w3.org/2002/07/owl#Thing",
+                        "crm:E77_Persistent_Item",
+                        "crm:E71_Man-Made_Thing",
+                        "crm:E70_Thing",
+                        "Type",
+                        "crm:E1_CRM_Entity",
+                        "crm:E28_Conceptual_Object"
+                    ]
+                },
+                {
+                    "begin_of_the_begin": 2019,
+                    "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/date/aat/300026877/timespan",
+                    "type": "TimeSpan"
+                }
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/library/7778"
+            ],
+            "classified_as": [
+                "relationships:direct",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv/relationships/direct",
+            "related": [],
+            "type": "Aggregation"
         }
     ],
     "id": "http://data.okeeffemuseum.org/archive/component/aspace_ref57_xzv",
     "type": [
-        "ManMadeObject",
-        "crm:E19_Physical_Object"
+        "crm:E19_Physical_Object",
+        "ManMadeObject"
     ]
 }

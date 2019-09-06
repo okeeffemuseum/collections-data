@@ -3,18 +3,6 @@
     "aggregated_by": [
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/archive/component/aspace_ref131_0l4"
-            ],
-            "classified_as": [
-                "aat:300417473",
-                "relationships:direct"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/7406/relationships/direct",
-            "related": [],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
                 "http://data.okeeffemuseum.org/library/7611",
                 "http://data.okeeffemuseum.org/library/10952"
             ],
@@ -28,13 +16,13 @@
                     "id": "aat:300028051",
                     "label": "books",
                     "type": [
-                        "crm:E70_Thing",
+                        "Type",
                         "crm:E71_Man-Made_Thing",
                         "crm:E77_Persistent_Item",
-                        "Type",
+                        "crm:E28_Conceptual_Object",
                         "crm:E1_CRM_Entity",
                         "http://www.w3.org/2002/07/owl#Thing",
-                        "crm:E28_Conceptual_Object"
+                        "crm:E70_Thing"
                     ]
                 },
                 {
@@ -47,12 +35,12 @@
         },
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/library/7611",
-                "http://data.okeeffemuseum.org/library/10952"
+                "http://data.okeeffemuseum.org/library/10952",
+                "http://data.okeeffemuseum.org/library/7611"
             ],
             "classified_as": [
-                "aat:300417473",
-                "relationships:dates"
+                "relationships:dates",
+                "aat:300417473"
             ],
             "id": "http://data.okeeffemuseum.org/library/7406/relationships/date",
             "related": [
@@ -63,11 +51,23 @@
                 }
             ],
             "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/archive/component/aspace_ref131_0l4"
+            ],
+            "classified_as": [
+                "aat:300417473",
+                "relationships:direct"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/7406/relationships/direct",
+            "related": [],
+            "type": "Aggregation"
         }
     ],
     "id": "http://data.okeeffemuseum.org/library/7406",
     "type": [
-        "ManMadeObject",
-        "crm:E19_Physical_Object"
+        "crm:E19_Physical_Object",
+        "ManMadeObject"
     ]
 }
