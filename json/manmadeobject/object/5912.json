@@ -42,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5912/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/5912/identifier",
+            "type": "Identifier",
+            "value": "5912"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5912/identifier",
-            "type": "Identifier",
-            "value": "5912"
+            "id": "http://data.okeeffemuseum.org/object/5912/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "label": "Todd Webb. Georgia O'Keeffe, 1956. Gelatin silver print, 5 15/16 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.978]",
@@ -83,10 +83,58 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/1155",
-            "http://data.okeeffemuseum.org/person/2"
+            "http://data.okeeffemuseum.org/person/2",
+            "http://data.okeeffemuseum.org/person/1155"
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/2",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                                "type": "Name",
+                                "value": "Georgia O'Keeffe"
+                            }
+                        ],
+                        "label": "Georgia O'Keeffe",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/5912/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -123,54 +171,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/2",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                                "type": "Name",
-                                "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            }
-                        ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/5912/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/5912/production/",
@@ -194,40 +194,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5912/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5912/maker_role",
-            "type": "LinguisticObject",
-            "value": "Photographer: Todd Webb\nDepicted: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300080091",
                     "label": "description (activity)",
                     "type": "Type"
@@ -240,14 +206,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5912/caption/",
-            "label": "Todd Webb. Georgia O'Keeffe, 1956. Gelatin silver print, 5 15/16 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.978]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/5912/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles (general, names)",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates (spans of time)",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5912/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe, 1956"
         },
         {
             "classified_as": [
@@ -265,52 +253,6 @@
             "id": "http://data.okeeffemuseum.org/object/5912/artist_caption",
             "type": "LinguisticObject",
             "value": "Todd Webb"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5912/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe, 1956"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5912/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5912/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Handwritten in pencil, on the back of the photograph, is the artist's last name, Webb."
         },
         {
             "classified_as": [
@@ -339,6 +281,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5912/caption/",
+            "label": "Todd Webb. Georgia O'Keeffe, 1956. Gelatin silver print, 5 15/16 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.978]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -347,6 +301,35 @@
             "id": "http://data.okeeffemuseum.org/object/5912/Measurement/",
             "type": "LinguisticObject",
             "value": "5 15/16 x 4 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5912/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Todd Webb\nDepicted: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5912/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Handwritten in pencil, on the back of the photograph, is the artist's last name, Webb."
         },
         {
             "classified_as": [
@@ -363,11 +346,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -376,11 +354,33 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media (artists' materials)",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/5912/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Gelatin silver print, 5 15/16 x 4 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5912/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],

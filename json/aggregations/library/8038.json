@@ -3,26 +3,6 @@
     "aggregated_by": [
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/object/742",
-                "http://data.okeeffemuseum.org/library/7753",
-                "http://data.okeeffemuseum.org/object/456"
-            ],
-            "classified_as": [
-                "aat:300417473",
-                "relationships:dates"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/8038/relationships/date",
-            "related": [
-                {
-                    "begin_of_the_begin": 1903,
-                    "id": "http://data.okeeffemuseum.org/library/8038/relationships/date/timespan",
-                    "type": "TimeSpan"
-                }
-            ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
                 "http://data.okeeffemuseum.org/library/7753"
             ],
             "classified_as": [
@@ -40,14 +20,34 @@
                     "id": "aat:300028051",
                     "label": "books",
                     "type": [
-                        "crm:E71_Man-Made_Thing",
-                        "http://www.w3.org/2002/07/owl#Thing",
-                        "crm:E28_Conceptual_Object",
                         "crm:E70_Thing",
+                        "crm:E77_Persistent_Item",
                         "crm:E1_CRM_Entity",
                         "Type",
-                        "crm:E77_Persistent_Item"
+                        "crm:E28_Conceptual_Object",
+                        "crm:E71_Man-Made_Thing",
+                        "http://www.w3.org/2002/07/owl#Thing"
                     ]
+                }
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/object/742",
+                "http://data.okeeffemuseum.org/object/456",
+                "http://data.okeeffemuseum.org/library/7753"
+            ],
+            "classified_as": [
+                "relationships:dates",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/8038/relationships/date",
+            "related": [
+                {
+                    "begin_of_the_begin": 1903,
+                    "id": "http://data.okeeffemuseum.org/library/8038/relationships/date/timespan",
+                    "type": "TimeSpan"
                 }
             ],
             "type": "Aggregation"
@@ -55,7 +55,7 @@
     ],
     "id": "http://data.okeeffemuseum.org/library/8038",
     "type": [
-        "crm:E19_Physical_Object",
-        "ManMadeObject"
+        "ManMadeObject",
+        "crm:E19_Physical_Object"
     ]
 }

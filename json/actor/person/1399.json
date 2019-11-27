@@ -1,5 +1,16 @@
 {
     "@context": "https://linked.art/ns/v1/linked-art.json",
+    "brought_into_existence_by": {
+        "id": "http://data.okeeffemuseum.org/person/1399/birthevent/",
+        "timespan": {
+            "begin_of_the_begin": "1963-01-01T00:00:00",
+            "end_of_the_end": "1963-01-01T00:00:00",
+            "id": "http://data.okeeffemuseum.org/person/1399/birthevent/timespan/",
+            "label": "1963",
+            "type": "TimeSpan"
+        },
+        "type": "BeginningOfExistence"
+    },
     "classified_as": [
         {
             "id": "aat:300025969",
@@ -12,6 +23,18 @@
     ],
     "id": "http://data.okeeffemuseum.org/person/1399",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:former",
+                    "label": "former",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/person/1399/name/1",
+            "type": "Name",
+            "value": "Art Gallery"
+        },
         {
             "classified_as": [
                 {
@@ -54,17 +77,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)"
-                }
-            ],
-            "id": "http://id.loc.gov/vocabulary/relators/pbl",
-            "label": "Publisher",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300263369",
                     "label": "occupations (livelihoods)",
                     "type": "Type"
@@ -72,6 +84,17 @@
             ],
             "id": "http://data.okeeffemuseum.org/occupation/art-museum",
             "label": "Art Museum",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)"
+                }
+            ],
+            "id": "http://id.loc.gov/vocabulary/relators/pbl",
+            "label": "Publisher",
             "type": "Activity"
         }
     ],
