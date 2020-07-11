@@ -4,9 +4,33 @@
         {
             "aggregates": [
                 "http://data.okeeffemuseum.org/library/404",
+                "http://data.okeeffemuseum.org/library/10866",
+                "http://data.okeeffemuseum.org/library/10884",
+                "http://data.okeeffemuseum.org/library/10895",
+                "http://data.okeeffemuseum.org/library/10868",
+                "http://data.okeeffemuseum.org/archive/component/aspace_ref453_4cv",
+                "http://data.okeeffemuseum.org/object/194"
+            ],
+            "classified_as": [
+                "relationships:dates",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/11061/relationships/date",
+            "related": [
+                {
+                    "begin_of_the_begin": 1986,
+                    "id": "http://data.okeeffemuseum.org/library/11061/relationships/date/timespan",
+                    "type": "TimeSpan"
+                }
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/library/10866",
+                "http://data.okeeffemuseum.org/library/404",
                 "http://data.okeeffemuseum.org/library/10868",
                 "http://data.okeeffemuseum.org/library/10895",
-                "http://data.okeeffemuseum.org/library/10866",
                 "http://data.okeeffemuseum.org/library/10884"
             ],
             "classified_as": [
@@ -16,22 +40,22 @@
             "id": "http://data.okeeffemuseum.org/library/11061/relationships/date/aat/300028051",
             "related": [
                 {
-                    "begin_of_the_begin": 1986,
-                    "id": "http://data.okeeffemuseum.org/library/11061/relationships/date/aat/300028051/timespan",
-                    "type": "TimeSpan"
-                },
-                {
                     "id": "aat:300028051",
                     "label": "books",
                     "type": [
-                        "crm:E71_Man-Made_Thing",
-                        "http://www.w3.org/2002/07/owl#Thing",
                         "crm:E70_Thing",
-                        "crm:E77_Persistent_Item",
+                        "crm:E71_Man-Made_Thing",
                         "crm:E28_Conceptual_Object",
                         "Type",
+                        "crm:E77_Persistent_Item",
+                        "http://www.w3.org/2002/07/owl#Thing",
                         "crm:E1_CRM_Entity"
                     ]
+                },
+                {
+                    "begin_of_the_begin": 1986,
+                    "id": "http://data.okeeffemuseum.org/library/11061/relationships/date/aat/300028051/timespan",
+                    "type": "TimeSpan"
                 }
             ],
             "type": "Aggregation"
@@ -58,35 +82,11 @@
                 }
             ],
             "type": "Aggregation"
-        },
-        {
-            "aggregates": [
-                "http://data.okeeffemuseum.org/object/194",
-                "http://data.okeeffemuseum.org/library/404",
-                "http://data.okeeffemuseum.org/library/10868",
-                "http://data.okeeffemuseum.org/library/10895",
-                "http://data.okeeffemuseum.org/archive/component/aspace_ref453_4cv",
-                "http://data.okeeffemuseum.org/library/10866",
-                "http://data.okeeffemuseum.org/library/10884"
-            ],
-            "classified_as": [
-                "relationships:dates",
-                "aat:300417473"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/11061/relationships/date",
-            "related": [
-                {
-                    "begin_of_the_begin": 1986,
-                    "id": "http://data.okeeffemuseum.org/library/11061/relationships/date/timespan",
-                    "type": "TimeSpan"
-                }
-            ],
-            "type": "Aggregation"
         }
     ],
     "id": "http://data.okeeffemuseum.org/library/11061",
     "type": [
-        "ManMadeObject",
-        "crm:E19_Physical_Object"
+        "crm:E19_Physical_Object",
+        "ManMadeObject"
     ]
 }

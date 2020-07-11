@@ -3,8 +3,39 @@
     "aggregated_by": [
         {
             "aggregates": [
+                "http://data.okeeffemuseum.org/archive/component/aspace_ref131_0l4"
+            ],
+            "classified_as": [
+                "aat:300417473",
+                "relationships:direct"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/7406/relationships/direct",
+            "related": [],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
                 "http://data.okeeffemuseum.org/library/10952",
                 "http://data.okeeffemuseum.org/library/7611"
+            ],
+            "classified_as": [
+                "aat:300417473",
+                "relationships:dates"
+            ],
+            "id": "http://data.okeeffemuseum.org/library/7406/relationships/date",
+            "related": [
+                {
+                    "begin_of_the_begin": 1987,
+                    "id": "http://data.okeeffemuseum.org/library/7406/relationships/date/timespan",
+                    "type": "TimeSpan"
+                }
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/library/7611",
+                "http://data.okeeffemuseum.org/library/10952"
             ],
             "classified_as": [
                 "aat:300417473",
@@ -21,47 +52,16 @@
                     "id": "aat:300028051",
                     "label": "books",
                     "type": [
-                        "http://www.w3.org/2002/07/owl#Thing",
-                        "crm:E71_Man-Made_Thing",
                         "crm:E70_Thing",
+                        "crm:E77_Persistent_Item",
+                        "crm:E71_Man-Made_Thing",
+                        "http://www.w3.org/2002/07/owl#Thing",
                         "crm:E28_Conceptual_Object",
-                        "Type",
                         "crm:E1_CRM_Entity",
-                        "crm:E77_Persistent_Item"
+                        "Type"
                     ]
                 }
             ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
-                "http://data.okeeffemuseum.org/library/7611",
-                "http://data.okeeffemuseum.org/library/10952"
-            ],
-            "classified_as": [
-                "relationships:dates",
-                "aat:300417473"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/7406/relationships/date",
-            "related": [
-                {
-                    "begin_of_the_begin": 1987,
-                    "id": "http://data.okeeffemuseum.org/library/7406/relationships/date/timespan",
-                    "type": "TimeSpan"
-                }
-            ],
-            "type": "Aggregation"
-        },
-        {
-            "aggregates": [
-                "http://data.okeeffemuseum.org/archive/component/aspace_ref131_0l4"
-            ],
-            "classified_as": [
-                "relationships:direct",
-                "aat:300417473"
-            ],
-            "id": "http://data.okeeffemuseum.org/library/7406/relationships/direct",
-            "related": [],
             "type": "Aggregation"
         }
     ],
