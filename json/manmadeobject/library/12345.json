@@ -38,6 +38,17 @@
             "id": "http://data.okeeffemuseum.org/library/12345/050",
             "type": "Identifier",
             "value": "DP48 .P8"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "The Spanish temper."
         }
     ],
     "label": null,
@@ -46,9 +57,59 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/pritchett-v-s-"
+            {
+                "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-/name",
+                        "type": "Name",
+                        "value": "Pritchett, V. S."
+                    }
+                ],
+                "type": "Actor"
+            }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-/name",
+                                "type": "Name",
+                                "value": "Pritchett, V. S."
+                            }
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/12345/production/author",
+                "technique": [
+                    {
+                        "id": "relators:aut",
+                        "label": "Author",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -85,39 +146,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/pritchett-v-s-/name",
-                                "type": "Name",
-                                "value": "Pritchett, V. S."
-                            }
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/12345/production/author",
-                "technique": [
-                    {
-                        "id": "relators:aut",
-                        "label": "Author",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/12345/production",
@@ -135,7 +163,7 @@
             "classified_as": [
                 {
                     "id": "aat:300411780",
-                    "label": "descriptions (documents)",
+                    "label": "descriptions",
                     "type": "Type"
                 }
             ],

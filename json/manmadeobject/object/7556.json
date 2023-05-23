@@ -35,18 +35,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/identifier",
-            "type": "Identifier",
-            "value": "7556"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -55,6 +43,18 @@
             "id": "http://data.okeeffemuseum.org/object/7556/accessionnumber",
             "type": "Identifier",
             "value": "2000.3.500a-b"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/identifier",
+            "type": "Identifier",
+            "value": "7556"
         },
         {
             "classified_as": [
@@ -81,7 +81,25 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/300"
+            {
+                "id": "http://data.okeeffemuseum.org/person/300",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/300/name/0",
+                        "type": "Name",
+                        "value": "Unknown"
+                    }
+                ],
+                "label": "Unknown",
+                "type": "Actor"
+            }
         ],
         "consists_of": [
             {
@@ -134,45 +152,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Unknown"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Leather, 9 3/4 x 4 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -185,82 +164,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/Materials/",
-            "type": "LinguisticObject",
-            "value": "Leather"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300417193",
-                    "label": "titles (general, names)",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/7556/title_date_caption",
             "type": "LinguisticObject",
             "value": "Shoes, Sandals, ca. 1945-1980"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/maker_role",
-            "type": "LinguisticObject",
-            "value": "Unknown"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7556/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
         },
         {
             "classified_as": [
@@ -301,33 +222,178 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Leather, 9 3/4 x 4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Unknown"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/Materials/",
+            "type": "LinguisticObject",
+            "value": "Leather"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/7556/Description/",
             "type": "LinguisticObject",
             "value": "Brown, woven, open-toes sandals with buckled strap around back of ankle. Bottom left shoes has size stidier: 8 1/2 m\". Left inside reads \"made in Italy expressly for Neiman Marcus\"; Also reads \"GROUND LEATHER INSOLE JOCARE\"; Right insole reads: Ground Leather insole Jocare; AMALBI by Rangoni, made in Florence Italy."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/maker_role",
+            "type": "LinguisticObject",
+            "value": "Unknown"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7556/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
+            "exif:height": "3456",
+            "exif:width": "4608",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779889",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/779889/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         },
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779886",
-            "type": "VisualItem"
-        },
-        {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779887",
-            "type": "VisualItem"
-        },
-        {
+            "exif:height": "3456",
+            "exif:width": "4608",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779888",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/779888/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "3456",
+            "exif:width": "4608",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779887",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/779887/sequence/2",
+                    "type": "Identifier",
+                    "value": "2"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "3456",
+            "exif:width": "4608",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/779886",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/779886/sequence/3",
+                    "type": "Identifier",
+                    "value": "3"
+                }
+            ],
             "type": "VisualItem"
         }
     ],

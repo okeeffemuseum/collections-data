@@ -47,18 +47,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/identifier",
-            "type": "Identifier",
-            "value": "6845"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -67,6 +55,18 @@
             "id": "http://data.okeeffemuseum.org/object/6845/accessionnumber",
             "type": "Identifier",
             "value": "2014.6.9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/identifier",
+            "type": "Identifier",
+            "value": "6845"
         }
     ],
     "label": "Fred Stein. Georgia O'Keeffe, 1961, 2014. Archival pigment print, 12 1/4 x 9 3/8 inches. Georgia O'Keeffe Museum. Gift of Peter Stein, Fred Stein Archive. \u00a9 Fred Stein Estate. [2014.6.9]",
@@ -88,7 +88,28 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/545"
+            {
+                "id": "http://data.okeeffemuseum.org/person/545",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "http://id.loc.gov/authorities/names/n88021081"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/545/name/0",
+                        "type": "Name",
+                        "value": "Fred Stein"
+                    }
+                ],
+                "label": "Fred Stein",
+                "type": "Actor"
+            }
         ],
         "consists_of": [
             {
@@ -162,98 +183,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/caption/",
-            "label": "Fred Stein. Georgia O'Keeffe, 1961, 2014. Archival pigment print, 12 1/4 x 9 3/8 inches. Georgia O'Keeffe Museum. Gift of Peter Stein, Fred Stein Archive. \u00a9 Fred Stein Estate. [2014.6.9]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/Materials/",
-            "type": "LinguisticObject",
-            "value": "Archival pigment print"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/maker_role",
-            "type": "LinguisticObject",
-            "value": "Photographer: Fred Stein"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/6845/artist_caption",
             "type": "LinguisticObject",
             "value": "Fred Stein"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Fred Stein Estate"
         },
         {
             "classified_as": [
@@ -270,14 +209,118 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6845/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/6845/Materials/",
             "type": "LinguisticObject",
-            "value": "On the back of the photograph are two stamps: an Estate stamp and an Authorized Estate print stamp which is signed by Peter Stein."
+            "value": "Archival pigment print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Archival pigment print, 12 1/4 x 9 3/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Fred Stein"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/Description/",
+            "type": "LinguisticObject",
+            "value": "Vertical portrait of Georgia O'Keeffe sitting at her dining room (plywood) table at Ghost Ranch looking looking in the direction of viewer left, her face is in profile with her hand by her neck;  her hair is pulled back in a bun and she is wearing a black wrap dress; visible behind her is the wall and a partial view of the white curtained window."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/caption/",
+            "label": "Fred Stein. Georgia O'Keeffe, 1961, 2014. Archival pigment print, 12 1/4 x 9 3/8 inches. Georgia O'Keeffe Museum. Gift of Peter Stein, Fred Stein Archive. \u00a9 Fred Stein Estate. [2014.6.9]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6845/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Fred Stein Estate"
         },
         {
             "classified_as": [
@@ -294,47 +337,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6845/Description/",
+            "id": "http://data.okeeffemuseum.org/object/6845/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Vertical portrait of Georgia O'Keeffe sitting at her dining room (plywood) table at Ghost Ranch looking looking in the direction of viewer left, her face is in profile with her hand by her neck;  her hair is pulled back in a bun and she is wearing a black wrap dress; visible behind her is the wall and a partial view of the white curtained window."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6845/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Archival pigment print, 12 1/4 x 9 3/8 inches"
+            "value": "On the back of the photograph are two stamps: an Estate stamp and an Authorized Estate print stamp which is signed by Peter Stein."
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300417193",
-                    "label": "titles (general, names)",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300404439",
-                    "label": "dates (spans of time)",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {

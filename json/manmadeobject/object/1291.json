@@ -11,6 +11,11 @@
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -40,21 +45,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/title",
-            "type": "Name",
-            "value": "Long Lake, Colorado; Adrienne Brugger Sketchbook"
+            "id": "http://data.okeeffemuseum.org/object/1291/identifier",
+            "type": "Identifier",
+            "value": "1291"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/accessionnumber",
-            "type": "Identifier",
-            "value": "2006.5.619j"
+            "id": "http://data.okeeffemuseum.org/object/1291/title",
+            "type": "Name",
+            "value": "Long Lake, Colorado; Adrienne Brugger Sketchbook"
         },
         {
             "classified_as": [
@@ -71,14 +76,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/identifier",
+            "id": "http://data.okeeffemuseum.org/object/1291/accessionnumber",
             "type": "Identifier",
-            "value": "1291"
+            "value": "2006.5.619j"
         },
         {
             "classified_as": [
@@ -96,21 +101,64 @@
     "label": "Georgia O'Keeffe. Long Lake, Colorado; Adrienne Brugger Sketchbook, 1917. Watercolor on paper, 11 3/8 x 7 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.619j]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/1291/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/1291/material/0",
             "label": "Watercolor",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/1291/material/1",
+            "label": "Paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -119,6 +167,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -133,21 +192,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -188,23 +243,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1291/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -217,70 +255,44 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/1291/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Watercolor on paper, 11 3/8 x 7 5/8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/Description/",
-            "type": "LinguisticObject",
-            "value": "Green trees are in the bottom half of the paper. Purple and brown toned mountains dominate the background, upper half. A blue and white sky are in the upper quarter above the mountain."
+            "id": "http://data.okeeffemuseum.org/object/1291/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1291/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: \"Long Lake 1\" (Graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1291/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1291/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -288,12 +300,7 @@
                 },
                 {
                     "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -316,20 +323,37 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/1291/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1291/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
@@ -340,35 +364,66 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1291/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/1291/maker_role",
             "type": "LinguisticObject",
-            "value": "Watercolor on paper, 11 3/8 x 7 5/8 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1291/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Long Lake 1\" (Graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1291/Description/",
+            "type": "LinguisticObject",
+            "value": "Green trees are in the bottom half of the paper. Purple and brown toned mountains dominate the background, upper half. A blue and white sky are in the upper quarter above the mountain."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1291/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -381,7 +436,19 @@
     "related": [],
     "representation": [
         {
+            "exif:height": "3344",
+            "exif:width": "2295",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/726536",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/726536/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -391,7 +458,7 @@
             "classified_as": [
                 {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],

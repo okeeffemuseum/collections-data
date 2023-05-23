@@ -11,6 +11,11 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -35,14 +40,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/98/title",
-            "type": "Name",
-            "value": "Untitled (Flowers in Vase)"
+            "id": "http://data.okeeffemuseum.org/object/98/other_id",
+            "type": "Identifier",
+            "value": "763, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -55,18 +60,6 @@
             "id": "http://data.okeeffemuseum.org/object/98/otheridentifier",
             "type": "Identifier",
             "value": "763"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/other_id",
-            "type": "Identifier",
-            "value": "763, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -91,15 +84,22 @@
             "id": "http://data.okeeffemuseum.org/object/98/identifier",
             "type": "Identifier",
             "value": "98"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/title",
+            "type": "Name",
+            "value": "Untitled (Flowers in Vase)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Flowers in Vase), ca. 1930-1936, , Pre 1936. Watercolor and graphite on paper, 15 3/4 x 11 3/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.6.19]",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/98/material/1",
-            "label": "Watercolor",
-            "type": "Material"
-        },
         {
             "id": "http://data.okeeffemuseum.org/object/98/material/2",
             "label": "Paper",
@@ -109,13 +109,61 @@
             "id": "http://data.okeeffemuseum.org/object/98/material/0",
             "label": "Graphite",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/98/material/1",
+            "label": "Watercolor",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Flowers",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -151,8 +199,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -170,15 +225,15 @@
         "id": "http://data.okeeffemuseum.org/object/98/production/",
         "timespan": [
             {
-                "id": "http://data.okeeffemuseum.org/object/98/production/timespan/2",
-                "label": "Pre 1936",
-                "type": "TimeSpan"
-            },
-            {
                 "begin_of_the_begin": "1925-01-01T00:00:00",
                 "end_of_the_end": "1941-12-31T00:00:00",
                 "id": "http://data.okeeffemuseum.org/object/98/production/timespan/0",
                 "label": "ca. 1930-1936",
+                "type": "TimeSpan"
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/object/98/production/timespan/2",
+                "label": "Pre 1936",
                 "type": "TimeSpan"
             }
         ],
@@ -189,7 +244,7 @@
             "classified_as": [
                 {
                     "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
@@ -200,14 +255,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/98/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/98/Description/",
             "type": "LinguisticObject",
-            "value": "Burnett Foundation Gift"
+            "value": "Delicate watercolor of pink and indigo primula flowers clustered together above green leaves from which the flowers' thin stalks rise.  A hint of blue bleeds out from around the leaves onto the white page."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Flowers in Vase), ca. 1930-1936, , Pre 1936"
         },
         {
             "classified_as": [
@@ -218,7 +295,7 @@
                 },
                 {
                     "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
@@ -229,31 +306,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/98/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/98/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
+            "value": "Inscriptions: Verso; \"Georgia O'Keffe\" (black ink) Backing: \"Georgia O'Keeffe\" (Black ink)"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/98/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/98/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Watercolor and graphite on paper, 15 3/4 x 11 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/Measurement/",
+            "type": "LinguisticObject",
+            "value": "15 3/4 x 11 3/4 inches"
         },
         {
             "classified_as": [
@@ -275,44 +369,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300111999",
-                    "label": "publications (documents)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/documentation",
-            "type": "LinguisticObject",
-            "value": "Inaugural Catalogue: The Georgia O'Keeffe Museum; Peter Hassrick; 1997"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Verso; \"Georgia O'Keffe\" (black ink) Backing: \"Georgia O'Keeffe\" (Black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/Measurement/",
-            "type": "LinguisticObject",
-            "value": "15 3/4 x 11 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
@@ -323,70 +381,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Flowers in Vase), ca. 1930-1936, , Pre 1936"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite on paper, 15 3/4 x 11 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/98/Description/",
-            "type": "LinguisticObject",
-            "value": "Delicate watercolor of pink and indigo primula flowers clustered together above green leaves from which the flowers' thin stalks rise.  A hint of blue bleeds out from around the leaves onto the white page."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/98/Right/",
+            "id": "http://data.okeeffemuseum.org/object/98/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Burnett Foundation Gift"
         },
         {
             "classified_as": [
@@ -399,6 +401,47 @@
             "id": "http://data.okeeffemuseum.org/object/98/caption/",
             "label": "Georgia O'Keeffe. Untitled (Flowers in Vase), ca. 1930-1936, , Pre 1936. Watercolor and graphite on paper, 15 3/4 x 11 3/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.6.19]",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/98/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -417,7 +460,19 @@
     "related": [],
     "representation": [
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/725639",
+            "exif:height": "10019",
+            "exif:width": "7144",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/789906",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/789906/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -427,7 +482,7 @@
             "classified_as": [
                 {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -436,5 +491,36 @@
         }
     ],
     "type": "ManMadeObject",
-    "used_for": []
+    "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/853",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/853/title"
+            ],
+            "label": "Georgia O'Keeffe: Floral Works and Small Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1995-05-04T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/853/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1220",
+            "timespan": {
+                "begin_of_the_begin": "1995-06-30T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        }
+    ]
 }

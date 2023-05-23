@@ -3,18 +3,59 @@
     "aggregated_by": [
         {
             "aggregates": [
-                "http://data.okeeffemuseum.org/library/11697"
+                "http://data.okeeffemuseum.org/exhibition/1206",
+                "http://data.okeeffemuseum.org/exhibition/1014"
             ],
             "classified_as": [
                 "aat:300417473",
                 "relationships:roles"
             ],
-            "id": "http://data.okeeffemuseum.org/person/354/relationships/http:/id.loc.gov/vocabulary/relators/pbl",
+            "id": "http://data.okeeffemuseum.org/person/354/exhibitions",
+            "related": [
+                "relationships:exhibition-organizer"
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "http://data.okeeffemuseum.org/library/11697"
+            ],
+            "classified_as": [
+                "relationships:roles",
+                "aat:300417473"
+            ],
+            "id": "http://data.okeeffemuseum.org/person/354/relationships/http://id.loc.gov/vocabulary/relators/pbl",
             "related": [
                 {
                     "id": "relators:pbl",
                     "label": "Publisher",
                     "type": "Type"
+                }
+            ],
+            "type": "Aggregation"
+        },
+        {
+            "aggregates": [
+                "https://publications.okeeffemuseum.org/exhibiting-okeeffe/texas/#https-collections-okeeffemuseum-org-actor-354-museum-of-fine-arts-houston"
+            ],
+            "classified_as": [
+                "relationships:mentioned_in",
+                "aat:300417473"
+            ],
+            "id": "https://publications.okeeffemuseum.org/exhibiting-okeeffe/http://data.okeeffemuseum.org/person/354",
+            "related": [
+                {
+                    "id": "https://publications.okeeffemuseum.org/exhibiting-okeeffe/",
+                    "schema:image": {
+                        "id": "https://publications.okeeffemuseum.org/exhibiting-okeeffe/_assets/images/static-cover.jpg"
+                    },
+                    "schema:name": "Exhibiting O'Keeffe",
+                    "schema:workTranslation": {
+                        "id": "https://publications.okeeffemuseum.org/exhibiting-okeeffe/es/",
+                        "schema:name": "O\u2019Keeffe a trav\u00e9s de sus exposiciones",
+                        "type": "schema:Book"
+                    },
+                    "type": "schema:Book"
                 }
             ],
             "type": "Aggregation"

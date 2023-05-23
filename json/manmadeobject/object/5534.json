@@ -52,9 +52,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5534/identifier",
-            "type": "Identifier",
-            "value": "5534"
+            "id": "http://data.okeeffemuseum.org/object/5534/title",
+            "type": "Name",
+            "value": "Jimson Weed"
         },
         {
             "classified_as": [
@@ -64,9 +64,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5534/title",
-            "type": "Name",
-            "value": "Jimson Weed"
+            "id": "http://data.okeeffemuseum.org/object/5534/identifier",
+            "type": "Identifier",
+            "value": "5534"
         }
     ],
     "label": "Todd Webb. Jimson Weed, ca. 1960. Gelatin silver print, 9 7/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.606]",
@@ -81,7 +81,31 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/1155"
+            {
+                "id": "http://data.okeeffemuseum.org/person/1155",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500124474"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/1155/name/0",
+                        "type": "Name",
+                        "value": "Todd Webb"
+                    }
+                ],
+                "label": [
+                    "Todd Webb",
+                    "Webb, Todd, 1905-2000"
+                ],
+                "type": "Actor"
+            }
         ],
         "consists_of": [
             {
@@ -106,7 +130,10 @@
                                 "value": "Todd Webb"
                             }
                         ],
-                        "label": "Todd Webb",
+                        "label": [
+                            "Todd Webb",
+                            "Webb, Todd, 1905-2000"
+                        ],
                         "type": "Actor"
                     }
                 ],
@@ -139,10 +166,34 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5534/caption/",
+            "label": "Todd Webb. Jimson Weed, ca. 1960. Gelatin silver print, 9 7/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.606]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5534/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -153,8 +204,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -163,9 +219,26 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5534/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/5534/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Jimson Weed, ca. 1960"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5534/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Todd Webb"
         },
         {
             "classified_as": [
@@ -187,12 +260,17 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5534/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/5534/Right/",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "\u00a9 Todd Webb Archive"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -201,11 +279,6 @@
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
                     "type": "Type"
                 }
             ],
@@ -216,54 +289,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5534/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Jimson Weed, ca. 1960"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5534/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Todd Webb Archive"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5534/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
@@ -286,35 +313,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5534/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Todd Webb"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5534/caption/",
-            "label": "Todd Webb. Jimson Weed, ca. 1960. Gelatin silver print, 9 7/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.606]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -323,13 +321,54 @@
             "id": "http://data.okeeffemuseum.org/object/5534/signaturemarks",
             "type": "LinguisticObject",
             "value": "Todd Webb studio stamp on the back of the photograph in black ink."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5534/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5534/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
+            "exif:height": "4974",
+            "exif:width": "3910",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/733494",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/733494/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],

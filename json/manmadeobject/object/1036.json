@@ -9,7 +9,7 @@
         },
         {
             "id": "aat:300033618",
-            "label": "paintings (visual works)",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -47,30 +47,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/identifier",
-            "type": "Identifier",
-            "value": "1036"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/title",
-            "type": "Name",
-            "value": "Mesa and Road East II"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -83,6 +59,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/identifier",
+            "type": "Identifier",
+            "value": "1036"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -91,6 +79,18 @@
             "id": "http://data.okeeffemuseum.org/object/1036/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.235"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/title",
+            "type": "Name",
+            "value": "Mesa and Road East II"
         }
     ],
     "label": "Georgia O'Keeffe. Mesa and Road East II, 1952. Oil on canvas, 26 x 36 1/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.235]",
@@ -109,11 +109,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -122,6 +165,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -136,21 +190,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -179,89 +229,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1966 Fort Worth; 1986 Santa Fe \n2014 Santa Fe (O'Keeffe) Abiquiu Views x 2"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/provenance/",
-            "label": "Anita O\"Keeffe (Mrs. Robert B.) Young, Newport, Rhode island, before 1966 ^The artist, date unknown ^Estate of he artist, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/Description/",
-            "type": "LinguisticObject",
-            "value": "A winding road enters the scene from the base of the canvas in the center.  It curves to the right before weaving off into the distance to the left.  A large, light-colored mesa rises from the right side of the work, its hills sloping down towards the left.  Several trees dot the landscape in the foreground, and the sky appears hazy."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1036/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1036/artist_caption",
             "type": "LinguisticObject",
-            "value": "Mesa and Road East II, 1952"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -283,14 +263,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1036/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/1036/Description/",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "A winding road enters the scene from the base of the canvas in the center.  It curves to the right before weaving off into the distance to the left.  A large, light-colored mesa rises from the right side of the work, its hills sloping down towards the left.  Several trees dot the landscape in the foreground, and the sky appears hazy."
         },
         {
             "classified_as": [
@@ -300,60 +280,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1036/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/1036/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 26 x 36 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/Measurement/",
-            "type": "LinguisticObject",
-            "value": "26 x 36 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1036/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Mesa and Road East II\" (graphite) \n2. \"Mrs. Robert R. Young Newport, R.I.\" (Amon Carter label, black ink)"
+            "value": "Mesa and Road East II, 1952"
         },
         {
             "classified_as": [
@@ -370,6 +309,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -382,21 +333,132 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 26 x 36 1/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/provenance/",
+            "label": "Anita O\"Keeffe (Mrs. Robert B.) Young, Newport, Rhode island, before 1966 ^The artist, date unknown ^Estate of he artist, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1036/Right/",
+            "id": "http://data.okeeffemuseum.org/object/1036/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1966 Fort Worth; 1986 Santa Fe \n2014 Santa Fe (O'Keeffe) Abiquiu Views x 2"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Mesa and Road East II\" (graphite) \n2. \"Mrs. Robert R. Young Newport, R.I.\" (Amon Carter label, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1036/Measurement/",
+            "type": "LinguisticObject",
+            "value": "26 x 36 1/8 inches"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/725869",
+            "exif:height": "9193",
+            "exif:width": "12749",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/789799",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/789799/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -405,8 +467,19 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/460669",
+            "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -415,5 +488,79 @@
         }
     ],
     "type": "ManMadeObject",
-    "used_for": []
+    "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/822",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/822/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1986-12-19T00:00:00",
+                "end_of_the_end": "1987-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/822/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1164",
+            "timespan": {
+                "begin_of_the_begin": "1986-12-19T00:00:00",
+                "end_of_the_end": "1987-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1164/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "timespan": {
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        }
+    ]
 }

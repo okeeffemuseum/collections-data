@@ -4,7 +4,7 @@
     "classified_as": [
         {
             "id": "aat:300033618",
-            "label": "paintings (visual works)",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -35,30 +35,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/accessionnumber",
-            "type": "Identifier",
-            "value": "1997.5.10"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/other_id",
-            "type": "Identifier",
-            "value": "1233, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -67,6 +43,18 @@
             "id": "http://data.okeeffemuseum.org/object/40/title",
             "type": "Name",
             "value": "Lavender Hill with Green"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/otheridentifier",
+            "type": "Identifier",
+            "value": "1233"
         },
         {
             "classified_as": [
@@ -83,14 +71,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/40/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/40/other_id",
             "type": "Identifier",
-            "value": "1233"
+            "value": "1233, Catalogue Raisonne Number"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/accessionnumber",
+            "type": "Identifier",
+            "value": "1997.5.10"
         }
     ],
     "label": "Georgia O'Keeffe. Lavender Hill with Green, 1952. Oil on canvas, 12 x 27 3/16 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.5.10]",
@@ -109,11 +109,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -149,8 +192,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -179,105 +229,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/provenance/",
-            "label": "Estate of the artist, 1986 ^The Georgia O'Keeffe Foundation, Abiquiu, N.Mex., 1993 ^The Burnett Foundation, Fort Worth, Tex., 1996 (partial share)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Lavender Hill with Green, 1952"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/Description/",
-            "type": "LinguisticObject",
-            "value": "Horizontal canvas of bright orange and lavender hill, dotted with small green trees, with a blue line of sky above."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/Measurement/",
-            "type": "LinguisticObject",
-            "value": "12 x 27 3/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -286,18 +237,6 @@
             "id": "http://data.okeeffemuseum.org/object/40/exhibitions",
             "type": "LinguisticObject",
             "value": "1955 New York (Downtown--O'Keeffe), no. 3 \n1986 Santa Fe \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2013 Santa Fe (O'Keeffe) Katsina; all venues \n2014 Santa Fe (O'Keeffe) Ghost Ranch Views \n2016 Santa Fe (O'Keeffe) O'Keeffe's New Mexico"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/caption/",
-            "label": "Georgia O'Keeffe. Lavender Hill with Green, 1952. Oil on canvas, 12 x 27 3/16 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.5.10]",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -314,19 +253,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/40/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/40/Materials/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -343,48 +277,50 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/40/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/40/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 x 27 3/16 inches"
+            "id": "http://data.okeeffemuseum.org/object/40/caption/",
+            "label": "Georgia O'Keeffe. Lavender Hill with Green, 1952. Oil on canvas, 12 x 27 3/16 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.5.10]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300111999",
-                    "label": "publications (documents)",
+                    "id": "aat:300435449",
+                    "label": "current location description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/40/documentation",
+            "id": "http://data.okeeffemuseum.org/object/40/gallery_location",
             "type": "LinguisticObject",
-            "value": "Inaugural Catalogue: The Georgia O'Keeffe Museum; Peter Hassrick; 1997"
+            "value": "Gallery 7/Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/Description/",
+            "type": "LinguisticObject",
+            "value": "Horizontal canvas of bright orange and lavender hill, dotted with small green trees, with a blue line of sky above."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
         },
         {
             "classified_as": [
@@ -402,33 +338,259 @@
             "id": "http://data.okeeffemuseum.org/object/40/institution_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Lavender Hill with Green, 1952"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 12 x 27 3/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/Measurement/",
+            "type": "LinguisticObject",
+            "value": "12 x 27 3/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/provenance/",
+            "label": "Estate of the artist, 1986 ^The Georgia O'Keeffe Foundation, Abiquiu, N.Mex., 1993 ^The Burnett Foundation, Fort Worth, Tex., 1996 (partial share)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/40/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
+            "exif:height": "6543",
+            "exif:width": "14907",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/786540",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/786540/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1154",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781032",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781032/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781032/sequence",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "328",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781033",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781033/sequence/2",
+                    "type": "Identifier",
+                    "value": "2"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781033/sequence",
+                    "type": "Identifier",
+                    "value": "2"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "268",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781034",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781034/sequence/3",
+                    "type": "Identifier",
+                    "value": "3"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781034/sequence",
+                    "type": "Identifier",
+                    "value": "3"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "228",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781035",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781035/sequence",
+                    "type": "Identifier",
+                    "value": "4"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781035/sequence/4",
+                    "type": "Identifier",
+                    "value": "4"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "345",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781036",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781036/sequence",
+                    "type": "Identifier",
+                    "value": "5"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781036/sequence/5",
+                    "type": "Identifier",
+                    "value": "5"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -437,8 +599,19 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/460457",
+            "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -452,15 +625,88 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/77",
+            "id": "http://data.okeeffemuseum.org/exhibition/1164",
+            "timespan": {
+                "begin_of_the_begin": "1986-12-19T00:00:00",
+                "end_of_the_end": "1987-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1164/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/77/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/406/title"
+            ],
+            "label": "O'Keeffe Exhibition: New Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/613",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/822",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/822/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1986-12-19T00:00:00",
+                "end_of_the_end": "1987-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/822/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
             ],
             "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
             "timespan": {
                 "begin_of_the_begin": "2009-02-13T00:00:00",
                 "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/77/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

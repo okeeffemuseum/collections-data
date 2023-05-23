@@ -81,44 +81,49 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/1152",
-            "http://data.okeeffemuseum.org/person/1074"
-        ],
-        "consists_of": [
             {
-                "carried_out_by": [
+                "id": "http://data.okeeffemuseum.org/person/1152",
+                "identified_by": [
                     {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/1152",
-                        "identified_by": [
+                        "classified_as": [
                             {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/1152/name/0",
-                                "type": "Name",
-                                "value": "Sir James"
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
                             }
                         ],
-                        "label": "Sir James",
-                        "type": "Actor"
+                        "id": "http://data.okeeffemuseum.org/person/1152/name/0",
+                        "type": "Name",
+                        "value": "Sir James"
                     }
                 ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/7818/production/0",
-                "technique": [
-                    {
-                        "id": "relators:dsr",
-                        "label": "Designer",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
+                "label": "Sir James",
+                "type": "Actor"
             },
+            {
+                "id": "http://data.okeeffemuseum.org/person/1074",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "http://id.loc.gov/authorities/names/n85050491"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/1074/name/0",
+                        "type": "Name",
+                        "value": "Saks Fifth Avenue"
+                    }
+                ],
+                "label": "Saks Fifth Avenue",
+                "type": "Actor"
+            }
+        ],
+        "consists_of": [
             {
                 "carried_out_by": [
                     {
@@ -151,9 +156,43 @@
                     {
                         "id": "aat:300025966",
                         "label": [
-                            "Business",
-                            "businesses (business enterprises)"
+                            "businesses",
+                            "Business"
                         ],
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/1152",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/1152/name/0",
+                                "type": "Name",
+                                "value": "Sir James"
+                            }
+                        ],
+                        "label": "Sir James",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/7818/production/0",
+                "technique": [
+                    {
+                        "id": "relators:dsr",
+                        "label": "Designer",
                         "type": "Type"
                     }
                 ],
@@ -198,26 +237,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7818/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7818/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/7818/maker_role",
             "type": "LinguisticObject",
-            "value": "Gift of Juan and Anna Marie Hamilton      "
+            "value": "Designer: Sir James\nBusiness: Saks Fifth Avenue"
         },
         {
             "classified_as": [
@@ -234,30 +266,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7818/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Shirt, Blouse, 20th Century"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
@@ -268,20 +278,42 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7818/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/7818/title_date_caption",
             "type": "LinguisticObject",
-            "value": " 3 labels sewn layered at collar 1 (cursive): \"Saks Fifth Avenue\" 2: \"Sir James Made in Hong Kong\" Label/Mark: 3: LOT A 4310 DRIP DRY, IRONING, USUALLY UNECESSARY, 100% POLYESTER, STYLE K 3864 SIZE 12, WPL10054 MADE IN HONG KONG\"."
+            "value": "Shirt, Blouse, 20th Century"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7818/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
@@ -297,17 +329,34 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7818/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/7818/artist_caption",
             "type": "LinguisticObject",
-            "value": "Designer: Sir James\nBusiness: Saks Fifth Avenue"
+            "value": "Sir James, Saks Fifth Avenue"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7818/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of Juan and Anna Marie Hamilton      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -315,35 +364,13 @@
                 },
                 {
                     "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/7818/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Polyester, 25 1/2 x 43 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7818/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Sir James, Saks Fifth Avenue"
         },
         {
             "classified_as": [
@@ -356,6 +383,18 @@
             "id": "http://data.okeeffemuseum.org/object/7818/Measurement/",
             "type": "LinguisticObject",
             "value": "25 1/2 x 43 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7818/signaturemarks",
+            "type": "LinguisticObject",
+            "value": " 3 labels sewn layered at collar 1 (cursive): \"Saks Fifth Avenue\" 2: \"Sir James Made in Hong Kong\" Label/Mark: 3: LOT A 4310 DRIP DRY, IRONING, USUALLY UNECESSARY, 100% POLYESTER, STYLE K 3864 SIZE 12, WPL10054 MADE IN HONG KONG\"."
         }
     ],
     "refers_to": [],
@@ -363,22 +402,80 @@
     "representation": [
         {
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/778080",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/778080/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         },
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780161",
-            "type": "VisualItem"
-        },
-        {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780162",
-            "type": "VisualItem"
-        },
-        {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780163",
-            "type": "VisualItem"
-        },
-        {
+            "exif:height": "3456",
+            "exif:width": "4608",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780164",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780164/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "3456",
+            "exif:width": "4608",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780163",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780163/sequence/2",
+                    "type": "Identifier",
+                    "value": "2"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "3456",
+            "exif:width": "4608",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780162",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780162/sequence/3",
+                    "type": "Identifier",
+                    "value": "3"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "4608",
+            "exif:width": "3456",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780161",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780161/sequence/4",
+                    "type": "Identifier",
+                    "value": "4"
+                }
+            ],
             "type": "VisualItem"
         }
     ],

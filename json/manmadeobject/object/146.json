@@ -4,7 +4,7 @@
     "classified_as": [
         {
             "id": "aat:300033618",
-            "label": "paintings (visual works)",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -35,18 +35,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/other_id",
-            "type": "Identifier",
-            "value": "745, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -55,18 +43,6 @@
             "id": "http://data.okeeffemuseum.org/object/146/title",
             "type": "Name",
             "value": "Bear Lake, New Mexico"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/accessionnumber",
-            "type": "Identifier",
-            "value": "2007.1.22"
         },
         {
             "classified_as": [
@@ -91,10 +67,39 @@
             "id": "http://data.okeeffemuseum.org/object/146/otheridentifier",
             "type": "Identifier",
             "value": "745"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/accessionnumber",
+            "type": "Identifier",
+            "value": "2007.1.22"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/other_id",
+            "type": "Identifier",
+            "value": "745, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Bear Lake, New Mexico, 1930. Oil on canvas, 24 x 9 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.22]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/146/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,18 +107,56 @@
             "id": "http://data.okeeffemuseum.org/object/146/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/146/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -122,6 +165,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -136,21 +190,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -179,18 +229,54 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/Description/",
+            "type": "LinguisticObject",
+            "value": "Small vertical canvas dominated by a large tree with a white trunk centered through the middle.  The trunk blends from white to grey from the bottom up, with the rest of the canvas above filled with the dark green of the foliage.  On the bottom left are two red tree trunks, and one red tree trunk on the right. Through the branches are hints of blue evening sky with little white dots as stars."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1931 New York (An American Place), no. 23, as \"Bear Lake, New Mexico\"; \n1931-32 New York (and American Place)?; \n1961 Des Moines, no. 25; \n1998 Santa Fe (O'Keeffe) Permanent \n2001 Santa Fe (MFA) Places of their own: Carr, O'Keeffe, Kahlo \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) GOK: Frames of Preference \n2004 Santa Fe (O'Keeffe) In the American Grain \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2008 Santa Fe (O'Keeffe) GOK and Ansel Adams; SAAM, Norton, and SF MOMA venues only \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -201,36 +287,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/146/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Burnett Foundation Gift"
+            "value": "Inscriptions: Stretcher; \"16\" (unidentified hand, graphite) Verso: \"Georgia O'Keeffe - 1930\" (white paint)"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 24 x 9 inches"
+            "id": "http://data.okeeffemuseum.org/object/146/provenance/",
+            "label": "(An American Place, New York, N.Y.) ^Mr. and Mrs. Zalmon Simmons, Greenwich, Conn., 1931 ^Desended in family ^ACA Galleries, New York, N.Y., and Joshua Mailman, New York, N.Y., 1987         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -238,16 +314,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/146/caption/",
+            "label": "Georgia O'Keeffe. Bear Lake, New Mexico, 1930. Oil on canvas, 24 x 9 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.22]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -264,26 +335,70 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/146/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Gift of The Burnett Foundation      "
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/provenance/",
-            "label": "(An American Place, New York, N.Y.) ^Mr. and Mrs. Zalmon Simmons, Greenwich, Conn., 1931 ^Desended in family ^ACA Galleries, New York, N.Y., and Joshua Mailman, New York, N.Y., 1987         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/146/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 24 x 9 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/146/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -305,18 +420,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1931 New York (An American Place), no. 23, as \"Bear Lake, New Mexico\"; \n1931-32 New York (and American Place)?; \n1961 Des Moines, no. 25; \n1998 Santa Fe (O'Keeffe) Permanent \n2001 Santa Fe (MFA) Places of their own: Carr, O'Keeffe, Kahlo \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) GOK: Frames of Preference \n2004 Santa Fe (O'Keeffe) In the American Grain \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2008 Santa Fe (O'Keeffe) GOK and Ansel Adams; SAAM, Norton, and SF MOMA venues only \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -329,76 +432,33 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/146/Description/",
+            "id": "http://data.okeeffemuseum.org/object/146/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Small vertical canvas dominated by a large tree with a white trunk centered through the middle.  The trunk blends from white to grey from the bottom up, with the rest of the canvas above filled with the dark green of the foliage.  On the bottom left are two red tree trunks, and one red tree trunk on the right. Through the branches are hints of blue evening sky with little white dots as stars."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher; \"16\" (unidentified hand, graphite) Verso: \"Georgia O'Keeffe - 1930\" (white paint)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/146/caption/",
-            "label": "Georgia O'Keeffe. Bear Lake, New Mexico, 1930. Oil on canvas, 24 x 9 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.22]",
-            "type": "LinguisticObject"
+            "value": "Burnett Foundation Gift"
         }
     ],
     "refers_to": [],
-    "related": [
-        "http://data.okeeffemuseum.org/object/6107"
-    ],
+    "related": [],
     "representation": [
         {
+            "exif:height": "14867",
+            "exif:width": "5522",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/786469",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/786469/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -407,8 +467,19 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/460455",
+            "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -422,15 +493,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/40",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/66",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/40/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/66/title"
+            ],
+            "label": "Georgia O'Keeffe: Frames of Preference",
+            "timespan": {
+                "begin_of_the_begin": "2003-04-23T00:00:00",
+                "end_of_the_end": "2004-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/216",
+            "timespan": {
+                "begin_of_the_begin": "1931-12-27T00:00:00",
+                "end_of_the_end": "1932-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/216/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
             ],
             "label": "An Expanding Collection",
             "timespan": {
                 "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/40/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -439,49 +553,142 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/24",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/24/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
             ],
-            "label": "O'Keeffe, Preston, and Cossington Smith: Making Modernism (working title) (Australian Modernism)",
-            "timespan": {
-                "begin_of_the_begin": "2016-10-08T00:00:00",
-                "end_of_the_end": "2017-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/24/timespan",
-                "type": "TimeSpan"
-            },
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
             "type": "Activity"
         },
         {
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/85",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/85/title"
-            ],
-            "label": "Jo Whaley: Echos and 2018 Nov Thematic",
-            "timespan": {
-                "begin_of_the_begin": "2018-11-02T00:00:00",
-                "end_of_the_end": "2019-02-24T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/85/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/63/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
             ],
             "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
             "timespan": {
                 "begin_of_the_begin": "2002-06-21T00:00:00",
                 "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/63/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/113",
+            "timespan": {
+                "begin_of_the_begin": "2003-04-23T00:00:00",
+                "end_of_the_end": "2004-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/113/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/556",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/556/title"
+            ],
+            "label": "Six Decades of American Painting of the 20th Century",
+            "timespan": {
+                "begin_of_the_begin": "1961-02-10T00:00:00",
+                "end_of_the_end": "1961-03-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/556/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
+            ],
+            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/107",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/814",
+            "timespan": {
+                "begin_of_the_begin": "1961-02-10T00:00:00",
+                "end_of_the_end": "1961-03-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/814/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/135",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/135/title"
+            ],
+            "label": "Georgia O'Keeffe: 33 New Paintings (New Mexico)",
+            "timespan": {
+                "begin_of_the_begin": "1931-12-27T00:00:00",
+                "end_of_the_end": "1932-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/135/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

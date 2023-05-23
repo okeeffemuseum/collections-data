@@ -4,6 +4,10 @@
         {
             "label": "Catalogs",
             "type": "Type"
+        },
+        {
+            "label": "Catalogs",
+            "type": "Type"
         }
     ],
     "classified_as": [
@@ -43,6 +47,17 @@
             "id": "http://data.okeeffemuseum.org/library/12780/050",
             "type": "Identifier",
             "value": "NK2439.E2 D73"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "Charles Eames furniture from the design collection: the Museum of Modern Art, New York "
         }
     ],
     "label": null,
@@ -51,7 +66,24 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/drexler-arthur-"
+            {
+                "id": "http://data.okeeffemuseum.org/person/drexler-arthur-",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/drexler-arthur-/name",
+                        "type": "Name",
+                        "value": "Drexler, Arthur."
+                    }
+                ],
+                "type": "Actor"
+            }
         ],
         "consists_of": [
             {
@@ -60,18 +92,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/1325",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500303609",
-                                    "http://id.loc.gov/authorities/names/n50056582"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/1325/name/1",
-                                "type": "Name",
-                                "value": "MoMA"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -86,11 +106,26 @@
                                 ],
                                 "id": "http://data.okeeffemuseum.org/person/1325/name/0",
                                 "type": "Name",
-                                "value": "Museum of Modern Art"
+                                "value": "Museum of Modern Art (MoMA)"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500303609",
+                                    "http://id.loc.gov/authorities/names/n50056582"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/1325/name/1",
+                                "type": "Name",
+                                "value": "MoMA"
                             }
                         ],
-                        "label": "Museum of Modern Art",
-                        "type": "Actor"
+                        "label": "Museum of Modern Art (MoMA)",
+                        "type": [
+                            "Actor",
+                            "schema:Thing"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -152,20 +187,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266038",
-                    "label": "format",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/12780/300abc",
-            "type": "LinguisticObject",
-            "value": "56 pages : illustrations ; 26 cm."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300411780",
-                    "label": "descriptions (documents)",
+                    "label": "descriptions",
                     "type": "Type"
                 }
             ],
@@ -184,6 +207,18 @@
             "id": "http://data.okeeffemuseum.org/library/12780/590a",
             "type": "LinguisticObject",
             "value": "abq copy : fair condition."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266038",
+                    "label": "format",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/12780/300abc",
+            "type": "LinguisticObject",
+            "value": "56 pages : illustrations ; 26 cm."
         }
     ],
     "refers_to": [],

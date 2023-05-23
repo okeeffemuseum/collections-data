@@ -4,7 +4,7 @@
     "classified_as": [
         {
             "id": "aat:300033618",
-            "label": "paintings (visual works)",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -37,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/other_id",
-            "type": "Identifier",
-            "value": "1173, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -73,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/accessionnumber",
+            "type": "Identifier",
+            "value": "1997.6.30"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -85,14 +85,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/91/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/91/other_id",
             "type": "Identifier",
-            "value": "1997.6.30"
+            "value": "1173, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Black Place, Grey and Pink, 1949. Oil on canvas, 36 x 48 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.6.30]",
@@ -111,11 +111,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -151,8 +194,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -181,8 +231,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -191,31 +241,36 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Place, Grey and Pink, 1949"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300163343",
-                    "label": "media (artists' materials)",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/91/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on canvas, 36 x 48 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -232,30 +287,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300111999",
-                    "label": "publications (documents)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/documentation",
-            "type": "LinguisticObject",
-            "value": "Inaugural Catalogue: The Georgia O'Keeffe Museum; Peter Hassrick; 1997"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/Measurement/",
-            "type": "LinguisticObject",
-            "value": "36 x 48 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -268,54 +299,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/91/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/91/Right/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/Description/",
-            "type": "LinguisticObject",
-            "value": "Abstracted view of soft clay hills of grey, black, and pink.  Through the center a large stripe of black makes a V shape though the grey.  Blended areas of pink on the grey are on either side of this V in the bottom half of the canvas."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/91/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -324,9 +321,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/91/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/91/artist_caption",
             "type": "LinguisticObject",
-            "value": "Black Place, Grey and Pink, 1949"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -343,20 +340,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/91/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/91/Description/",
             "type": "LinguisticObject",
-            "value": "Burnett Foundation Gift"
+            "value": "Abstracted view of soft clay hills of grey, black, and pink.  Through the center a large stripe of black makes a V shape though the grey.  Blended areas of pink on the grey are on either side of this V in the bottom half of the canvas."
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
@@ -368,7 +365,7 @@
             "classified_as": [
                 {
                     "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -384,65 +381,350 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 x 48 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300435449",
+                    "label": "current location description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/91/gallery_location",
+            "type": "LinguisticObject",
+            "value": "Gallery 7/Museum"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/91/Right/",
+            "id": "http://data.okeeffemuseum.org/object/91/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Burnett Foundation Gift"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
+            "exif:height": "9870",
+            "exif:width": "13147",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/786529",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/786529/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "711",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781015",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781015/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781015/sequence",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781016",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781016/sequence/2",
+                    "type": "Identifier",
+                    "value": "2"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781016/sequence",
+                    "type": "Identifier",
+                    "value": "10"
+                }
+            ],
             "type": "VisualItem"
         },
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781017",
-            "type": "VisualItem"
-        },
-        {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781018",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781018/sequence",
+                    "type": "Identifier",
+                    "value": "2"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781018/sequence/4",
+                    "type": "Identifier",
+                    "value": "4"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781017",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781017/sequence/3",
+                    "type": "Identifier",
+                    "value": "3"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781017/sequence",
+                    "type": "Identifier",
+                    "value": "11"
+                }
+            ],
+            "type": "VisualItem"
+        },
+        {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781019",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781019/sequence",
+                    "type": "Identifier",
+                    "value": "3"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781019/sequence/5",
+                    "type": "Identifier",
+                    "value": "5"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781020",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781020/sequence",
+                    "type": "Identifier",
+                    "value": "4"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781020/sequence/6",
+                    "type": "Identifier",
+                    "value": "6"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781021",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781021/sequence",
+                    "type": "Identifier",
+                    "value": "5"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781021/sequence/7",
+                    "type": "Identifier",
+                    "value": "7"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "739",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781022",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781022/sequence/8",
+                    "type": "Identifier",
+                    "value": "8"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781022/sequence",
+                    "type": "Identifier",
+                    "value": "6"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781023",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781023/sequence/9",
+                    "type": "Identifier",
+                    "value": "9"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781023/sequence",
+                    "type": "Identifier",
+                    "value": "7"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781024",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781024/sequence/10",
+                    "type": "Identifier",
+                    "value": "10"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781024/sequence",
+                    "type": "Identifier",
+                    "value": "8"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "374",
+            "exif:width": "500",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781025",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/781025/sequence/11",
+                    "type": "Identifier",
+                    "value": "11"
+                },
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "https://iiif.okeeffemuseum.org/image/iiif/2/781025/sequence",
+                    "type": "Identifier",
+                    "value": "9"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -452,12 +734,23 @@
             "classified_as": [
                 {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
             "id": "https://www.arsny.com/requests",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/463094",
+            "type": "InformationObject"
         }
     ],
     "type": "ManMadeObject",
@@ -466,15 +759,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/40/timespan",
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -483,15 +772,39 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/37",
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/37/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
             ],
             "label": "Inaugural Exhibition",
             "timespan": {
                 "begin_of_the_begin": "1997-07-17T00:00:00",
                 "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/37/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -500,15 +813,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/63",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/63/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
             ],
             "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
             "timespan": {
                 "begin_of_the_begin": "2002-06-21T00:00:00",
                 "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/63/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -517,15 +830,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/14",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/14/title"
-            ],
-            "label": "Marsden Hartley and the West: The Search for an American Modernism",
+            "id": "http://data.okeeffemuseum.org/exhibition/107",
             "timespan": {
-                "begin_of_the_begin": "2008-01-25T00:00:00",
-                "end_of_the_end": "2009-02-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/14/timespan",
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -534,15 +843,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/24",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/24/title"
-            ],
-            "label": "O'Keeffe, Preston, and Cossington Smith: Making Modernism (working title) (Australian Modernism)",
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
             "timespan": {
-                "begin_of_the_begin": "2016-10-08T00:00:00",
-                "end_of_the_end": "2017-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/24/timespan",
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
+            ],
+            "label": "An Expanding Collection",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

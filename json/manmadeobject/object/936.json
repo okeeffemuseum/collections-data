@@ -6,6 +6,11 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -30,38 +35,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/936/other_id",
+            "id": "http://data.okeeffemuseum.org/object/936/identifier",
             "type": "Identifier",
-            "value": "1859-1891, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/accessionnumber",
-            "type": "Identifier",
-            "value": "2006.5.685"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/otheridentifier",
-            "type": "Identifier",
-            "value": "1859-1891"
+            "value": "936"
         },
         {
             "classified_as": [
@@ -78,14 +59,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/936/identifier",
+            "id": "http://data.okeeffemuseum.org/object/936/accessionnumber",
             "type": "Identifier",
-            "value": "936"
+            "value": "2006.5.685"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/other_id",
+            "type": "Identifier",
+            "value": "1859-1891, Catalogue Raisonne Number"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/otheridentifier",
+            "type": "Identifier",
+            "value": "1859-1891"
         }
     ],
     "label": "Georgia O'Keeffe. Pelican V Sketchbook, 1929-1930s. Graphite on paper, 4 5/8 x 7 in. (11.7 x 17.8) or 7 x 4 5/8 in. (17.8 x 11.7), sheet (orientations vary). Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.685]",
@@ -96,11 +101,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Architecture",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -136,8 +184,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -164,18 +219,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/provenance/",
-            "label": "Estate of the artist, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -188,8 +231,76 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pelican V Sketchbook, 1929-1930s"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
@@ -212,74 +323,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pelican V Sketchbook, 1929-1930s"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -292,8 +335,20 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300163343",
-                    "label": "media (artists' materials)",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -314,170 +369,578 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/936/provenance/",
+            "label": "Estate of the artist, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/936/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/936/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/936/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
+            "exif:height": "2288",
+            "exif:width": "1712",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780827",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780827/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1277",
+            "exif:width": "1929",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780692",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780692/sequence/1",
+                    "type": "Identifier",
+                    "value": "1"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1265",
+            "exif:width": "1941",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780693",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780693/sequence/2",
+                    "type": "Identifier",
+                    "value": "2"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1265",
+            "exif:width": "1945",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780694",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780694/sequence/3",
+                    "type": "Identifier",
+                    "value": "3"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1345",
+            "exif:width": "2081",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780695",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780695/sequence/4",
+                    "type": "Identifier",
+                    "value": "4"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1349",
+            "exif:width": "2077",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780696",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780696/sequence/5",
+                    "type": "Identifier",
+                    "value": "5"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1365",
+            "exif:width": "2065",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780697",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780697/sequence/6",
+                    "type": "Identifier",
+                    "value": "6"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1361",
+            "exif:width": "2069",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780698",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780698/sequence/7",
+                    "type": "Identifier",
+                    "value": "7"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1393",
+            "exif:width": "2077",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780699",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780699/sequence/8",
+                    "type": "Identifier",
+                    "value": "8"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1373",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780700",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780700/sequence/9",
+                    "type": "Identifier",
+                    "value": "9"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1365",
+            "exif:width": "2085",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780701",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780701/sequence/10",
+                    "type": "Identifier",
+                    "value": "10"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1385",
+            "exif:width": "2081",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780702",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780702/sequence/11",
+                    "type": "Identifier",
+                    "value": "11"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1353",
+            "exif:width": "2081",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780703",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780703/sequence/12",
+                    "type": "Identifier",
+                    "value": "12"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1373",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780704",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780704/sequence/13",
+                    "type": "Identifier",
+                    "value": "13"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1365",
+            "exif:width": "2097",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780705",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780705/sequence/14",
+                    "type": "Identifier",
+                    "value": "14"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1357",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780706",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780706/sequence/15",
+                    "type": "Identifier",
+                    "value": "15"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1361",
+            "exif:width": "2085",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780707",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780707/sequence/16",
+                    "type": "Identifier",
+                    "value": "16"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1345",
+            "exif:width": "2085",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780708",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780708/sequence/17",
+                    "type": "Identifier",
+                    "value": "17"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1333",
+            "exif:width": "2097",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780709",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780709/sequence/18",
+                    "type": "Identifier",
+                    "value": "18"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1333",
+            "exif:width": "2085",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780710",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780710/sequence/19",
+                    "type": "Identifier",
+                    "value": "19"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1341",
+            "exif:width": "2101",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780711",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780711/sequence/20",
+                    "type": "Identifier",
+                    "value": "20"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1337",
+            "exif:width": "2097",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780712",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780712/sequence/21",
+                    "type": "Identifier",
+                    "value": "21"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1329",
+            "exif:width": "2105",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780713",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780713/sequence/22",
+                    "type": "Identifier",
+                    "value": "22"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1313",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780714",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780714/sequence/23",
+                    "type": "Identifier",
+                    "value": "23"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1309",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780715",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780715/sequence/24",
+                    "type": "Identifier",
+                    "value": "24"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1337",
+            "exif:width": "2093",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780716",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780716/sequence/25",
+                    "type": "Identifier",
+                    "value": "25"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1333",
+            "exif:width": "2073",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780717",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780717/sequence/26",
+                    "type": "Identifier",
+                    "value": "26"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1341",
+            "exif:width": "2061",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780718",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780718/sequence/27",
+                    "type": "Identifier",
+                    "value": "27"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1317",
+            "exif:width": "2081",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780719",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780719/sequence/28",
+                    "type": "Identifier",
+                    "value": "28"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "2053",
+            "exif:width": "1297",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780720",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780720/sequence/29",
+                    "type": "Identifier",
+                    "value": "29"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1277",
+            "exif:width": "2073",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780721",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780721/sequence/30",
+                    "type": "Identifier",
+                    "value": "30"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1317",
+            "exif:width": "2081",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780722",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780722/sequence/31",
+                    "type": "Identifier",
+                    "value": "31"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1325",
+            "exif:width": "2069",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780723",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780723/sequence/32",
+                    "type": "Identifier",
+                    "value": "32"
+                }
+            ],
             "type": "VisualItem"
         },
         {
+            "exif:height": "1325",
+            "exif:width": "2073",
             "id": "https://iiif.okeeffemuseum.org/image/iiif/2/780724",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/780724/sequence/33",
+                    "type": "Identifier",
+                    "value": "33"
+                }
+            ],
             "type": "VisualItem"
         }
     ],

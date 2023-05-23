@@ -30,11 +30,22 @@
     },
     "custody_transferred_through": [],
     "depicts": [
-        "http://data.okeeffemuseum.org/place/1283",
         "http://data.okeeffemuseum.org/person/2"
     ],
     "id": "http://data.okeeffemuseum.org/object/1711",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/title",
+            "type": "Name",
+            "value": "O'Keeffe at Black Place"
+        },
         {
             "classified_as": [
                 {
@@ -58,18 +69,6 @@
             "id": "http://data.okeeffemuseum.org/object/1711/identifier",
             "type": "Identifier",
             "value": "1711"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/title",
-            "type": "Name",
-            "value": "O'Keeffe at Black Place"
         }
     ],
     "label": "Todd Webb. O'Keeffe at Black Place, 1961, 2009. Gelatin silver print, 7 9/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 Todd Webb Archive. [2011.2.14]",
@@ -80,17 +79,75 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": {
-        "id": "http://data.okeeffemuseum.org/aggregation/248",
-        "label": "The Black Place/New Mexico",
-        "type": "Aggregation"
-    },
+    "ore:isAggregatedBy": null,
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/place/1283",
-            "http://data.okeeffemuseum.org/person/2",
-            "http://data.okeeffemuseum.org/person/1155"
+            {
+                "id": "http://data.okeeffemuseum.org/person/1155",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500124474"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/1155/name/0",
+                        "type": "Name",
+                        "value": "Todd Webb"
+                    }
+                ],
+                "label": [
+                    "Todd Webb",
+                    "Webb, Todd, 1905-2000"
+                ],
+                "type": "Actor"
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -99,6 +156,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -113,21 +181,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -163,7 +227,10 @@
                                 "value": "Todd Webb"
                             }
                         ],
-                        "label": "Todd Webb",
+                        "label": [
+                            "Todd Webb",
+                            "Webb, Todd, 1905-2000"
+                        ],
                         "type": "Actor"
                     }
                 ],
@@ -209,65 +276,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1711/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/1711/Materials/",
             "type": "LinguisticObject",
-            "value": "7 9/16 x 7 9/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/provenance/",
-            "label": "Evans Gallery, Portland , Maine         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 7 9/16 x 7 9/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Gelatin silver print"
         },
         {
             "classified_as": [
@@ -284,8 +300,20 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/caption/",
+            "label": "Todd Webb. O'Keeffe at Black Place, 1961, 2009. Gelatin silver print, 7 9/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 Todd Webb Archive. [2011.2.14]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -301,13 +329,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
@@ -318,14 +363,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1711/caption/",
-            "label": "Todd Webb. O'Keeffe at Black Place, 1961, 2009. Gelatin silver print, 7 9/16 x 7 9/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 Todd Webb Archive. [2011.2.14]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/1711/Description/",
+            "type": "LinguisticObject",
+            "value": "Portrait of O'Keeffe sitting in profile with her face turned toward the viewer, her hair slightly blowing, framed in desert landscape (Black Place, Bisti Badlands), she wears a dark wrap dress, her Hector Aguilar black suede and silver belt with her black broad brim hat hanging on her back."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 7 9/16 x 7 9/16 inches"
         },
         {
             "classified_as": [
@@ -342,6 +409,40 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Museum Purchase      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1711/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "O'Keeffe at Black Place, 1961, 2009"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -354,60 +455,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1711/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of O'Keeffe sitting in profile with her face turned toward the viewer, her hair slightly blowing, framed in desert landscape (Black Place, Bisti Badlands), she wears a dark wrap dress, her Hector Aguilar black suede and silver belt with her black broad brim hat hanging on her back."
+            "id": "http://data.okeeffemuseum.org/object/1711/provenance/",
+            "label": "Evans Gallery, Portland , Maine         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1711/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1711/Measurement/",
             "type": "LinguisticObject",
-            "value": "O'Keeffe at Black Place, 1961, 2009"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1711/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Museum Purchase      "
+            "value": "7 9/16 x 7 9/16 inches"
         }
     ],
     "refers_to": [],

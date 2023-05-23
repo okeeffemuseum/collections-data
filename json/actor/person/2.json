@@ -14,7 +14,7 @@
     "classified_as": [
         {
             "id": "aat:300024979",
-            "label": "people (agents)",
+            "label": "people",
             "type": "Type"
         }
     ],
@@ -23,30 +23,6 @@
     ],
     "id": "http://data.okeeffemuseum.org/person/2",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:acronym",
-                    "label": "acronym",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/person/2/name/1",
-            "type": "Name",
-            "value": "gok"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/person/2/name/0",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -62,6 +38,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:acronym",
+                    "label": "acronym",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/person/2/name/1",
+            "type": "Name",
+            "value": "gok"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "wd:Q43649390",
                     "label": "Wikidata Entity",
                     "type": "Type"
@@ -70,15 +58,26 @@
             "id": "http://data.okeeffemuseum.org/person/2/wikidata",
             "type": "Identifier",
             "value": "Q46408"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/person/2/name/0",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
         }
     ],
-    "label": "Georgia O'Keeffe",
+    "label": [
+        "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+        "Georgia O'Keeffe",
+        "O'Keeffe, Georgia, 1887-1986"
+    ],
     "member_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/actor/2/gender/",
-            "label": "Female",
-            "type": "Group"
-        },
         {
             "id": "http://data.okeeffemuseum.org/person/2/occupation/",
             "label": "Artist",
@@ -88,19 +87,23 @@
             "id": "http://data.okeeffemuseum.org/person/2/nationality/",
             "label": "American",
             "type": "Group"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/actor/2/gender/",
+            "label": "Female",
+            "type": "Group"
         }
     ],
     "participated_in": [
         {
             "classified_as": [
                 {
-                    "id": "aat:300263369",
-                    "label": "occupations (livelihoods)",
-                    "type": "Type"
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/occupation/artist",
-            "label": "Artist",
+            "id": "http://id.loc.gov/vocabulary/relators/crp",
+            "label": "Correspondent",
             "type": "Activity"
         },
         {
@@ -121,8 +124,8 @@
                     "label": "techniques (processes)"
                 }
             ],
-            "id": "aat:creator",
-            "label": "creator",
+            "id": "http://id.loc.gov/vocabulary/relators/pht",
+            "label": "Photographer",
             "type": "Activity"
         },
         {
@@ -132,8 +135,45 @@
                     "label": "techniques (processes)"
                 }
             ],
-            "id": "http://id.loc.gov/vocabulary/relators/crp",
-            "label": "Correspondent",
+            "id": "aat:300251917",
+            "label": [
+                "Maker",
+                "makers"
+            ],
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)"
+                }
+            ],
+            "id": "http://id.loc.gov/vocabulary/relators/aut",
+            "label": "Author",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques (processes)"
+                }
+            ],
+            "id": "http://id.loc.gov/vocabulary/relators/dsr",
+            "label": "Designer",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300263369",
+                    "label": "occupations",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/occupation/artist",
+            "label": "Artist",
             "type": "Activity"
         },
         {
@@ -154,33 +194,8 @@
                     "label": "techniques (processes)"
                 }
             ],
-            "id": "aat:300251917",
-            "label": [
-                "makers",
-                "Maker"
-            ],
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)"
-                }
-            ],
-            "id": "http://id.loc.gov/vocabulary/relators/dsr",
-            "label": "Designer",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)"
-                }
-            ],
-            "id": "http://id.loc.gov/vocabulary/relators/pht",
-            "label": "Photographer",
+            "id": "aat:creator",
+            "label": "creator",
             "type": "Activity"
         },
         {
@@ -193,17 +208,6 @@
             "id": "http://id.loc.gov/vocabulary/relators/rcp",
             "label": "Recipient",
             "type": "Activity"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)"
-                }
-            ],
-            "id": "http://id.loc.gov/vocabulary/relators/aut",
-            "label": "Author",
-            "type": "Activity"
         }
     ],
     "referred_to_by": [
@@ -211,12 +215,12 @@
             "classified_as": [
                 {
                     "id": "aat:300080102",
-                    "label": "biographies (literary works)",
+                    "label": "biographies",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/person/2/description/",
-            "label": "Georgia Totto O'Keeffe (November 15, 1887 \u2013 March 6, 1986) was an American artist. She was best known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes. O'Keeffe has been recognized as the \"Mother of American modernism\".In 1905, O'Keeffe began her serious formal art training at the School of the Art Institute of Chicago and then the Art Students League of New York, but she felt constrained by her lessons that focused on recreating or copying what was in nature. In 1908, unable to fund further education, she worked for two years as a commercial illustrator, and then taught in Virginia, Texas, and South Carolina between 1911 and 1918. During that time, she studied art during the summers between 1912 and 1914 and was introduced to the principles and philosophies of Arthur Wesley Dow, who created works of art based upon personal style, design, and interpretation of subjects, rather than trying to copy or represent them. This caused a major change in the way she felt about and approached art, as seen in the beginning stages of her watercolors from her studies at the University of Virginia and more dramatically in the charcoal drawings that she produced in 1915 that led to total abstraction. Alfred Stieglitz, an art dealer and photographer, held an exhibit of her works in 1917. Over the next couple of years, she taught and continued her studies at the Teachers College, Columbia University in 1914 and 1915. ^She moved to New York in 1918 at Stieglitz's request and began working seriously as an artist. They developed a professional relationship and a personal relationship that led to their marriage in 1924. O'Keeffe created many forms of abstract art, including close-ups of flowers, such as the Red Canna paintings, that many found to represent female genitalia, although O'Keeffe consistently denied that intention. The reputation of the portrayal of women's sexuality was also fueled by explicit and sensuous photographs that Stieglitz had taken and exhibited of O'Keeffe. ^O'Keeffe and Stieglitz lived together in New York until 1929, when O'Keeffe began spending part of the year in the Southwest, which served as inspiration for her paintings of New Mexico landscapes and images of animal skulls, such as Cow's Skull: Red, White, and Blue and Ram's Head White Hollyhock and Little Hills. After Stieglitz's death, she lived permanently in New Mexico at Georgia O'Keeffe Home and Studio in Abiqui\u00fa, until the last years of her life when she lived in Santa Fe. In 2014, O'Keeffe's 1932 painting Jimson Weed sold for $44,405,000, more than three times the previous world auction record for any female artist. After her death, the Georgia O'Keeffe Museum was established in Santa Fe. (Sourced from Wikipedia, January 2020)",
+            "label": "Georgia Totto O'Keeffe (November 15, 1887 \u2013 March 6, 1986) was an American modernist artist. She was known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes. O'Keeffe has been called the \"Mother of American modernism\".In 1905, O'Keeffe began art training at the School of the Art Institute of Chicago and then the Art Students League of New York. In 1908, unable to fund further education, she worked for two years as a commercial illustrator and then taught in Virginia, Texas, and South Carolina between 1911 and 1918. She studied art in the summers between 1912 and 1914 and was introduced to the principles and philosophies of Arthur Wesley Dow, who created works of art based upon personal style, design, and interpretation of subjects, rather than trying to copy or represent them. This caused a major change in the way she felt about and approached art, as seen in the beginning stages of her watercolors from her studies at the University of Virginia and more dramatically in the charcoal drawings that she produced in 1915 that led to total abstraction. Alfred Stieglitz, an art dealer and photographer, held an exhibit of her works in 1917. Over the next couple of years, she taught and continued her studies at the Teachers College, Columbia University. ^ ^She moved to New York in 1918 at Stieglitz's request and began working seriously as an artist. They developed a professional and personal relationship that led to their marriage in 1924. O'Keeffe created many forms of abstract art, including close-ups of flowers, such as the Red Canna paintings, that many found to represent vulvas, though O'Keeffe consistently denied that intention. The imputation of the depiction of women's sexuality was also fueled by explicit and sensuous photographs of O'Keeffe that Stieglitz had taken and exhibited. ^ ^O'Keeffe and Stieglitz lived together in New York until 1929, when O'Keeffe began spending part of the year in the Southwest, which served as inspiration for her paintings of New Mexico landscapes and images of animal skulls, such as Cow's Skull: Red, White, and Blue and Ram's Head White Hollyhock and Little Hills. After Stieglitz's death, she lived in New Mexico at Georgia O'Keeffe Home and Studio in Abiqui\u00fa until the last years of her life, when she lived in Santa Fe. In 2014, O'Keeffe's 1932 painting Jimson Weed/White Flower No. 1 sold for $44,405,000, more than three times the previous world auction record for any female artist. After her death, the Georgia O'Keeffe Museum was established in Santa Fe. (Sourced from Wikipedia May 2023)",
             "type": "LinguisticObject"
         }
     ],
@@ -225,7 +229,7 @@
             "classified_as": [
                 {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 },
                 {

@@ -2,11 +2,19 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
+            "label": "Translations",
+            "type": "Type"
+        },
+        {
             "label": "Poetry",
             "type": "Type"
         },
         {
             "label": "Translations",
+            "type": "Type"
+        },
+        {
+            "label": "Poetry",
             "type": "Type"
         }
     ],
@@ -47,6 +55,17 @@
             ],
             "type": "Name",
             "value": "Metamorphoses "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "Metamorphoses "
         }
     ],
     "label": null,
@@ -55,42 +74,26 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/ovid-"
-        ],
-        "consists_of": [
             {
-                "carried_out_by": [
+                "id": "http://data.okeeffemuseum.org/person/ovid-",
+                "identified_by": [
                     {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/indiana-university-press",
-                        "identified_by": [
+                        "classified_as": [
                             {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/indiana-university-press/name",
-                                "type": "Name",
-                                "value": "Indiana University Press"
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
                             }
                         ],
-                        "type": "Actor"
+                        "id": "http://data.okeeffemuseum.org/person/ovid-/name",
+                        "type": "Name",
+                        "value": "Ovid,"
                     }
                 ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/11488/production/publishing",
-                "technique": [
-                    {
-                        "id": "relators:pbl",
-                        "label": "Publisher",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
+                "type": "Actor"
+            }
+        ],
+        "consists_of": [
             {
                 "carried_out_by": [
                     {
@@ -123,6 +126,39 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/indiana-university-press",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/indiana-university-press/name",
+                                "type": "Name",
+                                "value": "Indiana University Press"
+                            }
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/11488/production/publishing",
+                "technique": [
+                    {
+                        "id": "relators:pbl",
+                        "label": "Publisher",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/11488/production",
@@ -139,20 +175,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/11488/590a",
-            "type": "LinguisticObject",
-            "value": "abq copy : good condition.|SColl abq : Annotation by unknown : pp. 3 ; 5 ; 9 ; 11 ; 12 ; 16 ; 28 ; 40 ; 45 ; 48 ; 50-52 ; 54 ; 67 ; 86 ; 87 ; 90 ; 93 ; 153."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300411780",
-                    "label": "descriptions (documents)",
+                    "label": "descriptions",
                     "type": "Type"
                 }
             ],
@@ -171,6 +195,18 @@
             "id": "http://data.okeeffemuseum.org/library/11488/300abc",
             "type": "LinguisticObject",
             "value": "xiv, 401 pages ; 21 cm."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/11488/590a",
+            "type": "LinguisticObject",
+            "value": "abq copy : good condition.|SColl abq : Annotation by unknown : pp. 3 ; 5 ; 9 ; 11 ; 12 ; 16 ; 28 ; 40 ; 45 ; 48 ; 50-52 ; 54 ; 67 ; 86 ; 87 ; 90 ; 93 ; 153."
         }
     ],
     "refers_to": [],

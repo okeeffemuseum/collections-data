@@ -2,6 +2,22 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
+            "label": "Early works",
+            "type": "Type"
+        },
+        {
+            "label": "History",
+            "type": "Type"
+        },
+        {
+            "label": "Diaries",
+            "type": "Type"
+        },
+        {
+            "label": "Early works",
+            "type": "Type"
+        },
+        {
             "label": "Sources",
             "type": "Type"
         },
@@ -10,11 +26,11 @@
             "type": "Type"
         },
         {
-            "label": "Early works",
+            "label": "Diaries",
             "type": "Type"
         },
         {
-            "label": "Diaries",
+            "label": "Sources",
             "type": "Type"
         }
     ],
@@ -55,6 +71,17 @@
             "id": "http://data.okeeffemuseum.org/library/13056/050",
             "type": "Identifier",
             "value": "DS707 .E512"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "Ennin's diary: the record of a pilgrimage to China in search of the law "
         }
     ],
     "label": null,
@@ -63,42 +90,26 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/ennin-"
-        ],
-        "consists_of": [
             {
-                "carried_out_by": [
+                "id": "http://data.okeeffemuseum.org/person/ennin-",
+                "identified_by": [
                     {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/ennin-",
-                        "identified_by": [
+                        "classified_as": [
                             {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/ennin-/name",
-                                "type": "Name",
-                                "value": "Ennin,"
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
                             }
                         ],
-                        "type": "Actor"
+                        "id": "http://data.okeeffemuseum.org/person/ennin-/name",
+                        "type": "Name",
+                        "value": "Ennin,"
                     }
                 ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/library/13056/production/author",
-                "technique": [
-                    {
-                        "id": "relators:aut",
-                        "label": "Author",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
+                "type": "Actor"
+            }
+        ],
+        "consists_of": [
             {
                 "carried_out_by": [
                     {
@@ -131,6 +142,39 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/ennin-",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/ennin-/name",
+                                "type": "Name",
+                                "value": "Ennin,"
+                            }
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/library/13056/production/author",
+                "technique": [
+                    {
+                        "id": "relators:aut",
+                        "label": "Author",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/library/13056/production",
@@ -147,18 +191,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266038",
-                    "label": "format",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/library/13056/300abc",
-            "type": "LinguisticObject",
-            "value": "xvi, 454 pages color portrait, maps (on lining papers) 25 cm."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -171,8 +203,20 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266038",
+                    "label": "format",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/library/13056/300abc",
+            "type": "LinguisticObject",
+            "value": "xvi, 454 pages color portrait, maps (on lining papers) 25 cm."
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300411780",
-                    "label": "descriptions (documents)",
+                    "label": "descriptions",
                     "type": "Type"
                 }
             ],

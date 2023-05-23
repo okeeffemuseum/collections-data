@@ -4,7 +4,7 @@
     "classified_as": [
         {
             "id": "aat:300033618",
-            "label": "paintings (visual works)",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -35,18 +35,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/identifier",
-            "type": "Identifier",
-            "value": "1054"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -55,6 +43,30 @@
             "id": "http://data.okeeffemuseum.org/object/1054/other_id",
             "type": "Identifier",
             "value": "1501, Catalogue Raisonne Number"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/otheridentifier",
+            "type": "Identifier",
+            "value": "1501"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/identifier",
+            "type": "Identifier",
+            "value": "1054"
         },
         {
             "classified_as": [
@@ -79,18 +91,6 @@
             "id": "http://data.okeeffemuseum.org/object/1054/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.390"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/otheridentifier",
-            "type": "Identifier",
-            "value": "1501"
         }
     ],
     "label": "Georgia O'Keeffe. Canyon Country, White and Brown Cliffs, ca. 1965. Oil on canvas, 36 1/8 x 30 1/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.390]",
@@ -109,11 +109,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -149,8 +192,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -179,26 +229,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1054/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/1054/title_date_caption",
             "type": "LinguisticObject",
-            "value": "1965 New York (Whitney-Annual) \n2008 Santa Fe (O'Keeffe) GOK and the Camera; all venues \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2012 Santa Fe (O'Keeffe) Faraway \n2015 Musee de Grenoble, Georgia O'Keeffe, Nov. 7, 2015 - Feb. 7, 2016"
+            "value": "Canyon Country, White and Brown Cliffs, ca. 1965"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1054/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "id": "http://data.okeeffemuseum.org/object/1054/caption/",
+            "label": "Georgia O'Keeffe. Canyon Country, White and Brown Cliffs, ca. 1965. Oil on canvas, 36 1/8 x 30 1/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.390]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -215,10 +275,82 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 1/8 x 30 1/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/Description/",
+            "type": "LinguisticObject",
+            "value": "Two cliffs slope towards each other and form a v-shape in the center of the painting.  The cliff on the left is light in color, while the cliff on the right is a darker brown."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1054/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1965 New York (Whitney-Annual) \n2008 Santa Fe (O'Keeffe) GOK and the Camera; all venues \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2012 Santa Fe (O'Keeffe) Faraway \n2015 Musee de Grenoble, Georgia O'Keeffe, Nov. 7, 2015 - Feb. 7, 2016"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -227,6 +359,11 @@
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -249,32 +386,32 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1054/Description/",
+            "id": "http://data.okeeffemuseum.org/object/1054/Materials/",
             "type": "LinguisticObject",
-            "value": "Two cliffs slope towards each other and form a v-shape in the center of the painting.  The cliff on the left is light in color, while the cliff on the right is a darker brown."
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1054/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
+            "id": "http://data.okeeffemuseum.org/object/1054/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -290,113 +427,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/1054/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/caption/",
-            "label": "Georgia O'Keeffe. Canyon Country, White and Brown Cliffs, ca. 1965. Oil on canvas, 36 1/8 x 30 1/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.390]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/Measurement/",
-            "type": "LinguisticObject",
-            "value": "36 1/8 x 30 1/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1054/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Canyon Country, White and Brown Cliffs, ca. 1965"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/726131",
+            "exif:height": "12681",
+            "exif:width": "10608",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/789791",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/789791/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -406,7 +468,7 @@
             "classified_as": [
                 {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -420,15 +482,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/76",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/76/title"
-            ],
-            "label": "Georgia O'Keeffe and the Camera: The Art of Identity",
+            "id": "http://data.okeeffemuseum.org/exhibition/146",
             "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2009-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/76/timespan",
+                "begin_of_the_begin": "2018-10-12T00:00:00",
+                "end_of_the_end": "2019-01-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/146/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -437,15 +495,114 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/46",
+            "id": "http://data.okeeffemuseum.org/exhibition/74",
+            "timespan": {
+                "begin_of_the_begin": "2018-05-26T00:00:00",
+                "end_of_the_end": "2018-09-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/74/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/147",
+            "timespan": {
+                "begin_of_the_begin": "2019-02-22T00:00:00",
+                "end_of_the_end": "2019-05-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/147/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1005",
+            "timespan": {
+                "begin_of_the_begin": "1965-12-08T00:00:00",
+                "end_of_the_end": "1966-01-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1005/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/76",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/46/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/76/title"
+            ],
+            "label": "Georgia O'Keeffe and the Camera: The Art of Identity",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/76/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/46",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/46/title"
             ],
             "label": "The Beyond: Georgia O'Keeffe and Contemporary Art",
             "timespan": {
                 "begin_of_the_begin": "2018-05-26T00:00:00",
                 "end_of_the_end": "2019-05-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/46/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/46/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/133",
+            "timespan": {
+                "begin_of_the_begin": "2008-09-26T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/694",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/694/title"
+            ],
+            "label": "1965 Annual Exhibition Contemporary American Painting",
+            "timespan": {
+                "begin_of_the_begin": "1965-12-08T00:00:00",
+                "end_of_the_end": "1966-01-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/694/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/132",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -2,11 +2,19 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "about": [
         {
-            "label": "Specimens",
+            "label": "History",
             "type": "Type"
         },
         {
             "label": "History",
+            "type": "Type"
+        },
+        {
+            "label": "Specimens",
+            "type": "Type"
+        },
+        {
+            "label": "Specimens",
             "type": "Type"
         }
     ],
@@ -25,6 +33,17 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/library/11977",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "type": "Name",
+            "value": "Peter Whiffle: his life and works "
+        },
         {
             "classified_as": [
                 {
@@ -55,7 +74,24 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/van-vechten-carl-"
+            {
+                "id": "http://data.okeeffemuseum.org/person/van-vechten-carl-",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/van-vechten-carl-/name",
+                        "type": "Name",
+                        "value": "Van Vechten, Carl,"
+                    }
+                ],
+                "type": "Actor"
+            }
         ],
         "consists_of": [
             {
@@ -156,7 +192,7 @@
             "classified_as": [
                 {
                     "id": "aat:300411780",
-                    "label": "descriptions (documents)",
+                    "label": "descriptions",
                     "type": "Type"
                 }
             ],

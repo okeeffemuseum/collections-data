@@ -11,6 +11,11 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -35,14 +40,38 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/otheridentifier",
+            "type": "Identifier",
+            "value": "134"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/other_id",
+            "type": "Identifier",
+            "value": "134, Catalogue Raisonne Number"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/105/title",
-            "type": "Name",
-            "value": "Sunrise and Little Clouds No. II"
+            "id": "http://data.okeeffemuseum.org/object/105/identifier",
+            "type": "Identifier",
+            "value": "105"
         },
         {
             "classified_as": [
@@ -64,33 +93,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/105/identifier",
-            "type": "Identifier",
-            "value": "105"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/other_id",
-            "type": "Identifier",
-            "value": "134, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/otheridentifier",
-            "type": "Identifier",
-            "value": "134"
+            "id": "http://data.okeeffemuseum.org/object/105/title",
+            "type": "Name",
+            "value": "Sunrise and Little Clouds No. II"
         }
     ],
     "label": "Georgia O'Keeffe. Sunrise and Little Clouds No. II, 1916. Watercolor on paper, 8 7/8 x 12 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.18.1]",
@@ -106,11 +111,54 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/2"
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            }
         ],
         "consists_of": [
             {
@@ -119,6 +167,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -133,21 +192,17 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -176,6 +231,79 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1917 New York (291) \n1958 New York (Downtown--Watercolor), no. 20 \n1960 Minneapolis \n1987 Washington, no. 19 \n1989 Milwaukee, no. 9 \n1993 London (Hayward), no. 13 \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Four Painters of the Stieglitz Circle \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Photographs by Alfred Stieglitz: Gift of GOKF \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2016 Santa Fe (O'Keeffe) Georgia O'Keeffe's Farwide Texas \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 8 7/8 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Sunrise and Little Clouds No. II, 1916"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -188,20 +316,44 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/105/provenance/",
-            "label": "Estate of the artist, 1986 ^Private collection, Milwaukee, Wisc., 1988 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
+            "id": "http://data.okeeffemuseum.org/object/105/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 7/8 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/caption/",
+            "label": "Georgia O'Keeffe. Sunrise and Little Clouds No. II, 1916. Watercolor on paper, 8 7/8 x 12 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.18.1]",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -213,6 +365,42 @@
             "id": "http://data.okeeffemuseum.org/object/105/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/Description/",
+            "type": "LinguisticObject",
+            "value": "Loose watercolor with bands of horizontal colors: a strip of muddy brown along the bottom, layered above with a bleeding line of reddish to yellow in the middle. Above it turns to purplish-blue dotted with scattered orange areas as if small clouds."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/105/provenance/",
+            "label": "Estate of the artist, 1986 ^Private collection, Milwaukee, Wisc., 1988 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -234,127 +422,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 8 7/8 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/caption/",
-            "label": "Georgia O'Keeffe. Sunrise and Little Clouds No. II, 1916. Watercolor on paper, 8 7/8 x 12 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.18.1]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1917 New York (291) \n1958 New York (Downtown--Watercolor), no. 20 \n1960 Minneapolis \n1987 Washington, no. 19 \n1989 Milwaukee, no. 9 \n1993 London (Hayward), no. 13 \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Four Painters of the Stieglitz Circle \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Photographs by Alfred Stieglitz: Gift of GOKF \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2016 Santa Fe (O'Keeffe) Georgia O'Keeffe's Farwide Texas \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Sunrise and Little Clouds No. II, 1916"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/Description/",
-            "type": "LinguisticObject",
-            "value": "Loose watercolor with bands of horizontal colors: a strip of muddy brown along the bottom, layered above with a bleeding line of reddish to yellow in the middle. Above it turns to purplish-blue dotted with scattered orange areas as if small clouds."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -363,25 +430,25 @@
             "id": "http://data.okeeffemuseum.org/object/105/CreditLine/",
             "type": "LinguisticObject",
             "value": "Gift of The Burnett Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/105/Measurement/",
-            "type": "LinguisticObject",
-            "value": "8 7/8 x 12 inches"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/725386",
+            "exif:height": "7267",
+            "exif:width": "9581",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/789917",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/789917/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
@@ -390,8 +457,19 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/463077",
+            "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264578",
-                    "label": "Web pages (documents)",
+                    "label": "Web pages",
                     "type": "Type"
                 }
             ],
@@ -405,15 +483,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/73",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/73/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
             ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "label": "Georgia O'Keeffe: American & Modern",
             "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/120",
+            "timespan": {
+                "begin_of_the_begin": "2006-09-22T00:00:00",
                 "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/73/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -422,83 +513,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/93",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/93/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1917-04-03T00:00:00",
-                "end_of_the_end": "1917-05-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/93/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/65",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/65/title"
-            ],
-            "label": "Photographs by Alfred Stieglitz: A Gift from the Georgia O'Keeffe Foundation",
-            "timespan": {
-                "begin_of_the_begin": "2003-05-02T00:00:00",
-                "end_of_the_end": "2004-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/65/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/14",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/14/title"
-            ],
-            "label": "Marsden Hartley and the West: The Search for an American Modernism",
-            "timespan": {
-                "begin_of_the_begin": "2008-01-25T00:00:00",
-                "end_of_the_end": "2009-02-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/14/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/37",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/37/title"
-            ],
-            "label": "Inaugural Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/37/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/40/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
             ],
             "label": "An Expanding Collection",
             "timespan": {
                 "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/40/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -507,17 +530,463 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/60",
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/100",
+            "timespan": {
+                "begin_of_the_begin": "2002-02-08T00:00:00",
+                "end_of_the_end": "2002-05-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/100/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/112",
+            "timespan": {
+                "begin_of_the_begin": "2003-05-02T00:00:00",
+                "end_of_the_end": "2004-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/112/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/93",
             "identified_by": [
-                "http://data.okeeffemuseum.org/exhibition/60/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/93/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1917-04-03T00:00:00",
+                "end_of_the_end": "1917-05-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/93/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
+            ],
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "timespan": {
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/98",
+            "timespan": {
+                "begin_of_the_begin": "2001-09-14T00:00:00",
+                "end_of_the_end": "2002-01-13T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/98/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-15T00:00:00",
+                "end_of_the_end": "1993-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
+            ],
+            "label": "Inaugural Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "timespan": {
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "timespan": {
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/793",
+            "timespan": {
+                "begin_of_the_begin": "1960-01-01T00:00:00",
+                "end_of_the_end": "1960-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/793/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/156",
+            "timespan": {
+                "begin_of_the_begin": "1917-04-03T00:00:00",
+                "end_of_the_end": "1917-05-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/156/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "timespan": {
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/791",
+            "timespan": {
+                "begin_of_the_begin": "1960-01-24T00:00:00",
+                "end_of_the_end": "1961-02-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/791/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/790",
+            "timespan": {
+                "begin_of_the_begin": "1960-11-12T00:00:00",
+                "end_of_the_end": "1960-12-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/790/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1190",
+            "timespan": {
+                "begin_of_the_begin": "1989-09-22T00:00:00",
+                "end_of_the_end": "1989-11-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1190/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/794",
+            "timespan": {
+                "begin_of_the_begin": "1960-01-01T00:00:00",
+                "end_of_the_end": "1960-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/794/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "timespan": {
+                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/60",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/60/title"
             ],
             "label": "O'Keeffe's O'Keeffes: The Artist's Collection",
             "timespan": {
                 "begin_of_the_begin": "2001-05-04T00:00:00",
                 "end_of_the_end": "2002-05-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/60/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/60/timespan",
                 "type": "TimeSpan"
             },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
+            ],
+            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/65",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/65/title"
+            ],
+            "label": "Photographs by Alfred Stieglitz: A Gift from the Georgia O'Keeffe Foundation",
+            "timespan": {
+                "begin_of_the_begin": "2003-05-02T00:00:00",
+                "end_of_the_end": "2004-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/65/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/792",
+            "timespan": {
+                "begin_of_the_begin": "1961-03-24T00:00:00",
+                "end_of_the_end": "1961-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/792/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/538",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/538/title"
+            ],
+            "label": "The Precisionist view in American Art: Ault, Blume, Crawford, Davis, Demuth, Dickinson, Driggs, Guglielmi, Hirsch Lewandowski, Lozowick, O'Keeffe, Shamberg, Sheeler, Spencer, Stella",
+            "timespan": {
+                "begin_of_the_begin": "1960-01-01T00:00:00",
+                "end_of_the_end": "1961-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/538/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/99",
+            "timespan": {
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2001-08-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/833",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/833/title"
+            ],
+            "label": "Georgia O'Keeffe: An Intimate View",
+            "timespan": {
+                "begin_of_the_begin": "1989-09-22T00:00:00",
+                "end_of_the_end": "1989-11-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/833/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
             "type": "Activity"
         }
     ]

@@ -54,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/identifier",
-            "type": "Identifier",
-            "value": "6614"
+            "id": "http://data.okeeffemuseum.org/object/6614/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/6614/identifier",
+            "type": "Identifier",
+            "value": "6614"
         }
     ],
     "label": "Alfred Stieglitz. Georgia O'Keeffe, ca. 1933. Gelatin silver print, 3 9/16 4 5/8 inches. Georgia O'Keeffe Museum. Museum Purchase. [2014.3.65]",
@@ -83,47 +83,76 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            "http://data.okeeffemuseum.org/person/260",
-            "http://data.okeeffemuseum.org/person/2"
-        ],
-        "consists_of": [
             {
-                "carried_out_by": [
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
                     {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/260",
-                        "identified_by": [
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500024301"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
-                                "type": "Name",
-                                "value": "Alfred Stieglitz"
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
                             }
                         ],
-                        "label": "Alfred Stieglitz",
-                        "type": "Actor"
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
                     }
                 ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/6614/production/0",
-                "technique": [
-                    {
-                        "id": "relators:pht",
-                        "label": "Photographer",
-                        "type": "Type"
-                    }
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
-                "type": "Production"
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
             },
+            {
+                "id": "http://data.okeeffemuseum.org/person/260",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500024301"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/260/name/0",
+                        "type": "Name",
+                        "value": "Alfred Stieglitz"
+                    }
+                ],
+                "label": [
+                    "Stieglitz, Alfred, 1864-1946",
+                    "Alfred Stieglitz"
+                ],
+                "type": [
+                    "Actor",
+                    "schema:Thing"
+                ]
+            }
+        ],
+        "consists_of": [
             {
                 "carried_out_by": [
                     {
@@ -157,8 +186,15 @@
                                 "value": "Georgia O'Keeffe"
                             }
                         ],
-                        "label": "Georgia O'Keeffe",
-                        "type": "Actor"
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
                     }
                 ],
                 "classified_as": [],
@@ -167,6 +203,49 @@
                     {
                         "id": "relators:dpc",
                         "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/260",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500024301"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
+                                "type": "Name",
+                                "value": "Alfred Stieglitz"
+                            }
+                        ],
+                        "label": [
+                            "Stieglitz, Alfred, 1864-1946",
+                            "Alfred Stieglitz"
+                        ],
+                        "type": [
+                            "Actor",
+                            "schema:Thing"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/6614/production/0",
+                "technique": [
+                    {
+                        "id": "relators:pht",
+                        "label": "Photographer",
                         "type": "Type"
                     }
                 ],
@@ -197,23 +276,21 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6614/Measurement/",
-            "type": "LinguisticObject",
-            "value": "3 9/16 4 5/8 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/6614/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Purchase"
+            "value": "Gelatin silver print, 3 9/16 4 5/8 inches"
         },
         {
             "classified_as": [
@@ -230,14 +307,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description (activity)",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/Description/",
+            "id": "http://data.okeeffemuseum.org/object/6614/Materials/",
             "type": "LinguisticObject",
-            "value": "Portrait of Georgia O'Keeffe looking down and smiling while  leaning against the open driver's door of a black convertible automobile with one foot on the running board and one foot on the ground; she wears a black head scarf, long skirt, a white short sleeve scooped neck blouse under a dark sweater with a vest;  man in a dark suit sits in the passenger seat and  a young man in a white shirt sits in the jump-seat in the rear of the car."
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6614/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Alfred Stieglitz\nDepicted: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -259,70 +353,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media (artists' materials)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/6614/Measurement/",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print, 3 9/16 4 5/8 inches"
+            "value": "3 9/16 4 5/8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/6614/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "blank"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance (history of ownership)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6614/provenance/",
-            "label": "Sweeney Archive: Fine Art Photography   James Sweeney      New York",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates (spans of time)",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles (general, names)",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6614/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe, ca. 1933"
+            "value": "Purchase"
         },
         {
             "classified_as": [
@@ -339,31 +389,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques (processes)",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/6614/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Photographer: Alfred Stieglitz\nDepicted: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe, ca. 1933"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials (substances)",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6614/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/6614/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print"
+            "value": "blank"
         },
         {
             "classified_as": [
@@ -374,13 +429,37 @@
                 },
                 {
                     "id": "aat:300025103",
-                    "label": "artists (visual artists)",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/6614/artist_caption",
             "type": "LinguisticObject",
             "value": "Alfred Stieglitz"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6614/provenance/",
+            "label": "Sweeney Archive: Fine Art Photography   James Sweeney      New York",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6614/Description/",
+            "type": "LinguisticObject",
+            "value": "Portrait of Georgia O'Keeffe looking down and smiling while  leaning against the open driver's door of a black convertible automobile with one foot on the running board and one foot on the ground; she wears a black head scarf, long skirt, a white short sleeve scooped neck blouse under a dark sweater with a vest;  man in a dark suit sits in the passenger seat and  a young man in a white shirt sits in the jump-seat in the rear of the car."
         }
     ],
     "refers_to": [],
@@ -389,7 +468,19 @@
     ],
     "representation": [
         {
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/730571",
+            "exif:height": "2360",
+            "exif:width": "2943",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/795371",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/795371/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
             "type": "VisualItem"
         }
     ],
