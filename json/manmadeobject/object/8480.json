@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -29,33 +38,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8480/title",
-            "type": "Name",
-            "value": "Wave"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
             "id": "http://data.okeeffemuseum.org/object/8480/identifier",
             "type": "Identifier",
             "value": "8480"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8480/other_id",
-            "type": "Identifier",
-            "value": "384, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -68,39 +53,56 @@
             "id": "http://data.okeeffemuseum.org/object/8480/otheridentifier",
             "type": "Identifier",
             "value": "384"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/title",
+            "type": "Name",
+            "value": "Wave"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/other_id",
+            "type": "Identifier",
+            "value": "384, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Wave, 1922. Pastel on paper, 19 x 25 inches. Private Collection. Michael and Fiona Scharf, New York, NY, 1973",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8480/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8480/material/0",
-            "label": "Pastel",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8480/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1917-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8480/production/timespan/0",
             "label": "1922",
             "type": "TimeSpan"
@@ -196,35 +216,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8480/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8480/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1961 New York (Downtown \u2013 Acquisitions); 1962 Washington (Corcoran); 1964 Cincinatti; 1964 New York (Downtown \u2013 Aqua); 1966 New Britain; 1967 New York (Downtown \u2013 Group \u2013 April); 1968 Storrs"
-        },
         {
             "classified_as": [
                 {
@@ -252,14 +243,75 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8480/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8480/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Pastel on paper"
+            "value": "Wave, 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Michael and Fiona Scharf, New York, NY, 1973      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper, 19 x 25 inches"
         },
         {
             "classified_as": [
@@ -293,40 +345,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8480/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Michael and Fiona Scharf, New York, NY, 1973      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8480/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Wave, 1922"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -339,41 +357,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8480/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8480/exhibitions",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "1923 New York (Anderson); 1961 New York (Downtown \u2013 Acquisitions); 1962 Washington (Corcoran); 1964 Cincinatti; 1964 New York (Downtown \u2013 Aqua); 1966 New Britain; 1967 New York (Downtown \u2013 Group \u2013 April); 1968 Storrs"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8480/Materials/",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8480/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8480/artist_caption",
             "type": "LinguisticObject",
-            "value": "Pastel on paper, 19 x 25 inches"
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -400,6 +420,118 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/720",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/720/title"
+            ],
+            "label": "Group Show",
+            "timespan": {
+                "begin_of_the_begin": "1967-03-01T00:00:00",
+                "end_of_the_end": "1967-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/720/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/849",
+            "timespan": {
+                "begin_of_the_begin": "1961-09-01T00:00:00",
+                "end_of_the_end": "1961-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/849/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/962",
+            "timespan": {
+                "begin_of_the_begin": "1964-04-01T00:00:00",
+                "end_of_the_end": "1964-04-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/962/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/910",
+            "timespan": {
+                "begin_of_the_begin": "1962-11-01T00:00:00",
+                "end_of_the_end": "1962-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/910/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/909",
+            "timespan": {
+                "begin_of_the_begin": "1962-09-28T00:00:00",
+                "end_of_the_end": "1962-11-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/909/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1038",
+            "timespan": {
+                "begin_of_the_begin": "1967-03-01T00:00:00",
+                "end_of_the_end": "1967-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1038/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -432,133 +564,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/574",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/574/title"
-            ],
-            "label": "New Acquisitions",
-            "timespan": {
-                "begin_of_the_begin": "1961-09-01T00:00:00",
-                "end_of_the_end": "1961-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/574/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/611",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/611/title"
-            ],
-            "label": "The Edith Gregor Halpert Collection",
-            "timespan": {
-                "begin_of_the_begin": "1962-09-28T00:00:00",
-                "end_of_the_end": "1962-11-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/611/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1077",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1038",
-            "timespan": {
-                "begin_of_the_begin": "1967-03-01T00:00:00",
-                "end_of_the_end": "1967-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1038/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/910",
-            "timespan": {
-                "begin_of_the_begin": "1962-11-01T00:00:00",
-                "end_of_the_end": "1962-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/910/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/962",
-            "timespan": {
-                "begin_of_the_begin": "1964-04-01T00:00:00",
-                "end_of_the_end": "1964-04-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/962/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/909",
-            "timespan": {
-                "begin_of_the_begin": "1962-09-28T00:00:00",
-                "end_of_the_end": "1962-11-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/909/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/720",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/720/title"
-            ],
-            "label": "Group Show",
-            "timespan": {
-                "begin_of_the_begin": "1967-03-01T00:00:00",
-                "end_of_the_end": "1967-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/720/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/968",
             "timespan": {
                 "begin_of_the_begin": "1964-01-01T00:00:00",
@@ -572,24 +577,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/849",
-            "timespan": {
-                "begin_of_the_begin": "1961-09-01T00:00:00",
-                "end_of_the_end": "1961-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/849/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/662",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/662/title"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "label": "Exhibition of Paintings in Aquamedia and Pastel",
             "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "begin_of_the_begin": "1964-01-01T00:00:00",
+                "end_of_the_end": "1964-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/662/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -628,15 +624,39 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/662",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/611",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/662/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/611/title"
             ],
-            "label": "Exhibition of Paintings in Aquamedia and Pastel",
+            "label": "The Edith Gregor Halpert Collection",
             "timespan": {
-                "begin_of_the_begin": "1964-01-01T00:00:00",
-                "end_of_the_end": "1964-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/662/timespan",
+                "begin_of_the_begin": "1962-09-28T00:00:00",
+                "end_of_the_end": "1962-11-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/611/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1077",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/574",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/574/title"
+            ],
+            "label": "New Acquisitions",
+            "timespan": {
+                "begin_of_the_begin": "1961-09-01T00:00:00",
+                "end_of_the_end": "1961-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/574/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

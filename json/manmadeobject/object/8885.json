@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -40,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/other_id",
-            "type": "Identifier",
-            "value": "917, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -60,6 +57,18 @@
             "id": "http://data.okeeffemuseum.org/object/8885/otheridentifier",
             "type": "Identifier",
             "value": "917"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/other_id",
+            "type": "Identifier",
+            "value": "917, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -77,37 +86,30 @@
     "label": "Georgia O'Keeffe. Three Small Rocks Big, 1937. Oil on canvas, 20 x 12 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Gift of George Howe [1942; by exchange, 1949] (1949-057-001)",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8885/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8885/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8885/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/264",
+        "label": "Rocks",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8885/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1937-01-01T00:00:00",
+            "end_of_the_end": "1937-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8885/production/timespan/0",
             "label": "1937",
             "type": "TimeSpan"
@@ -206,100 +226,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1937-38 New York (An American Place), no. 8, as Three Small Rocks Big; 1971 Bryn Mawr, no. 13; 1987 Washington, no. 93"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Philadelphia Museum of Art: Gift of George Howe [1942; by exchange, 1949] (1949-057-001)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/provenance/",
-            "label": "(Georgia O'Keeffe, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8885/caption/",
-            "label": "Georgia O'Keeffe. Three Small Rocks Big, 1937. Oil on canvas, 20 x 12 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Gift of George Howe [1942; by exchange, 1949] (1949-057-001)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -322,24 +255,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8885/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8885/exhibitions",
             "type": "LinguisticObject",
-            "value": "Three Small Rocks Big, 1937"
+            "value": "1937-38 New York (An American Place), no. 8, as Three Small Rocks Big; 1971 Bryn Mawr, no. 13; 1987 Washington, no. 93"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/provenance/",
+            "label": "(Georgia O'Keeffe, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -361,14 +308,87 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8885/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8885/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Three Small Rocks Big, 1937"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/caption/",
+            "label": "Georgia O'Keeffe. Three Small Rocks Big, 1937. Oil on canvas, 20 x 12 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Gift of George Howe [1942; by exchange, 1949] (1949-057-001)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8885/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Philadelphia Museum of Art: Gift of George Howe [1942; by exchange, 1949] (1949-057-001)      "
         }
     ],
     "refers_to": [],
@@ -411,67 +431,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1102",
+            "timespan": {
+                "begin_of_the_begin": "1971-10-21T00:00:00",
+                "end_of_the_end": "1971-11-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1102/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1169",
             "timespan": {
                 "begin_of_the_begin": "1987-11-01T00:00:00",
                 "end_of_the_end": "1988-02-23T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
-            "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
-            "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/132",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -497,11 +474,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/288",
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
             "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -527,11 +504,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1102",
+            "id": "http://data.okeeffemuseum.org/exhibition/288",
             "timespan": {
-                "begin_of_the_begin": "1971-10-21T00:00:00",
-                "end_of_the_end": "1971-11-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1102/timespan",
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -540,11 +517,54 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/133",
+            "id": "http://data.okeeffemuseum.org/exhibition/132",
             "timespan": {
-                "begin_of_the_begin": "2008-09-26T00:00:00",
-                "end_of_the_end": "2009-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "timespan": {
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "timespan": {
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -570,11 +590,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "id": "http://data.okeeffemuseum.org/exhibition/133",
             "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "begin_of_the_begin": "2008-09-26T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -583,11 +603,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
             "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

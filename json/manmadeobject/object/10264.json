@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +15,10 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -25,6 +34,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10264",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10264/other_id",
+            "type": "Identifier",
+            "value": "1227, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10264/title",
+            "type": "Name",
+            "value": "Winter Cottonwoods"
+        },
         {
             "classified_as": [
                 {
@@ -48,34 +81,15 @@
             "id": "http://data.okeeffemuseum.org/object/10264/identifier",
             "type": "Identifier",
             "value": "10264"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10264/other_id",
-            "type": "Identifier",
-            "value": "1227, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10264/title",
-            "type": "Name",
-            "value": "Winter Cottonwoods"
         }
     ],
     "label": "Georgia O'Keeffe. Winter Cottonwoods, 1951. Oil on canvas, 26 x 21 inches. Private Collection",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10264/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,14 +97,13 @@
             "id": "http://data.okeeffemuseum.org/object/10264/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/10264/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -126,12 +139,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -171,12 +184,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10264/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1946-01-01T00:00:00",
-            "end_of_the_end": "1956-12-31T00:00:00",
+            "begin_of_the_begin": "1951-01-01T00:00:00",
+            "end_of_the_end": "1951-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10264/production/timespan/0",
             "label": "1951",
             "type": "TimeSpan"
@@ -203,28 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10264/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 26 x 21 inches"
-        },
         {
             "classified_as": [
                 {
@@ -236,6 +234,23 @@
             "id": "http://data.okeeffemuseum.org/object/10264/Measurement/",
             "type": "LinguisticObject",
             "value": "26 x 21 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10264/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -258,6 +273,45 @@
             "id": "http://data.okeeffemuseum.org/object/10264/title_date_caption",
             "type": "LinguisticObject",
             "value": "Winter Cottonwoods, 1951"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10264/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 26 x 21 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10264/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -299,40 +353,6 @@
             "id": "http://data.okeeffemuseum.org/object/10264/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10264/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10264/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],

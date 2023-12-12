@@ -11,6 +11,15 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -40,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9434/other_id",
+            "type": "Identifier",
+            "value": "1050, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -48,18 +69,6 @@
             "id": "http://data.okeeffemuseum.org/object/9434/title",
             "type": "Name",
             "value": "Pelvis with the Moon"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9434/other_id",
-            "type": "Identifier",
-            "value": "1050, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -77,37 +86,30 @@
     "label": "Georgia O'Keeffe. Pelvis with the Moon, 1943. Oil on canvas, 30 x 24 inches. Norton Museum of Art. Collection of the Norton Museum of Art, West Palm Beach, Florida",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/9434/material/1",
-            "label": "oil paint",
-            "type": "Material"
-        },
-        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/9434/material/0",
             "label": "canvas",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/9434/material/1",
+            "label": "oil paint",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/297",
+        "label": "Bones",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/9434/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1938-01-01T00:00:00",
-            "end_of_the_end": "1948-12-31T00:00:00",
+            "begin_of_the_begin": "1943-01-01T00:00:00",
+            "end_of_the_end": "1943-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/9434/production/timespan/0",
             "label": "1943",
             "type": "TimeSpan"
@@ -206,31 +226,60 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9434/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Collection of the Norton Museum of Art, West Palm Beach, Florida      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9434/caption/",
+            "label": "Georgia O'Keeffe. Pelvis with the Moon, 1943. Oil on canvas, 30 x 24 inches. Norton Museum of Art. Collection of the Norton Museum of Art, West Palm Beach, Florida",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9434/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/9434/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Pelvis with the Moon, 1943"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9434/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/9434/Materials/",
             "type": "LinguisticObject",
-            "value": "30 x 24 inches"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -269,6 +318,11 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -276,11 +330,6 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -291,38 +340,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9434/caption/",
-            "label": "Georgia O'Keeffe. Pelvis with the Moon, 1943. Oil on canvas, 30 x 24 inches. Norton Museum of Art. Collection of the Norton Museum of Art, West Palm Beach, Florida",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9434/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/9434/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9434/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Collection of the Norton Museum of Art, West Palm Beach, Florida      "
+            "value": "30 x 24 inches"
         },
         {
             "classified_as": [
@@ -332,19 +357,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9434/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/9434/artist_caption",
             "type": "LinguisticObject",
-            "value": "Pelvis with the Moon, 1943"
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -375,41 +395,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/498",
+            "id": "http://data.okeeffemuseum.org/exhibition/756",
+            "timespan": {
+                "begin_of_the_begin": "1959-03-05T00:00:00",
+                "end_of_the_end": "1959-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/756/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/258",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/498/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/258/title"
             ],
-            "label": "Four Centuries of Still-Life: Inaugural Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1959-12-12T00:00:00",
-                "end_of_the_end": "1960-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/498/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/393",
+            "label": "Georgia O'Keeffe: Paintings, 1944",
             "timespan": {
                 "begin_of_the_begin": "1944-01-22T00:00:00",
                 "end_of_the_end": "1944-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/393/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/258/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -418,54 +425,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/656",
+            "id": "http://data.okeeffemuseum.org/exhibition/715",
             "timespan": {
-                "begin_of_the_begin": "1957-02-03T00:00:00",
-                "end_of_the_end": "1957-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/656/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/264",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/264/title"
-            ],
-            "label": "Americna Painting from the Eighteenth Century to the Present Day",
-            "timespan": {
-                "begin_of_the_begin": "1946-06-01T00:00:00",
-                "end_of_the_end": "1946-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/264/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/737",
-            "timespan": {
-                "begin_of_the_begin": "1959-01-12T00:00:00",
-                "end_of_the_end": "1959-01-24T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/737/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/640",
-            "timespan": {
-                "begin_of_the_begin": "1956-01-22T00:00:00",
-                "end_of_the_end": "1956-02-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/640/timespan",
+                "begin_of_the_begin": "1959-12-12T00:00:00",
+                "end_of_the_end": "1960-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/715/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -504,15 +468,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/861",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/861/title"
             ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "label": "Georgia O'Keeffe: The Artist in Focus",
             "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "begin_of_the_begin": "1998-11-15T00:00:00",
+                "end_of_the_end": "1999-01-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/861/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -521,32 +485,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/249",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/249/title"
-            ],
-            "label": "Annual Exhibition of Contemporary American Painting",
+            "id": "http://data.okeeffemuseum.org/exhibition/370",
             "timespan": {
                 "begin_of_the_begin": "1944-11-14T00:00:00",
                 "end_of_the_end": "1944-12-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/249/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/258",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/258/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings, 1944",
-            "timespan": {
-                "begin_of_the_begin": "1944-01-22T00:00:00",
-                "end_of_the_end": "1944-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/258/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/370/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -572,41 +515,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/521",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/249",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/521/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/249/title"
             ],
-            "label": "The Museum and Its Friends: Eighteen living American Artists Selected by the Friends of the Whitney Museum",
-            "timespan": {
-                "begin_of_the_begin": "1959-03-05T00:00:00",
-                "end_of_the_end": "1959-11-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/521/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/715",
-            "timespan": {
-                "begin_of_the_begin": "1959-12-12T00:00:00",
-                "end_of_the_end": "1960-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/715/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/370",
+            "label": "Annual Exhibition of Contemporary American Painting",
             "timespan": {
                 "begin_of_the_begin": "1944-11-14T00:00:00",
                 "end_of_the_end": "1944-12-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/370/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/249/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -615,11 +532,71 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/756",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/498",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/498/title"
+            ],
+            "label": "Four Centuries of Still-Life: Inaugural Exhibition",
             "timespan": {
-                "begin_of_the_begin": "1959-03-05T00:00:00",
-                "end_of_the_end": "1959-04-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/756/timespan",
+                "begin_of_the_begin": "1959-12-12T00:00:00",
+                "end_of_the_end": "1960-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/498/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/640",
+            "timespan": {
+                "begin_of_the_begin": "1956-01-22T00:00:00",
+                "end_of_the_end": "1956-02-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/640/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/737",
+            "timespan": {
+                "begin_of_the_begin": "1959-01-12T00:00:00",
+                "end_of_the_end": "1959-01-24T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/737/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/508",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/508/title"
+            ],
+            "label": "Paintings and Sculpture from the Norton Gallery Collection",
+            "timespan": {
+                "begin_of_the_begin": "1959-01-12T00:00:00",
+                "end_of_the_end": "1959-01-24T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/508/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "timespan": {
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -641,15 +618,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/432",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/432/title"
-            ],
-            "label": "The One Hundred and Fifty-First Exhibition of American Painting and Sculpture",
+            "id": "http://data.okeeffemuseum.org/exhibition/1228",
             "timespan": {
-                "begin_of_the_begin": "1956-01-22T00:00:00",
-                "end_of_the_end": "1956-02-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/432/timespan",
+                "begin_of_the_begin": "1998-11-15T00:00:00",
+                "end_of_the_end": "1999-01-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/264",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/264/title"
+            ],
+            "label": "Americna Painting from the Eighteenth Century to the Present Day",
+            "timespan": {
+                "begin_of_the_begin": "1946-06-01T00:00:00",
+                "end_of_the_end": "1946-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/264/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -675,28 +665,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1228",
-            "timespan": {
-                "begin_of_the_begin": "1998-11-15T00:00:00",
-                "end_of_the_end": "1999-01-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/861",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/861/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
             ],
-            "label": "Georgia O'Keeffe: The Artist in Focus",
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
             "timespan": {
-                "begin_of_the_begin": "1998-11-15T00:00:00",
-                "end_of_the_end": "1999-01-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/861/timespan",
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -718,15 +695,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/508",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/508/title"
-            ],
-            "label": "Paintings and Sculpture from the Norton Gallery Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/393",
             "timespan": {
-                "begin_of_the_begin": "1959-01-12T00:00:00",
-                "end_of_the_end": "1959-01-24T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/508/timespan",
+                "begin_of_the_begin": "1944-01-22T00:00:00",
+                "end_of_the_end": "1944-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/393/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/432",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/432/title"
+            ],
+            "label": "The One Hundred and Fifty-First Exhibition of American Painting and Sculpture",
+            "timespan": {
+                "begin_of_the_begin": "1956-01-22T00:00:00",
+                "end_of_the_end": "1956-02-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/432/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/521",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/521/title"
+            ],
+            "label": "The Museum and Its Friends: Eighteen living American Artists Selected by the Friends of the Whitney Museum",
+            "timespan": {
+                "begin_of_the_begin": "1959-03-05T00:00:00",
+                "end_of_the_end": "1959-11-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/521/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/656",
+            "timespan": {
+                "begin_of_the_begin": "1957-02-03T00:00:00",
+                "end_of_the_end": "1957-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/656/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

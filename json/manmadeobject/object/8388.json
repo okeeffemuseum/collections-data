@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -31,19 +36,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8388/other_id",
             "type": "Identifier",
-            "value": "269, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/identifier",
-            "type": "Identifier",
-            "value": "8388"
+            "value": "269, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -68,39 +61,44 @@
             "id": "http://data.okeeffemuseum.org/object/8388/title",
             "type": "Name",
             "value": "Untitled (Red Canna)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/identifier",
+            "type": "Identifier",
+            "value": "8388"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Red Canna), 1918-1920. Watercolor on paper, 19 3/8 x 13 inches. Private Collection. Mr. and Mrs. James A. Fisher, Pittsburgh, Pennsylvania, 1982",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8388/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8388/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8388/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1913-01-01T00:00:00",
-            "end_of_the_end": "1925-12-31T00:00:00",
+            "begin_of_the_begin": "1918-01-01T00:00:00",
+            "end_of_the_end": "1920-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8388/production/timespan/0",
             "label": "1918-1920",
             "type": "TimeSpan"
@@ -196,100 +212,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Mr. and Mrs. James A. Fisher, Pittsburgh, Pennsylvania, 1982      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Red Canna), 1918-1920. Watercolor on paper, 19 3/8 x 13 inches. Private Collection. Mr. and Mrs. James A. Fisher, Pittsburgh, Pennsylvania, 1982",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/Measurement/",
-            "type": "LinguisticObject",
-            "value": "19 3/8 x 13 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); Selma Schubart, New York, NY, 1920s; Private collection, New York, NY, bequest, 1957; (Robert Miller Gallery, Inc., New York, NY); Hirschl & Adler Galleries, Inc., New York, NY, 1978; Private collection, San Francisco, California, 1978; Hirschl & Adler Galleries, Inc., New York, NY 1981         ",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -315,41 +237,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8388/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8388/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8388/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 19 3/8 x 13 inches"
+            "value": "Mr. and Mrs. James A. Fisher, Pittsburgh, Pennsylvania, 1982      "
         },
         {
             "classified_as": [
@@ -366,6 +261,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); Selma Schubart, New York, NY, 1920s; Private collection, New York, NY, bequest, 1957; (Robert Miller Gallery, Inc., New York, NY); Hirschl & Adler Galleries, Inc., New York, NY, 1978; Private collection, San Francisco, California, 1978; Hirschl & Adler Galleries, Inc., New York, NY 1981         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Red Canna), 1918-1920. Watercolor on paper, 19 3/8 x 13 inches. Private Collection. Mr. and Mrs. James A. Fisher, Pittsburgh, Pennsylvania, 1982",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -374,6 +293,103 @@
             "id": "http://data.okeeffemuseum.org/object/8388/signaturemarks",
             "type": "LinguisticObject",
             "value": "Verso: inaccessible"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 19 3/8 x 13 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/Measurement/",
+            "type": "LinguisticObject",
+            "value": "19 3/8 x 13 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8388/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -404,11 +420,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
             "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -422,6 +438,19 @@
                 "begin_of_the_begin": "1988-03-05T00:00:00",
                 "end_of_the_end": "1988-06-19T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "timespan": {
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -465,19 +494,6 @@
                 "begin_of_the_begin": "1987-11-01T00:00:00",
                 "end_of_the_end": "1989-06-18T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
-            "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

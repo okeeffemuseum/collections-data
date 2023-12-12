@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -35,30 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/otheridentifier",
-            "type": "Identifier",
-            "value": "782"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/other_id",
-            "type": "Identifier",
-            "value": "782, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -71,14 +56,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/1007/otheridentifier",
             "type": "Identifier",
-            "value": "2006.5.134"
+            "value": "782"
         },
         {
             "classified_as": [
@@ -91,15 +76,34 @@
             "id": "http://data.okeeffemuseum.org/object/1007/title",
             "type": "Name",
             "value": "Paul's Kachina"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/other_id",
+            "type": "Identifier",
+            "value": "782, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.5.134"
         }
     ],
     "label": "Georgia O'Keeffe. Paul's Kachina, 1931. Oil on board, 8 7/16 inches in diameter. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.134]",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/1007/material/1",
-            "label": "board",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -107,26 +111,24 @@
             "id": "http://data.okeeffemuseum.org/object/1007/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/1007/material/1",
+            "label": "board",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/296",
+        "label": "Native American Objects",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1007/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1931-01-31T00:00:00",
             "end_of_the_end": "1931-12-31T00:00:00",
@@ -225,14 +245,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/1007/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Inscriptions: Verso: \n1. \"Paul's Kachina / 31\" (graphite) \n2. OK * (graphite)"
+            "value": "Paul's Kachina, 1931"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/caption/",
+            "label": "Georgia O'Keeffe. Paul's Kachina, 1931. Oil on board, 8 7/16 inches in diameter. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.134]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Pemanent \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
         },
         {
             "classified_as": [
@@ -245,6 +316,18 @@
             "id": "http://data.okeeffemuseum.org/object/1007/CreditLine/",
             "type": "LinguisticObject",
             "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -271,55 +354,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/1007/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/caption/",
-            "label": "Georgia O'Keeffe. Paul's Kachina, 1931. Oil on board, 8 7/16 inches in diameter. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.134]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/Right/",
+            "id": "http://data.okeeffemuseum.org/object/1007/signaturemarks",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Inscriptions: Verso: \n1. \"Paul's Kachina / 31\" (graphite) \n2. OK * (graphite)"
         },
         {
             "classified_as": [
@@ -336,53 +395,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/1007/Right/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Paul's Kachina, 1931"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -404,14 +424,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1007/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/1007/Materials/",
             "type": "LinguisticObject",
-            "value": "1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Pemanent \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1007/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -424,18 +456,6 @@
             "id": "http://data.okeeffemuseum.org/object/1007/Description/",
             "type": "LinguisticObject",
             "value": "In the Hopi culture, the term Katsina (Katsinam, plural), also Kachina, is only used in reference to spirit beings. The Hopi term for the carved wooden figures that represent the Katsinam is Katsina tihu (tithu, plural). Georgia O\u2019Keeffe created paintings of Hopi katsina dolls (tithu) between 1931 and 1942. These religious figures were highly visible and available to non-Hopi and non-Pueblo people during this time, but the museum has no record regarding why she painted or drew these figures nor where she saw them. \n \nThe head of a kachina is the central focus of this round panel.  The head is painted yellow, and two orange shapes protrude from the head on each side.  Feathers extend from the top of the head and from behind on the left side.  Five cross marks in various colors also decorate the face."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1007/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -478,6 +498,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/37/title"
@@ -487,19 +520,6 @@
                 "begin_of_the_begin": "1997-07-17T00:00:00",
                 "end_of_the_end": "1998-03-30T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -25,18 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8527",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/other_id",
-            "type": "Identifier",
-            "value": "438, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -57,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/identifier",
-            "type": "Identifier",
-            "value": "8527"
+            "id": "http://data.okeeffemuseum.org/object/8527/title",
+            "type": "Name",
+            "value": "Pink Moon Over Water"
         },
         {
             "classified_as": [
@@ -69,9 +66,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/title",
-            "type": "Name",
-            "value": "Pink Moon Over Water"
+            "id": "http://data.okeeffemuseum.org/object/8527/identifier",
+            "type": "Identifier",
+            "value": "8527"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/other_id",
+            "type": "Identifier",
+            "value": "438, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Moon Over Water, 1923. Oil on canvas, 17 x 20 inches. Smith College Museum of Art. Private collection, Cedarburg, Wisconsin, 1961",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8527/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1918-01-01T00:00:00",
-            "end_of_the_end": "1928-12-31T00:00:00",
+            "begin_of_the_begin": "1923-01-01T00:00:00",
+            "end_of_the_end": "1923-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8527/production/timespan/0",
             "label": "1923",
             "type": "TimeSpan"
@@ -206,87 +226,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8527/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 17 x 20 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1924 New York (Anderson), no. 25, as The Ocean and the Pink Moon"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pink Moon Over Water, 1923"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Cedarburg, Wisconsin, 1961      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Pink Moon Over Water / 23\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe / York Beach\" (AS, black crayon) 4. \"1924\" (DB, graphite) 5. ASS"
         },
         {
             "classified_as": [
@@ -303,14 +250,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8527/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Pink Moon Over Water / 23\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe / York Beach\" (AS, black crayon) 4. \"1924\" (DB, graphite) 5. ASS"
+            "value": "Oil on canvas, 17 x 20 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/provenance/",
+            "label": "(The Downtown Gallery, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/caption/",
+            "label": "Georgia O'Keeffe. Pink Moon Over Water, 1923. Oil on canvas, 17 x 20 inches. Smith College Museum of Art. Private collection, Cedarburg, Wisconsin, 1961",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -335,28 +316,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8527/caption/",
-            "label": "Georgia O'Keeffe. Pink Moon Over Water, 1923. Oil on canvas, 17 x 20 inches. Smith College Museum of Art. Private collection, Cedarburg, Wisconsin, 1961",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8527/maker_role",
             "type": "LinguisticObject",
-            "value": "Smith College Museum of Art"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -373,14 +342,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8527/provenance/",
-            "label": "(The Downtown Gallery, New York, NY)         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8527/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink Moon Over Water, 1923"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1924 New York (Anderson), no. 25, as The Ocean and the Pink Moon"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Cedarburg, Wisconsin, 1961      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8527/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Smith College Museum of Art"
         }
     ],
     "refers_to": [],

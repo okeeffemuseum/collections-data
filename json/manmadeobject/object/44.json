@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
@@ -35,18 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/identifier",
-            "type": "Identifier",
-            "value": "44"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -55,6 +52,18 @@
             "id": "http://data.okeeffemuseum.org/object/44/otheridentifier",
             "type": "Identifier",
             "value": "1474"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/other_id",
+            "type": "Identifier",
+            "value": "1474, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -71,14 +80,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/other_id",
+            "id": "http://data.okeeffemuseum.org/object/44/identifier",
             "type": "Identifier",
-            "value": "1474, Catalogue Raisonne Number"
+            "value": "44"
         },
         {
             "classified_as": [
@@ -109,24 +118,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/44/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1962-01-01T00:00:00",
             "end_of_the_end": "1963-12-31T00:00:00",
@@ -225,31 +245,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/44/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/provenance/",
-            "label": "Estate of the artist, 1986 ^The Georgia O'Keeffe Foundation, Abiquiu, N.Mex., 1993 ^The Burnett Foundation, Fort Worth, Tex., 1996 (partial share)   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
+            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
         },
         {
             "classified_as": [
@@ -271,38 +274,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/44/maker_role",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/44/Description/",
             "type": "LinguisticObject",
-            "value": "36 1/8 x 48 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Large canvas of aerial view of the sky from above the cloud level.  To the point of the horizon at 2/3 of the canvas the sky is vibrant blue dotted with islands of white clouds like icebergs in the sea. The top 1/3 is the pale horizon fading from salmon peach to grey-blue to the edge of the canvas."
         },
         {
             "classified_as": [
@@ -319,48 +315,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 36 1/8 x 48 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/Right/",
+            "id": "http://data.okeeffemuseum.org/object/44/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300435449",
-                    "label": "current location description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/gallery_location",
-            "type": "LinguisticObject",
-            "value": "Gallery 3/Museum"
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -372,6 +334,81 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/44/caption/",
             "label": "Georgia O'Keeffe. Above the Clouds I, 1962-1963. Oil on canvas, 36 1/8 x 48 1/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.5.14]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 1/8 x 48 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 1/8 x 48 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/44/provenance/",
+            "label": "Estate of the artist, 1986 ^The Georgia O'Keeffe Foundation, Abiquiu, N.Mex., 1993 ^The Burnett Foundation, Fort Worth, Tex., 1996 (partial share)   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
             "type": "LinguisticObject"
         },
         {
@@ -399,18 +436,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/44/Description/",
-            "type": "LinguisticObject",
-            "value": "Large canvas of aerial view of the sky from above the cloud level.  To the point of the horizon at 2/3 of the canvas the sky is vibrant blue dotted with islands of white clouds like icebergs in the sea. The top 1/3 is the pale horizon fading from salmon peach to grey-blue to the edge of the canvas."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -423,31 +448,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/44/Right/",
             "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300435449",
+                    "label": "current location description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/44/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/44/gallery_location",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Gallery 3/Museum"
         }
     ],
     "refers_to": [],
@@ -571,17 +591,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264578",
-                    "label": "Web pages",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://www.arsny.com/requests",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300041273",
                     "label": "prints",
                     "type": "Type"
@@ -589,6 +598,17 @@
             ],
             "id": "https://prints.okeeffemuseum.org/detail/458772",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264578",
+                    "label": "Web pages",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://www.arsny.com/requests",
+            "type": "LinguisticObject"
         }
     ],
     "type": "ManMadeObject",
@@ -597,11 +617,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "id": "http://data.okeeffemuseum.org/exhibition/132",
             "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -640,13 +660,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1236",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/76",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/76/title"
@@ -658,30 +671,6 @@
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/76/timespan",
                 "type": "TimeSpan"
             },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/132",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/867",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/867/title"
-            ],
-            "label": "Seeing Beyond",
             "type": "Activity"
         },
         {
@@ -701,6 +690,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/37/title"
@@ -712,6 +714,24 @@
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
                 "type": "TimeSpan"
             },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/867",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/867/title"
+            ],
+            "label": "Seeing Beyond",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1236",
             "type": "Activity"
         }
     ]

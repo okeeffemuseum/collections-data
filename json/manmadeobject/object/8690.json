@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -33,6 +42,30 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8690/title",
+            "type": "Name",
+            "value": "Two Calla Lilies on Pink"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/other_id",
+            "type": "Identifier",
+            "value": "629, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8690/identifier",
             "type": "Identifier",
             "value": "8690"
@@ -48,34 +81,15 @@
             "id": "http://data.okeeffemuseum.org/object/8690/otheridentifier",
             "type": "Identifier",
             "value": "629"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/other_id",
-            "type": "Identifier",
-            "value": "629, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/title",
-            "type": "Name",
-            "value": "Two Calla Lilies on Pink"
         }
     ],
     "label": "Georgia O'Keeffe. Two Calla Lilies on Pink, 1928. Oil on canvas, 40 x 30 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Bequest of Georgia O'Keeffe for the Alfred Stieglitz Collection (1987-70-4)",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8690/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8690/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8690/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8690/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1923-01-01T00:00:00",
-            "end_of_the_end": "1933-12-31T00:00:00",
+            "begin_of_the_begin": "1928-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8690/production/timespan/0",
             "label": "1928",
             "type": "TimeSpan"
@@ -206,14 +226,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8690/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8690/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Philadelphia Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Philadelphia Museum of Art: Bequest of Georgia O'Keeffe for the Alfred Stieglitz Collection (1987-70-4)      "
         },
         {
             "classified_as": [
@@ -221,38 +258,24 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8690/caption/",
-            "label": "Georgia O'Keeffe. Two Calla Lilies on Pink, 1928. Oil on canvas, 40 x 30 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Bequest of Georgia O'Keeffe for the Alfred Stieglitz Collection (1987-70-4)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8690/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/Measurement/",
-            "type": "LinguisticObject",
-            "value": "40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Backing: 1. \"2 Calla Lilies on Pink \u2013 28?\" (graphite) 2. OK {5star} (graphite) 3. \"Silvered strips to / separate glass from canvas \u2013 \" (DB, graphite)"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300163343",
                     "label": "media",
@@ -262,38 +285,11 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8690/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on canvas, 40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Two Calla Lilies on Pink, 1928"
         },
         {
             "classified_as": [
@@ -315,19 +311,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8690/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8690/exhibitions",
             "type": "LinguisticObject",
-            "value": "Philadelphia Museum of Art"
+            "value": "1962 New York (Downtown \u2013 Selection); 1963 New York (Downtown \u2013 Group); 1963 Philadelphia (Philadelphia Museum of Art \u2013 Flowers); 1987 Washington, no. 70; 1993 London (Hayward), no. 52"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/Measurement/",
+            "type": "LinguisticObject",
+            "value": "40 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -344,43 +359,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Philadelphia Museum of Art: Bequest of Georgia O'Keeffe for the Alfred Stieglitz Collection (1987-70-4)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8690/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1962 New York (Downtown \u2013 Selection); 1963 New York (Downtown \u2013 Group); 1963 Philadelphia (Philadelphia Museum of Art \u2013 Flowers); 1987 Washington, no. 70; 1993 London (Hayward), no. 52"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8690/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8690/caption/",
+            "label": "Georgia O'Keeffe. Two Calla Lilies on Pink, 1928. Oil on canvas, 40 x 30 inches. Philadelphia Museum of Art. Philadelphia Museum of Art: Bequest of Georgia O'Keeffe for the Alfred Stieglitz Collection (1987-70-4)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Backing: 1. \"2 Calla Lilies on Pink \u2013 28?\" (graphite) 2. OK {5star} (graphite) 3. \"Silvered strips to / separate glass from canvas \u2013 \" (DB, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8690/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Two Calla Lilies on Pink, 1928"
         }
     ],
     "refers_to": [],
@@ -408,17 +428,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300041273",
-                    "label": "prints",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://prints.okeeffemuseum.org/detail/477756",
-            "type": "InformationObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -426,40 +435,21 @@
             ],
             "id": "http://data.okeeffemuseum.org/%20https://philamuseum.org/collection/object/83649",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/477756",
+            "type": "InformationObject"
         }
     ],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/60",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/60/title"
-            ],
-            "label": "O'Keeffe's O'Keeffes: The Artist's Collection",
-            "timespan": {
-                "begin_of_the_begin": "2001-05-04T00:00:00",
-                "end_of_the_end": "2002-05-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/60/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -477,97 +467,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/882",
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
             "timespan": {
-                "begin_of_the_begin": "1962-11-01T00:00:00",
-                "end_of_the_end": "1962-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/882/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1213",
-            "timespan": {
-                "begin_of_the_begin": "1993-10-30T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
-            ],
-            "label": "Georgia O'Keeffe: American & Modern",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/945",
-            "timespan": {
-                "begin_of_the_begin": "1963-05-02T00:00:00",
-                "end_of_the_end": "1963-06-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/945/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
-            "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
-            "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/642",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/642/title"
-            ],
-            "label": "A World of Flowers",
-            "timespan": {
-                "begin_of_the_begin": "1963-05-02T00:00:00",
-                "end_of_the_end": "1963-06-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/642/timespan",
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -589,11 +493,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/934",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/636",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/636/title"
+            ],
+            "label": "Group Exhibition",
             "timespan": {
                 "begin_of_the_begin": "1963-11-11T00:00:00",
                 "end_of_the_end": "1963-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/934/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/636/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -602,11 +510,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/99",
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
             "timespan": {
-                "begin_of_the_begin": "2001-05-04T00:00:00",
-                "end_of_the_end": "2001-08-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -615,11 +523,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
             "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -645,11 +553,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/60",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/60/title"
+            ],
+            "label": "O'Keeffe's O'Keeffes: The Artist's Collection",
             "timespan": {
-                "begin_of_the_begin": "1993-07-15T00:00:00",
-                "end_of_the_end": "1993-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2002-05-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/60/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -658,11 +570,54 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "id": "http://data.okeeffemuseum.org/exhibition/99",
             "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2001-08-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
+            ],
+            "label": "Georgia O'Keeffe: American & Modern",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/882",
+            "timespan": {
+                "begin_of_the_begin": "1962-11-01T00:00:00",
+                "end_of_the_end": "1962-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/882/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -688,6 +643,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/945",
+            "timespan": {
+                "begin_of_the_begin": "1963-05-02T00:00:00",
+                "end_of_the_end": "1963-06-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/945/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "timespan": {
+                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1169",
             "timespan": {
                 "begin_of_the_begin": "1987-11-01T00:00:00",
@@ -701,15 +682,54 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/636",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/636/title"
-            ],
-            "label": "Group Exhibition",
+            "id": "http://data.okeeffemuseum.org/exhibition/934",
             "timespan": {
                 "begin_of_the_begin": "1963-11-11T00:00:00",
                 "end_of_the_end": "1963-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/636/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/934/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/642",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/642/title"
+            ],
+            "label": "A World of Flowers",
+            "timespan": {
+                "begin_of_the_begin": "1963-05-02T00:00:00",
+                "end_of_the_end": "1963-06-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/642/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-15T00:00:00",
+                "end_of_the_end": "1993-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

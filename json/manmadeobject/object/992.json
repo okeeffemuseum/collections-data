@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -47,18 +56,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/other_id",
-            "type": "Identifier",
-            "value": "290, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -67,6 +64,18 @@
             "id": "http://data.okeeffemuseum.org/object/992/title",
             "type": "Name",
             "value": "Series I- No. 10 A"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/other_id",
+            "type": "Identifier",
+            "value": "290, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -96,20 +105,24 @@
     "label": "Georgia O'Keeffe. Series I- No. 10 A, 1919. Oil on board, 20 1/8 x 15 7/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.85]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/992/material/1",
-            "label": "board",
-            "type": "Material"
-        },
-        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/992/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/992/material/1",
+            "label": "board",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -145,12 +158,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -190,12 +203,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/992/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1919-01-01T00:00:00",
             "end_of_the_end": "1919-12-31T00:00:00",
@@ -222,71 +242,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/caption/",
-            "label": "Georgia O'Keeffe. Series I- No. 10 A, 1919. Oil on board, 20 1/8 x 15 7/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.85]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Loans"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -302,47 +257,59 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/992/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/992/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Series I- No. 10 A, 1919"
+            "value": "Oil on board, 20 1/8 x 15 7/8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/Description/",
+            "type": "LinguisticObject",
+            "value": "This work is quite abstract in nature.  A large, light-colored form with softly-curving edges occupies much of the canvas.  It is mainly blue; however, a yellowish-white area fills the upper-central portion of the form.  A series of swirling blue and green lines occupies the background along the upper edge of the work."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 1/8 x 15 7/8 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -370,52 +337,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/Measurement/",
-            "type": "LinguisticObject",
-            "value": "20 1/8 x 15 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/992/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on board, 20 1/8 x 15 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -428,14 +349,113 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/992/Description/",
+            "id": "http://data.okeeffemuseum.org/object/992/caption/",
+            "label": "Georgia O'Keeffe. Series I- No. 10 A, 1919. Oil on board, 20 1/8 x 15 7/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.85]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/maker_role",
             "type": "LinguisticObject",
-            "value": "This work is quite abstract in nature.  A large, light-colored form with softly-curving edges occupies much of the canvas.  It is mainly blue; however, a yellowish-white area fills the upper-central portion of the form.  A series of swirling blue and green lines occupies the background along the upper edge of the work."
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Series I- No. 10 A, 1919"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Loans"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/992/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
         }
     ],
     "refers_to": [],

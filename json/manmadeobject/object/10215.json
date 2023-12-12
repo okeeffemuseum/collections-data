@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -59,7 +69,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10215/other_id",
             "type": "Identifier",
-            "value": "1088, Catalogue Raisonne Number"
+            "value": "1088, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -77,17 +87,21 @@
     "label": "Georgia O'Keeffe. Untitled (Bone), 1944-1945. Graphite on paper, 9 x 12 inches. Private Collection",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/10215/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/10215/material/0",
+            "label": "graphite",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/10215/material/0",
-            "label": "Graphite",
+            "id": "http://data.okeeffemuseum.org/object/10215/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/297",
+        "label": "Bones",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -123,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -168,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10215/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1939-01-01T00:00:00",
-            "end_of_the_end": "1950-12-31T00:00:00",
+            "begin_of_the_begin": "1944-01-01T00:00:00",
+            "end_of_the_end": "1945-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10215/production/timespan/0",
             "label": "1944-1945",
             "type": "TimeSpan"
@@ -200,84 +221,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10215/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10215/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper, 9 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10215/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10215/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Bone), 1944-1945"
-        },
         {
             "classified_as": [
                 {
@@ -310,6 +253,23 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10215/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -318,6 +278,67 @@
             "id": "http://data.okeeffemuseum.org/object/10215/caption/",
             "label": "Georgia O'Keeffe. Untitled (Bone), 1944-1945. Graphite on paper, 9 x 12 inches. Private Collection",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10215/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10215/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Bone), 1944-1945"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10215/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 9 x 12 inches"
         },
         {
             "classified_as": [

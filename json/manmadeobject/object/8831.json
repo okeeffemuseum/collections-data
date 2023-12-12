@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -10,6 +15,11 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -21,6 +31,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8831",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8831/other_id",
+            "type": "Identifier",
+            "value": "833, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -36,14 +58,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8831/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8831/identifier",
             "type": "Identifier",
-            "value": "833, Catalogue Raisonne Number"
+            "value": "8831"
         },
         {
             "classified_as": [
@@ -56,18 +78,6 @@
             "id": "http://data.okeeffemuseum.org/object/8831/otheridentifier",
             "type": "Identifier",
             "value": "833"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8831/identifier",
-            "type": "Identifier",
-            "value": "8831"
         }
     ],
     "label": "Georgia O'Keeffe. Banana Blossom, 1934. Charcoal on paper, 21 1/2 x 14 3/8 inches. Hudson River Museum. Collection of The Hudson River Museum, Bequest of Carl E. Hiller [1992] (92.1.1)",
@@ -79,28 +89,21 @@
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8831/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +200,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8831/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1929-01-01T00:00:00",
-            "end_of_the_end": "1939-12-31T00:00:00",
+            "begin_of_the_begin": "1934-01-01T00:00:00",
+            "end_of_the_end": "1934-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8831/production/timespan/0",
             "label": "1934",
             "type": "TimeSpan"
@@ -204,65 +225,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8831/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8831/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Banana Blossom, 1934"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8831/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Hudson River Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8831/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8831/caption/",
-            "label": "Georgia O'Keeffe. Banana Blossom, 1934. Charcoal on paper, 21 1/2 x 14 3/8 inches. Hudson River Museum. Collection of The Hudson River Museum, Bequest of Carl E. Hiller [1992] (92.1.1)",
-            "type": "LinguisticObject"
+            "value": "Charcoal on paper, 21 1/2 x 14 3/8 inches"
         },
         {
             "classified_as": [
@@ -279,14 +254,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8831/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8831/signaturemarks",
             "type": "LinguisticObject",
-            "value": "1935 New York (An American Place), among nos. 17-20, as Drawings, Banana Flowers?; 1986 New York (Hirschl & Adler), no. 38; 1994 Hamilton"
+            "value": "Verso: inaccessible"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8831/provenance/",
+            "label": "(An American Place, New York, NY); Morton and Enid Frank Goldsmith, Scarsdale, New York, c. 1940; Edwin and Clarice Hiller, White Plains, New York, gift, 1940s; Estate of Edwin Hiller, 1972; Dr. Carl E. Hiller, Monhegan Island, Maine, 1973; Estate of Dr. Carl E. Hiller, 1992         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8831/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Hudson River Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8831/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Banana Blossom, 1934"
         },
         {
             "classified_as": [
@@ -303,14 +329,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8831/provenance/",
-            "label": "(An American Place, New York, NY); Morton and Enid Frank Goldsmith, Scarsdale, New York, c. 1940; Edwin and Clarice Hiller, White Plains, New York, gift, 1940s; Estate of Edwin Hiller, 1972; Dr. Carl E. Hiller, Monhegan Island, Maine, 1973; Estate of Dr. Carl E. Hiller, 1992         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8831/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1935 New York (An American Place), among nos. 17-20, as Drawings, Banana Flowers?; 1986 New York (Hirschl & Adler), no. 38; 1994 Hamilton"
         },
         {
             "classified_as": [
@@ -344,36 +370,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8831/caption/",
+            "label": "Georgia O'Keeffe. Banana Blossom, 1934. Charcoal on paper, 21 1/2 x 14 3/8 inches. Hudson River Museum. Collection of The Hudson River Museum, Bequest of Carl E. Hiller [1992] (92.1.1)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8831/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8831/artist_caption",
             "type": "LinguisticObject",
-            "value": "Charcoal on paper, 21 1/2 x 14 3/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8831/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible"
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -416,62 +437,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/850",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/850/title"
-            ],
-            "label": "Georgia O'Keeffe: The Bermuda Respite",
-            "timespan": {
-                "begin_of_the_begin": "1994-10-28T00:00:00",
-                "end_of_the_end": "1995-01-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/850/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/249",
-            "timespan": {
-                "begin_of_the_begin": "1935-01-27T00:00:00",
-                "end_of_the_end": "1935-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/249/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1160",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-06-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1161",
-            "timespan": {
-                "begin_of_the_begin": "1986-06-14T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/167",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/167/title"
@@ -502,6 +467,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-06-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/819/title"
@@ -511,6 +489,49 @@
                 "begin_of_the_begin": "1986-04-26T00:00:00",
                 "end_of_the_end": "1986-07-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1161",
+            "timespan": {
+                "begin_of_the_begin": "1986-06-14T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/249",
+            "timespan": {
+                "begin_of_the_begin": "1935-01-27T00:00:00",
+                "end_of_the_end": "1935-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/249/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/850",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/850/title"
+            ],
+            "label": "Georgia O'Keeffe: The Bermuda Respite",
+            "timespan": {
+                "begin_of_the_begin": "1994-10-28T00:00:00",
+                "end_of_the_end": "1995-01-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/850/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -25,6 +34,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8864",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8864/otheridentifier",
+            "type": "Identifier",
+            "value": "886"
+        },
         {
             "classified_as": [
                 {
@@ -59,19 +80,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8864/other_id",
             "type": "Identifier",
-            "value": "886, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8864/otheridentifier",
-            "type": "Identifier",
-            "value": "886"
+            "value": "886, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Jimson Weed, 1936. Oil on canvas, 70 x 83 1/2 inches. Indianapolis Museum of Art. Indianapolis Museum of Art, Gift of Eli Lilly and Company (IMA 1997.131)",
@@ -85,24 +94,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -117,16 +119,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -137,17 +150,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -162,16 +164,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -188,9 +201,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8864/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1931-01-01T00:00:00",
-            "end_of_the_end": "1941-12-31T00:00:00",
+            "begin_of_the_begin": "1936-01-01T00:00:00",
+            "end_of_the_end": "1936-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8864/production/timespan/0",
             "label": "1936",
             "type": "TimeSpan"
@@ -204,11 +224,60 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8864/caption/",
-            "label": "Georgia O'Keeffe. Jimson Weed, 1936. Oil on canvas, 70 x 83 1/2 inches. Indianapolis Museum of Art. Indianapolis Museum of Art, Gift of Eli Lilly and Company (IMA 1997.131)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8864/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Indianapolis Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8864/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 70 x 83 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8864/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Jimson Weed, 1936"
         },
         {
             "classified_as": [
@@ -225,6 +294,23 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8864/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -237,13 +323,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -252,60 +333,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8864/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8864/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 70 x 83 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8864/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8864/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8864/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Jimson Weed, 1936"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -322,36 +352,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8864/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8864/Materials/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8864/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Indianapolis Museum of Art"
+            "id": "http://data.okeeffemuseum.org/object/8864/caption/",
+            "label": "Georgia O'Keeffe. Jimson Weed, 1936. Oil on canvas, 70 x 83 1/2 inches. Indianapolis Museum of Art. Indianapolis Museum of Art, Gift of Eli Lilly and Company (IMA 1997.131)",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

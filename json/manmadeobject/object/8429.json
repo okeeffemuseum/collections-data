@@ -11,6 +11,11 @@
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -24,18 +29,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/otheridentifier",
-            "type": "Identifier",
-            "value": "322"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -43,7 +36,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8429/other_id",
             "type": "Identifier",
-            "value": "322, Catalogue Raisonne Number"
+            "value": "322, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -68,39 +61,44 @@
             "id": "http://data.okeeffemuseum.org/object/8429/identifier",
             "type": "Identifier",
             "value": "8429"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/otheridentifier",
+            "type": "Identifier",
+            "value": "322"
         }
     ],
     "label": "Georgia O'Keeffe. No. 36 \u2013 Special, 1920. Watercolor on paper, 15 1/2 x 11 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane (1989.703)",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8429/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/8429/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8429/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/8429/material/0",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8429/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1915-01-01T00:00:00",
-            "end_of_the_end": "1925-12-31T00:00:00",
+            "begin_of_the_begin": "1920-01-01T00:00:00",
+            "end_of_the_end": "1920-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8429/production/timespan/0",
             "label": "1920",
             "type": "TimeSpan"
@@ -199,94 +215,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8429/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Mr. and Mrs. William H. Lane, Leominster, Massachusetts, 1954         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8429/CreditLine/",
             "type": "LinguisticObject",
-            "value": "15 1/2 x 11 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/caption/",
-            "label": "Georgia O'Keeffe. No. 36 \u2013 Special, 1920. Watercolor on paper, 15 1/2 x 11 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane (1989.703)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 15 1/2 x 11 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8429/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Mueum of Fine Arts (MFA Boston)"
+            "value": "Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane (1989.703)      "
         },
         {
             "classified_as": [
@@ -303,14 +239,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8429/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8429/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane (1989.703)      "
+            "value": "Watercolor on paper, 15 1/2 x 11 1/4 inches"
         },
         {
             "classified_as": [
@@ -337,6 +283,52 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/caption/",
+            "label": "Georgia O'Keeffe. No. 36 \u2013 Special, 1920. Watercolor on paper, 15 1/2 x 11 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane (1989.703)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Mueum of Fine Arts (MFA Boston)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -350,6 +342,30 @@
             "id": "http://data.okeeffemuseum.org/object/8429/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/Measurement/",
+            "type": "LinguisticObject",
+            "value": "15 1/2 x 11 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8429/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Mr. and Mrs. William H. Lane, Leominster, Massachusetts, 1954         ",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

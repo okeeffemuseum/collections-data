@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -28,30 +33,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/other_id",
-            "type": "Identifier",
-            "value": "201, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/title",
-            "type": "Name",
-            "value": "Evening Star No. III"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -72,39 +53,56 @@
             "id": "http://data.okeeffemuseum.org/object/8346/otheridentifier",
             "type": "Identifier",
             "value": "201"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/other_id",
+            "type": "Identifier",
+            "value": "201, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/title",
+            "type": "Name",
+            "value": "Evening Star No. III"
         }
     ],
     "label": "Georgia O'Keeffe. Evening Star No. III, 1917. Watercolor on paper, 8 7/8 x 11 7/8 inches. Museum of Modern Art (MoMA). The Museum of Modern Art, New York. Mr. and Mrs. Donald B. Straus Fund [1958] (91.58)",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8346/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8346/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8346/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8346/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -200,6 +216,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1958 New York (Downtown \u2013 Watercolor), no. 44; 1959 New York (MOMA \u2013 Drawings); 1985 Santa Fe, no. 19; 1992 Washington"
+        },
         {
             "classified_as": [
                 {
@@ -215,13 +243,54 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 7/8 x 11 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/caption/",
+            "label": "Georgia O'Keeffe. Evening Star No. III, 1917. Watercolor on paper, 8 7/8 x 11 7/8 inches. Museum of Modern Art (MoMA). The Museum of Modern Art, New York. Mr. and Mrs. Donald B. Straus Fund [1958] (91.58)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -233,23 +302,6 @@
             "id": "http://data.okeeffemuseum.org/object/8346/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Watercolor on paper, 8 7/8 x 11 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Museum of Modern Art (MoMA)"
         },
         {
             "classified_as": [
@@ -283,69 +335,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 New York (Downtown \u2013 Watercolor), no. 44; 1959 New York (MOMA \u2013 Drawings); 1985 Santa Fe, no. 19; 1992 Washington"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/caption/",
-            "label": "Georgia O'Keeffe. Evening Star No. III, 1917. Watercolor on paper, 8 7/8 x 11 7/8 inches. Museum of Modern Art (MoMA). The Museum of Modern Art, New York. Mr. and Mrs. Donald B. Straus Fund [1958] (91.58)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8346/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Evening Star No. III, 1917"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -358,14 +347,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8346/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8346/institution_caption",
             "type": "LinguisticObject",
-            "value": "8 7/8 x 11 7/8 inches"
+            "value": "Museum of Modern Art (MoMA)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8346/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Evening Star No. III, 1917"
         }
     ],
     "refers_to": [],
@@ -408,15 +424,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
-            ],
-            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
+            "id": "http://data.okeeffemuseum.org/exhibition/1205",
             "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-09-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -425,41 +437,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
-            ],
-            "label": "Georgia O'Keeffe: Works on Paper",
+            "id": "http://data.okeeffemuseum.org/exhibition/748",
             "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/689",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1203",
-            "timespan": {
-                "begin_of_the_begin": "1992-12-12T00:00:00",
-                "end_of_the_end": "1993-04-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
+                "begin_of_the_begin": "1959-07-15T00:00:00",
+                "end_of_the_end": "1959-10-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/748/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -485,11 +467,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/748",
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
             "timespan": {
-                "begin_of_the_begin": "1959-07-15T00:00:00",
-                "end_of_the_end": "1959-10-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/748/timespan",
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -511,11 +493,45 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1205",
+            "id": "http://data.okeeffemuseum.org/exhibition/1203",
             "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-09-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
+                "begin_of_the_begin": "1992-12-12T00:00:00",
+                "end_of_the_end": "1993-04-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
+            ],
+            "label": "Georgia O'Keeffe: Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/517",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/517/title"
+            ],
+            "label": "Drawings, Watercolors, Colleges: New Acquisitions",
+            "timespan": {
+                "begin_of_the_begin": "1959-07-15T00:00:00",
+                "end_of_the_end": "1959-10-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/517/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -550,15 +566,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/517",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/517/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
             ],
-            "label": "Drawings, Watercolors, Colleges: New Acquisitions",
+            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
             "timespan": {
-                "begin_of_the_begin": "1959-07-15T00:00:00",
-                "end_of_the_end": "1959-10-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/517/timespan",
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

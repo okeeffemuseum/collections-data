@@ -42,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/7907/identifier",
+            "type": "Identifier",
+            "value": "7907"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/identifier",
-            "type": "Identifier",
-            "value": "7907"
+            "id": "http://data.okeeffemuseum.org/object/7907/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "label": "Shel Hershorn. Georgia O'Keeffe, ca. 1960-1966. Gelatin silver print, 7 x 5 inches. Georgia O'Keeffe Museum. Gift of Piet Halberstadt. [2016.8.1]",
@@ -107,17 +107,6 @@
                 "identified_by": [
                     {
                         "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
-                    {
-                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -130,75 +119,31 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
         "consists_of": [
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/2",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                                "type": "Name",
-                                "value": "Georgia O'Keeffe"
-                            }
-                        ],
-                        "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
-                        ],
-                        "type": [
-                            "schema:Thing",
-                            "Actor"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/7907/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
             {
                 "carried_out_by": [
                     {
@@ -232,6 +177,61 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/2",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                                "type": "Name",
+                                "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            }
+                        ],
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                        ],
+                        "type": [
+                            "Actor",
+                            "schema:Thing"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/7907/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/7907/production/",
@@ -255,75 +255,67 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/7907/Description/",
             "type": "LinguisticObject",
-            "value": "Shel Hershorn"
+            "value": "Portrait of O'Keeffe wearing a black wrap dress and watering a jade plant in her house at Abiquiu; window and a selection of smooth stones behind her to viewer left"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/7907/signaturemarks",
             "type": "LinguisticObject",
-            "value": "7 x 5 inches"
+            "value": "On the back of the photograph written pencil is the date and Shel Hershorn's studio stamp in black ink."
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/7907/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe, ca. 1960-1966"
+            "value": "Photographer: Shel Hershorn\nDepicted: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/7907/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print, 7 x 5 inches"
+            "value": "Gift of Piet Halberstadt      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7907/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
         },
         {
             "classified_as": [
@@ -352,60 +344,92 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7907/Description/",
+            "id": "http://data.okeeffemuseum.org/object/7907/Measurement/",
             "type": "LinguisticObject",
-            "value": "Portrait of O'Keeffe wearing a black wrap dress and watering a jade plant in her house at Abiquiu; window and a selection of smooth stones behind her to viewer left"
+            "value": "7 x 5 inches"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7907/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "On the back of the photograph written pencil is the date and Shel Hershorn's studio stamp in black ink."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7907/maker_role",
-            "type": "LinguisticObject",
-            "value": "Photographer: Shel Hershorn\nDepicted: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/7907/institution_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7907/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 7 x 5 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7907/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe, ca. 1960-1966"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7907/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Shel Hershorn"
         },
         {
             "classified_as": [
@@ -418,45 +442,21 @@
             "id": "http://data.okeeffemuseum.org/object/7907/provenance/",
             "label": "Form 8283: Date of the contribution September 2016; Date acquired by donor 1971; How acquired by donor, removed from trash; Donors Cost and Fair market value $0. Method used at determine the fair market value, unsigned, no sales records.   Piet Halberstadt (New York City)   1971   New York City/New York",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7907/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of Piet Halberstadt      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7907/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "exif:height": "2376",
-            "exif:width": "1704",
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/729530",
+            "exif:height": "4147",
+            "exif:width": "2978",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/799336",
             "identified_by": [
                 {
                     "classified_as": [
                         "aat:300192339"
                     ],
-                    "id": "http://data.okeeffemuseum.org/visualitem/729530/sequence/0",
+                    "id": "http://data.okeeffemuseum.org/visualitem/799336/sequence/0",
                     "type": "Identifier",
                     "value": "0"
                 }

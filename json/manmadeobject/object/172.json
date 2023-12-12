@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300078925",
+            "label": "watercolors",
             "type": "Type"
         },
         {
-            "id": "aat:300078925",
-            "label": "watercolors",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
@@ -40,14 +45,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/title",
-            "type": "Name",
-            "value": "Blue Hill No. II"
+            "id": "http://data.okeeffemuseum.org/object/172/otheridentifier",
+            "type": "Identifier",
+            "value": "109"
         },
         {
             "classified_as": [
@@ -59,7 +64,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/172/other_id",
             "type": "Identifier",
-            "value": "109, Catalogue Raisonne Number"
+            "value": "109, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/identifier",
+            "type": "Identifier",
+            "value": "172"
         },
         {
             "classified_as": [
@@ -81,54 +98,35 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/identifier",
-            "type": "Identifier",
-            "value": "172"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/otheridentifier",
-            "type": "Identifier",
-            "value": "109"
+            "id": "http://data.okeeffemuseum.org/object/172/title",
+            "type": "Name",
+            "value": "Blue Hill No. II"
         }
     ],
     "label": "Georgia O'Keeffe. Blue Hill No. II, 1916. Watercolor on paper, 8 7/8 x 11 15/16 inches. Georgia O'Keeffe Museum. Gift of Dr. and Mrs. John B. Chewning. \u00a9 Georgia O'Keeffe Museum. [2002.1.1]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/172/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/172/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/172/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/172/material/0",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -143,16 +141,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -163,17 +172,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -188,16 +186,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -214,6 +223,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/172/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1916-01-01T00:00:00",
             "end_of_the_end": "1916-12-31T00:00:00",
@@ -234,99 +250,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/Right/",
+            "id": "http://data.okeeffemuseum.org/object/172/CreditLine/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Blue Hill No. II, 1916"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 8 7/8 x 11 15/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/provenance/",
-            "label": "(The Downtown Gallery, New York, N.Y.) ^Dr. John B. Chewning, Cincinnati, Ohio, 1961         ",
-            "type": "LinguisticObject"
+            "value": "Gift of Dr. and Mrs. John B. Chewning      "
         },
         {
             "classified_as": [
@@ -343,26 +274,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/172/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Gift of Dr. and Mrs. John B. Chewning      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/172/Measurement/",
-            "type": "LinguisticObject",
-            "value": "8 7/8 x 11 15/16 inches"
+            "value": "Verso: inaccessible"
         },
         {
             "classified_as": [
@@ -370,16 +289,23 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/caption/",
+            "label": "Georgia O'Keeffe. Blue Hill No. II, 1916. Watercolor on paper, 8 7/8 x 11 15/16 inches. Georgia O'Keeffe Museum. Gift of Dr. and Mrs. John B. Chewning. \u00a9 Georgia O'Keeffe Museum. [2002.1.1]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/172/Materials/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Watercolor on paper"
         },
         {
             "classified_as": [
@@ -413,26 +339,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/caption/",
-            "label": "Georgia O'Keeffe. Blue Hill No. II, 1916. Watercolor on paper, 8 7/8 x 11 15/16 inches. Georgia O'Keeffe Museum. Gift of Dr. and Mrs. John B. Chewning. \u00a9 Georgia O'Keeffe Museum. [2002.1.1]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/172/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/172/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible"
+            "id": "http://data.okeeffemuseum.org/object/172/provenance/",
+            "label": "(The Downtown Gallery, New York, N.Y.) ^Dr. John B. Chewning, Cincinnati, Ohio, 1961         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -445,6 +371,96 @@
             "id": "http://data.okeeffemuseum.org/object/172/Description/",
             "type": "LinguisticObject",
             "value": "Horizontal watercolor of very fluid blue rounded shape that fills most of the page.  Along the top on either side where the curve just reaches the edge of the page is a greyer blue wash."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 7/8 x 11 15/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 8 7/8 x 11 15/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/172/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Blue Hill No. II, 1916"
         }
     ],
     "refers_to": [],
@@ -504,26 +520,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
-            ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
-            ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "id": "http://data.okeeffemuseum.org/exhibition/1158",
             "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -537,6 +538,60 @@
                 "begin_of_the_begin": "1958-02-25T00:00:00",
                 "end_of_the_end": "1958-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
+            ],
+            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/120",
+            "timespan": {
+                "begin_of_the_begin": "2006-09-22T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -562,45 +617,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/120",
-            "timespan": {
-                "begin_of_the_begin": "2006-09-22T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1158",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/109",
             "timespan": {
                 "begin_of_the_begin": "2003-01-24T00:00:00",
@@ -614,15 +630,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
             ],
-            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
             "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

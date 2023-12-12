@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -35,30 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/title",
-            "type": "Name",
-            "value": "A Piece of Wood I"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/other_id",
-            "type": "Identifier",
-            "value": "1030, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -71,18 +56,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/identifier",
-            "type": "Identifier",
-            "value": "143"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -91,6 +64,42 @@
             "id": "http://data.okeeffemuseum.org/object/143/accessionnumber",
             "type": "Identifier",
             "value": "2007.1.25"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/other_id",
+            "type": "Identifier",
+            "value": "1030, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/title",
+            "type": "Name",
+            "value": "A Piece of Wood I"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/identifier",
+            "type": "Identifier",
+            "value": "143"
         }
     ],
     "label": "Georgia O'Keeffe. A Piece of Wood I, 1942. Oil on canvas, 24 x 20 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.25]",
@@ -109,24 +118,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/143/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1942-01-01T00:00:00",
             "end_of_the_end": "1942-12-31T00:00:00",
@@ -225,6 +245,74 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 24 x 20 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -233,6 +321,18 @@
             "id": "http://data.okeeffemuseum.org/object/143/exhibitions",
             "type": "LinguisticObject",
             "value": "1943 New York (An American Place), no. 11, as \"A Piece of Wood - I\" \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (Frames of Preference / Maria Chabot / Sense of Place) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2007 Santa Fe (O'Keeffe) GOK: Circling Around Abstraction; all venues \n2010 Santa Fe (O'Keeffe) GOK: Abstraction; all venues \n2016 Santa Fe (O'Keeffe) Abstract Nature"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -254,14 +354,60 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/143/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/143/artist_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 x 20 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "A Piece of Wood I, 1942"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/143/Description/",
+            "type": "LinguisticObject",
+            "value": "Vertical canvas of brown tones with small spiraling circle in the center, followed by concentric ovals filling out to the edges of the canvas."
         },
         {
             "classified_as": [
@@ -271,31 +417,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/143/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/143/Right/",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/143/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 24 x 20 inches"
+            "id": "http://data.okeeffemuseum.org/object/143/provenance/",
+            "label": "James Corcoran Gallery, Los Angeles, CA      1989   , Doris Bry, New York, NY, Joan T. Washburn, New York, NY",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -315,127 +451,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "A Piece of Wood I, 1942"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 x 20 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/143/caption/",
             "label": "Georgia O'Keeffe. A Piece of Wood I, 1942. Oil on canvas, 24 x 20 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.25]",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/Description/",
-            "type": "LinguisticObject",
-            "value": "Vertical canvas of brown tones with small spiraling circle in the center, followed by concentric ovals filling out to the edges of the canvas."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/provenance/",
-            "label": "James Corcoran Gallery, Los Angeles, CA      1989   , Doris Bry, New York, NY, Joan T. Washburn, New York, NY",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/143/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -463,17 +483,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300041273",
-                    "label": "prints",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://prints.okeeffemuseum.org/detail/502413",
-            "type": "InformationObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264578",
                     "label": "Web pages",
                     "type": "Type"
@@ -481,6 +490,17 @@
             ],
             "id": "https://www.arsny.com/requests",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/502413",
+            "type": "InformationObject"
         }
     ],
     "type": "ManMadeObject",
@@ -489,52 +509,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
-            ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
-            ],
-            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "id": "http://data.okeeffemuseum.org/exhibition/345",
             "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/141",
-            "timespan": {
-                "begin_of_the_begin": "2007-05-25T00:00:00",
-                "end_of_the_end": "2007-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
-            "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "begin_of_the_begin": "1943-03-27T00:00:00",
+                "end_of_the_end": "1943-05-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/345/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -573,11 +552,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/345",
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
             "timespan": {
-                "begin_of_the_begin": "1943-03-27T00:00:00",
-                "end_of_the_end": "1943-05-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/345/timespan",
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -595,6 +574,47 @@
                 "begin_of_the_begin": "2007-02-10T00:00:00",
                 "end_of_the_end": "2008-01-06T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
+            ],
+            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/141",
+            "timespan": {
+                "begin_of_the_begin": "2007-05-25T00:00:00",
+                "end_of_the_end": "2007-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

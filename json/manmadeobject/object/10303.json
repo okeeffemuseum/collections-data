@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -20,30 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10303",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10303/other_id",
-            "type": "Identifier",
-            "value": "1418, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10303/identifier",
-            "type": "Identifier",
-            "value": "10303"
-        },
         {
             "classified_as": [
                 {
@@ -64,14 +54,61 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/10303/identifier",
+            "type": "Identifier",
+            "value": "10303"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/10303/title",
             "type": "Name",
             "value": "Untitled (From the River)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/other_id",
+            "type": "Identifier",
+            "value": "1418, Catalogue Raisonn\u00e9"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (From the River). Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Untitled (From the River), 1959-1960. Oil on gessoed canvas paper, mounted to panel, 24 x 30 inches. Private Collection",
+    "made_of": [
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10303/material/2",
+            "label": "paper",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10303/material/1",
+            "label": "canvas",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +144,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +189,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,39 +211,23 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10303/production/",
-        "timespan": null,
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
+        "timespan": {
+            "begin_of_the_begin": "1959-01-01T00:00:00",
+            "end_of_the_end": "1960-12-31T00:00:00",
+            "id": "http://data.okeeffemuseum.org/object/10303/production/timespan/0",
+            "label": "1959-1960",
+            "type": "TimeSpan"
+        },
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10303/caption/",
-            "label": "Georgia O'Keeffe. Untitled (From the River). Private Collection",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10303/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -227,7 +248,63 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10303/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Untitled (From the River)"
+            "value": "Untitled (From the River), 1959-1960"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on gessoed canvas paper, mounted to panel, 24 x 30 inches"
         },
         {
             "classified_as": [
@@ -252,16 +329,35 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/caption/",
+            "label": "Georgia O'Keeffe. Untitled (From the River), 1959-1960. Oil on gessoed canvas paper, mounted to panel, 24 x 30 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10303/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10303/Materials/",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Oil on gessoed canvas paper, mounted to panel"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10303/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 x 30 inches"
         }
     ],
     "refers_to": [],

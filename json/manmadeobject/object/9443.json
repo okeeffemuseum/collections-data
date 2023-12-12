@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -40,14 +49,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9443/other_id",
+            "id": "http://data.okeeffemuseum.org/object/9443/identifier",
             "type": "Identifier",
-            "value": "1284, Catalogue Raisonne Number"
+            "value": "9443"
         },
         {
             "classified_as": [
@@ -64,14 +73,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9443/identifier",
+            "id": "http://data.okeeffemuseum.org/object/9443/other_id",
             "type": "Identifier",
-            "value": "9443"
+            "value": "1284, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Black Door with Snow II, 1955. Oil on canvas, 30 x 18 inches. Milwaukee Art Museum. Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/9443/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1945-01-01T00:00:00",
-            "end_of_the_end": "1960-12-31T00:00:00",
+            "begin_of_the_begin": "1955-01-01T00:00:00",
+            "end_of_the_end": "1955-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/9443/production/timespan/0",
             "label": "1955",
             "type": "TimeSpan"
@@ -203,6 +223,40 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9443/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9443/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 30 x 18 inches"
+        },
         {
             "classified_as": [
                 {
@@ -218,64 +272,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9443/Measurement/",
-            "type": "LinguisticObject",
-            "value": "30 x 18 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9443/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9443/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 30 x 18 inches"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300417193",
                     "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -287,6 +290,23 @@
             "id": "http://data.okeeffemuseum.org/object/9443/title_date_caption",
             "type": "LinguisticObject",
             "value": "Black Door with Snow II, 1955"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9443/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -303,42 +323,42 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9443/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9443/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9443/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9443/Measurement/",
+            "type": "LinguisticObject",
+            "value": "30 x 18 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -387,54 +407,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/489",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/489/title"
-            ],
-            "label": "The One Hundred and Fifth-Third Annual Exhibition of Painting and Sculpture",
-            "timespan": {
-                "begin_of_the_begin": "1958-01-26T00:00:00",
-                "end_of_the_end": "1958-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/489/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/703",
-            "timespan": {
-                "begin_of_the_begin": "1958-01-26T00:00:00",
-                "end_of_the_end": "1958-02-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/703/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1059",
             "timespan": {
                 "begin_of_the_begin": "1968-10-26T00:00:00",
                 "end_of_the_end": "1969-02-23T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1059/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/614",
-            "timespan": {
-                "begin_of_the_begin": "1955-04-26T00:00:00",
-                "end_of_the_end": "1955-05-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/614/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -456,15 +433,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/565",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/489",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/565/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/489/title"
             ],
-            "label": "Wisconsin Heritage Show",
+            "label": "The One Hundred and Fifth-Third Annual Exhibition of Painting and Sculpture",
             "timespan": {
-                "begin_of_the_begin": "1961-05-01T00:00:00",
-                "end_of_the_end": "1961-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/565/timespan",
+                "begin_of_the_begin": "1958-01-26T00:00:00",
+                "end_of_the_end": "1958-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/489/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -473,11 +450,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/839",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/741",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/741/title"
+            ],
+            "label": "The Collection of Mrs. Harry Lynde Bradley",
             "timespan": {
-                "begin_of_the_begin": "1961-09-21T00:00:00",
-                "end_of_the_end": "1961-11-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/839/timespan",
+                "begin_of_the_begin": "1968-10-26T00:00:00",
+                "end_of_the_end": "1969-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/741/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -503,15 +484,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/564",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/406/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/564/title"
             ],
-            "label": "O'Keeffe Exhibition: New Paintings",
+            "label": "10 Americans: Davis, Demuth, Dove, Feininger, Graves, Marin, O'Keeffe, Shahn, Tobey Weber",
             "timespan": {
-                "begin_of_the_begin": "1955-03-29T00:00:00",
-                "end_of_the_end": "1955-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
+                "begin_of_the_begin": "1961-09-21T00:00:00",
+                "end_of_the_end": "1961-11-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/564/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -525,6 +506,75 @@
                 "begin_of_the_begin": "1956-01-22T00:00:00",
                 "end_of_the_end": "1956-02-26T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/640/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/666",
+            "timespan": {
+                "begin_of_the_begin": "1957-06-29T00:00:00",
+                "end_of_the_end": "1957-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/666/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/703",
+            "timespan": {
+                "begin_of_the_begin": "1958-01-26T00:00:00",
+                "end_of_the_end": "1958-02-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/703/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/839",
+            "timespan": {
+                "begin_of_the_begin": "1961-09-21T00:00:00",
+                "end_of_the_end": "1961-11-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/839/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/614",
+            "timespan": {
+                "begin_of_the_begin": "1955-04-26T00:00:00",
+                "end_of_the_end": "1955-05-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/614/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/406/title"
+            ],
+            "label": "O'Keeffe Exhibition: New Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -563,40 +613,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/564",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/564/title"
-            ],
-            "label": "10 Americans: Davis, Demuth, Dove, Feininger, Graves, Marin, O'Keeffe, Shahn, Tobey Weber",
-            "timespan": {
-                "begin_of_the_begin": "1961-09-21T00:00:00",
-                "end_of_the_end": "1961-11-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/564/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/741",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/741/title"
-            ],
-            "label": "The Collection of Mrs. Harry Lynde Bradley",
-            "timespan": {
-                "begin_of_the_begin": "1968-10-26T00:00:00",
-                "end_of_the_end": "1969-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/741/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/432",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/432/title"
@@ -614,11 +630,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/666",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/565",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/565/title"
+            ],
+            "label": "Wisconsin Heritage Show",
             "timespan": {
-                "begin_of_the_begin": "1957-06-29T00:00:00",
-                "end_of_the_end": "1957-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/666/timespan",
+                "begin_of_the_begin": "1961-05-01T00:00:00",
+                "end_of_the_end": "1961-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/565/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

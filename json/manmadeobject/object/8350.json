@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300078925",
-            "label": "watercolors",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
             "type": "Type"
         }
     ],
@@ -21,30 +26,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8350",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/otheridentifier",
-            "type": "Identifier",
-            "value": "208"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/other_id",
-            "type": "Identifier",
-            "value": "208, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -60,6 +41,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/other_id",
+            "type": "Identifier",
+            "value": "208, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -68,39 +61,44 @@
             "id": "http://data.okeeffemuseum.org/object/8350/title",
             "type": "Name",
             "value": "Abstraction"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/otheridentifier",
+            "type": "Identifier",
+            "value": "208"
         }
     ],
     "label": "Georgia O'Keeffe. Abstraction, 1917. Watercolor on paper, 15 3/4 x 10 7/8 inches. Private Collection. Gerald and Kathleen Peters, Santa Fe, New Mexico, 1977",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8350/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/8350/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8350/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/8350/material/0",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8350/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8350/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -199,36 +215,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8350/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8350/exhibitions",
             "type": "LinguisticObject",
-            "value": "Abstraction, 1917"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible"
+            "value": "1985 Santa Fe, no. 9; 1988 Phoenix, no. 2; 1993 London (Hayward), no. 10; 1998 San Antonio, no. 25; 1998 Santa Fe"
         },
         {
             "classified_as": [
@@ -241,6 +235,42 @@
             "id": "http://data.okeeffemuseum.org/object/8350/CreditLine/",
             "type": "LinguisticObject",
             "value": "Gerald and Kathleen Peters, Santa Fe, New Mexico, 1977      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/caption/",
+            "label": "Georgia O'Keeffe. Abstraction, 1917. Watercolor on paper, 15 3/4 x 10 7/8 inches. Private Collection. Gerald and Kathleen Peters, Santa Fe, New Mexico, 1977",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/provenance/",
+            "label": "Harold Diamond, New York, NY, purchase, 1976; (John Berggruen Gallery, San Francisco, California)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible"
         },
         {
             "classified_as": [
@@ -262,98 +292,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/provenance/",
-            "label": "Harold Diamond, New York, NY, purchase, 1976; (John Berggruen Gallery, San Francisco, California)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/caption/",
-            "label": "Georgia O'Keeffe. Abstraction, 1917. Watercolor on paper, 15 3/4 x 10 7/8 inches. Private Collection. Gerald and Kathleen Peters, Santa Fe, New Mexico, 1977",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1985 Santa Fe, no. 9; 1988 Phoenix, no. 2; 1993 London (Hayward), no. 10; 1998 San Antonio, no. 25; 1998 Santa Fe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8350/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 15 3/4 x 10 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -366,6 +304,23 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -374,6 +329,67 @@
             "id": "http://data.okeeffemuseum.org/object/8350/Measurement/",
             "type": "LinguisticObject",
             "value": "15 3/4 x 10 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 15 3/4 x 10 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8350/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Abstraction, 1917"
         }
     ],
     "refers_to": [],
@@ -404,11 +420,48 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
             "timespan": {
-                "begin_of_the_begin": "1993-10-30T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
+            ],
+            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
+            "timespan": {
+                "begin_of_the_begin": "2007-02-10T00:00:00",
+                "end_of_the_end": "2008-01-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1179",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-15T00:00:00",
+                "end_of_the_end": "1993-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -430,50 +483,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1177",
             "timespan": {
                 "begin_of_the_begin": "1988-04-15T00:00:00",
                 "end_of_the_end": "1988-06-15T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1229",
-            "timespan": {
-                "begin_of_the_begin": "1998-01-27T00:00:00",
-                "end_of_the_end": "1998-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1229/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/141",
-            "timespan": {
-                "begin_of_the_begin": "2007-05-25T00:00:00",
-                "end_of_the_end": "2007-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -499,32 +513,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1212",
-            "timespan": {
-                "begin_of_the_begin": "1993-07-15T00:00:00",
-                "end_of_the_end": "1993-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/862",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/862/title"
@@ -534,6 +522,19 @@
                 "begin_of_the_begin": "1998-01-27T00:00:00",
                 "end_of_the_end": "1998-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/862/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/141",
+            "timespan": {
+                "begin_of_the_begin": "2007-05-25T00:00:00",
+                "end_of_the_end": "2007-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -559,6 +560,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/40/title"
@@ -570,13 +584,6 @@
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1179",
             "type": "Activity"
         },
         {
@@ -596,15 +603,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
-            ],
-            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
+            "id": "http://data.okeeffemuseum.org/exhibition/1229",
             "timespan": {
-                "begin_of_the_begin": "2007-02-10T00:00:00",
-                "end_of_the_end": "2008-01-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
+                "begin_of_the_begin": "1998-01-27T00:00:00",
+                "end_of_the_end": "1998-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1229/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "timespan": {
+                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

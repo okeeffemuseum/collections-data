@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -21,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8809",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8809/other_id",
+            "type": "Identifier",
+            "value": "805, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -56,18 +77,6 @@
             "id": "http://data.okeeffemuseum.org/object/8809/otheridentifier",
             "type": "Identifier",
             "value": "805"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8809/other_id",
-            "type": "Identifier",
-            "value": "805, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. White Barn, 1932. Oil on canvas, 16 x 30 inches. Private Collection. Collection of Mrs. Paul Mellon, Upperville, Maryland, 1983",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8809/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1937-12-31T00:00:00",
+            "begin_of_the_begin": "1932-01-01T00:00:00",
+            "end_of_the_end": "1932-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8809/production/timespan/0",
             "label": "1932",
             "type": "TimeSpan"
@@ -202,8 +222,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -212,9 +232,43 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8809/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8809/maker_role",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8809/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 16 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8809/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"White Barn, No. 1 III ['III' written about 1, DB, black ink] \u2013 Canada \u2013 1932 / by Georgia O'Keeffe / An American Place / 509 Madison Ave \u2013 / New York, N.Y.\" (AS, black ink) 3. \"Barn \u2013 Oil \u2013 O'Keeffe \u2013 $4000\" (DB, black ink)"
         },
         {
             "classified_as": [
@@ -231,65 +285,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8809/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8809/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1933 New York (An American Place), no. 7, as Barn No. 2; 1935 West Hartford, no. 80; 1944 Dayton, no. 13; 1947 San Francisco; 1958 Claremont, no. 50; 1966 Fort Worth; 1970 New York (Whitney), no. 78"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8809/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8809/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8809/provenance/",
-            "label": "(An American Place, New York, NY); (The Downtown Gallery, New York, NY); Wright Ludington, Santa Barbara, California, 1934; Richard L. Feigen & Co., New York, NY, and Hirschl & Adler Galleries, Inc., New York, NY, 1981; (Hirschl & Adler Galleries, Inc., New York, NY)         ",
-            "type": "LinguisticObject"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -302,6 +310,18 @@
             "id": "http://data.okeeffemuseum.org/object/8809/CreditLine/",
             "type": "LinguisticObject",
             "value": "Collection of Mrs. Paul Mellon, Upperville, Maryland, 1983      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8809/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1933 New York (An American Place), no. 7, as Barn No. 2; 1935 West Hartford, no. 80; 1944 Dayton, no. 13; 1947 San Francisco; 1958 Claremont, no. 50; 1966 Fort Worth; 1970 New York (Whitney), no. 78"
         },
         {
             "classified_as": [
@@ -328,26 +348,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8809/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8809/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"White Barn, No. 1 III ['III' written about 1, DB, black ink] \u2013 Canada \u2013 1932 / by Georgia O'Keeffe / An American Place / 509 Madison Ave \u2013 / New York, N.Y.\" (AS, black ink) 3. \"Barn \u2013 Oil \u2013 O'Keeffe \u2013 $4000\" (DB, black ink)"
+            "id": "http://data.okeeffemuseum.org/object/8809/provenance/",
+            "label": "(An American Place, New York, NY); (The Downtown Gallery, New York, NY); Wright Ludington, Santa Barbara, California, 1934; Richard L. Feigen & Co., New York, NY, and Hirschl & Adler Galleries, Inc., New York, NY, 1981; (Hirschl & Adler Galleries, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -364,19 +372,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8809/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8809/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8809/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         }
     ],
     "refers_to": [],
@@ -407,32 +427,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/286",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/286/title"
             ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "label": "2nd Annual Exhibition of Painting",
             "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
-            ],
-            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
-            "timespan": {
-                "begin_of_the_begin": "1958-10-11T00:00:00",
-                "end_of_the_end": "1958-11-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
+                "begin_of_the_begin": "1947-11-19T00:00:00",
+                "end_of_the_end": "1948-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/286/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -458,41 +461,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
             "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/244",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/244/title"
-            ],
-            "label": "Shown in the Modern Room",
-            "timespan": {
-                "begin_of_the_begin": "1944-12-01T00:00:00",
-                "end_of_the_end": "1944-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/244/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1098",
-            "timespan": {
-                "begin_of_the_begin": "1970-10-08T00:00:00",
-                "end_of_the_end": "1970-11-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -518,37 +491,63 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/356",
+            "timespan": {
+                "begin_of_the_begin": "1944-12-01T00:00:00",
+                "end_of_the_end": "1944-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/356/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/678",
+            "timespan": {
+                "begin_of_the_begin": "1958-10-11T00:00:00",
+                "end_of_the_end": "1958-11-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/678/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1098",
+            "timespan": {
+                "begin_of_the_begin": "1970-10-08T00:00:00",
+                "end_of_the_end": "1970-11-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1100",
+            "timespan": {
+                "begin_of_the_begin": "1970-03-15T00:00:00",
+                "end_of_the_end": "1970-04-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/247",
             "timespan": {
                 "begin_of_the_begin": "1935-01-29T00:00:00",
                 "end_of_the_end": "1935-02-10T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/247/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1099",
-            "timespan": {
-                "begin_of_the_begin": "1970-01-06T00:00:00",
-                "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1013",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -574,15 +573,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/286",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/286/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
             ],
-            "label": "2nd Annual Exhibition of Painting",
+            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
             "timespan": {
-                "begin_of_the_begin": "1947-11-19T00:00:00",
-                "end_of_the_end": "1948-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/286/timespan",
+                "begin_of_the_begin": "1958-10-11T00:00:00",
+                "end_of_the_end": "1958-11-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -591,11 +590,37 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "id": "http://data.okeeffemuseum.org/exhibition/1099",
             "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
+                "begin_of_the_begin": "1970-01-06T00:00:00",
+                "end_of_the_end": "1971-02-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -617,11 +642,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/356",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/244",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/244/title"
+            ],
+            "label": "Shown in the Modern Room",
             "timespan": {
                 "begin_of_the_begin": "1944-12-01T00:00:00",
                 "end_of_the_end": "1944-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/356/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/244/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -630,24 +659,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1100",
-            "timespan": {
-                "begin_of_the_begin": "1970-03-15T00:00:00",
-                "end_of_the_end": "1970-04-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/678",
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
             "timespan": {
-                "begin_of_the_begin": "1958-10-11T00:00:00",
-                "end_of_the_end": "1958-11-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/678/timespan",
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

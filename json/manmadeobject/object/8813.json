@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -40,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/other_id",
-            "type": "Identifier",
-            "value": "809, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -72,10 +69,27 @@
             "id": "http://data.okeeffemuseum.org/object/8813/title",
             "type": "Name",
             "value": "Stables"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/other_id",
+            "type": "Identifier",
+            "value": "809, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Stables, 1932. Oil on canvas, 12 x 32 inches. Detroit Institute of Arts. The Detroit Institute of Arts, Gift of Robert H. Tannahill [1945] (45.454)",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8813/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8813/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8813/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8813/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1937-12-31T00:00:00",
+            "begin_of_the_begin": "1932-01-01T00:00:00",
+            "end_of_the_end": "1932-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8813/production/timespan/0",
             "label": "1932",
             "type": "TimeSpan"
@@ -206,14 +226,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8813/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8813/maker_role",
             "type": "LinguisticObject",
-            "value": "1933 New York (An American Place), no. 14, as White Barn No. 3?; 1934 Detroit, no. 15; 1938 Paris, no. 127; 1944 New York (MOMA \u2013 Art in Progress); 1960 Minneapolis; 1965 Milton"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -223,43 +248,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8813/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8813/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 x 32 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Detroit Institute of Arts, Gift of Robert H. Tannahill [1945] (45.454)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Stables, 1932"
         },
         {
             "classified_as": [
@@ -293,36 +294,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8813/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8813/institution_caption",
             "type": "LinguisticObject",
-            "value": "Stables, 1932"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/Measurement/",
-            "type": "LinguisticObject",
-            "value": "12 x 32 inches"
+            "value": "Detroit Institute of Arts"
         },
         {
             "classified_as": [
@@ -339,40 +323,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Detroit Institute of Arts"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8813/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -381,6 +331,76 @@
             "id": "http://data.okeeffemuseum.org/object/8813/caption/",
             "label": "Georgia O'Keeffe. Stables, 1932. Oil on canvas, 12 x 32 inches. Detroit Institute of Arts. The Detroit Institute of Arts, Gift of Robert H. Tannahill [1945] (45.454)",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/Measurement/",
+            "type": "LinguisticObject",
+            "value": "12 x 32 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1933 New York (An American Place), no. 14, as White Barn No. 3?; 1934 Detroit, no. 15; 1938 Paris, no. 127; 1944 New York (MOMA \u2013 Art in Progress); 1960 Minneapolis; 1965 Milton"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Detroit Institute of Arts, Gift of Robert H. Tannahill [1945] (45.454)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8813/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 12 x 32 inches"
         }
     ],
     "refers_to": [],
@@ -434,31 +454,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/995",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/994",
+            "id": "http://data.okeeffemuseum.org/exhibition/302",
             "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/790",
-            "timespan": {
-                "begin_of_the_begin": "1960-11-12T00:00:00",
-                "end_of_the_end": "1960-12-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/790/timespan",
+                "begin_of_the_begin": "1938-05-24T00:00:00",
+                "end_of_the_end": "1938-07-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/302/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -480,28 +480,22 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/155",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/155/title"
-            ],
-            "label": "An Exhibition of Paintings by John Marin and Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-17T00:00:00",
-                "end_of_the_end": "1934-02-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/155/timespan",
-                "type": "TimeSpan"
-            },
+            "id": "http://data.okeeffemuseum.org/exhibition/995",
             "type": "Activity"
         },
         {
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/793",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/204",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/204/title"
+            ],
+            "label": "Trois si\u00e8cles d'art aux \u00c9tats-Unis",
             "timespan": {
-                "begin_of_the_begin": "1960-01-01T00:00:00",
-                "end_of_the_end": "1960-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/793/timespan",
+                "begin_of_the_begin": "1938-05-24T00:00:00",
+                "end_of_the_end": "1938-07-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/204/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -523,24 +517,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/302",
+            "id": "http://data.okeeffemuseum.org/exhibition/792",
             "timespan": {
-                "begin_of_the_begin": "1938-05-24T00:00:00",
-                "end_of_the_end": "1938-07-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/302/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/993",
-            "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
+                "begin_of_the_begin": "1961-03-24T00:00:00",
+                "end_of_the_end": "1961-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/792/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -579,15 +560,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/248",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/248/title"
-            ],
-            "label": "Art in Progress",
+            "id": "http://data.okeeffemuseum.org/exhibition/793",
             "timespan": {
-                "begin_of_the_begin": "1944-05-24T00:00:00",
-                "end_of_the_end": "1944-10-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/248/timespan",
+                "begin_of_the_begin": "1960-01-01T00:00:00",
+                "end_of_the_end": "1960-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/793/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -613,15 +590,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/204",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/204/title"
-            ],
-            "label": "Trois si\u00e8cles d'art aux \u00c9tats-Unis",
+            "id": "http://data.okeeffemuseum.org/exhibition/994",
             "timespan": {
-                "begin_of_the_begin": "1938-05-24T00:00:00",
-                "end_of_the_end": "1938-07-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/204/timespan",
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -630,11 +603,71 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/792",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/155",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/155/title"
+            ],
+            "label": "An Exhibition of Paintings by John Marin and Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1961-03-24T00:00:00",
-                "end_of_the_end": "1961-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/792/timespan",
+                "begin_of_the_begin": "1934-01-17T00:00:00",
+                "end_of_the_end": "1934-02-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/155/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/248",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/248/title"
+            ],
+            "label": "Art in Progress",
+            "timespan": {
+                "begin_of_the_begin": "1944-05-24T00:00:00",
+                "end_of_the_end": "1944-10-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/248/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/790",
+            "timespan": {
+                "begin_of_the_begin": "1960-11-12T00:00:00",
+                "end_of_the_end": "1960-12-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/790/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/993",
+            "timespan": {
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -665,19 +698,6 @@
                 "begin_of_the_begin": "1960-01-01T00:00:00",
                 "end_of_the_end": "1960-01-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/794/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

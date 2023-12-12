@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -38,19 +47,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/553/other_id",
             "type": "Identifier",
-            "value": "732, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/otheridentifier",
-            "type": "Identifier",
-            "value": "732"
+            "value": "732, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -75,15 +72,22 @@
             "id": "http://data.okeeffemuseum.org/object/553/identifier",
             "type": "Identifier",
             "value": "553"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/otheridentifier",
+            "type": "Identifier",
+            "value": "732"
         }
     ],
     "label": "Georgia O'Keeffe. New Mexican Landscape, 1930. Oil on canvas, 16 x 30 inches. Michele and Donald D'Amour Museum of Fine Arts. Michele and Donald D'Amour Museum of Fine Arts. \u00a9 Georgia O'Keeffe Museum",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/553/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -91,26 +95,24 @@
             "id": "http://data.okeeffemuseum.org/object/553/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/553/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/553/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/553/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -206,18 +226,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
         {
             "classified_as": [
                 {
@@ -229,91 +237,6 @@
             "id": "http://data.okeeffemuseum.org/object/553/Measurement/",
             "type": "LinguisticObject",
             "value": "16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/caption/",
-            "label": "Georgia O'Keeffe. New Mexican Landscape, 1930. Oil on canvas, 16 x 30 inches. Michele and Donald D'Amour Museum of Fine Arts. Michele and Donald D'Amour Museum of Fine Arts. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/553/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "New Mexican Landscape, 1930"
         },
         {
             "classified_as": [
@@ -350,6 +273,93 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/caption/",
+            "label": "Georgia O'Keeffe. New Mexican Landscape, 1930. Oil on canvas, 16 x 30 inches. Michele and Donald D'Amour Museum of Fine Arts. Michele and Donald D'Amour Museum of Fine Arts. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 16 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/553/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 },
                 {
                     "id": "aat:300138082",
@@ -364,14 +374,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/553/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/553/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "New Mexican Landscape, 1930"
         }
     ],
     "refers_to": [],
@@ -402,11 +422,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/233",
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
             "timespan": {
-                "begin_of_the_begin": "1933-10-07T00:00:00",
-                "end_of_the_end": "1933-11-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/233/timespan",
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/290",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/290/title"
+            ],
+            "label": "Artists Look Like This",
+            "timespan": {
+                "begin_of_the_begin": "1947-04-19T00:00:00",
+                "end_of_the_end": "1947-05-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/290/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -432,84 +469,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/471",
+            "id": "http://data.okeeffemuseum.org/exhibition/460",
             "timespan": {
-                "begin_of_the_begin": "1948-05-15T00:00:00",
-                "end_of_the_end": "1948-06-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/471/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/278",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/278/title"
-            ],
-            "label": "First Exchange Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1947-04-29T00:00:00",
+                "begin_of_the_begin": "1947-04-19T00:00:00",
                 "end_of_the_end": "1947-05-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/278/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/297",
-            "timespan": {
-                "begin_of_the_begin": "1938-04-08T00:00:00",
-                "end_of_the_end": "1939-04-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/297/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/443",
-            "timespan": {
-                "begin_of_the_begin": "1947-04-29T00:00:00",
-                "end_of_the_end": "1947-05-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/443/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/214",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/198",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/198/title"
-            ],
-            "label": "Exhibition of Contemporary American Painters",
-            "timespan": {
-                "begin_of_the_begin": "1938-04-08T00:00:00",
-                "end_of_the_end": "1939-04-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/198/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/460/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -552,11 +516,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/460",
+            "id": "http://data.okeeffemuseum.org/exhibition/443",
             "timespan": {
-                "begin_of_the_begin": "1947-04-19T00:00:00",
+                "begin_of_the_begin": "1947-04-29T00:00:00",
                 "end_of_the_end": "1947-05-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/460/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/443/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -565,15 +529,71 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/290",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/198",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/290/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/198/title"
             ],
-            "label": "Artists Look Like This",
+            "label": "Exhibition of Contemporary American Painters",
             "timespan": {
-                "begin_of_the_begin": "1947-04-19T00:00:00",
+                "begin_of_the_begin": "1938-04-08T00:00:00",
+                "end_of_the_end": "1939-04-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/198/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/297",
+            "timespan": {
+                "begin_of_the_begin": "1938-04-08T00:00:00",
+                "end_of_the_end": "1939-04-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/297/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/471",
+            "timespan": {
+                "begin_of_the_begin": "1948-05-15T00:00:00",
+                "end_of_the_end": "1948-06-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/471/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/278",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/278/title"
+            ],
+            "label": "First Exchange Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1947-04-29T00:00:00",
                 "end_of_the_end": "1947-05-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/290/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/278/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/233",
+            "timespan": {
+                "begin_of_the_begin": "1933-10-07T00:00:00",
+                "end_of_the_end": "1933-11-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/233/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

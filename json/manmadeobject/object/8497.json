@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -29,9 +38,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/title",
-            "type": "Name",
-            "value": "Untitled (Lake George)"
+            "id": "http://data.okeeffemuseum.org/object/8497/identifier",
+            "type": "Identifier",
+            "value": "8497"
         },
         {
             "classified_as": [
@@ -43,7 +52,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8497/other_id",
             "type": "Identifier",
-            "value": "403, Catalogue Raisonne Number"
+            "value": "403, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -65,9 +74,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/identifier",
-            "type": "Identifier",
-            "value": "8497"
+            "id": "http://data.okeeffemuseum.org/object/8497/title",
+            "type": "Name",
+            "value": "Untitled (Lake George)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Lake George), ca. 1922. Oil on canvas, 6 x 8 inches. Curtis Galleries. Curtis Galleries, Minneapolis, Minnesota, 1984",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,6 +202,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8497/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1917-01-01T00:00:00",
             "end_of_the_end": "1927-12-31T00:00:00",
@@ -202,60 +222,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8497/Measurement/",
-            "type": "LinguisticObject",
-            "value": "6 x 8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8497/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8497/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 6 x 8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8497/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Curtis Galleries, Minneapolis, Minnesota, 1984      "
+            "value": "Curtis Galleries"
         },
         {
             "classified_as": [
@@ -277,19 +256,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8497/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Untitled (Lake George), ca. 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8497/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); Murdock Pemberton, New York, NY, date unknown; Estate of Murdock Pemberton, 1982; Christie's, New York, NY, sale no. 5794, lot no. 330, 7 December 1984         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -306,30 +302,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8497/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Lake George), ca. 1922"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -338,21 +317,62 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8497/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Curtis Galleries"
+            "value": "Oil on canvas, 6 x 8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8497/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); Murdock Pemberton, New York, NY, date unknown; Estate of Murdock Pemberton, 1982; Christie's, New York, NY, sale no. 5794, lot no. 330, 7 December 1984         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8497/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8497/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Curtis Galleries, Minneapolis, Minnesota, 1984      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8497/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8497/Measurement/",
+            "type": "LinguisticObject",
+            "value": "6 x 8 inches"
         }
     ],
     "refers_to": [],

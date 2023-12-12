@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -25,30 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8400",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/other_id",
-            "type": "Identifier",
-            "value": "285, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/title",
-            "type": "Name",
-            "value": "Black Spot No. 3"
-        },
         {
             "classified_as": [
                 {
@@ -72,6 +57,30 @@
             "id": "http://data.okeeffemuseum.org/object/8400/otheridentifier",
             "type": "Identifier",
             "value": "285"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/title",
+            "type": "Name",
+            "value": "Black Spot No. 3"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/other_id",
+            "type": "Identifier",
+            "value": "285, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Black Spot No. 3, 1919. Oil on canvas, 24 x 16 inches. Albright-Knox Art Gallery. Albright-Knox Art Gallery, Buffalo, New York, George B. and Jenny R. Matthews and Charles Clifton Funds, 1973 (73.12)",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8400/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1914-01-01T00:00:00",
-            "end_of_the_end": "1924-12-31T00:00:00",
+            "begin_of_the_begin": "1919-01-01T00:00:00",
+            "end_of_the_end": "1919-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8400/production/timespan/0",
             "label": "1919",
             "type": "TimeSpan"
@@ -206,14 +226,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8400/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8400/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Stretcher: 1. \"Black Spot No. 3 \u2013 1919\" (graphite) 2. \"Georgia O'Keeffe / 114 E 59\" (graphite) 3. \"New York \u2013 N.Y.\" (AIC label, black ink) 4. \"114 / 1920\" (AS, graphite) [twice]. Backing: 1. OK {5star} (graphite) 2. \"Black Spot No 3 [\"No 3 by OK, graphite] / Georgia O'Keeffe\" (AS, black crayon) 3. AAP2 4. AAP9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 24 x 16 inches"
         },
         {
             "classified_as": [
@@ -247,30 +289,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/caption/",
-            "label": "Georgia O'Keeffe. Black Spot No. 3, 1919. Oil on canvas, 24 x 16 inches. Albright-Knox Art Gallery. Albright-Knox Art Gallery, Buffalo, New York, George B. and Jenny R. Matthews and Charles Clifton Funds, 1973 (73.12)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300203630",
                     "label": "owners",
                     "type": "Type"
@@ -288,57 +306,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: 1. \"Black Spot No. 3 \u2013 1919\" (graphite) 2. \"Georgia O'Keeffe / 114 E 59\" (graphite) 3. \"New York \u2013 N.Y.\" (AIC label, black ink) 4. \"114 / 1920\" (AS, graphite) [twice]. Backing: 1. OK {5star} (graphite) 2. \"Black Spot No 3 [\"No 3 by OK, graphite] / Georgia O'Keeffe\" (AS, black crayon) 3. AAP2 4. AAP9"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8400/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 24 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -347,6 +314,52 @@
             "id": "http://data.okeeffemuseum.org/object/8400/exhibitions",
             "type": "LinguisticObject",
             "value": "1923 New York (Anderson), no. 114; 1934 New York (An American Place); 1943 Chicago, no. 4; 1951 Cincinnati; 1969 New York; 1970 New York (Whitney), no. 22"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Spot No. 3, 1919"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 x 16 inches"
         },
         {
             "classified_as": [
@@ -363,24 +376,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8400/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8400/artist_caption",
             "type": "LinguisticObject",
-            "value": "Black Spot No. 3, 1919"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8400/caption/",
+            "label": "Georgia O'Keeffe. Black Spot No. 3, 1919. Oil on canvas, 24 x 16 inches. Albright-Knox Art Gallery. Albright-Knox Art Gallery, Buffalo, New York, George B. and Jenny R. Matthews and Charles Clifton Funds, 1973 (73.12)",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -423,6 +443,66 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/768",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/768/title"
+            ],
+            "label": "Seventy Years of American Art",
+            "timespan": {
+                "begin_of_the_begin": "1969-07-03T00:00:00",
+                "end_of_the_end": "1969-09-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/768/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/510",
             "timespan": {
                 "begin_of_the_begin": "1951-01-31T00:00:00",
@@ -436,22 +516,65 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/767",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/767/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
             ],
-            "label": "The Second Decade: 1910-1919",
+            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
+                "type": "TimeSpan"
+            },
             "type": "Activity"
         },
         {
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "id": "http://data.okeeffemuseum.org/exhibition/1099",
             "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "begin_of_the_begin": "1970-01-06T00:00:00",
+                "end_of_the_end": "1971-02-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1970-01-06T00:00:00",
+                "end_of_the_end": "1971-02-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1092",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1098",
+            "timespan": {
+                "begin_of_the_begin": "1970-10-08T00:00:00",
+                "end_of_the_end": "1970-11-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -494,37 +617,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1098",
+            "id": "http://data.okeeffemuseum.org/exhibition/238",
             "timespan": {
-                "begin_of_the_begin": "1970-10-08T00:00:00",
-                "end_of_the_end": "1970-11-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1099",
-            "timespan": {
-                "begin_of_the_begin": "1970-01-06T00:00:00",
-                "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -546,60 +643,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1970-01-06T00:00:00",
-                "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1092",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
-            ],
-            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/238",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1093",
             "timespan": {
                 "begin_of_the_begin": "1969-07-03T00:00:00",
@@ -613,34 +656,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/767",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/767/title"
             ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/768",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/768/title"
-            ],
-            "label": "Seventy Years of American Art",
-            "timespan": {
-                "begin_of_the_begin": "1969-07-03T00:00:00",
-                "end_of_the_end": "1969-09-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/768/timespan",
-                "type": "TimeSpan"
-            },
+            "label": "The Second Decade: 1910-1919",
             "type": "Activity"
         }
     ]

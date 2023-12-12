@@ -3,6 +3,10 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +14,11 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -40,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/otheridentifier",
+            "type": "Identifier",
+            "value": "954"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -59,19 +80,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/587/other_id",
             "type": "Identifier",
-            "value": "954, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/otheridentifier",
-            "type": "Identifier",
-            "value": "954"
+            "value": "954, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. My Red Hills, 1938. Oil on canvas, 19 x 36 inches. Georgia O'Keeffe Museum. Private Collection, 1995",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/587/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1933-01-01T00:00:00",
-            "end_of_the_end": "1943-12-31T00:00:00",
+            "begin_of_the_begin": "1938-01-01T00:00:00",
+            "end_of_the_end": "1938-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/587/production/timespan/0",
             "label": "1938",
             "type": "TimeSpan"
@@ -209,93 +229,21 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/Measurement/",
-            "type": "LinguisticObject",
-            "value": "19 x 36 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/Description/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas; Orange and Red hills overall with tree near the top of the proper right side. Some cream and greenish on ground."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/587/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/587/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "My Red Hills, 1938"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/caption/",
-            "label": "Georgia O'Keeffe. My Red Hills, 1938. Oil on canvas, 19 x 36 inches. Georgia O'Keeffe Museum. Private Collection, 1995",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/provenance/",
-            "label": "Hirschl & Adler Galleries, Inc. New York, N.Y., and Richard York Gallery, New York, N.Y. 1989      1989   , Judge and Mrs. Oliver Seth, Santa Fe, New Mexico, Purchase, 1967   1967   Santa Fe/New Mexico",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/587/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Loans, Loan, Private Collection/Loans"
+            "value": "Oil on canvas, 19 x 36 inches"
         },
         {
             "classified_as": [
@@ -317,14 +265,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/587/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/587/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
+            "value": "Loans, Loan, Private Collection/Loans"
         },
         {
             "classified_as": [
@@ -337,6 +285,59 @@
             "id": "http://data.okeeffemuseum.org/object/587/signaturemarks",
             "type": "LinguisticObject",
             "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \"My Red Hills - 1938-9 / Georgia O'Keeffe\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/Description/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas; Orange and Red hills overall with tree near the top of the proper right side. Some cream and greenish on ground."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -358,41 +359,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/587/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/587/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "My Red Hills, 1938"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/provenance/",
+            "label": "Hirschl & Adler Galleries, Inc. New York, N.Y., and Richard York Gallery, New York, N.Y. 1989      1989   , Judge and Mrs. Oliver Seth, Santa Fe, New Mexico, Purchase, 1967   1967   Santa Fe/New Mexico",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/587/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 19 x 36 inches"
+            "id": "http://data.okeeffemuseum.org/object/587/caption/",
+            "label": "Georgia O'Keeffe. My Red Hills, 1938. Oil on canvas, 19 x 36 inches. Georgia O'Keeffe Museum. Private Collection, 1995",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -405,6 +413,18 @@
             "id": "http://data.okeeffemuseum.org/object/587/CreditLine/",
             "type": "LinguisticObject",
             "value": "Private Collection, 1995      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/587/Measurement/",
+            "type": "LinguisticObject",
+            "value": "19 x 36 inches"
         }
     ],
     "refers_to": [],
@@ -452,45 +472,37 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/316",
+            "timespan": {
+                "begin_of_the_begin": "1940-10-17T00:00:00",
+                "end_of_the_end": "1940-12-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/316/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1199",
+            "timespan": {
+                "begin_of_the_begin": "1991-11-09T00:00:00",
+                "end_of_the_end": "1992-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1199/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/306",
             "timespan": {
                 "begin_of_the_begin": "1939-01-22T00:00:00",
                 "end_of_the_end": "1939-03-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1977-09-17T00:00:00",
-                "end_of_the_end": "1977-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/208",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/208/title"
-            ],
-            "label": "Georgia O'Keeffe: Exhibition of Oils and Pastels",
-            "timespan": {
-                "begin_of_the_begin": "1939-01-22T00:00:00",
-                "end_of_the_end": "1939-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/208/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -516,11 +528,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1199",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/208",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/208/title"
+            ],
+            "label": "Georgia O'Keeffe: Exhibition of Oils and Pastels",
             "timespan": {
-                "begin_of_the_begin": "1991-11-09T00:00:00",
-                "end_of_the_end": "1992-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1199/timespan",
+                "begin_of_the_begin": "1939-01-22T00:00:00",
+                "end_of_the_end": "1939-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/208/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -529,11 +545,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/316",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1940-10-17T00:00:00",
-                "end_of_the_end": "1940-12-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/316/timespan",
+                "begin_of_the_begin": "1977-09-17T00:00:00",
+                "end_of_the_end": "1977-10-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

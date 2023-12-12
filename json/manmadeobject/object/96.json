@@ -11,6 +11,16 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -32,6 +42,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/96",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/other_id",
+            "type": "Identifier",
+            "value": "1071, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/title",
+            "type": "Name",
+            "value": "Untitled (Dry Waterfall, Ghost Ranch)"
+        },
         {
             "classified_as": [
                 {
@@ -67,68 +101,37 @@
             "id": "http://data.okeeffemuseum.org/object/96/otheridentifier",
             "type": "Identifier",
             "value": "1071"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/other_id",
-            "type": "Identifier",
-            "value": "1071, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/title",
-            "type": "Name",
-            "value": "Untitled (Dry Waterfall, Ghost Ranch)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Dry Waterfall, Ghost Ranch), ca. 1943. Graphite and charcoal on paper, 23 7/8 x 17 7/8 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Private Collection*. [1997.6.5]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/96/material/0",
+            "label": "graphite",
+            "type": "Material"
+        },
         {
             "id": "http://data.okeeffemuseum.org/object/96/material/1",
             "label": "charcoal",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/96/material/0",
-            "label": "Graphite",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/96/material/2",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -143,16 +146,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -163,17 +177,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -188,16 +191,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -214,6 +228,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/96/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1938-01-01T00:00:00",
             "end_of_the_end": "1948-12-31T00:00:00",
@@ -227,18 +248,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/provenance/",
-            "label": "Estate of the artist, 1986 ^Private collection, 1987 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300080091",
                     "label": "description",
                     "type": "Type"
@@ -247,40 +256,6 @@
             "id": "http://data.okeeffemuseum.org/object/96/Description/",
             "type": "LinguisticObject",
             "value": "Vertical graphite and charcoal drawing on manila yellow paper of cliff walls where a waterfall would run."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/Materials/",
-            "type": "LinguisticObject",
-            "value": "Graphite and charcoal on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Graphite and charcoal on paper, 23 7/8 x 17 7/8 inches"
         },
         {
             "classified_as": [
@@ -297,55 +272,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/96/institution_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Private Collection*"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/Measurement/",
-            "type": "LinguisticObject",
-            "value": "23 7/8 x 17 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/96/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1997 Santa Fe (O'Keeffe) Inaugural \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (Frames of Preference / Maria Chabot / Sense of Place) \n2004 Santa Fe (O'Keeffe) A Sense of Place; all venues \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Faraway"
         },
         {
             "classified_as": [
@@ -372,19 +311,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/96/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/96/exhibitions",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "1997 Santa Fe (O'Keeffe) Inaugural \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (Frames of Preference / Maria Chabot / Sense of Place) \n2004 Santa Fe (O'Keeffe) A Sense of Place; all venues \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Faraway"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/Measurement/",
+            "type": "LinguisticObject",
+            "value": "23 7/8 x 17 7/8 inches"
         },
         {
             "classified_as": [
@@ -397,6 +343,30 @@
             "id": "http://data.okeeffemuseum.org/object/96/aquisition/method/",
             "type": "LinguisticObject",
             "value": "Burnett Foundation Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/provenance/",
+            "label": "Estate of the artist, 1986 ^Private collection, 1987 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation      "
         },
         {
             "classified_as": [
@@ -418,14 +388,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/96/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/96/Right/",
             "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
+            "value": "\u00a9 Private Collection*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite and charcoal on paper, 23 7/8 x 17 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/96/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite and charcoal on paper"
         }
     ],
     "refers_to": [],
@@ -456,11 +477,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/98",
+            "id": "http://data.okeeffemuseum.org/exhibition/99",
             "timespan": {
-                "begin_of_the_begin": "2001-09-14T00:00:00",
-                "end_of_the_end": "2002-01-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/98/timespan",
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2001-08-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
+            ],
+            "label": "Inaugural Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/100",
+            "timespan": {
+                "begin_of_the_begin": "2002-02-08T00:00:00",
+                "end_of_the_end": "2002-05-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/100/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -486,11 +537,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/99",
+            "id": "http://data.okeeffemuseum.org/exhibition/98",
             "timespan": {
-                "begin_of_the_begin": "2001-05-04T00:00:00",
-                "end_of_the_end": "2001-08-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
+                "begin_of_the_begin": "2001-09-14T00:00:00",
+                "end_of_the_end": "2002-01-13T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/98/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -504,23 +555,6 @@
                 "begin_of_the_begin": "1997-07-17T00:00:00",
                 "end_of_the_end": "1998-03-30T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
-            ],
-            "label": "Inaugural Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -551,19 +585,6 @@
                 "begin_of_the_begin": "1998-10-30T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/70/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/100",
-            "timespan": {
-                "begin_of_the_begin": "2002-02-08T00:00:00",
-                "end_of_the_end": "2002-05-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/100/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

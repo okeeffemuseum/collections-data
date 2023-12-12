@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -33,9 +42,33 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8658/title",
+            "type": "Name",
+            "value": "Red Cannas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8658/identifier",
             "type": "Identifier",
             "value": "8658"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8658/other_id",
+            "type": "Identifier",
+            "value": "589, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -48,30 +81,6 @@
             "id": "http://data.okeeffemuseum.org/object/8658/otheridentifier",
             "type": "Identifier",
             "value": "589"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/other_id",
-            "type": "Identifier",
-            "value": "589, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/title",
-            "type": "Name",
-            "value": "Red Cannas"
         }
     ],
     "label": "Georgia O'Keeffe. Red Cannas, 1927. Oil on canvas, 36 1/8 x 30 1/8 inches. Amon Carter Museum of American Art. Amon Carter Museum, Fort Worth, Texas (1986.11)",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8658/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1922-01-01T00:00:00",
-            "end_of_the_end": "1932-12-31T00:00:00",
+            "begin_of_the_begin": "1927-01-01T00:00:00",
+            "end_of_the_end": "1927-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8658/production/timespan/0",
             "label": "1927",
             "type": "TimeSpan"
@@ -206,60 +226,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8658/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8658/exhibitions",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "1928 New York (Intimate Gallery \u2013 O'Keeffe), not on checklist"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8658/institution_caption",
             "type": "LinguisticObject",
             "value": "Amon Carter Museum of American Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Amon Carter Museum, Fort Worth, Texas (1986.11)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/Measurement/",
-            "type": "LinguisticObject",
-            "value": "36 1/8 x 30 1/8 inches"
         },
         {
             "classified_as": [
@@ -276,26 +267,50 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8658/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1928 New York (Intimate Gallery \u2013 O'Keeffe), not on checklist"
+            "id": "http://data.okeeffemuseum.org/object/8658/caption/",
+            "label": "Georgia O'Keeffe. Red Cannas, 1927. Oil on canvas, 36 1/8 x 30 1/8 inches. Amon Carter Museum of American Art. Amon Carter Museum, Fort Worth, Texas (1986.11)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8658/provenance/",
-            "label": "(The Intimate Gallery, New York, NY); Mrs. Carleton H. Palmer, New York, NY, 1929; Private collection, New York, NY, date unknown; (Robert Miller Gallery, Inc., New York, NY)         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8658/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: \"Georgia O'Keeffe \u2013 1927 \u2013 Red Cannas\" (black ink). Verso: \"Georgia O'Keeffe / 1927\" (white paint)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8658/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 1/8 x 30 1/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8658/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Amon Carter Museum, Fort Worth, Texas (1986.11)      "
         },
         {
             "classified_as": [
@@ -339,6 +354,35 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8658/provenance/",
+            "label": "(The Intimate Gallery, New York, NY); Mrs. Carleton H. Palmer, New York, NY, 1929; Private collection, New York, NY, date unknown; (Robert Miller Gallery, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8658/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -357,30 +401,6 @@
             "id": "http://data.okeeffemuseum.org/object/8658/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on canvas, 36 1/8 x 30 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/caption/",
-            "label": "Georgia O'Keeffe. Red Cannas, 1927. Oil on canvas, 36 1/8 x 30 1/8 inches. Amon Carter Museum of American Art. Amon Carter Museum, Fort Worth, Texas (1986.11)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8658/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: \"Georgia O'Keeffe \u2013 1927 \u2013 Red Cannas\" (black ink). Verso: \"Georgia O'Keeffe / 1927\" (white paint)"
         }
     ],
     "refers_to": [],
@@ -423,19 +443,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/177",
-            "timespan": {
-                "begin_of_the_begin": "1928-01-09T00:00:00",
-                "end_of_the_end": "1928-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/177/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/113",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/113/title"
@@ -445,6 +452,19 @@
                 "begin_of_the_begin": "1928-01-09T00:00:00",
                 "end_of_the_end": "1928-02-27T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/113/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/177",
+            "timespan": {
+                "begin_of_the_begin": "1928-01-09T00:00:00",
+                "end_of_the_end": "1928-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/177/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

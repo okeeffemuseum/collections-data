@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -41,6 +50,18 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8704/identifier",
+            "type": "Identifier",
+            "value": "8704"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8704/title",
             "type": "Name",
             "value": "Abstraction \u2013 White Hill"
@@ -55,19 +76,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8704/other_id",
             "type": "Identifier",
-            "value": "643, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8704/identifier",
-            "type": "Identifier",
-            "value": "8704"
+            "value": "643, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Abstraction \u2013 White Hill, 1928. Oil on canvas, 16 x 20 inches. Private Collection. Private collection, 1995",
@@ -81,24 +90,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -113,16 +115,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -133,17 +146,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -158,16 +160,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -184,9 +197,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8704/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1923-01-01T00:00:00",
-            "end_of_the_end": "1933-12-31T00:00:00",
+            "begin_of_the_begin": "1928-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8704/production/timespan/0",
             "label": "1928",
             "type": "TimeSpan"
@@ -194,6 +214,23 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8704/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
         {
             "classified_as": [
                 {
@@ -214,25 +251,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8704/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, 1995      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -255,14 +280,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8704/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Private collection, Long Island, New York, 1959; Sotheby's, New York, NY, sale no. 7613, lot no. 117, 25 May 1995; (Citibank Art Advisory Service, New York, NY)         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8704/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: \"#2\" (graphite, unidentified hand). Verso: \"O'Keeffe / 8-11-28\" (grey paint). Backing: 1. \"Georgia O'Keeffe 1928\" (IG, blue ink) 2. OK {5star} (graphite) 3. \"N. B. / One of O'Keeffe's / very finest / Apr. 4 / Stieglitz\" (AS, black crayon) 4. \"#17 / White Hill & Black\" (AD, IG, black ink)"
         },
         {
             "classified_as": [
@@ -279,14 +304,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8704/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8704/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Private collection, 1995      "
         },
         {
             "classified_as": [
@@ -313,23 +338,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8704/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -352,14 +360,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8704/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8704/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Private collection, Long Island, New York, 1959; Sotheby's, New York, NY, sale no. 7613, lot no. 117, 25 May 1995; (Citibank Art Advisory Service, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8704/Materials/",
             "type": "LinguisticObject",
-            "value": "Stretcher: \"#2\" (graphite, unidentified hand). Verso: \"O'Keeffe / 8-11-28\" (grey paint). Backing: 1. \"Georgia O'Keeffe 1928\" (IG, blue ink) 2. OK {5star} (graphite) 3. \"N. B. / One of O'Keeffe's / very finest / Apr. 4 / Stieglitz\" (AS, black crayon) 4. \"#17 / White Hill & Black\" (AD, IG, black ink)"
+            "value": "Oil on canvas"
         }
     ],
     "refers_to": [],
@@ -390,6 +410,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/127",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/16",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/16/title"
@@ -399,19 +432,6 @@
                 "begin_of_the_begin": "2008-05-23T00:00:00",
                 "end_of_the_end": "2009-09-07T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/16/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/127",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

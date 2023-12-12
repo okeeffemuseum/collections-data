@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
@@ -28,14 +37,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10150/identifier",
+            "id": "http://data.okeeffemuseum.org/object/10150/otheridentifier",
             "type": "Identifier",
-            "value": "10150"
+            "value": "1064"
         },
         {
             "classified_as": [
@@ -52,14 +61,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10150/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/10150/identifier",
             "type": "Identifier",
-            "value": "1064"
+            "value": "10150"
         },
         {
             "classified_as": [
@@ -71,7 +80,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10150/other_id",
             "type": "Identifier",
-            "value": "1064, Catalogue Raisonne Number"
+            "value": "1064, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Cottonwood III, 1943. Oil on canvas, 20 x 30 inches. Butler Institute of Art",
@@ -90,7 +99,11 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -126,12 +139,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -171,12 +184,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10150/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1938-01-01T00:00:00",
-            "end_of_the_end": "1948-12-31T00:00:00",
+            "begin_of_the_begin": "1943-01-01T00:00:00",
+            "end_of_the_end": "1943-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10150/production/timespan/0",
             "label": "1943",
             "type": "TimeSpan"
@@ -211,75 +231,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10150/title_date_caption",
             "type": "LinguisticObject",
             "value": "Cottonwood III, 1943"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10150/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Butler Institute of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10150/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10150/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 30 inches"
         },
         {
             "classified_as": [
@@ -296,14 +260,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10150/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/10150/maker_role",
             "type": "LinguisticObject",
-            "value": "20 x 30 inches"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10150/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -325,14 +311,48 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10150/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10150/institution_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Butler Institute of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10150/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10150/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 x 30 inches"
         }
     ],
     "refers_to": [],

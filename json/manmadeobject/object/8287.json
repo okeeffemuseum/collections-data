@@ -3,6 +3,16 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -10,11 +20,6 @@
         {
             "id": "aat:300078925",
             "label": "watercolors",
-            "type": "Type"
-        },
-        {
-            "id": "aat:300133025",
-            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -40,7 +45,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8287/other_id",
             "type": "Identifier",
-            "value": "92, Catalogue Raisonne Number"
+            "value": "92, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/title",
+            "type": "Name",
+            "value": "Blue No. II"
         },
         {
             "classified_as": [
@@ -65,51 +82,32 @@
             "id": "http://data.okeeffemuseum.org/object/8287/otheridentifier",
             "type": "Identifier",
             "value": "92"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/title",
-            "type": "Name",
-            "value": "Blue No. II"
         }
     ],
     "label": "Georgia O'Keeffe. Blue No. II, 1916. Watercolor on paper, Japanese gampi*, 15 7/8 x 11 inches. Brooklyn Museum of Art. Brooklyn Museum of Art, Bequest of Mary T. Cockcroft [purchase, 1958] (58.74)",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8287/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8287/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -124,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -144,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -169,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -195,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8287/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8287/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -205,18 +221,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/provenance/",
-            "label": "(The Downtown Gallery, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -228,132 +232,6 @@
             "id": "http://data.okeeffemuseum.org/object/8287/CreditLine/",
             "type": "LinguisticObject",
             "value": "Brooklyn Museum of Art, Bequest of Mary T. Cockcroft [purchase, 1958] (58.74)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/Measurement/",
-            "type": "LinguisticObject",
-            "value": "15 7/8 x 11 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/caption/",
-            "label": "Georgia O'Keeffe. Blue No. II, 1916. Watercolor on paper, Japanese gampi*, 15 7/8 x 11 inches. Brooklyn Museum of Art. Brooklyn Museum of Art, Bequest of Mary T. Cockcroft [purchase, 1958] (58.74)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Blue No. II, 1916"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, Japanese gampi*, 15 7/8 x 11 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1958 New York (Downtown \u2013 Watercolor), no. 2; 1970 New York (Whitney), no. 7; 1973 New York (Crispo), no. 86; 1989 Brooklyn"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8287/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, Japanese gampi*"
         },
         {
             "classified_as": [
@@ -371,6 +249,144 @@
             "id": "http://data.okeeffemuseum.org/object/8287/institution_caption",
             "type": "LinguisticObject",
             "value": "Brooklyn Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, Japanese gampi*, 15 7/8 x 11 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/caption/",
+            "label": "Georgia O'Keeffe. Blue No. II, 1916. Watercolor on paper, Japanese gampi*, 15 7/8 x 11 inches. Brooklyn Museum of Art. Brooklyn Museum of Art, Bequest of Mary T. Cockcroft [purchase, 1958] (58.74)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, Japanese gampi*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/Measurement/",
+            "type": "LinguisticObject",
+            "value": "15 7/8 x 11 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1923 New York (Anderson); 1958 New York (Downtown \u2013 Watercolor), no. 2; 1970 New York (Whitney), no. 7; 1973 New York (Crispo), no. 86; 1989 Brooklyn"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Blue No. II, 1916"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/provenance/",
+            "label": "(The Downtown Gallery, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8287/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -413,11 +429,50 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/112",
+            "timespan": {
+                "begin_of_the_begin": "2003-05-02T00:00:00",
+                "end_of_the_end": "2004-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/112/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/688",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/688/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1100",
             "timespan": {
                 "begin_of_the_begin": "1970-03-15T00:00:00",
                 "end_of_the_end": "1970-04-30T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1189",
+            "timespan": {
+                "begin_of_the_begin": "1989-03-03T00:00:00",
+                "end_of_the_end": "1989-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1189/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -443,19 +498,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/112",
-            "timespan": {
-                "begin_of_the_begin": "2003-05-02T00:00:00",
-                "end_of_the_end": "2004-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/112/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/99/title"
@@ -473,41 +515,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/832",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/65",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/832/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/65/title"
             ],
-            "label": "Georgia O'Keeffe: Works from the Brooklyn Museum",
+            "label": "Photographs by Alfred Stieglitz: A Gift from the Georgia O'Keeffe Foundation",
             "timespan": {
-                "begin_of_the_begin": "1989-03-03T00:00:00",
-                "end_of_the_end": "1989-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/832/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/688",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/688/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1189",
-            "timespan": {
-                "begin_of_the_begin": "1989-03-03T00:00:00",
-                "end_of_the_end": "1989-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1189/timespan",
+                "begin_of_the_begin": "2003-05-02T00:00:00",
+                "end_of_the_end": "2004-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/65/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -546,11 +562,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1098",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/832",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/832/title"
+            ],
+            "label": "Georgia O'Keeffe: Works from the Brooklyn Museum",
             "timespan": {
-                "begin_of_the_begin": "1970-10-08T00:00:00",
-                "end_of_the_end": "1970-11-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
+                "begin_of_the_begin": "1989-03-03T00:00:00",
+                "end_of_the_end": "1989-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/832/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -572,15 +592,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/65",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/65/title"
-            ],
-            "label": "Photographs by Alfred Stieglitz: A Gift from the Georgia O'Keeffe Foundation",
+            "id": "http://data.okeeffemuseum.org/exhibition/1098",
             "timespan": {
-                "begin_of_the_begin": "2003-05-02T00:00:00",
-                "end_of_the_end": "2004-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/65/timespan",
+                "begin_of_the_begin": "1970-10-08T00:00:00",
+                "end_of_the_end": "1970-11-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -50,19 +59,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/583/other_id",
             "type": "Identifier",
-            "value": "935, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/583/title",
-            "type": "Name",
-            "value": "Cedar Tree with Lavender Hills"
+            "value": "935, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -75,6 +72,18 @@
             "id": "http://data.okeeffemuseum.org/object/583/identifier",
             "type": "Identifier",
             "value": "583"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/583/title",
+            "type": "Name",
+            "value": "Cedar Tree with Lavender Hills"
         }
     ],
     "label": "Georgia O'Keeffe. Cedar Tree with Lavender Hills, 1937. Oil on canvas, 30 x 19 1/2 inches. Reynolda House Museum of American Art. \u00a9 Georgia O'Keeffe Museum",
@@ -93,24 +102,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/583/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1937-01-01T00:00:00",
+            "end_of_the_end": "1937-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/583/production/timespan/0",
             "label": "1937",
             "type": "TimeSpan"
@@ -206,35 +226,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/583/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Reynolda House Museum of American Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/583/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
         {
             "classified_as": [
                 {
@@ -282,6 +273,45 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/583/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Reynolda House Museum of American Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/583/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 30 x 19 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -318,24 +348,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/583/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/583/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 30 x 19 1/2 inches"
+            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/583/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -348,18 +380,6 @@
             "id": "http://data.okeeffemuseum.org/object/583/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/583/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
         }
     ],
     "refers_to": [],
@@ -387,17 +407,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264578",
-                    "label": "Web pages",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://www.arsny.com/requests",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -405,6 +414,17 @@
             ],
             "id": "http://data.okeeffemuseum.org/%20https://reynoldahouse.emuseum.com/objects/2455",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264578",
+                    "label": "Web pages",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://www.arsny.com/requests",
+            "type": "LinguisticObject"
         }
     ],
     "type": "ManMadeObject",

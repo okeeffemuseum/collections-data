@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -39,6 +48,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/other_id",
+            "type": "Identifier",
+            "value": "810, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -59,22 +80,15 @@
             "id": "http://data.okeeffemuseum.org/object/8814/identifier",
             "type": "Identifier",
             "value": "8814"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/other_id",
-            "type": "Identifier",
-            "value": "810, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Canadian Barn, 1932. Oil on canvas, 9 x 12 inches. Private Collection. Private collection, Western Pennsylvania, bequest, 1989. \u00a9 Georgia O'Keeffe Museum",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8814/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -82,31 +96,19 @@
             "id": "http://data.okeeffemuseum.org/object/8814/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8814/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -121,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -141,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -166,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -192,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8814/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1937-12-31T00:00:00",
+            "begin_of_the_begin": "1932-01-01T00:00:00",
+            "end_of_the_end": "1932-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8814/production/timespan/0",
             "label": "1932",
             "type": "TimeSpan"
@@ -202,42 +222,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/caption/",
-            "label": "Georgia O'Keeffe. Canadian Barn, 1932. Oil on canvas, 9 x 12 inches. Private Collection. Private collection, Western Pennsylvania, bequest, 1989. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Canadian Barn \u2013 32\" (graphite) 2. OK {5star} (graphite)"
-        },
         {
             "classified_as": [
                 {
@@ -253,87 +237,43 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1941 New York (An American Place \u2013 October), no. 13, as Canadian Barn?"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8814/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8814/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 9 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Canadian Barn, 1932"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Oliver B. James, New York, NY, 1948; Estate of Oliver B. James, 1955; Parke-Bernet Galleries, Inc., New York, NY, sale no. 1916, lot no. 18, 1955; (The Downtown Gallery, New York, NY); The artist, 1955; (The Downtown Gallery, New York, NY); Private collection, Western Pennsylvania, 1956; Estate of private collector, 1989         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "9 x 12 inches"
         },
         {
             "classified_as": [
@@ -355,6 +295,98 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Canadian Barn \u2013 32\" (graphite) 2. OK {5star} (graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 9 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Oliver B. James, New York, NY, 1948; Estate of Oliver B. James, 1955; Parke-Bernet Galleries, Inc., New York, NY, sale no. 1916, lot no. 18, 1955; (The Downtown Gallery, New York, NY); The artist, 1955; (The Downtown Gallery, New York, NY); Private collection, Western Pennsylvania, 1956; Estate of private collector, 1989         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Canadian Barn, 1932"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8814/caption/",
+            "label": "Georgia O'Keeffe. Canadian Barn, 1932. Oil on canvas, 9 x 12 inches. Private Collection. Private collection, Western Pennsylvania, bequest, 1989. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -367,31 +399,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8814/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1941 New York (An American Place \u2013 October), no. 13, as Canadian Barn?"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8814/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8814/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -422,6 +442,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/334",
+            "timespan": {
+                "begin_of_the_begin": "1941-01-27T00:00:00",
+                "end_of_the_end": "1941-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/227",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/227/title"
@@ -431,19 +464,6 @@
                 "begin_of_the_begin": "1941-01-27T00:00:00",
                 "end_of_the_end": "1941-03-11T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/227/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/334",
-            "timespan": {
-                "begin_of_the_begin": "1941-01-27T00:00:00",
-                "end_of_the_end": "1941-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -25,18 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8971",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8971/other_id",
-            "type": "Identifier",
-            "value": "1049, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -72,15 +69,22 @@
             "id": "http://data.okeeffemuseum.org/object/8971/identifier",
             "type": "Identifier",
             "value": "8971"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8971/other_id",
+            "type": "Identifier",
+            "value": "1049, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Pelvis with the Distance, 1943. Oil on canvas, 23 7/8 x 29 3/4 inches. Indianapolis Museum of Art. Indianapolis Museum of Art, Gift of Ann Marmon Greenleaf in memory of Caroline Marmon Fesler[1977](IMA77.229)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8971/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/8971/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8971/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/297",
+        "label": "Bones",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8971/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1938-01-01T00:00:00",
-            "end_of_the_end": "1948-12-31T00:00:00",
+            "begin_of_the_begin": "1943-01-01T00:00:00",
+            "end_of_the_end": "1943-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8971/production/timespan/0",
             "label": "1943",
             "type": "TimeSpan"
@@ -206,8 +226,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -216,9 +236,43 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8971/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8971/artist_caption",
             "type": "LinguisticObject",
-            "value": "Indianapolis Museum of Art"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8971/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pelvis with the Distance, 1943"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8971/provenance/",
+            "label": "(An American Place, New York, N.Y.) Caroline and James W. Fesler, Indianapolis, Indiana,1944 Dr.Robert and Ann Marmon Greenleaf, Indianapolis, Indiana, bequest, 1960         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -235,6 +289,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8971/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing:\"No.5 of Catalogue/ O'Keeffe Exhibition Jan.11\u2014M'ch 11,1944 / Pelviswiththe Distance, 1943 / (New Mexico by Georgia O'Keeffe.)\" \n(AS,AAP1,black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8971/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Indianapolis Museum of Art, Gift of Ann Marmon Greenleaf in memory of Caroline Marmon Fesler[1977](IMA77.229)      "
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -243,74 +321,6 @@
             "id": "http://data.okeeffemuseum.org/object/8971/caption/",
             "label": "Georgia O'Keeffe. Pelvis with the Distance, 1943. Oil on canvas, 23 7/8 x 29 3/4 inches. Indianapolis Museum of Art. Indianapolis Museum of Art, Gift of Ann Marmon Greenleaf in memory of Caroline Marmon Fesler[1977](IMA77.229)",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8971/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 23 7/8 x 29 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8971/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1944 New York(An American Place), no.5, as Pelvis with the Distance;1946 NewYork (MOMA \u2014Retro), no.48;1960 Flint, no.68;1964 St. Louis;1965 Milton"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8971/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pelvis with the Distance, 1943"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8971/Measurement/",
-            "type": "LinguisticObject",
-            "value": "23 7/8 x 29 3/4 inches"
         },
         {
             "classified_as": [
@@ -332,55 +342,65 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8971/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8971/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas, 23 7/8 x 29 3/4 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8971/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8971/Measurement/",
             "type": "LinguisticObject",
-            "value": "Indianapolis Museum of Art, Gift of Ann Marmon Greenleaf in memory of Caroline Marmon Fesler[1977](IMA77.229)      "
+            "value": "23 7/8 x 29 3/4 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8971/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8971/exhibitions",
             "type": "LinguisticObject",
-            "value": "Backing:\"No.5 of Catalogue/ O'Keeffe Exhibition Jan.11\u2014M'ch 11,1944 / Pelviswiththe Distance, 1943 / (New Mexico by Georgia O'Keeffe.)\" \n(AS,AAP1,black ink)"
+            "value": "1944 New York(An American Place), no.5, as Pelvis with the Distance;1946 NewYork (MOMA \u2014Retro), no.48;1960 Flint, no.68;1964 St. Louis;1965 Milton"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8971/provenance/",
-            "label": "(An American Place, New York, N.Y.) Caroline and James W. Fesler, Indianapolis, Indiana,1944 Dr.Robert and Ann Marmon Greenleaf, Indianapolis, Indiana, bequest, 1960         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8971/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Indianapolis Museum of Art"
         }
     ],
     "refers_to": [],
@@ -423,15 +443,31 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/675",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/675/title"
-            ],
-            "label": "200 Years of American Painting",
+            "id": "http://data.okeeffemuseum.org/exhibition/994",
             "timespan": {
-                "begin_of_the_begin": "1964-04-01T00:00:00",
-                "end_of_the_end": "1964-05-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/675/timespan",
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/995",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/993",
+            "timespan": {
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -457,37 +493,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/982",
-            "timespan": {
-                "begin_of_the_begin": "1964-04-01T00:00:00",
-                "end_of_the_end": "1964-05-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/982/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/358",
             "timespan": {
                 "begin_of_the_begin": "1944-01-01T00:00:00",
                 "end_of_the_end": "1944-03-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/358/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/994",
-            "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -509,6 +519,40 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/675",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/675/title"
+            ],
+            "label": "200 Years of American Painting",
+            "timespan": {
+                "begin_of_the_begin": "1964-04-01T00:00:00",
+                "end_of_the_end": "1964-05-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/675/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/787",
             "timespan": {
                 "begin_of_the_begin": "1960-03-03T00:00:00",
@@ -522,37 +566,13 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/993",
+            "id": "http://data.okeeffemuseum.org/exhibition/982",
             "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
+                "begin_of_the_begin": "1964-04-01T00:00:00",
+                "end_of_the_end": "1964-05-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/982/timespan",
                 "type": "TimeSpan"
             },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/535",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/535/title"
-            ],
-            "label": "American Landscape 1760-1960",
-            "timespan": {
-                "begin_of_the_begin": "1960-03-03T00:00:00",
-                "end_of_the_end": "1960-04-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/535/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/995",
             "type": "Activity"
         },
         {
@@ -576,15 +596,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/535",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/535/title"
             ],
-            "label": "Georgia O'Keeffe",
+            "label": "American Landscape 1760-1960",
             "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
+                "begin_of_the_begin": "1960-03-03T00:00:00",
+                "end_of_the_end": "1960-04-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/535/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

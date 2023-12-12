@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -33,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/identifier",
-            "type": "Identifier",
-            "value": "8819"
+            "id": "http://data.okeeffemuseum.org/object/8819/title",
+            "type": "Name",
+            "value": "White Flower"
         },
         {
             "classified_as": [
@@ -45,21 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/title",
-            "type": "Name",
-            "value": "White Flower"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8819/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8819/identifier",
             "type": "Identifier",
-            "value": "817, Catalogue Raisonne Number"
+            "value": "8819"
         },
         {
             "classified_as": [
@@ -72,10 +69,27 @@
             "id": "http://data.okeeffemuseum.org/object/8819/otheridentifier",
             "type": "Identifier",
             "value": "817"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8819/other_id",
+            "type": "Identifier",
+            "value": "817, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. White Flower, 1932. Oil on board, 15 3/4 x 19 7/8 inches. Muscarelle Museum of Art. Muscarelle Museum of Art, College of William and Mary, Gift of Mrs. John D. Rockefeller, Jr. (1934.007)",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8819/material/1",
+            "label": "board",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8819/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8819/material/1",
-            "label": "board",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8819/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1937-12-31T00:00:00",
+            "begin_of_the_begin": "1932-01-01T00:00:00",
+            "end_of_the_end": "1932-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8819/production/timespan/0",
             "label": "1932",
             "type": "TimeSpan"
@@ -203,18 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8819/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
         {
             "classified_as": [
                 {
@@ -235,14 +243,53 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8819/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1938 Williamsburg"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8819/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Flower, 1932"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/caption/",
-            "label": "Georgia O'Keeffe. White Flower, 1932. Oil on board, 15 3/4 x 19 7/8 inches. Muscarelle Museum of Art. Muscarelle Museum of Art, College of William and Mary, Gift of Mrs. John D. Rockefeller, Jr. (1934.007)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8819/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -269,48 +316,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8819/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Muscarelle Museum of Art, College of William and Mary, Gift of Mrs. John D. Rockefeller, Jr. (1934.007)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "White Flower, 1932"
+            "id": "http://data.okeeffemuseum.org/object/8819/caption/",
+            "label": "Georgia O'Keeffe. White Flower, 1932. Oil on board, 15 3/4 x 19 7/8 inches. Muscarelle Museum of Art. Muscarelle Museum of Art, College of William and Mary, Gift of Mrs. John D. Rockefeller, Jr. (1934.007)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/provenance/",
-            "label": "(An American Place, New York, NY); (The Downtown Gallery, New York, NY); Abby Aldrich (Mrs. John D.) Rockefeller, New York, NY, 1934         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8819/Measurement/",
+            "type": "LinguisticObject",
+            "value": "15 3/4 x 19 7/8 inches"
         },
         {
             "classified_as": [
@@ -323,6 +348,30 @@
             "id": "http://data.okeeffemuseum.org/object/8819/signaturemarks",
             "type": "LinguisticObject",
             "value": "Verso: \"Please do not loan / this picture / Georgia O'Keeffe\" (green paint)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8819/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8819/provenance/",
+            "label": "(An American Place, New York, NY); (The Downtown Gallery, New York, NY); Abby Aldrich (Mrs. John D.) Rockefeller, New York, NY, 1934         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -344,43 +393,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8819/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8819/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8819/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1938 Williamsburg"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8819/Measurement/",
-            "type": "LinguisticObject",
-            "value": "15 3/4 x 19 7/8 inches"
+            "value": "Muscarelle Museum of Art, College of William and Mary, Gift of Mrs. John D. Rockefeller, Jr. (1934.007)      "
         }
     ],
     "refers_to": [],
@@ -423,15 +443,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/59",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/59/title"
             ],
-            "label": "Georgia O'Keeffe Paintings",
+            "label": "Georgia O'Keeffe in Williamsburg",
             "timespan": {
-                "begin_of_the_begin": "1938-05-04T00:00:00",
-                "end_of_the_end": "1938-05-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
+                "begin_of_the_begin": "2001-06-23T00:00:00",
+                "end_of_the_end": "2001-10-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/59/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -453,15 +473,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/59",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/59/title"
-            ],
-            "label": "Georgia O'Keeffe in Williamsburg",
+            "id": "http://data.okeeffemuseum.org/exhibition/97",
             "timespan": {
                 "begin_of_the_begin": "2001-06-23T00:00:00",
                 "end_of_the_end": "2001-10-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/59/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/97/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -470,11 +486,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/97",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
+            ],
+            "label": "Georgia O'Keeffe Paintings",
             "timespan": {
-                "begin_of_the_begin": "2001-06-23T00:00:00",
-                "end_of_the_end": "2001-10-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/97/timespan",
+                "begin_of_the_begin": "1938-05-04T00:00:00",
+                "end_of_the_end": "1938-05-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -47,19 +52,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8294/other_id",
             "type": "Identifier",
-            "value": "108, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/identifier",
-            "type": "Identifier",
-            "value": "8294"
+            "value": "108, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -72,39 +65,44 @@
             "id": "http://data.okeeffemuseum.org/object/8294/otheridentifier",
             "type": "Identifier",
             "value": "108"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/identifier",
+            "type": "Identifier",
+            "value": "8294"
         }
     ],
     "label": "Georgia O'Keeffe. Blue Hill No. 1, 1916. Watercolor on paper, 9 x 12 inches. National Gallery of Art, Washington. The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1993",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8294/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/8294/material/0",
+            "label": "watercolor",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8294/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/8294/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8294/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8294/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -200,6 +216,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/provenance/",
+            "label": "Estate of the artist, 1986         ",
+            "type": "LinguisticObject"
+        },
         {
             "classified_as": [
                 {
@@ -225,18 +253,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -245,59 +261,6 @@
             "id": "http://data.okeeffemuseum.org/object/8294/CreditLine/",
             "type": "LinguisticObject",
             "value": "The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1993      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Backing: \"#15 / Blue Hill No. II I {\"II\" crossed out} [crossing out and \"I\" by DB, black ink] / 1916 / Water Color on Paper / 9 x 12 / Baker\" (OKR, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/provenance/",
-            "label": "Estate of the artist, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8294/institution_caption",
-            "type": "LinguisticObject",
-            "value": "National Gallery of Art, Washington"
         },
         {
             "classified_as": [
@@ -331,6 +294,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing: \"#15 / Blue Hill No. II I {\"II\" crossed out} [crossing out and \"I\" by DB, black ink] / 1916 / Water Color on Paper / 9 x 12 / Baker\" (OKR, black ink)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -343,13 +330,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/institution_caption",
+            "type": "LinguisticObject",
+            "value": "National Gallery of Art, Washington"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
@@ -360,18 +364,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8294/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -420,6 +436,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/480/title"
@@ -429,19 +458,6 @@
                 "begin_of_the_begin": "1958-02-25T00:00:00",
                 "end_of_the_end": "1958-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/689",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

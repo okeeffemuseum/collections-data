@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -21,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8485",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/other_id",
-            "type": "Identifier",
-            "value": "389, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -68,15 +65,22 @@
             "id": "http://data.okeeffemuseum.org/object/8485/identifier",
             "type": "Identifier",
             "value": "8485"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/other_id",
+            "type": "Identifier",
+            "value": "389, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Mountains to North \u2013 Autumn, Lake George, New York, 1922. Oil on canvas, 8 x 23 inches. Evansville Museum of Arts, History & Science. Collection of the Evansville Museum of Arts and Science, Evansville, Indiana [1966] (66.300)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8485/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -84,26 +88,24 @@
             "id": "http://data.okeeffemuseum.org/object/8485/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8485/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8485/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1917-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8485/production/timespan/0",
             "label": "1922",
             "type": "TimeSpan"
@@ -199,91 +219,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 8 x 23 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/caption/",
-            "label": "Georgia O'Keeffe. Mountains to North \u2013 Autumn, Lake George, New York, 1922. Oil on canvas, 8 x 23 inches. Evansville Museum of Arts, History & Science. Collection of the Evansville Museum of Arts and Science, Evansville, Indiana [1966] (66.300)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Mountains to North \u2013 Autumn, Lake George, New York, 1922"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8485/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: \"#6\" (unidentified hand, graphite) Backing: 1. \"Mountains to North \u2013 Autumn \u2013 / Lake George, N.Y. / By Georgia O'Keeffe / for Alfred Stieglitz \u2013 Aug\" (AS, AAP3, black ink) 2. Mountains to North \u2013 / Autumn, Lake George / 1922 / by Georgia O'Keeffe / for Stieglitz\" (AS, black ink)"
-        },
         {
             "classified_as": [
                 {
@@ -311,8 +246,42 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: \"#6\" (unidentified hand, graphite) Backing: 1. \"Mountains to North \u2013 Autumn \u2013 / Lake George, N.Y. / By Georgia O'Keeffe / for Alfred Stieglitz \u2013 Aug\" (AS, AAP3, black ink) 2. Mountains to North \u2013 / Autumn, Lake George / 1922 / by Georgia O'Keeffe / for Stieglitz\" (AS, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 8 x 23 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -321,9 +290,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8485/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8485/artist_caption",
             "type": "LinguisticObject",
-            "value": "Evansville Museum of Arts, History & Science"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -365,6 +334,57 @@
             "id": "http://data.okeeffemuseum.org/object/8485/CreditLine/",
             "type": "LinguisticObject",
             "value": "Collection of the Evansville Museum of Arts and Science, Evansville, Indiana [1966] (66.300)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Mountains to North \u2013 Autumn, Lake George, New York, 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Evansville Museum of Arts, History & Science"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8485/caption/",
+            "label": "Georgia O'Keeffe. Mountains to North \u2013 Autumn, Lake George, New York, 1922. Oil on canvas, 8 x 23 inches. Evansville Museum of Arts, History & Science. Collection of the Evansville Museum of Arts and Science, Evansville, Indiana [1966] (66.300)",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300010672",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -23,14 +32,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10316/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/10316/other_id",
             "type": "Identifier",
-            "value": "1584"
+            "value": "1584, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -59,18 +68,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10316/other_id",
+            "id": "http://data.okeeffemuseum.org/object/10316/otheridentifier",
             "type": "Identifier",
-            "value": "1584, Catalogue Raisonne Number"
+            "value": "1584"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Clay Pot), 1975. Private Collection",
-    "made_of": [],
+    "label": "Georgia O'Keeffe. Untitled (Clay Pot), 1975. Stoneware, 20 x 16 inches. Private Collection",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10316/material/0",
+            "label": "stoneware",
+            "type": "Material"
+        }
+    ],
     "ore:isAggregatedBy": null,
     "part_of": [],
     "produced_by": {
@@ -107,12 +122,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +167,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +189,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10316/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/stoneware",
+                "label": "Stoneware",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1975-01-01T00:00:00",
+            "end_of_the_end": "1975-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10316/production/timespan/0",
             "label": "1975",
             "type": "TimeSpan"
@@ -185,19 +209,104 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10316/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10316/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Clay Pot), 1975"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10316/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Stoneware, 20 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10316/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10316/institution_caption",
             "type": "LinguisticObject",
             "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10316/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Clay Pot), 1975. Stoneware, 20 x 16 inches. Private Collection",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -219,53 +328,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10316/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Clay Pot), 1975. Private Collection",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10316/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10316/Materials/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10316/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Clay Pot), 1975"
+            "value": "Stoneware"
         }
     ],
     "refers_to": [],

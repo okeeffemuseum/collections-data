@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -29,9 +38,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8854/identifier",
-            "type": "Identifier",
-            "value": "8854"
+            "id": "http://data.okeeffemuseum.org/object/8854/title",
+            "type": "Name",
+            "value": "Lavender & Green Hill \u2013 Ghost Ranch"
         },
         {
             "classified_as": [
@@ -43,19 +52,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8854/other_id",
             "type": "Identifier",
-            "value": "871, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/title",
-            "type": "Name",
-            "value": "Lavender & Green Hill \u2013 Ghost Ranch"
+            "value": "871, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -68,6 +65,18 @@
             "id": "http://data.okeeffemuseum.org/object/8854/otheridentifier",
             "type": "Identifier",
             "value": "871"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/identifier",
+            "type": "Identifier",
+            "value": "8854"
         }
     ],
     "label": "Georgia O'Keeffe. Lavender & Green Hill \u2013 Ghost Ranch, 1935. Oil on canvas board, 8 x 14 1/4 inches. Private Collection. Private collection, New York, NY, 1996",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8854/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1940-12-31T00:00:00",
+            "begin_of_the_begin": "1935-01-01T00:00:00",
+            "end_of_the_end": "1935-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8854/production/timespan/0",
             "label": "1935",
             "type": "TimeSpan"
@@ -199,98 +219,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Lavender & Green Hill \u2013 Ghost Ranch\" (graphite) 2. OK {5star} (graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1936 New York (An American Place), no. 6, as Hills \u2013 Lavender, Ghost Ranch, New Mexico, II; 1987 Washington, no. 87; 1993 Greenville; 1993 London (Lefevre), no. 11; 1995 New York"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas board, 8 x 14 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8854/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -309,11 +237,21 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8854/caption/",
-            "label": "Georgia O'Keeffe. Lavender & Green Hill \u2013 Ghost Ranch, 1935. Oil on canvas board, 8 x 14 1/4 inches. Private Collection. Private collection, New York, NY, 1996",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8854/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas board, 8 x 14 1/4 inches"
         },
         {
             "classified_as": [
@@ -342,8 +280,37 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -352,8 +319,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -377,6 +344,59 @@
             "id": "http://data.okeeffemuseum.org/object/8854/institution_caption",
             "type": "LinguisticObject",
             "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1936 New York (An American Place), no. 6, as Hills \u2013 Lavender, Ghost Ranch, New Mexico, II; 1987 Washington, no. 87; 1993 Greenville; 1993 London (Lefevre), no. 11; 1995 New York"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/caption/",
+            "label": "Georgia O'Keeffe. Lavender & Green Hill \u2013 Ghost Ranch, 1935. Oil on canvas board, 8 x 14 1/4 inches. Private Collection. Private collection, New York, NY, 1996",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8854/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Lavender & Green Hill \u2013 Ghost Ranch\" (graphite) 2. OK {5star} (graphite)"
         }
     ],
     "refers_to": [],
@@ -407,11 +427,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
             "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -437,11 +457,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1220",
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
             "timespan": {
-                "begin_of_the_begin": "1995-06-30T00:00:00",
-                "end_of_the_end": "1995-08-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -467,6 +504,23 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/846",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/846/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-07T00:00:00",
+                "end_of_the_end": "1993-08-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/846/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1169",
             "timespan": {
                 "begin_of_the_begin": "1987-11-01T00:00:00",
@@ -480,63 +534,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1210",
+            "id": "http://data.okeeffemuseum.org/exhibition/1220",
             "timespan": {
-                "begin_of_the_begin": "1993-07-07T00:00:00",
-                "end_of_the_end": "1993-08-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1210/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
-            "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
-            "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/262",
-            "timespan": {
-                "begin_of_the_begin": "1936-01-07T00:00:00",
-                "end_of_the_end": "1936-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/262/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1214",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-05-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
+                "begin_of_the_begin": "1995-06-30T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -562,15 +564,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
-            ],
-            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "id": "http://data.okeeffemuseum.org/exhibition/1214",
             "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-05-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -579,11 +577,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
             "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -605,15 +603,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/846",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/846/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/262",
             "timespan": {
-                "begin_of_the_begin": "1993-07-07T00:00:00",
-                "end_of_the_end": "1993-08-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/846/timespan",
+                "begin_of_the_begin": "1936-01-07T00:00:00",
+                "end_of_the_end": "1936-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/262/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -622,15 +616,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
             "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "begin_of_the_begin": "1989-04-02T00:00:00",
                 "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1210",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-07T00:00:00",
+                "end_of_the_end": "1993-08-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1210/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
+            ],
+            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

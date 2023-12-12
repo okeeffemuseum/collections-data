@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -36,6 +45,30 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/551/identifier",
+            "type": "Identifier",
+            "value": "551"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/551/other_id",
+            "type": "Identifier",
+            "value": "741, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/551/title",
             "type": "Name",
             "value": "Hills Before Taos"
@@ -51,34 +84,15 @@
             "id": "http://data.okeeffemuseum.org/object/551/otheridentifier",
             "type": "Identifier",
             "value": "741"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/551/other_id",
-            "type": "Identifier",
-            "value": "741, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/551/identifier",
-            "type": "Identifier",
-            "value": "551"
         }
     ],
     "label": "Georgia O'Keeffe. Hills Before Taos, 1930. Oil on canvas, 16 x 30 inches. Montgomery Museum of Fine Arts. Collection of the Montgomery Museum of fine Arts, Montgomery, Alabama, The Blount Collection (1989.2.32). \u00a9 Georgia O'Keeffe Museum",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/551/material/1",
+            "label": "oil paint",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -86,31 +100,19 @@
             "id": "http://data.okeeffemuseum.org/object/551/material/0",
             "label": "canvas",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/551/material/1",
-            "label": "oil paint",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/551/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/551/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -209,24 +229,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/551/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/551/Measurement/",
             "type": "LinguisticObject",
-            "value": "Hills Before Taos, 1930"
+            "value": "16 x 30 inches"
         },
         {
             "classified_as": [
@@ -236,14 +246,55 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/551/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/551/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Oil on canvas, 16 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/551/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/551/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/551/caption/",
+            "label": "Georgia O'Keeffe. Hills Before Taos, 1930. Oil on canvas, 16 x 30 inches. Montgomery Museum of Fine Arts. Collection of the Montgomery Museum of fine Arts, Montgomery, Alabama, The Blount Collection (1989.2.32). \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -265,28 +316,6 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/551/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -299,20 +328,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/551/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 30 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -321,9 +343,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/551/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/551/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Montgomery Museum of Fine Arts"
+            "value": "Hills Before Taos, 1930"
         },
         {
             "classified_as": [
@@ -340,38 +362,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/551/Right/",
+            "id": "http://data.okeeffemuseum.org/object/551/institution_caption",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Montgomery Museum of Fine Arts"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/551/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/551/caption/",
-            "label": "Georgia O'Keeffe. Hills Before Taos, 1930. Oil on canvas, 16 x 30 inches. Montgomery Museum of Fine Arts. Collection of the Montgomery Museum of fine Arts, Montgomery, Alabama, The Blount Collection (1989.2.32). \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/551/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],

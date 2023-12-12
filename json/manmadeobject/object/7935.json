@@ -3,6 +3,16 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,11 +20,6 @@
         {
             "id": "aat:300078925",
             "label": "watercolors",
-            "type": "Type"
-        },
-        {
-            "id": "aat:300189621",
-            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -37,14 +42,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/other_id",
+            "id": "http://data.okeeffemuseum.org/object/7935/accessionnumber",
             "type": "Identifier",
-            "value": "5, Catalogue Raisonne Number"
+            "value": "L.2002.7.1"
         },
         {
             "classified_as": [
@@ -66,9 +71,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/identifier",
+            "id": "http://data.okeeffemuseum.org/object/7935/title",
+            "type": "Name",
+            "value": "Untitled (Cherry Blossoms)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/other_id",
             "type": "Identifier",
-            "value": "7935"
+            "value": "5, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -78,59 +95,40 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/title",
-            "type": "Name",
-            "value": "Untitled (Cherry Blossoms)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/7935/identifier",
             "type": "Identifier",
-            "value": "L.2002.7.1"
+            "value": "7935"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Cherry Blossoms), 1903. Watercolor and graphite on paper, 17 3/4 x 11 1/2 inches. Private Collection. Loan, Private Collection. [L.2002.7.1]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/7935/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/7935/material/2",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/7935/material/2",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/7935/material/0",
+            "label": "watercolor",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/7935/material/1",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -145,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -165,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -190,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -210,9 +219,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/7935/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1898-01-01T00:00:00",
-            "end_of_the_end": "1908-12-31T00:00:00",
+            "begin_of_the_begin": "1903-01-01T00:00:00",
+            "end_of_the_end": "1903-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/7935/production/timespan/0",
             "label": "1903",
             "type": "TimeSpan"
@@ -223,8 +239,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor and graphite on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -233,9 +261,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/7935/institution_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Recto: \"G. O'Keeffe/ Feb 28. \"03\" (black paint)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2002(?) Georgia O'Keeffe Museum, Santa Fe, New Mexico \n1985 Madison"
         },
         {
             "classified_as": [
@@ -243,21 +295,45 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Cherry Blossoms), 1903. Watercolor and graphite on paper, 17 3/4 x 11 1/2 inches. Private Collection. Loan, Private Collection. [L.2002.7.1]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/7935/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Untitled (Cherry Blossoms), 1903"
+            "value": "Loan, Private Collection      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor and graphite on paper, 17 3/4 x 11 1/2 inches"
         },
         {
             "classified_as": [
@@ -286,96 +362,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite on paper, 17 3/4 x 11 1/2 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/7935/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Loan, Private Collection      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/provenance/",
-            "label": "Private Collection, bequest      1973   Sun Prairie/Wisconsin, Myrtle Dolan, gift, 1903   1903   Sun Prairie/Wisconsin",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2002(?) Georgia O'Keeffe Museum, Santa Fe, New Mexico \n1985 Madison"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Recto: \"G. O'Keeffe/ Feb 28. \"03\" (black paint)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/7935/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Loan, Private Collection/Loans"
+            "value": "Untitled (Cherry Blossoms), 1903"
         },
         {
             "classified_as": [
@@ -397,30 +401,42 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/7935/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/7935/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Cherry Blossoms), 1903. Watercolor and graphite on paper, 17 3/4 x 11 1/2 inches. Private Collection. Loan, Private Collection. [L.2002.7.1]",
+            "id": "http://data.okeeffemuseum.org/object/7935/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Loan, Private Collection/Loans"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/7935/provenance/",
+            "label": "Private Collection, bequest      1973   Sun Prairie/Wisconsin, Myrtle Dolan, gift, 1903   1903   Sun Prairie/Wisconsin",
             "type": "LinguisticObject"
         }
     ],
@@ -452,41 +468,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/71",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/71/title"
-            ],
-            "label": "Moments in Modernism--Georgia O'Keeffe and Andy Warhol: Flowers of Distinction",
-            "timespan": {
-                "begin_of_the_begin": "2005-05-13T00:00:00",
-                "end_of_the_end": "2006-01-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/71/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/118",
             "timespan": {
                 "begin_of_the_begin": "2005-05-13T00:00:00",
                 "end_of_the_end": "2006-01-08T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/118/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -512,6 +498,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1157",
+            "timespan": {
+                "begin_of_the_begin": "1985-08-01T00:00:00",
+                "end_of_the_end": "1985-09-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1157/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/77/title"
@@ -529,11 +528,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1157",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/71",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/71/title"
+            ],
+            "label": "Moments in Modernism--Georgia O'Keeffe and Andy Warhol: Flowers of Distinction",
             "timespan": {
-                "begin_of_the_begin": "1985-08-01T00:00:00",
-                "end_of_the_end": "1985-09-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1157/timespan",
+                "begin_of_the_begin": "2005-05-13T00:00:00",
+                "end_of_the_end": "2006-01-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/71/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

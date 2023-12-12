@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -24,30 +33,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/otheridentifier",
-            "type": "Identifier",
-            "value": "554"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/title",
-            "type": "Name",
-            "value": "Iris"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -60,6 +45,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/otheridentifier",
+            "type": "Identifier",
+            "value": "554"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -67,16 +64,23 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8626/other_id",
             "type": "Identifier",
-            "value": "554, Catalogue Raisonne Number"
+            "value": "554, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/title",
+            "type": "Name",
+            "value": "Iris"
         }
     ],
     "label": "Georgia O'Keeffe. Iris, 1926. Oil on board, 9 1/4 x 12 1/2 inches. University of Saint Joseph. Saint Joseph College, West Hartford, Connecticut, The Rev. Andrew J. Kelly Collection, Gift of the Rev. Andrew J. Kelly, 1937 (1937.01.054)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8626/material/1",
-            "label": "board",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -84,26 +88,24 @@
             "id": "http://data.okeeffemuseum.org/object/8626/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8626/material/1",
+            "label": "board",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8626/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1921-01-01T00:00:00",
-            "end_of_the_end": "1931-12-31T00:00:00",
+            "begin_of_the_begin": "1926-01-01T00:00:00",
+            "end_of_the_end": "1926-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8626/production/timespan/0",
             "label": "1926",
             "type": "TimeSpan"
@@ -202,19 +222,48 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8626/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8626/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Iris, 1926"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/provenance/",
+            "label": "(An American Place, New York, NY); The Rev. Andrew J. Kelly, Hartford, Connecticut, 1930         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Saint Joseph College, West Hartford, Connecticut, The Rev. Andrew J. Kelly Collection, Gift of the Rev. Andrew J. Kelly, 1937 (1937.01.054)      "
         },
         {
             "classified_as": [
@@ -236,14 +285,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8626/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8626/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Verso: \"Iris 1926 / Georgia O'Keeffe / $600\" twice (AS, black crayon)"
+            "value": "Oil on board, 9 1/4 x 12 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 1/4 x 12 1/2 inches"
         },
         {
             "classified_as": [
@@ -265,36 +336,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8626/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on board, 9 1/4 x 12 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
+            "id": "http://data.okeeffemuseum.org/object/8626/caption/",
+            "label": "Georgia O'Keeffe. Iris, 1926. Oil on board, 9 1/4 x 12 1/2 inches. University of Saint Joseph. Saint Joseph College, West Hartford, Connecticut, The Rev. Andrew J. Kelly Collection, Gift of the Rev. Andrew J. Kelly, 1937 (1937.01.054)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -311,72 +360,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Saint Joseph College, West Hartford, Connecticut, The Rev. Andrew J. Kelly Collection, Gift of the Rev. Andrew J. Kelly, 1937 (1937.01.054)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 1/4 x 12 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/caption/",
-            "label": "Georgia O'Keeffe. Iris, 1926. Oil on board, 9 1/4 x 12 1/2 inches. University of Saint Joseph. Saint Joseph College, West Hartford, Connecticut, The Rev. Andrew J. Kelly Collection, Gift of the Rev. Andrew J. Kelly, 1937 (1937.01.054)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8626/provenance/",
-            "label": "(An American Place, New York, NY); The Rev. Andrew J. Kelly, Hartford, Connecticut, 1930         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8626/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8626/artist_caption",
             "type": "LinguisticObject",
-            "value": "Iris, 1926"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8626/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Iris 1926 / Georgia O'Keeffe / $600\" twice (AS, black crayon)"
         }
     ],
     "refers_to": [],
@@ -419,53 +439,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/772",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/772/title"
-            ],
-            "label": "Women in Art - (By Women, About Women)",
-            "timespan": {
-                "begin_of_the_begin": "1969-05-25T00:00:00",
-                "end_of_the_end": "1970-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/772/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/165",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/165/title"
-            ],
-            "label": "American Painting and Sculpture of the 18th, 19th, & 20th Centuries",
-            "timespan": {
-                "begin_of_the_begin": "1935-01-29T00:00:00",
-                "end_of_the_end": "1935-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/165/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1097",
-            "timespan": {
-                "begin_of_the_begin": "1969-05-25T00:00:00",
-                "end_of_the_end": "1970-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1097/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/374",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/374/title"
@@ -483,50 +456,62 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/247",
-            "timespan": {
-                "begin_of_the_begin": "1935-01-29T00:00:00",
-                "end_of_the_end": "1935-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/247/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/911",
-            "timespan": {
-                "begin_of_the_begin": "1962-05-14T00:00:00",
-                "end_of_the_end": "1962-05-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/911/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/989",
-            "timespan": {
-                "begin_of_the_begin": "1965-06-17T00:00:00",
-                "end_of_the_end": "1965-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/989/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/261",
             "timespan": {
                 "begin_of_the_begin": "1936-01-21T00:00:00",
                 "end_of_the_end": "1936-02-23T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/261/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/772",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/772/title"
+            ],
+            "label": "Women in Art - (By Women, About Women)",
+            "timespan": {
+                "begin_of_the_begin": "1969-05-25T00:00:00",
+                "end_of_the_end": "1970-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/772/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/179",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/179/title"
+            ],
+            "label": "Paintings in Hartford Collections",
+            "timespan": {
+                "begin_of_the_begin": "1936-01-21T00:00:00",
+                "end_of_the_end": "1936-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/179/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/680",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/680/title"
+            ],
+            "label": "Plaza Art Festival of the Arts",
+            "timespan": {
+                "begin_of_the_begin": "1965-06-17T00:00:00",
+                "end_of_the_end": "1965-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/680/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -565,15 +550,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/179",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/165",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/179/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/165/title"
             ],
-            "label": "Paintings in Hartford Collections",
+            "label": "American Painting and Sculpture of the 18th, 19th, & 20th Centuries",
             "timespan": {
-                "begin_of_the_begin": "1936-01-21T00:00:00",
-                "end_of_the_end": "1936-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/179/timespan",
+                "begin_of_the_begin": "1935-01-29T00:00:00",
+                "end_of_the_end": "1935-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/165/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -582,15 +567,50 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/680",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/680/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/247",
+            "timespan": {
+                "begin_of_the_begin": "1935-01-29T00:00:00",
+                "end_of_the_end": "1935-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/247/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Plaza Art Festival of the Arts",
+            "id": "http://data.okeeffemuseum.org/exhibition/989",
             "timespan": {
                 "begin_of_the_begin": "1965-06-17T00:00:00",
                 "end_of_the_end": "1965-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/680/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/989/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/911",
+            "timespan": {
+                "begin_of_the_begin": "1962-05-14T00:00:00",
+                "end_of_the_end": "1962-05-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/911/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1097",
+            "timespan": {
+                "begin_of_the_begin": "1969-05-25T00:00:00",
+                "end_of_the_end": "1970-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1097/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

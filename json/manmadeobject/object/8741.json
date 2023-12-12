@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -21,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8741",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8741/title",
+            "type": "Name",
+            "value": "Black Maple Trunk \u2013 Yellow Leaves"
+        },
         {
             "classified_as": [
                 {
@@ -48,18 +69,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8741/title",
-            "type": "Name",
-            "value": "Black Maple Trunk \u2013 Yellow Leaves"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -67,7 +76,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8741/other_id",
             "type": "Identifier",
-            "value": "688, Catalogue Raisonne Number"
+            "value": "688, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Black Maple Trunk \u2013 Yellow Leaves, 1929. Oil on canvas, 40 x 29 3/4 inches. Private Collection. SBC Communications Inc., 1988",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8741/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1924-01-01T00:00:00",
-            "end_of_the_end": "1934-12-31T00:00:00",
+            "begin_of_the_begin": "1929-01-01T00:00:00",
+            "end_of_the_end": "1929-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8741/production/timespan/0",
             "label": "1929",
             "type": "TimeSpan"
@@ -202,65 +222,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8741/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8741/Measurement/",
             "type": "LinguisticObject",
-            "value": "Black Maple Trunk \u2013 Yellow Leaves, 1929"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8741/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Maple Trunk \u2013 Yellow Leaves \u2013 28 / 29\" (graphite) 2. OK {5star} (graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8741/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8741/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1930 New York (An American Place), no. 25, as Maple with Yellow Leaves"
+            "value": "40 x 29 3/4 inches"
         },
         {
             "classified_as": [
@@ -280,22 +249,27 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8741/caption/",
-            "label": "Georgia O'Keeffe. Black Maple Trunk \u2013 Yellow Leaves, 1929. Oil on canvas, 40 x 29 3/4 inches. Private Collection. SBC Communications Inc., 1988",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8741/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -306,26 +280,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8741/provenance/",
-            "label": "(Doris Bry, New York, NY); Private collection, Palm Beach, Florida, 1968; (Steven Straw Company, Newburyport, Massachusetts, and private dealer, Fort Pierce, Florida); Benwood Foundation, Chattanooga, Tennessee, before 1976; Hunter Museum of Art, Chattanooga, Tennessee, gift, 1976; (Private dealer, Fort Pierce, Florida); (Wolfgang Pogzeba, Denver, Colorado); Private collection, Denver, Colorado, 1977; (Allan Stone Gallery, New York, NY); (Hirschl & Adler Galleries, Inc., New York, NY)         ",
+            "id": "http://data.okeeffemuseum.org/object/8741/caption/",
+            "label": "Georgia O'Keeffe. Black Maple Trunk \u2013 Yellow Leaves, 1929. Oil on canvas, 40 x 29 3/4 inches. Private Collection. SBC Communications Inc., 1988",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8741/Measurement/",
-            "type": "LinguisticObject",
-            "value": "40 x 29 3/4 inches"
         },
         {
             "classified_as": [
@@ -342,11 +304,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -354,6 +311,11 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -364,19 +326,77 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8741/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1930 New York (An American Place), no. 25, as Maple with Yellow Leaves"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8741/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Maple Trunk \u2013 Yellow Leaves, 1929"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8741/provenance/",
+            "label": "(Doris Bry, New York, NY); Private collection, Palm Beach, Florida, 1968; (Steven Straw Company, Newburyport, Massachusetts, and private dealer, Fort Pierce, Florida); Benwood Foundation, Chattanooga, Tennessee, before 1976; Hunter Museum of Art, Chattanooga, Tennessee, gift, 1976; (Private dealer, Fort Pierce, Florida); (Wolfgang Pogzeba, Denver, Colorado); Private collection, Denver, Colorado, 1977; (Allan Stone Gallery, New York, NY); (Hirschl & Adler Galleries, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8741/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8741/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Maple Trunk \u2013 Yellow Leaves \u2013 28 / 29\" (graphite) 2. OK {5star} (graphite)"
         }
     ],
     "refers_to": [],

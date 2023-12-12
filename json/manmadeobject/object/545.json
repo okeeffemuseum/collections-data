@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -10,6 +15,10 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -31,30 +40,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/other_id",
-            "type": "Identifier",
-            "value": "613, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/accessionnumber",
-            "type": "Identifier",
-            "value": "2007.1.21"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -63,6 +48,30 @@
             "id": "http://data.okeeffemuseum.org/object/545/identifier",
             "type": "Identifier",
             "value": "545"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/other_id",
+            "type": "Identifier",
+            "value": "613, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/otheridentifier",
+            "type": "Identifier",
+            "value": "613"
         },
         {
             "classified_as": [
@@ -79,14 +88,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/545/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/545/accessionnumber",
             "type": "Identifier",
-            "value": "613"
+            "value": "2007.1.21"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Skunk Cabbage), ca. 1927. Oil on board, 12 x 16\" (30.5 x 40.6cm). Private Collection. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.21]",
@@ -100,24 +109,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -132,16 +134,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,17 +165,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -177,16 +179,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -203,6 +216,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/545/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1922-01-01T00:00:00",
             "end_of_the_end": "1932-12-31T00:00:00",
@@ -216,76 +236,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/provenance/",
-            "label": "(An American Place, New York, N.Y.) ^Private collection, Nw York, N.U., 1932 ^(Plaza Art Galleries, New York, N.Y.) ^The artist, purchase, 1972 ^Estate of the artist, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/Description/",
-            "type": "LinguisticObject",
-            "value": "Skunk cabbage painted in brown with background leaves in green, white and yellow and some grey."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -294,45 +244,6 @@
             "id": "http://data.okeeffemuseum.org/object/545/Right/",
             "type": "LinguisticObject",
             "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/545/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Skunk Cabbage), ca. 1927"
         },
         {
             "classified_as": [
@@ -349,25 +260,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/545/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/545/artist_caption",
             "type": "LinguisticObject",
-            "value": "12 x 16\" (30.5 x 40.6cm)"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
@@ -407,6 +323,59 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/provenance/",
+            "label": "(An American Place, New York, N.Y.) ^Private collection, Nw York, N.U., 1932 ^(Plaza Art Galleries, New York, N.Y.) ^The artist, purchase, 1972 ^Estate of the artist, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/Description/",
+            "type": "LinguisticObject",
+            "value": "Skunk cabbage painted in brown with background leaves in green, white and yellow and some grey."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -415,6 +384,57 @@
             "id": "http://data.okeeffemuseum.org/object/545/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Skunk Cabbage), ca. 1927"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/545/Measurement/",
+            "type": "LinguisticObject",
+            "value": "12 x 16\" (30.5 x 40.6cm)"
         },
         {
             "classified_as": [
@@ -469,52 +489,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/120",
+            "id": "http://data.okeeffemuseum.org/exhibition/1207",
             "timespan": {
-                "begin_of_the_begin": "2006-09-22T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
-            "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
-            ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
-            ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
-            "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "begin_of_the_begin": "1992-04-11T00:00:00",
+                "end_of_the_end": "1992-07-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1207/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -540,11 +519,52 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1207",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/120",
             "timespan": {
-                "begin_of_the_begin": "1992-04-11T00:00:00",
-                "end_of_the_end": "1992-07-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1207/timespan",
+                "begin_of_the_begin": "2006-09-22T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
+            ],
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "timespan": {
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

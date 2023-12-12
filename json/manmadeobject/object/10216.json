@@ -8,6 +8,16 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -40,18 +50,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10216/identifier",
-            "type": "Identifier",
-            "value": "10216"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -59,7 +57,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10216/other_id",
             "type": "Identifier",
-            "value": "1096, Catalogue Raisonne Number"
+            "value": "1096, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -72,22 +70,38 @@
             "id": "http://data.okeeffemuseum.org/object/10216/otheridentifier",
             "type": "Identifier",
             "value": "1096"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10216/identifier",
+            "type": "Identifier",
+            "value": "10216"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Black Place), ca. 1944-ca. 1945. Graphite on paper*, 7 3/4 x 10 1/4 inches. Private Collection",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/10216/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/10216/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -123,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -168,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,6 +204,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10216/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1939-01-01T00:00:00",
             "end_of_the_end": "1950-12-31T00:00:00",
@@ -203,24 +224,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10216/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10216/Materials/",
             "type": "LinguisticObject",
-            "value": "Untitled (Black Place), ca. 1944-ca. 1945"
+            "value": "Graphite on paper*"
         },
         {
             "classified_as": [
@@ -254,8 +265,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -264,20 +280,20 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10216/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10216/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Untitled (Black Place), ca. 1944-ca. 1945"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
@@ -293,25 +309,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10216/Materials/",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper*"
+            "id": "http://data.okeeffemuseum.org/object/10216/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Black Place), ca. 1944-ca. 1945. Graphite on paper*, 7 3/4 x 10 1/4 inches. Private Collection",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -325,11 +341,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10216/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Black Place), ca. 1944-ca. 1945. Graphite on paper*, 7 3/4 x 10 1/4 inches. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10216/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],

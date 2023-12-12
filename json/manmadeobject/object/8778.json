@@ -3,6 +3,16 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -29,21 +39,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8778/title",
-            "type": "Name",
-            "value": "Untitled (Lily)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8778/identifier",
             "type": "Identifier",
-            "value": "754, Catalogue Raisonne Number"
+            "value": "8778"
         },
         {
             "classified_as": [
@@ -65,42 +63,47 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8778/identifier",
+            "id": "http://data.okeeffemuseum.org/object/8778/title",
+            "type": "Name",
+            "value": "Untitled (Lily)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/other_id",
             "type": "Identifier",
-            "value": "8778"
+            "value": "754, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Lily), ca. 1930-1936. Graphite on paper, 10 1/2 x 15 inches. Private Collection. Private collection, New York, NY, 1990",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8778/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8778/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,6 +200,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8778/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1925-01-01T00:00:00",
             "end_of_the_end": "1941-12-31T00:00:00",
@@ -199,104 +220,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8778/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8778/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/Materials/",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Lily), ca. 1930-1936"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/provenance/",
-            "label": "Doris Bry, New York, NY, date unknown; Coe Kerr Gallery, Inc., New York, NY, 1989; Gerald Peters Gallery, Santa Fe, New Mexico, 1989; John Van Doren, St. Louis, Missouri, 1990; (Ylise Kessler, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper, 10 1/2 x 15 inches"
+            "value": "Private collection, New York, NY, 1990      "
         },
         {
             "classified_as": [
@@ -313,14 +244,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8778/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8778/Materials/",
             "type": "LinguisticObject",
-            "value": "1990 Santa Fe, no. 16"
+            "value": "Graphite on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 10 1/2 x 15 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Lily), ca. 1930-1936. Graphite on paper, 10 1/2 x 15 inches. Private Collection. Private collection, New York, NY, 1990",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -342,14 +307,82 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8778/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8778/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, 1990      "
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1990 Santa Fe, no. 16"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Lily), ca. 1930-1936"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8778/provenance/",
+            "label": "Doris Bry, New York, NY, date unknown; Coe Kerr Gallery, Inc., New York, NY, 1989; Gerald Peters Gallery, Santa Fe, New Mexico, 1989; John Van Doren, St. Louis, Missouri, 1990; (Ylise Kessler, New York, NY)         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -362,18 +395,6 @@
             "id": "http://data.okeeffemuseum.org/object/8778/Measurement/",
             "type": "LinguisticObject",
             "value": "10 1/2 x 15 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8778/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Lily), ca. 1930-1936. Graphite on paper, 10 1/2 x 15 inches. Private Collection. Private collection, New York, NY, 1990",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -404,11 +425,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1197",
+            "id": "http://data.okeeffemuseum.org/exhibition/1198",
             "timespan": {
-                "begin_of_the_begin": "1990-11-28T00:00:00",
-                "end_of_the_end": "1990-12-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1197/timespan",
+                "begin_of_the_begin": "1990-12-15T00:00:00",
+                "end_of_the_end": "1991-01-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1198/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -447,11 +468,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1198",
+            "id": "http://data.okeeffemuseum.org/exhibition/1197",
             "timespan": {
-                "begin_of_the_begin": "1990-12-15T00:00:00",
-                "end_of_the_end": "1991-01-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1198/timespan",
+                "begin_of_the_begin": "1990-11-28T00:00:00",
+                "end_of_the_end": "1990-12-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1197/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

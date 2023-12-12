@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -28,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9441/identifier",
-            "type": "Identifier",
-            "value": "9441"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -47,7 +44,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/9441/other_id",
             "type": "Identifier",
-            "value": "1271, Catalogue Raisonne Number"
+            "value": "1271, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -72,15 +69,22 @@
             "id": "http://data.okeeffemuseum.org/object/9441/title",
             "type": "Name",
             "value": "Black Door with Red"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9441/identifier",
+            "type": "Identifier",
+            "value": "9441"
         }
     ],
     "label": "Georgia O'Keeffe. Black Door with Red, 1954. Oil on canvas, 48 x 84 inches. Chrysler Art Museum. The Chrysler Museum, Norfolk, Virginia. Bequest of Walter P. Chrysler, Jr.",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/9441/material/1",
-            "label": "oil paint",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/9441/material/0",
             "label": "canvas",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/9441/material/1",
+            "label": "oil paint",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/9441/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1949-01-01T00:00:00",
-            "end_of_the_end": "1959-12-31T00:00:00",
+            "begin_of_the_begin": "1954-01-01T00:00:00",
+            "end_of_the_end": "1954-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/9441/production/timespan/0",
             "label": "1954",
             "type": "TimeSpan"
@@ -235,11 +255,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
@@ -248,69 +263,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/9441/title_date_caption",
             "type": "LinguisticObject",
             "value": "Black Door with Red, 1954"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9441/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Chrysler Art Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9441/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9441/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9441/caption/",
-            "label": "Georgia O'Keeffe. Black Door with Red, 1954. Oil on canvas, 48 x 84 inches. Chrysler Art Museum. The Chrysler Museum, Norfolk, Virginia. Bequest of Walter P. Chrysler, Jr.",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -339,19 +301,77 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/9441/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9441/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Chrysler Art Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9441/caption/",
+            "label": "Georgia O'Keeffe. Black Door with Red, 1954. Oil on canvas, 48 x 84 inches. Chrysler Art Museum. The Chrysler Museum, Norfolk, Virginia. Bequest of Walter P. Chrysler, Jr.",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9441/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9441/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -394,6 +414,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1040",
+            "timespan": {
+                "begin_of_the_begin": "1967-11-15T00:00:00",
+                "end_of_the_end": "1967-12-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1040/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/962",
+            "timespan": {
+                "begin_of_the_begin": "1964-04-01T00:00:00",
+                "end_of_the_end": "1964-04-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/962/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/770",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/770/title"
@@ -411,41 +457,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/615",
-            "timespan": {
-                "begin_of_the_begin": "1955-10-04T00:00:00",
-                "end_of_the_end": "1955-10-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/615/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/408",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/429",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/408/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/429/title"
             ],
-            "label": "30th Annual Exhibition",
+            "label": "31st Annual Exhibition",
             "timespan": {
-                "begin_of_the_begin": "1955-10-04T00:00:00",
-                "end_of_the_end": "1955-10-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/408/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1095",
-            "timespan": {
-                "begin_of_the_begin": "1969-03-02T00:00:00",
-                "end_of_the_end": "1969-04-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1095/timespan",
+                "begin_of_the_begin": "1956-10-09T00:00:00",
+                "end_of_the_end": "1956-11-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/429/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -463,6 +483,36 @@
                 "begin_of_the_begin": "1959-04-01T00:00:00",
                 "end_of_the_end": "1959-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/520/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/676",
+            "timespan": {
+                "begin_of_the_begin": "1958-10-04T00:00:00",
+                "end_of_the_end": "1958-11-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/676/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/656",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/656/title"
+            ],
+            "label": "American Painting III",
+            "timespan": {
+                "begin_of_the_begin": "1964-04-01T00:00:00",
+                "end_of_the_end": "1964-04-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/656/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -501,15 +551,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/746",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/722",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/746/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/722/title"
             ],
             "label": "Group Show",
             "timespan": {
+                "begin_of_the_begin": "1967-11-15T00:00:00",
+                "end_of_the_end": "1967-12-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/722/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/615",
+            "timespan": {
+                "begin_of_the_begin": "1955-10-04T00:00:00",
+                "end_of_the_end": "1955-10-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/615/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1064",
+            "timespan": {
                 "begin_of_the_begin": "1968-05-01T00:00:00",
                 "end_of_the_end": "1968-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/746/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1064/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -535,67 +611,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/676",
+            "id": "http://data.okeeffemuseum.org/exhibition/1095",
             "timespan": {
-                "begin_of_the_begin": "1958-10-04T00:00:00",
-                "end_of_the_end": "1958-11-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/676/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/751",
-            "timespan": {
-                "begin_of_the_begin": "1959-04-01T00:00:00",
-                "end_of_the_end": "1959-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/751/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/962",
-            "timespan": {
-                "begin_of_the_begin": "1964-04-01T00:00:00",
-                "end_of_the_end": "1964-04-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/962/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/429",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/429/title"
-            ],
-            "label": "31st Annual Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1956-10-09T00:00:00",
-                "end_of_the_end": "1956-11-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/429/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1040",
-            "timespan": {
-                "begin_of_the_begin": "1967-11-15T00:00:00",
-                "end_of_the_end": "1967-12-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1040/timespan",
+                "begin_of_the_begin": "1969-03-02T00:00:00",
+                "end_of_the_end": "1969-04-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1095/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -617,11 +637,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1064",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/408",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/408/title"
+            ],
+            "label": "30th Annual Exhibition",
             "timespan": {
-                "begin_of_the_begin": "1968-05-01T00:00:00",
-                "end_of_the_end": "1968-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1064/timespan",
+                "begin_of_the_begin": "1955-10-04T00:00:00",
+                "end_of_the_end": "1955-10-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/408/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -630,32 +654,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/722",
+            "id": "http://data.okeeffemuseum.org/exhibition/751",
+            "timespan": {
+                "begin_of_the_begin": "1959-04-01T00:00:00",
+                "end_of_the_end": "1959-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/751/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/746",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/722/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/746/title"
             ],
             "label": "Group Show",
             "timespan": {
-                "begin_of_the_begin": "1967-11-15T00:00:00",
-                "end_of_the_end": "1967-12-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/722/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/656",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/656/title"
-            ],
-            "label": "American Painting III",
-            "timespan": {
-                "begin_of_the_begin": "1964-04-01T00:00:00",
-                "end_of_the_end": "1964-04-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/656/timespan",
+                "begin_of_the_begin": "1968-05-01T00:00:00",
+                "end_of_the_end": "1968-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/746/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

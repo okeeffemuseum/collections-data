@@ -11,6 +11,15 @@
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -21,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8757",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/otheridentifier",
-            "type": "Identifier",
-            "value": "712"
-        },
         {
             "classified_as": [
                 {
@@ -48,6 +45,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/otheridentifier",
+            "type": "Identifier",
+            "value": "712"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -55,7 +64,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8757/other_id",
             "type": "Identifier",
-            "value": "712, Catalogue Raisonne Number"
+            "value": "712, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8757/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8757/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -202,26 +222,106 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8757/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8757/exhibitions",
             "type": "LinguisticObject",
-            "value": "15 1/2 x 12 inches"
+            "value": "1985 Albany"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/provenance/",
+            "label": "(An American Place, New York, NY); Mr. and Mrs. Maurice Wertheim, New York, NY, 1930s; (The Downtown Gallery, New York, NY); The artist, 1962; (Doris Bry, New York, NY); Private collection, New York, NY, 1972; (Doris Bry, New York, NY); The artist, by exchange, 1972; (Doris Bry, New York, NY); The Davis Family Foundation, New Orleans, Louisiana, 1974; Sotheby's, New York, NY, sale no. 6305, lot no. 102, 27 May 1992; Gerald Peters Gallery, Santa Fe, New Mexico, and Mongerson Wunderlich, Chicago, Illinois, 1992; Greenberg Van Doren Gallery, St. Louis, Missouri, 1992         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Calla Lilies, 1930"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8757/caption/",
-            "label": "Georgia O'Keeffe. Calla Lilies, 1930. Oil on board, 15 1/2 x 12 inches. Private Collection. Private collection, St. Louis, Missouri, 1992",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8757/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Georgia O'Keeffe / 1930\" (blue paint)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8757/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -255,13 +355,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -277,26 +377,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8757/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8757/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1985 Albany"
+            "value": "15 1/2 x 12 inches"
         },
         {
             "classified_as": [
@@ -304,79 +392,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8757/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/provenance/",
-            "label": "(An American Place, New York, NY); Mr. and Mrs. Maurice Wertheim, New York, NY, 1930s; (The Downtown Gallery, New York, NY); The artist, 1962; (Doris Bry, New York, NY); Private collection, New York, NY, 1972; (Doris Bry, New York, NY); The artist, by exchange, 1972; (Doris Bry, New York, NY); The Davis Family Foundation, New Orleans, Louisiana, 1974; Sotheby's, New York, NY, sale no. 6305, lot no. 102, 27 May 1992; Gerald Peters Gallery, Santa Fe, New Mexico, and Mongerson Wunderlich, Chicago, Illinois, 1992; Greenberg Van Doren Gallery, St. Louis, Missouri, 1992         ",
+            "id": "http://data.okeeffemuseum.org/object/8757/caption/",
+            "label": "Georgia O'Keeffe. Calla Lilies, 1930. Oil on board, 15 1/2 x 12 inches. Private Collection. Private collection, St. Louis, Missouri, 1992",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: \"Georgia O'Keeffe / 1930\" (blue paint)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8757/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Calla Lilies, 1930"
         }
     ],
     "refers_to": [],
@@ -407,6 +427,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1155",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-08T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1155/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/814",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/814/title"
@@ -416,19 +449,6 @@
                 "begin_of_the_begin": "1985-09-08T00:00:00",
                 "end_of_the_end": "1985-11-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/814/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1155",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-08T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1155/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,6 +3,10 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +14,11 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -52,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/other_id",
+            "type": "Identifier",
+            "value": "900, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -60,27 +81,10 @@
             "id": "http://data.okeeffemuseum.org/object/8876/title",
             "type": "Name",
             "value": "Pedernal with Red Hills"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/other_id",
-            "type": "Identifier",
-            "value": "900, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Pedernal with Red Hills, 1936. Oil on canvas, 20 x 30 inches. New Mexico Museum of Art. Museum of Fine Arts, Museum of New Mexico, Santa Fe, Bequest of Helen Miller Jones, 1986 (86.137.18)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8876/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/8876/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8876/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8876/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1931-01-01T00:00:00",
-            "end_of_the_end": "1941-12-31T00:00:00",
+            "begin_of_the_begin": "1936-01-01T00:00:00",
+            "end_of_the_end": "1936-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8876/production/timespan/0",
             "label": "1936",
             "type": "TimeSpan"
@@ -206,14 +226,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8876/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8876/institution_caption",
             "type": "LinguisticObject",
-            "value": "Museum of Fine Arts, Museum of New Mexico, Santa Fe, Bequest of Helen Miller Jones, 1986 (86.137.18)      "
+            "value": "New Mexico Museum of Art"
         },
         {
             "classified_as": [
@@ -226,6 +251,93 @@
             "id": "http://data.okeeffemuseum.org/object/8876/Measurement/",
             "type": "LinguisticObject",
             "value": "20 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Bishop Everett and Mrs. Helen Miller Jones, San Antonio, Texas, 1962         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1937 New York (An American Place \u2013 O'Keeffe), no. 13, as Red Hills with the Pedernal; 1937 New York (Downtown \u2013 Knight); 1975 San Antonio; 1986 Santa Fe; 1997 Santa Fe (O'Keeffe); 1998 Santa Fe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8876/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Pedernal with Purple Red Hills \u2013 36\" {\"Purple\" crossed out} (graphite) 2. OK {5star} (graphite) 3. \"Pedernal with Red Hills \u2013 36\" (AD, AAP2, black ink)"
         },
         {
             "classified_as": [
@@ -259,28 +371,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
@@ -303,84 +393,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8876/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Bishop Everett and Mrs. Helen Miller Jones, San Antonio, Texas, 1962         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8876/CreditLine/",
             "type": "LinguisticObject",
-            "value": "1937 New York (An American Place \u2013 O'Keeffe), no. 13, as Red Hills with the Pedernal; 1937 New York (Downtown \u2013 Knight); 1975 San Antonio; 1986 Santa Fe; 1997 Santa Fe (O'Keeffe); 1998 Santa Fe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Pedernal with Purple Red Hills \u2013 36\" {\"Purple\" crossed out} (graphite) 2. OK {5star} (graphite) 3. \"Pedernal with Red Hills \u2013 36\" (AD, AAP2, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/institution_caption",
-            "type": "LinguisticObject",
-            "value": "New Mexico Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8876/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Museum of Fine Arts, Museum of New Mexico, Santa Fe, Bequest of Helen Miller Jones, 1986 (86.137.18)      "
         }
     ],
     "refers_to": [],
@@ -423,37 +443,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "id": "http://data.okeeffemuseum.org/exhibition/291",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1109",
-            "timespan": {
-                "begin_of_the_begin": "1975-10-24T00:00:00",
-                "end_of_the_end": "1975-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
+                "begin_of_the_begin": "1937-11-09T00:00:00",
+                "end_of_the_end": "1937-11-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/291/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -479,6 +473,23 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/822",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/822/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1986-12-19T00:00:00",
+                "end_of_the_end": "1987-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/822/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/40/title"
@@ -488,6 +499,36 @@
                 "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/188",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/188/title"
+            ],
+            "label": "Georgia O'Keeffe: New Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1937-02-05T00:00:00",
+                "end_of_the_end": "1937-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/188/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -509,32 +550,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/822",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/822/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings",
+            "id": "http://data.okeeffemuseum.org/exhibition/1109",
             "timespan": {
-                "begin_of_the_begin": "1986-12-19T00:00:00",
-                "end_of_the_end": "1987-04-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/822/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/193",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/193/title"
-            ],
-            "label": "The O'Keeffe Portfolio: Just issued by The Knight Publications, Inc., Shown with Six of the Original Paintings by Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1937-11-09T00:00:00",
-                "end_of_the_end": "1937-11-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/193/timespan",
+                "begin_of_the_begin": "1975-10-24T00:00:00",
+                "end_of_the_end": "1975-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -560,11 +580,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/291",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/193",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/193/title"
+            ],
+            "label": "The O'Keeffe Portfolio: Just issued by The Knight Publications, Inc., Shown with Six of the Original Paintings by Georgia O'Keeffe",
             "timespan": {
                 "begin_of_the_begin": "1937-11-09T00:00:00",
                 "end_of_the_end": "1937-11-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/291/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/193/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -578,23 +615,6 @@
                 "begin_of_the_begin": "1986-12-19T00:00:00",
                 "end_of_the_end": "1987-04-12T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1164/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/188",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/188/title"
-            ],
-            "label": "Georgia O'Keeffe: New Paintings",
-            "timespan": {
-                "begin_of_the_begin": "1937-02-05T00:00:00",
-                "end_of_the_end": "1937-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/188/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

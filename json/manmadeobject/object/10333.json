@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300047090",
+            "label": "sculpture",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300047806",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -23,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10333/otheridentifier",
-            "type": "Identifier",
-            "value": "1702"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -42,19 +44,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10333/other_id",
             "type": "Identifier",
-            "value": "1702, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10333/identifier",
-            "type": "Identifier",
-            "value": "10333"
+            "value": "1702, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -67,11 +57,50 @@
             "id": "http://data.okeeffemuseum.org/object/10333/title",
             "type": "Name",
             "value": "Untitled (Abstraction)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/otheridentifier",
+            "type": "Identifier",
+            "value": "1702"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/identifier",
+            "type": "Identifier",
+            "value": "10333"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Abstraction), 1982. Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Untitled (Abstraction), 1982. Black-lacquered bronze, 40 1/2 x 9 1/2 x 9 1/2 inches. Private Collection",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10333/material/1",
+            "label": "bronze",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10333/material/0",
+            "label": "lacquer",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +136,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +181,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +203,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10333/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/cast-sculptures",
+                "label": "Cast Sculptures",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1982-01-01T00:00:00",
+            "end_of_the_end": "1982-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10333/production/timespan/0",
             "label": "1982",
             "type": "TimeSpan"
@@ -191,8 +229,59 @@
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10333/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Abstraction), 1982. Private Collection",
+            "label": "Georgia O'Keeffe. Untitled (Abstraction), 1982. Black-lacquered bronze, 40 1/2 x 9 1/2 x 9 1/2 inches. Private Collection",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Abstraction), 1982"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/Measurement/",
+            "type": "LinguisticObject",
+            "value": "40 1/2 x 9 1/2 x 9 1/2 inches"
         },
         {
             "classified_as": [
@@ -214,13 +303,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10333/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Black-lacquered bronze, 40 1/2 x 9 1/2 x 9 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
@@ -231,41 +342,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10333/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10333/Materials/",
             "type": "LinguisticObject",
-            "value": "Untitled (Abstraction), 1982"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10333/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Black-lacquered bronze"
         }
     ],
     "refers_to": [],

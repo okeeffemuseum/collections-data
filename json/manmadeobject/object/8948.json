@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -21,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8948",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8948/other_id",
+            "type": "Identifier",
+            "value": "1009, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -56,18 +77,6 @@
             "id": "http://data.okeeffemuseum.org/object/8948/identifier",
             "type": "Identifier",
             "value": "8948"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8948/other_id",
-            "type": "Identifier",
-            "value": "1009, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Ghost Ranch Cliffs, 1940-1942. Oil on canvas, 16 x 36 inches. Private Collection. Private collection, Omaha, Nebraska, 1986",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8948/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1935-01-01T00:00:00",
-            "end_of_the_end": "1947-12-31T00:00:00",
+            "begin_of_the_begin": "1940-01-01T00:00:00",
+            "end_of_the_end": "1942-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8948/production/timespan/0",
             "label": "1940-1942",
             "type": "TimeSpan"
@@ -202,43 +222,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8948/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8948/Materials/",
             "type": "LinguisticObject",
-            "value": "Private collection, Omaha, Nebraska, 1986      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8948/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8948/caption/",
-            "label": "Georgia O'Keeffe. Ghost Ranch Cliffs, 1940-1942. Oil on canvas, 16 x 36 inches. Private Collection. Private collection, Omaha, Nebraska, 1986",
-            "type": "LinguisticObject"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -255,22 +246,17 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8948/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8948/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "16 x 36 inches"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -279,6 +265,11 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -289,14 +280,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8948/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8948/maker_role",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Georgia O'Keeffe\" (black ink)"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8948/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -321,50 +334,33 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8948/caption/",
+            "label": "Georgia O'Keeffe. Ghost Ranch Cliffs, 1940-1942. Oil on canvas, 16 x 36 inches. Private Collection. Private collection, Omaha, Nebraska, 1986",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300163343",
                     "label": "media",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8948/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 36 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8948/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8948/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8948/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "16 x 36 inches"
+            "value": "Oil on canvas, 16 x 36 inches"
         },
         {
             "classified_as": [
@@ -377,6 +373,30 @@
             "id": "http://data.okeeffemuseum.org/object/8948/exhibitions",
             "type": "LinguisticObject",
             "value": "1986 New York (Hirschl & Adler), no. 25; 1988 Phoenix, no. 33"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8948/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Georgia O'Keeffe\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8948/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Omaha, Nebraska, 1986      "
         }
     ],
     "refers_to": [],
@@ -407,39 +427,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1181",
-            "timespan": {
-                "begin_of_the_begin": "1988-12-15T00:00:00",
-                "end_of_the_end": "1989-02-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1181/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1179",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1177",
-            "timespan": {
-                "begin_of_the_begin": "1988-04-15T00:00:00",
-                "end_of_the_end": "1988-06-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1161",
             "timespan": {
                 "begin_of_the_begin": "1986-06-14T00:00:00",
@@ -453,24 +440,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "id": "http://data.okeeffemuseum.org/exhibition/1177",
             "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-06-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1180",
-            "timespan": {
-                "begin_of_the_begin": "1988-09-15T00:00:00",
-                "end_of_the_end": "1988-10-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1180/timespan",
+                "begin_of_the_begin": "1988-04-15T00:00:00",
+                "end_of_the_end": "1988-06-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -505,6 +479,52 @@
                 "begin_of_the_begin": "1986-04-26T00:00:00",
                 "end_of_the_end": "1986-07-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1181",
+            "timespan": {
+                "begin_of_the_begin": "1988-12-15T00:00:00",
+                "end_of_the_end": "1989-02-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1181/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-06-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1179",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1180",
+            "timespan": {
+                "begin_of_the_begin": "1988-09-15T00:00:00",
+                "end_of_the_end": "1988-10-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1180/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

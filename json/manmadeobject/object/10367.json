@@ -3,8 +3,18 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -33,21 +43,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10367/title",
-            "type": "Name",
-            "value": "Ram's Horns II"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10367/other_id",
+            "id": "http://data.okeeffemuseum.org/object/10367/identifier",
             "type": "Identifier",
-            "value": "1177, Catalogue Raisonne Number"
+            "value": "10367"
         },
         {
             "classified_as": [
@@ -69,42 +67,47 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10367/identifier",
+            "id": "http://data.okeeffemuseum.org/object/10367/title",
+            "type": "Name",
+            "value": "Ram's Horns II"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10367/other_id",
             "type": "Identifier",
-            "value": "10367"
+            "value": "1177, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Ram's Horns II, ca. 1949. Charcoal on paper, 18 7/8 x 24 7/8 inches. New Orleans Museum of Art",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/10367/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/10367/material/0",
             "label": "charcoal",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10367/material/1",
+            "label": "paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/283",
+        "label": "Horns",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,6 +204,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10367/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1944-01-01T00:00:00",
             "end_of_the_end": "1954-12-31T00:00:00",
@@ -200,6 +221,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10367/caption/",
+            "label": "Georgia O'Keeffe. Ram's Horns II, ca. 1949. Charcoal on paper, 18 7/8 x 24 7/8 inches. New Orleans Museum of Art",
+            "type": "LinguisticObject"
+        },
         {
             "classified_as": [
                 {
@@ -215,47 +248,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10367/Measurement/",
-            "type": "LinguisticObject",
-            "value": "18 7/8 x 24 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10367/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/10367/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Charcoal on paper, 18 7/8 x 24 7/8 inches"
+            "value": "Ram's Horns II, ca. 1949"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300203630",
                     "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -283,6 +304,28 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10367/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper, 18 7/8 x 24 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -300,36 +343,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10367/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10367/Measurement/",
             "type": "LinguisticObject",
-            "value": "Ram's Horns II, ca. 1949"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10367/caption/",
-            "label": "Georgia O'Keeffe. Ram's Horns II, ca. 1949. Charcoal on paper, 18 7/8 x 24 7/8 inches. New Orleans Museum of Art",
-            "type": "LinguisticObject"
+            "value": "18 7/8 x 24 7/8 inches"
         }
     ],
     "refers_to": [],

@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
@@ -25,18 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8765",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8765/title",
-            "type": "Name",
-            "value": "White Iris"
-        },
         {
             "classified_as": [
                 {
@@ -64,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8765/title",
+            "type": "Name",
+            "value": "White Iris"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -71,11 +80,16 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8765/other_id",
             "type": "Identifier",
-            "value": "721, Catalogue Raisonne Number"
+            "value": "721, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. White Iris, 1930. Oil on canvas, 40 x 30 inches. Virginia Museum of Fine Arts. Virginia Museum of Fine Arts, Gift of Mr. and Mrs. Bruce C. Gottwald [1985] (85.1534)",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8765/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8765/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8765/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8765/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8765/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -203,6 +223,74 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8765/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1931 New York (An American Place), no. 14, as White Iris; 1955 Charleston, no. 1; 1985 Albany"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8765/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Iris, 1930"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8765/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Virginia Museum of Fine Arts, Gift of Mr. and Mrs. Bruce C. Gottwald [1985] (85.1534)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8765/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 40 x 30 inches"
+        },
         {
             "classified_as": [
                 {
@@ -219,28 +307,6 @@
             "id": "http://data.okeeffemuseum.org/object/8765/institution_caption",
             "type": "LinguisticObject",
             "value": "Virginia Museum of Fine Arts"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8765/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 40 x 30 inches"
         },
         {
             "classified_as": [
@@ -262,25 +328,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8765/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300138082",
                     "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -303,36 +352,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8765/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Virginia Museum of Fine Arts, Gift of Mr. and Mrs. Bruce C. Gottwald [1985] (85.1534)      "
+            "id": "http://data.okeeffemuseum.org/object/8765/caption/",
+            "label": "Georgia O'Keeffe. White Iris, 1930. Oil on canvas, 40 x 30 inches. Virginia Museum of Fine Arts. Virginia Museum of Fine Arts, Gift of Mr. and Mrs. Bruce C. Gottwald [1985] (85.1534)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8765/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8765/artist_caption",
             "type": "LinguisticObject",
-            "value": "White Iris, 1930"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -344,30 +388,6 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8765/provenance/",
             "label": "(Doris Bry, New York, NY); (Andrew Crispo Gallery, Inc., New York, NY); Baron Henry Thyssen-Bornemisza, Lugano, Switzerland, 1974; Kennedy Galleries, Inc., New York, NY, 1977; Mr. and Mrs. Bruce C. Gottwald, Richmond, Virginia, 1977         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8765/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1931 New York (An American Place), no. 14, as White Iris; 1955 Charleston, no. 1; 1985 Albany"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8765/caption/",
-            "label": "Georgia O'Keeffe. White Iris, 1930. Oil on canvas, 40 x 30 inches. Virginia Museum of Fine Arts. Virginia Museum of Fine Arts, Gift of Mr. and Mrs. Bruce C. Gottwald [1985] (85.1534)",
             "type": "LinguisticObject"
         }
     ],
@@ -411,11 +431,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1155",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-08T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1155/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/814",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/814/title"
+            ],
+            "label": "Georgia O'Keeffe: Works from Southern Collections",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-08T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/814/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/604",
             "timespan": {
                 "begin_of_the_begin": "1955-02-07T00:00:00",
                 "end_of_the_end": "1955-03-05T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/604/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/397",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/397/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1955-02-07T00:00:00",
+                "end_of_the_end": "1955-03-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/397/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -446,53 +513,6 @@
                 "begin_of_the_begin": "1931-01-01T00:00:00",
                 "end_of_the_end": "1931-02-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/397",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/397/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1955-02-07T00:00:00",
-                "end_of_the_end": "1955-03-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/397/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1155",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-08T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1155/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/814",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/814/title"
-            ],
-            "label": "Georgia O'Keeffe: Works from Southern Collections",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-08T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/814/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

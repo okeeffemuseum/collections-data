@@ -11,6 +11,11 @@
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -21,6 +26,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8355",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/other_id",
+            "type": "Identifier",
+            "value": "219, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/otheridentifier",
+            "type": "Identifier",
+            "value": "219"
+        },
         {
             "classified_as": [
                 {
@@ -44,68 +73,37 @@
             "id": "http://data.okeeffemuseum.org/object/8355/title",
             "type": "Name",
             "value": "Untitled (Long Lake, Colorado)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/other_id",
-            "type": "Identifier",
-            "value": "219, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/otheridentifier",
-            "type": "Identifier",
-            "value": "219"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Long Lake, Colorado), 1917. Watercolor and graphite rough laid paper*, 11 1/4 x 7 5/8 inches. Gerald Peters Gallery. Gerald Peters Gallery, Santa Fe, New Mexico, 1994",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8355/material/0",
-            "label": "Watercolor",
+            "id": "http://data.okeeffemuseum.org/object/8355/material/2",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8355/material/1",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8355/material/2",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/8355/material/0",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -120,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -140,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -191,9 +200,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8355/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8355/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -201,108 +217,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite  rough laid paper*"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite rough laid paper*, 11 1/4 x 7 5/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Gerald Peters Gallery"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Long Lake, Colorado), 1917. Watercolor and graphite rough laid paper*, 11 1/4 x 7 5/8 inches. Gerald Peters Gallery. Gerald Peters Gallery, Santa Fe, New Mexico, 1994",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8355/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Long Lake, Colorado), 1917"
-        },
         {
             "classified_as": [
                 {
@@ -330,13 +244,69 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8355/provenance/",
-            "label": "Estate of the artist, 1986; Private collection, 1987; (Mongerson Wunderlich, Chicago, Illinois), 1992         ",
+            "id": "http://data.okeeffemuseum.org/object/8355/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor and graphite  rough laid paper*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Long Lake, Colorado), 1917"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor and graphite rough laid paper*, 11 1/4 x 7 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Long Lake, Colorado), 1917. Watercolor and graphite rough laid paper*, 11 1/4 x 7 5/8 inches. Gerald Peters Gallery. Gerald Peters Gallery, Santa Fe, New Mexico, 1994",
             "type": "LinguisticObject"
         },
         {
@@ -354,6 +324,35 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/provenance/",
+            "label": "Estate of the artist, 1986; Private collection, 1987; (Mongerson Wunderlich, Chicago, Illinois), 1992         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -367,6 +366,23 @@
             "id": "http://data.okeeffemuseum.org/object/8355/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8355/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Gerald Peters Gallery"
         }
     ],
     "refers_to": [],
@@ -397,19 +413,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1220",
-            "timespan": {
-                "begin_of_the_begin": "1995-06-30T00:00:00",
-                "end_of_the_end": "1995-08-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/853",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/853/title"
@@ -419,6 +422,19 @@
                 "begin_of_the_begin": "1995-05-04T00:00:00",
                 "end_of_the_end": "1995-08-05T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/853/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1220",
+            "timespan": {
+                "begin_of_the_begin": "1995-06-30T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

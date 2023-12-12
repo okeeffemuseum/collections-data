@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -44,6 +53,18 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8966/title",
+            "type": "Name",
+            "value": "Pelvis"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8966/identifier",
             "type": "Identifier",
             "value": "8966"
@@ -58,19 +79,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8966/other_id",
             "type": "Identifier",
-            "value": "1047, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/title",
-            "type": "Name",
-            "value": "Pelvis"
+            "value": "1047, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Pelvis, 1943. Oil on canvas, 16 x 12 inches. Private Collection. Chara Schreyer, Tiburon, California, 1977. \u00a9 Georgia O'Keeffe Museum",
@@ -89,24 +98,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/297",
+        "label": "Bones",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -121,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -141,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -166,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -192,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8966/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1938-01-01T00:00:00",
-            "end_of_the_end": "1948-12-31T00:00:00",
+            "begin_of_the_begin": "1943-01-01T00:00:00",
+            "end_of_the_end": "1943-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8966/production/timespan/0",
             "label": "1943",
             "type": "TimeSpan"
@@ -205,13 +225,88 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1944 New York (An American Place), no. 1, as Pelvis \u2013 Front"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"An American Plae / 509 Madison Aven \u2013 N.Y. City / Pelvis Bone, IV. \u2013 1944 / New Mexico / Georgia O'Keeffe\" (AS, AAP4, black ink) 2. \"Pelvis Side {\"Side\" crossed out} (printed label) Front \u2013 1943 (crossing out and 'Front \u2013 1943' by DB, AAP5, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/caption/",
+            "label": "Georgia O'Keeffe. Pelvis, 1943. Oil on canvas, 16 x 12 inches. Private Collection. Chara Schreyer, Tiburon, California, 1977. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pelvis, 1943"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -239,42 +334,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1944 New York (An American Place), no. 1, as Pelvis \u2013 Front"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/caption/",
-            "label": "Georgia O'Keeffe. Pelvis, 1943. Oil on canvas, 16 x 12 inches. Private Collection. Chara Schreyer, Tiburon, California, 1977. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/provenance/",
-            "label": "Maria Chabot, Alcalde, New Mexico, gift, 1948/1949; The artist, 1960; (Doris Bry, New York, NY); (Terry Dintenfass, Inc., New York, NY); (Esther Robles Gallery, Los Angeles, California)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300203630",
                     "label": "owners",
                     "type": "Type"
@@ -292,31 +351,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8966/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8966/Measurement/",
             "type": "LinguisticObject",
-            "value": "Chara Schreyer, Tiburon, California, 1977      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "16 x 12 inches"
         },
         {
             "classified_as": [
@@ -333,65 +375,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/provenance/",
+            "label": "Maria Chabot, Alcalde, New Mexico, gift, 1948/1949; The artist, 1960; (Doris Bry, New York, NY); (Terry Dintenfass, Inc., New York, NY); (Esther Robles Gallery, Los Angeles, California)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8966/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Chara Schreyer, Tiburon, California, 1977      "
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300025103",
                     "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8966/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"An American Plae / 509 Madison Aven \u2013 N.Y. City / Pelvis Bone, IV. \u2013 1944 / New Mexico / Georgia O'Keeffe\" (AS, AAP4, black ink) 2. \"Pelvis Side {\"Side\" crossed out} (printed label) Front \u2013 1943 (crossing out and 'Front \u2013 1943' by DB, AAP5, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8966/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pelvis, 1943"
         }
     ],
     "refers_to": [],

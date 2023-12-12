@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300078925",
-            "label": "watercolors",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
             "type": "Type"
         }
     ],
@@ -21,6 +26,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8781",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/other_id",
+            "type": "Identifier",
+            "value": "760, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/title",
+            "type": "Name",
+            "value": "Untitled (Flowers)"
+        },
         {
             "classified_as": [
                 {
@@ -44,68 +73,37 @@
             "id": "http://data.okeeffemuseum.org/object/8781/otheridentifier",
             "type": "Identifier",
             "value": "760"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/other_id",
-            "type": "Identifier",
-            "value": "760, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/title",
-            "type": "Name",
-            "value": "Untitled (Flowers)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Flowers), ca. 1930-1936. Watercolor and graphite on paper*, 7 1/4 x 5 3/8 inches. Private Collection. Private collection, Santa Fe, New Mexico, gift, 1993",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8781/material/0",
+            "label": "watercolor",
+            "type": "Material"
+        },
+        {
             "id": "http://data.okeeffemuseum.org/object/8781/material/2",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8781/material/1",
-            "label": "Graphite",
-            "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8781/material/0",
-            "label": "Watercolor",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -120,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -140,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -191,6 +200,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8781/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1925-01-01T00:00:00",
             "end_of_the_end": "1941-12-31T00:00:00",
@@ -204,58 +220,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8781/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Flowers), ca. 1930-1936"
+            "id": "http://data.okeeffemuseum.org/object/8781/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Flowers), ca. 1930-1936. Watercolor and graphite on paper*, 7 1/4 x 5 3/8 inches. Private Collection. Private collection, Santa Fe, New Mexico, gift, 1993",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8781/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8781/Measurement/",
             "type": "LinguisticObject",
-            "value": "Watercolor and graphite on paper*, 7 1/4 x 5 3/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Santa Fe, New Mexico, gift, 1993      "
+            "value": "7 1/4 x 5 3/8 inches"
         },
         {
             "classified_as": [
@@ -265,26 +249,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8781/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8781/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor and graphite on paper*"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -306,6 +278,69 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor and graphite on paper*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Santa Fe, New Mexico, gift, 1993      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8781/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Flowers), ca. 1930-1936"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -318,43 +353,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Flowers), ca. 1930-1936. Watercolor and graphite on paper*, 7 1/4 x 5 3/8 inches. Private Collection. Private collection, Santa Fe, New Mexico, gift, 1993",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8781/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8781/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8781/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "7 1/4 x 5 3/8 inches"
+            "value": "Watercolor and graphite on paper*, 7 1/4 x 5 3/8 inches"
         }
     ],
     "refers_to": [],

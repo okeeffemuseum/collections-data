@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -24,14 +33,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8630/title",
-            "type": "Name",
-            "value": "Black Petunia and White Morning Glory I"
+            "id": "http://data.okeeffemuseum.org/object/8630/other_id",
+            "type": "Identifier",
+            "value": "559, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -48,14 +57,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8630/other_id",
-            "type": "Identifier",
-            "value": "559, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/8630/title",
+            "type": "Name",
+            "value": "Black Petunia and White Morning Glory I"
         },
         {
             "classified_as": [
@@ -70,26 +79,33 @@
             "value": "8630"
         }
     ],
-    "label": "Georgia O'Keeffe. Black Petunia and White Morning Glory I, 1926. Oil on canvas. Private Collection. Private collection, Greenwich, Connecticut, purchase, 1960s",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Black Petunia and White Morning Glory I, 1926. Oil on canvas, 36 x 30 inches. Private Collection. Private collection, Greenwich, Connecticut, purchase, 1960s",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8630/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -104,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -124,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -149,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -175,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8630/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1921-01-01T00:00:00",
-            "end_of_the_end": "1931-12-31T00:00:00",
+            "begin_of_the_begin": "1926-01-01T00:00:00",
+            "end_of_the_end": "1926-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8630/production/timespan/0",
             "label": "1926",
             "type": "TimeSpan"
@@ -185,120 +219,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1927 New York (Intimate Gallery), as Black Petunia & White Morning-Glory I; 1927 Brooklyn, no. 2; 1946 New York (MOMA \u2013 Retro), no. 23"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/caption/",
-            "label": "Georgia O'Keeffe. Black Petunia and White Morning Glory I, 1926. Oil on canvas. Private Collection. Private collection, Greenwich, Connecticut, purchase, 1960s",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8630/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Black Petunia and White Morning Glory I, 1926"
-        },
         {
             "classified_as": [
                 {
@@ -310,6 +230,18 @@
             "id": "http://data.okeeffemuseum.org/object/8630/signaturemarks",
             "type": "LinguisticObject",
             "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: inaccessible"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/caption/",
+            "label": "Georgia O'Keeffe. Black Petunia and White Morning Glory I, 1926. Oil on canvas, 36 x 30 inches. Private Collection. Private collection, Greenwich, Connecticut, purchase, 1960s",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -331,6 +263,108 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Petunia and White Morning Glory I, 1926"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -339,6 +373,18 @@
             "id": "http://data.okeeffemuseum.org/object/8630/CreditLine/",
             "type": "LinguisticObject",
             "value": "Private collection, Greenwich, Connecticut, purchase, 1960s      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8630/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1927 New York (Intimate Gallery), as Black Petunia & White Morning-Glory I; 1927 Brooklyn, no. 2; 1946 New York (MOMA \u2013 Retro), no. 23"
         }
     ],
     "refers_to": [],
@@ -365,53 +411,6 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/109",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/109/title"
-            ],
-            "label": "Paintings by Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1927-06-06T00:00:00",
-                "end_of_the_end": "1927-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/174",
-            "timespan": {
-                "begin_of_the_begin": "1927-01-11T00:00:00",
-                "end_of_the_end": "1927-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/174/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -451,6 +450,53 @@
                 "begin_of_the_begin": "1946-05-14T00:00:00",
                 "end_of_the_end": "1946-08-25T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/174",
+            "timespan": {
+                "begin_of_the_begin": "1927-01-11T00:00:00",
+                "end_of_the_end": "1927-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/174/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/109",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/109/title"
+            ],
+            "label": "Paintings by Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1927-06-06T00:00:00",
+                "end_of_the_end": "1927-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

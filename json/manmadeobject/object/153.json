@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
             "type": "Type"
         }
     ],
@@ -35,6 +44,42 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/accessionnumber",
+            "type": "Identifier",
+            "value": "2007.1.17"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/other_id",
+            "type": "Identifier",
+            "value": "397, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/identifier",
+            "type": "Identifier",
+            "value": "153"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -52,42 +97,6 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/153/identifier",
-            "type": "Identifier",
-            "value": "153"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/other_id",
-            "type": "Identifier",
-            "value": "397, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/accessionnumber",
-            "type": "Identifier",
-            "value": "2007.1.17"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
             "id": "http://data.okeeffemuseum.org/object/153/title",
             "type": "Name",
             "value": "Pond in the Woods"
@@ -96,34 +105,27 @@
     "label": "Georgia O'Keeffe. Pond in the Woods, 1922. Pastel on paper, 24 x 18 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.17]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/153/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/153/material/0",
+            "label": "pastel",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/153/material/0",
-            "label": "Pastel",
+            "id": "http://data.okeeffemuseum.org/object/153/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +140,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +171,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +185,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,6 +222,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/153/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1922-01-01T00:00:00",
             "end_of_the_end": "1922-12-31T00:00:00",
@@ -219,40 +239,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1952 New York (Downtown), no. 8 \n1962 New York (Downtown--Abstract), no. 42 \n1962 Iowa City \n1965 New York (Downtown--Survey) \n1965 New York (Downtown--Group--January) \n2001 Santa Fe (O'Keeffe)  Eye of Modernism, GOKM and Milwaukee \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2006 Santa Fe (O'Keeffe) A Celebration of New Work \n2007 Santa Fe (O'Keeffe) GOK: Circling Around Abstraction; all venues \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM and High only \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2016 Santa Fe (O'Keeffe) Abstract Nature \n2013 Santa Fe (O'Keeffe) Modern Nature"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pond in the Woods, 1922"
-        },
         {
             "classified_as": [
                 {
@@ -268,20 +254,42 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/153/Right/",
+            "id": "http://data.okeeffemuseum.org/object/153/Measurement/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "24 x 18 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pond in the Woods, 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -290,14 +298,62 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/153/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Pastel on paper, 24 x 18 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/provenance/",
+            "label": "(The Downtown Gallery, New York, N.Y.) ^Edith G. Halpert, New York, N.Y., 1960s ^Private collection, New York, N.Y., gift, 1966         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1952 New York (Downtown), no. 8 \n1962 New York (Downtown--Abstract), no. 42 \n1962 Iowa City \n1965 New York (Downtown--Survey) \n1965 New York (Downtown--Group--January) \n2001 Santa Fe (O'Keeffe)  Eye of Modernism, GOKM and Milwaukee \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2006 Santa Fe (O'Keeffe) A Celebration of New Work \n2007 Santa Fe (O'Keeffe) GOK: Circling Around Abstraction; all venues \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM and High only \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2016 Santa Fe (O'Keeffe) Abstract Nature \n2013 Santa Fe (O'Keeffe) Modern Nature"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/153/Description/",
+            "type": "LinguisticObject",
+            "value": "Vertical pastel with whitish yellow half-moon shape with blurred fuzzy edges in the center surrounded in a circle of green and teal.  Spiraling out from this are swirls of brown, green, blue and black filling out to the edges of the page."
         },
         {
             "classified_as": [
@@ -314,14 +370,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/153/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
+            "id": "http://data.okeeffemuseum.org/object/153/caption/",
+            "label": "Georgia O'Keeffe. Pond in the Woods, 1922. Pastel on paper, 24 x 18 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.17]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -343,50 +399,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/153/caption/",
-            "label": "Georgia O'Keeffe. Pond in the Woods, 1922. Pastel on paper, 24 x 18 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.17]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/Description/",
+            "id": "http://data.okeeffemuseum.org/object/153/Right/",
             "type": "LinguisticObject",
-            "value": "Vertical pastel with whitish yellow half-moon shape with blurred fuzzy edges in the center surrounded in a circle of green and teal.  Spiraling out from this are swirls of brown, green, blue and black filling out to the edges of the page."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/provenance/",
-            "label": "(The Downtown Gallery, New York, N.Y.) ^Edith G. Halpert, New York, N.Y., 1960s ^Private collection, New York, N.Y., gift, 1966         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/153/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 x 18 inches"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -403,13 +423,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -460,17 +480,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264578",
-                    "label": "Web pages",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://www.arsny.com/requests",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300041273",
                     "label": "prints",
                     "type": "Type"
@@ -478,180 +487,21 @@
             ],
             "id": "https://prints.okeeffemuseum.org/detail/460453",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264578",
+                    "label": "Web pages",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://www.arsny.com/requests",
+            "type": "LinguisticObject"
         }
     ],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/96",
-            "timespan": {
-                "begin_of_the_begin": "2001-03-23T00:00:00",
-                "end_of_the_end": "2001-09-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/96/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/552",
-            "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/880",
-            "timespan": {
-                "begin_of_the_begin": "1962-03-27T00:00:00",
-                "end_of_the_end": "1962-04-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/880/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/597",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/597/title"
-            ],
-            "label": "Abstract Painting in America: 1903-1923",
-            "timespan": {
-                "begin_of_the_begin": "1962-03-27T00:00:00",
-                "end_of_the_end": "1962-04-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/597/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
-            ],
-            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/688",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/688/title"
-            ],
-            "label": "A Gallery Survey of American Art",
-            "timespan": {
-                "begin_of_the_begin": "1965-09-08T00:00:00",
-                "end_of_the_end": "1965-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/688/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/107",
-            "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/872",
-            "timespan": {
-                "begin_of_the_begin": "1962-05-06T00:00:00",
-                "end_of_the_end": "1962-08-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/872/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
-            ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/997",
-            "timespan": {
-                "begin_of_the_begin": "1965-01-01T00:00:00",
-                "end_of_the_end": "1965-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/997/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
-            ],
-            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
-            "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -673,75 +523,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/58",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/58/title"
-            ],
-            "label": "Eye of Modernism",
-            "timespan": {
-                "begin_of_the_begin": "2001-03-23T00:00:00",
-                "end_of_the_end": "2001-09-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/58/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
-            ],
-            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
-            "timespan": {
-                "begin_of_the_begin": "2007-02-10T00:00:00",
-                "end_of_the_end": "2008-01-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
-            "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/686",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/686/title"
-            ],
-            "label": "Group Show",
-            "timespan": {
-                "begin_of_the_begin": "1965-01-01T00:00:00",
-                "end_of_the_end": "1965-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/686/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/999",
             "timespan": {
                 "begin_of_the_begin": "1965-09-08T00:00:00",
                 "end_of_the_end": "1965-10-02T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/999/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/872",
+            "timespan": {
+                "begin_of_the_begin": "1962-05-06T00:00:00",
+                "end_of_the_end": "1962-08-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/872/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -767,11 +566,232 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/96",
+            "timespan": {
+                "begin_of_the_begin": "2001-03-23T00:00:00",
+                "end_of_the_end": "2001-09-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/96/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
+            ],
+            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
+            ],
+            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/107",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/597",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/597/title"
+            ],
+            "label": "Abstract Painting in America: 1903-1923",
+            "timespan": {
+                "begin_of_the_begin": "1962-03-27T00:00:00",
+                "end_of_the_end": "1962-04-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/597/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/997",
+            "timespan": {
+                "begin_of_the_begin": "1965-01-01T00:00:00",
+                "end_of_the_end": "1965-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/997/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/686",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/686/title"
+            ],
+            "label": "Group Show",
+            "timespan": {
+                "begin_of_the_begin": "1965-01-01T00:00:00",
+                "end_of_the_end": "1965-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/686/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/880",
+            "timespan": {
+                "begin_of_the_begin": "1962-03-27T00:00:00",
+                "end_of_the_end": "1962-04-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/880/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/141",
             "timespan": {
                 "begin_of_the_begin": "2007-05-25T00:00:00",
                 "end_of_the_end": "2007-09-09T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/552",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/688",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/688/title"
+            ],
+            "label": "A Gallery Survey of American Art",
+            "timespan": {
+                "begin_of_the_begin": "1965-09-08T00:00:00",
+                "end_of_the_end": "1965-10-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/688/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
+            ],
+            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
+            "timespan": {
+                "begin_of_the_begin": "2007-02-10T00:00:00",
+                "end_of_the_end": "2008-01-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/58",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/58/title"
+            ],
+            "label": "Eye of Modernism",
+            "timespan": {
+                "begin_of_the_begin": "2001-03-23T00:00:00",
+                "end_of_the_end": "2001-09-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/58/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

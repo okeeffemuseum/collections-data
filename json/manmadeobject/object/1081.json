@@ -11,6 +11,15 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -35,18 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1081/otheridentifier",
-            "type": "Identifier",
-            "value": "1690"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -55,6 +52,18 @@
             "id": "http://data.okeeffemuseum.org/object/1081/title",
             "type": "Name",
             "value": "Black Rock on Stump"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1081/other_id",
+            "type": "Identifier",
+            "value": "1690, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -71,18 +80,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1081/other_id",
-            "type": "Identifier",
-            "value": "1690, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -91,10 +88,27 @@
             "id": "http://data.okeeffemuseum.org/object/1081/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.543"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1081/otheridentifier",
+            "type": "Identifier",
+            "value": "1690"
         }
     ],
     "label": "Georgia O'Keeffe. Black Rock on Stump, 1970s. Oil on canvas, 16 x 20 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.543]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/1081/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,16 +116,11 @@
             "id": "http://data.okeeffemuseum.org/object/1081/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/1081/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
     "ore:isAggregatedBy": {
-        "id": "http://data.okeeffemuseum.org/aggregation/262",
-        "label": "Rocks, Bones, and Shells",
+        "id": "http://data.okeeffemuseum.org/aggregation/264",
+        "label": "Rocks",
         "type": "Aggregation"
     },
     "part_of": [],
@@ -120,17 +129,6 @@
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -145,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -165,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -190,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -216,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1081/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1970-01-01T00:00:00",
             "end_of_the_end": "1979-12-31T00:00:00",
@@ -229,13 +245,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -246,26 +262,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1081/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/1081/Measurement/",
             "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1081/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
+            "value": "16 x 20 inches"
         },
         {
             "classified_as": [
@@ -299,26 +303,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1081/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 20 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1081/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/1081/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Black Rock on Stump, 1970s"
         },
         {
             "classified_as": [
@@ -335,24 +337,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1081/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1081/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1081/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1081/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Black Rock on Stump, 1970s"
+            "value": "Oil on canvas, 16 x 20 inches"
         },
         {
             "classified_as": [
@@ -369,35 +395,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1081/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/1081/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 20 inches"
+            "value": "Gift"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -408,14 +424,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1081/Right/",
+            "id": "http://data.okeeffemuseum.org/object/1081/Materials/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Oil on canvas"
         }
     ],
     "refers_to": [],
@@ -458,15 +474,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/46",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/46/title"
-            ],
-            "label": "The Beyond: Georgia O'Keeffe and Contemporary Art",
+            "id": "http://data.okeeffemuseum.org/exhibition/74",
             "timespan": {
                 "begin_of_the_begin": "2018-05-26T00:00:00",
-                "end_of_the_end": "2019-05-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/46/timespan",
+                "end_of_the_end": "2018-09-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/74/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -488,11 +500,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/74",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/46",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/46/title"
+            ],
+            "label": "The Beyond: Georgia O'Keeffe and Contemporary Art",
             "timespan": {
                 "begin_of_the_begin": "2018-05-26T00:00:00",
-                "end_of_the_end": "2018-09-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/74/timespan",
+                "end_of_the_end": "2019-05-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/46/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

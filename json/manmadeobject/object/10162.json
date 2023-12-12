@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -35,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10162/other_id",
-            "type": "Identifier",
-            "value": "1280, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -55,6 +57,18 @@
             "id": "http://data.okeeffemuseum.org/object/10162/title",
             "type": "Name",
             "value": "Patio with Black Door"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10162/other_id",
+            "type": "Identifier",
+            "value": "1280, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -85,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -117,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -137,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -162,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -188,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10162/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1950-01-01T00:00:00",
-            "end_of_the_end": "1960-12-31T00:00:00",
+            "begin_of_the_begin": "1955-01-01T00:00:00",
+            "end_of_the_end": "1955-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10162/production/timespan/0",
             "label": "1955",
             "type": "TimeSpan"
@@ -198,28 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10162/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 40 x 30 inches"
-        },
         {
             "classified_as": [
                 {
@@ -240,42 +243,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10162/Measurement/",
-            "type": "LinguisticObject",
-            "value": "40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10162/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10162/caption/",
-            "label": "Georgia O'Keeffe. Patio with Black Door, 1955. Oil on canvas, 40 x 30 inches. Mueum of Fine Arts (MFA Boston)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -289,6 +256,40 @@
             "id": "http://data.okeeffemuseum.org/object/10162/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10162/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Patio with Black Door, 1955"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10162/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -313,21 +314,45 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10162/caption/",
+            "label": "Georgia O'Keeffe. Patio with Black Door, 1955. Oil on canvas, 40 x 30 inches. Mueum of Fine Arts (MFA Boston)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10162/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10162/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Patio with Black Door, 1955"
+            "value": "Oil on canvas, 40 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10162/Measurement/",
+            "type": "LinguisticObject",
+            "value": "40 x 30 inches"
         }
     ],
     "refers_to": [],
@@ -370,6 +395,83 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/521",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/521/title"
+            ],
+            "label": "The Museum and Its Friends: Eighteen living American Artists Selected by the Friends of the Whitney Museum",
+            "timespan": {
+                "begin_of_the_begin": "1959-03-05T00:00:00",
+                "end_of_the_end": "1959-11-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/521/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/522",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/522/title"
+            ],
+            "label": "1959 Annual Exhibition of Contemporary American Painting",
+            "timespan": {
+                "begin_of_the_begin": "1959-12-09T00:00:00",
+                "end_of_the_end": "1960-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/522/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/762",
+            "timespan": {
+                "begin_of_the_begin": "1959-10-28T00:00:00",
+                "end_of_the_end": "1959-11-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/762/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/764",
+            "timespan": {
+                "begin_of_the_begin": "1959-12-09T00:00:00",
+                "end_of_the_end": "1960-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/764/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/777",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/777/title"
+            ],
+            "label": "Four MacDowell Medalists: Alexander Calder, Edward Hopper, Louis Nevelson, Georgia O\"Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1973-08-19T00:00:00",
+                "end_of_the_end": "1973-09-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/777/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/557",
             "timespan": {
                 "begin_of_the_begin": "1952-10-10T00:00:00",
@@ -396,109 +498,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/712",
-            "timespan": {
-                "begin_of_the_begin": "1958-07-01T00:00:00",
-                "end_of_the_end": "1958-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/613",
-            "timespan": {
-                "begin_of_the_begin": "1955-03-29T00:00:00",
-                "end_of_the_end": "1955-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/777",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/777/title"
-            ],
-            "label": "Four MacDowell Medalists: Alexander Calder, Edward Hopper, Louis Nevelson, Georgia O\"Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1973-08-19T00:00:00",
-                "end_of_the_end": "1973-09-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/777/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/764",
-            "timespan": {
-                "begin_of_the_begin": "1959-12-09T00:00:00",
-                "end_of_the_end": "1960-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/764/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/762",
-            "timespan": {
-                "begin_of_the_begin": "1959-10-28T00:00:00",
-                "end_of_the_end": "1959-11-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/762/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/522",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/522/title"
-            ],
-            "label": "1959 Annual Exhibition of Contemporary American Painting",
-            "timespan": {
-                "begin_of_the_begin": "1959-12-09T00:00:00",
-                "end_of_the_end": "1960-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/522/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/497",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/497/title"
-            ],
-            "label": " Lane Foundation American Painting Since The Armory Show",
-            "timespan": {
-                "begin_of_the_begin": "1958-07-01T00:00:00",
-                "end_of_the_end": "1959-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/497/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/406/title"
@@ -508,23 +507,6 @@
                 "begin_of_the_begin": "1955-03-29T00:00:00",
                 "end_of_the_end": "1955-04-23T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/521",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/521/title"
-            ],
-            "label": "The Museum and Its Friends: Eighteen living American Artists Selected by the Friends of the Whitney Museum",
-            "timespan": {
-                "begin_of_the_begin": "1959-03-05T00:00:00",
-                "end_of_the_end": "1959-11-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/521/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -550,15 +532,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
-            ],
-            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
+            "id": "http://data.okeeffemuseum.org/exhibition/712",
             "timespan": {
-                "begin_of_the_begin": "1958-10-11T00:00:00",
-                "end_of_the_end": "1958-11-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
+                "begin_of_the_begin": "1958-07-01T00:00:00",
+                "end_of_the_end": "1958-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -572,6 +550,53 @@
                 "begin_of_the_begin": "1958-10-11T00:00:00",
                 "end_of_the_end": "1958-11-15T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/678/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/613",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/497",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/497/title"
+            ],
+            "label": " Lane Foundation American Painting Since The Armory Show",
+            "timespan": {
+                "begin_of_the_begin": "1958-07-01T00:00:00",
+                "end_of_the_end": "1959-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/497/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
+            ],
+            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
+            "timespan": {
+                "begin_of_the_begin": "1958-10-11T00:00:00",
+                "end_of_the_end": "1958-11-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

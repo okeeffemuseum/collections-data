@@ -3,6 +3,16 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -40,21 +50,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1182/identifier",
-            "type": "Identifier",
-            "value": "1182"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/accessionnumber",
-            "type": "Identifier",
-            "value": "2006.5.556"
+            "id": "http://data.okeeffemuseum.org/object/1182/title",
+            "type": "Name",
+            "value": "Untitled (Animal Head),  Lakeville Drawing Book"
         },
         {
             "classified_as": [
@@ -78,7 +76,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/1182/other_id",
             "type": "Identifier",
-            "value": "1730, Catalogue Raisonne Number"
+            "value": "1730, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -88,42 +86,47 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1182/title",
-            "type": "Name",
-            "value": "Untitled (Animal Head),  Lakeville Drawing Book"
+            "id": "http://data.okeeffemuseum.org/object/1182/identifier",
+            "type": "Identifier",
+            "value": "1182"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.5.556"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Animal Head), Lakeville Drawing Book, 1901-1902. Graphite on paper, 7 x 9 1/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.556]",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/1182/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/1182/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/285",
+        "label": "Animals",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +141,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +172,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +186,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,6 +223,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1182/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1901-01-01T00:00:00",
             "end_of_the_end": "1902-12-31T00:00:00",
@@ -222,14 +243,87 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1182/Right/",
+            "id": "http://data.okeeffemuseum.org/object/1182/artist_caption",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 7 x 9 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Animal Head),  Lakeville Drawing Book, 1901-1902"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/Description/",
+            "type": "LinguisticObject",
+            "value": "A profile view of a decapitated animal head, with pointed ears and elongated snout."
         },
         {
             "classified_as": [
@@ -242,86 +336,6 @@
             "id": "http://data.okeeffemuseum.org/object/1182/CreditLine/",
             "type": "LinguisticObject",
             "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper, 7 x 9 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Animal Head), Lakeville Drawing Book, 1901-1902. Graphite on paper, 7 x 9 1/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.556]",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -343,13 +357,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -358,33 +367,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1182/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1182/institution_caption",
             "type": "LinguisticObject",
-            "value": "Untitled (Animal Head),  Lakeville Drawing Book, 1901-1902"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1182/Materials/",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper"
+            "value": "Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -401,14 +386,50 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1182/Description/",
+            "id": "http://data.okeeffemuseum.org/object/1182/Right/",
             "type": "LinguisticObject",
-            "value": "A profile view of a decapitated animal head, with pointed ears and elongated snout."
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1182/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Animal Head), Lakeville Drawing Book, 1901-1902. Graphite on paper, 7 x 9 1/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.556]",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

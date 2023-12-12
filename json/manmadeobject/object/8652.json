@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -33,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8652/identifier",
-            "type": "Identifier",
-            "value": "8652"
+            "id": "http://data.okeeffemuseum.org/object/8652/title",
+            "type": "Name",
+            "value": "Pink Daisy with Iris"
         },
         {
             "classified_as": [
@@ -45,9 +54,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8652/title",
-            "type": "Name",
-            "value": "Pink Daisy with Iris"
+            "id": "http://data.okeeffemuseum.org/object/8652/identifier",
+            "type": "Identifier",
+            "value": "8652"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/other_id",
+            "type": "Identifier",
+            "value": "582, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -60,18 +81,6 @@
             "id": "http://data.okeeffemuseum.org/object/8652/otheridentifier",
             "type": "Identifier",
             "value": "582"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/other_id",
-            "type": "Identifier",
-            "value": "582, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Daisy with Iris, 1927. Oil on canvasboard, 9 3/4 x 6 inches. Colby College Museum of Art. Gerald Peters Gallery, Santa Fe, New Mexico, 1998",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8652/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1922-01-01T00:00:00",
-            "end_of_the_end": "1932-12-31T00:00:00",
+            "begin_of_the_begin": "1927-01-01T00:00:00",
+            "end_of_the_end": "1927-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8652/production/timespan/0",
             "label": "1927",
             "type": "TimeSpan"
@@ -203,67 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvasboard, 9 3/4 x 6 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pink Daisy with Iris, 1927"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -275,6 +234,52 @@
             "id": "http://data.okeeffemuseum.org/object/8652/signaturemarks",
             "type": "LinguisticObject",
             "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Georgia O'Keeffe / March \u2013 1927\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/caption/",
+            "label": "Georgia O'Keeffe. Pink Daisy with Iris, 1927. Oil on canvasboard, 9 3/4 x 6 inches. Colby College Museum of Art. Gerald Peters Gallery, Santa Fe, New Mexico, 1998",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 3/4 x 6 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink Daisy with Iris, 1927"
         },
         {
             "classified_as": [
@@ -296,23 +301,6 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Colby College Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -325,14 +313,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8652/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8652/maker_role",
             "type": "LinguisticObject",
-            "value": "9 3/4 x 6 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -340,23 +333,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8652/caption/",
-            "label": "Georgia O'Keeffe. Pink Daisy with Iris, 1927. Oil on canvasboard, 9 3/4 x 6 inches. Colby College Museum of Art. Gerald Peters Gallery, Santa Fe, New Mexico, 1998",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8652/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8652/institution_caption",
             "type": "LinguisticObject",
-            "value": "1978 New York (Hirschl & Adler)"
+            "value": "Colby College Museum of Art"
         },
         {
             "classified_as": [
@@ -373,6 +359,28 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvasboard, 9 3/4 x 6 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -381,6 +389,18 @@
             "id": "http://data.okeeffemuseum.org/object/8652/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvasboard"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8652/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1978 New York (Hirschl & Adler)"
         }
     ],
     "refers_to": [],

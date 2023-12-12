@@ -6,6 +6,21 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -30,19 +45,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10273/other_id",
             "type": "Identifier",
-            "value": "1252, Catalogue Raisonne Number"
+            "value": "1252, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10273/identifier",
+            "id": "http://data.okeeffemuseum.org/object/10273/otheridentifier",
             "type": "Identifier",
-            "value": "10273"
+            "value": "1252"
         },
         {
             "classified_as": [
@@ -59,47 +74,40 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10273/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/10273/identifier",
             "type": "Identifier",
-            "value": "1252"
+            "value": "10273"
         }
     ],
     "label": "Georgia O'Keeffe. Antelope Horns, ca. 1952. Graphite on paper, 18 3/8 x 24 7/8 inches. Private Collection",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/10273/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/10273/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/283",
+        "label": "Horns",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -114,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -134,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -159,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -185,6 +204,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10273/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1947-01-01T00:00:00",
             "end_of_the_end": "1957-12-31T00:00:00",
@@ -195,35 +221,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10273/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10273/Materials/",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper"
-        },
         {
             "classified_as": [
                 {
@@ -242,10 +239,39 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10273/caption/",
+            "label": "Georgia O'Keeffe. Antelope Horns, ca. 1952. Graphite on paper, 18 3/8 x 24 7/8 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10273/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300025103",
                     "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -256,35 +282,18 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10273/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -295,22 +304,34 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10273/caption/",
-            "label": "Georgia O'Keeffe. Antelope Horns, ca. 1952. Graphite on paper, 18 3/8 x 24 7/8 inches. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10273/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10273/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -319,6 +340,11 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -351,49 +377,6 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/810",
-            "timespan": {
-                "begin_of_the_begin": "1960-10-04T00:00:00",
-                "end_of_the_end": "1960-12-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/810/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -432,11 +415,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1158",
             "timespan": {
                 "begin_of_the_begin": "1985-09-14T00:00:00",
                 "end_of_the_end": "1985-11-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
+            ],
+            "label": "Georgia O'Keeffe: Forty Years of her Art",
+            "timespan": {
+                "begin_of_the_begin": "1960-10-04T00:00:00",
+                "end_of_the_end": "1960-12-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/810",
+            "timespan": {
+                "begin_of_the_begin": "1960-10-04T00:00:00",
+                "end_of_the_end": "1960-12-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/810/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -458,15 +488,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
-            ],
-            "label": "Georgia O'Keeffe: Forty Years of her Art",
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
             "timespan": {
-                "begin_of_the_begin": "1960-10-04T00:00:00",
-                "end_of_the_end": "1960-12-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

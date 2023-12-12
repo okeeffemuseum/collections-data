@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -27,6 +36,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8716/otheridentifier",
+            "type": "Identifier",
+            "value": "655"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -35,18 +56,6 @@
             "id": "http://data.okeeffemuseum.org/object/8716/identifier",
             "type": "Identifier",
             "value": "8716"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8716/other_id",
-            "type": "Identifier",
-            "value": "655, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -63,14 +72,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8716/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/8716/other_id",
             "type": "Identifier",
-            "value": "655"
+            "value": "655, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Lake George Barn, 1929. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, New York, NY, 1988. \u00a9 Georgia O'Keeffe Museum",
@@ -89,24 +98,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -121,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -141,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -166,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -192,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8716/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1924-01-01T00:00:00",
-            "end_of_the_end": "1934-12-31T00:00:00",
+            "begin_of_the_begin": "1929-01-01T00:00:00",
+            "end_of_the_end": "1929-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8716/production/timespan/0",
             "label": "1929",
             "type": "TimeSpan"
@@ -205,13 +225,71 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8716/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Lake George Barn \u2013 29? / Veris \u2013 Blanc Mat \u2013 Le Frank and Co Nov. 1934 1 coat\" (graphite) 2. \"#3 St 17 7/8 x 31 7/8\" (GO, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8716/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8716/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8716/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
@@ -234,26 +312,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8716/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1988 Phoenix, no. 18"
+            "id": "http://data.okeeffemuseum.org/object/8716/caption/",
+            "label": "Georgia O'Keeffe. Lake George Barn, 1929. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, New York, NY, 1988. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8716/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8716/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Private collection, New York, NY, 1988      "
         },
         {
             "classified_as": [
@@ -270,31 +348,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8716/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8716/exhibitions",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8716/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Lake George Barn \u2013 29? / Veris \u2013 Blanc Mat \u2013 Le Frank and Co Nov. 1934 1 coat\" (graphite) 2. \"#3 St 17 7/8 x 31 7/8\" (GO, graphite)"
+            "value": "1988 Phoenix, no. 18"
         },
         {
             "classified_as": [
@@ -304,13 +365,13 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -321,14 +382,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8716/Right/",
+            "id": "http://data.okeeffemuseum.org/object/8716/Materials/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -351,47 +412,6 @@
             "id": "http://data.okeeffemuseum.org/object/8716/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on canvas, 18 x 32 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8716/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, 1988      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8716/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8716/caption/",
-            "label": "Georgia O'Keeffe. Lake George Barn, 1929. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, New York, NY, 1988. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -422,23 +442,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/828",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/828/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Painting",
-            "timespan": {
-                "begin_of_the_begin": "1988-04-15T00:00:00",
-                "end_of_the_end": "1989-02-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/828/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1177",
             "timespan": {
                 "begin_of_the_begin": "1988-04-15T00:00:00",
@@ -446,13 +449,6 @@
                 "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
                 "type": "TimeSpan"
             },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1179",
             "type": "Activity"
         },
         {
@@ -479,6 +475,30 @@
                 "id": "http://data.okeeffemuseum.org/exhibition/1180/timespan",
                 "type": "TimeSpan"
             },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/828",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/828/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Painting",
+            "timespan": {
+                "begin_of_the_begin": "1988-04-15T00:00:00",
+                "end_of_the_end": "1989-02-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/828/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1179",
             "type": "Activity"
         }
     ]

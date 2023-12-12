@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -21,18 +31,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8251",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/title",
-            "type": "Name",
-            "value": "Early No. 2"
-        },
         {
             "classified_as": [
                 {
@@ -48,6 +46,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/title",
+            "type": "Name",
+            "value": "Early No. 2"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -55,7 +65,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8251/other_id",
             "type": "Identifier",
-            "value": "51, Catalogue Raisonne Number"
+            "value": "51, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -79,28 +89,21 @@
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8251/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +200,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8251/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1910-01-01T00:00:00",
-            "end_of_the_end": "1920-12-31T00:00:00",
+            "begin_of_the_begin": "1915-01-01T00:00:00",
+            "end_of_the_end": "1915-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8251/production/timespan/0",
             "label": "1915",
             "type": "TimeSpan"
@@ -199,11 +220,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
@@ -212,132 +228,16 @@
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8251/title_date_caption",
             "type": "LinguisticObject",
             "value": "Early No. 2, 1915"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/institution_caption",
-            "type": "LinguisticObject",
-            "value": "The Menil Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/caption/",
-            "label": "Georgia O'Keeffe. Early No. 2, 1915. Charcoal on paper, 23 3/4 x 18 3/8 inches. The Menil Collection. The Menil Collection, Houston; Gift of The Georgia O'Keeffe Foundation [1995] (D94-55)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1993 London (Hayward), no. 3"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Charcoal on paper, 23 3/4 x 18 3/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: \"Georgia O'Keeffe \u2013 Early\" (graphite). Backing: \"Georgia O'Keeffe\" (black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8251/Measurement/",
-            "type": "LinguisticObject",
-            "value": "23 3/4 x 18 3/8 inches"
         },
         {
             "classified_as": [
@@ -354,6 +254,105 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/institution_caption",
+            "type": "LinguisticObject",
+            "value": "The Menil Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/caption/",
+            "label": "Georgia O'Keeffe. Early No. 2, 1915. Charcoal on paper, 23 3/4 x 18 3/8 inches. The Menil Collection. The Menil Collection, Houston; Gift of The Georgia O'Keeffe Foundation [1995] (D94-55)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/Measurement/",
+            "type": "LinguisticObject",
+            "value": "23 3/4 x 18 3/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1993 London (Hayward), no. 3"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Georgia O'Keeffe \u2013 Early\" (graphite). Backing: \"Georgia O'Keeffe\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -362,6 +361,28 @@
             "id": "http://data.okeeffemuseum.org/object/8251/CreditLine/",
             "type": "LinguisticObject",
             "value": "The Menil Collection, Houston; Gift of The Georgia O'Keeffe Foundation [1995] (D94-55)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8251/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper, 23 3/4 x 18 3/8 inches"
         },
         {
             "classified_as": [
@@ -416,45 +437,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
-            ],
-            "label": "Georgia O'Keeffe: American & Modern",
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
             "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "begin_of_the_begin": "1993-10-30T00:00:00",
                 "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
-            ],
-            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
-            "timespan": {
-                "begin_of_the_begin": "2007-02-10T00:00:00",
-                "end_of_the_end": "2008-01-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/141",
-            "timespan": {
-                "begin_of_the_begin": "2007-05-25T00:00:00",
-                "end_of_the_end": "2007-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -489,11 +476,45 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "id": "http://data.okeeffemuseum.org/exhibition/141",
             "timespan": {
-                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "begin_of_the_begin": "2007-05-25T00:00:00",
+                "end_of_the_end": "2007-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
+            ],
+            "label": "Georgia O'Keeffe: American & Modern",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
                 "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
+            ],
+            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
+            "timespan": {
+                "begin_of_the_begin": "2007-02-10T00:00:00",
+                "end_of_the_end": "2008-01-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

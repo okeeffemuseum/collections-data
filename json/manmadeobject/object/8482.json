@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +15,10 @@
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
             "type": "Type"
         }
     ],
@@ -33,33 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8482/title",
-            "type": "Name",
-            "value": "Lightning at Sea"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
             "id": "http://data.okeeffemuseum.org/object/8482/identifier",
             "type": "Identifier",
             "value": "8482"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8482/other_id",
-            "type": "Identifier",
-            "value": "386, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -72,49 +57,66 @@
             "id": "http://data.okeeffemuseum.org/object/8482/otheridentifier",
             "type": "Identifier",
             "value": "386"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8482/title",
+            "type": "Name",
+            "value": "Lightning at Sea"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8482/other_id",
+            "type": "Identifier",
+            "value": "386, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Lightning at Sea, 1922. Pastel on paper mounted to gray cardboard, illustration board*, 19 x 25 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of the William H. Lane Foundation (1990.430)",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8482/material/0",
-            "label": "Pastel",
-            "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8482/material/2",
-            "label": "cardboard",
+            "label": "pastel",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8482/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8482/material/3",
             "label": "board",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8482/material/2",
+            "label": "cardboard",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -129,16 +131,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -149,17 +162,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -174,16 +176,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -200,9 +213,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8482/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1917-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8482/production/timespan/0",
             "label": "1922",
             "type": "TimeSpan"
@@ -225,6 +245,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8482/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible. Backing: 1. \"Lightning at Sea \u2013 22?\" (graphite) 2. OK {5star} (graphite)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -242,20 +274,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8482/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Museum of Fine Arts, Boston, Gift of the William H. Lane Foundation (1990.430)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -264,14 +284,36 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8482/title_date_caption",
             "type": "LinguisticObject",
             "value": "Lightning at Sea, 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8482/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper mounted to gray cardboard, illustration board*, 19 x 25 1/4 inches"
         },
         {
             "classified_as": [
@@ -288,26 +330,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8482/caption/",
-            "label": "Georgia O'Keeffe. Lightning at Sea, 1922. Pastel on paper mounted to gray cardboard, illustration board*, 19 x 25 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of the William H. Lane Foundation (1990.430)",
+            "id": "http://data.okeeffemuseum.org/object/8482/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); William H. Lane Foundation, Leominster, Massachusetts, 1953         ",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8482/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8482/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Verso: inaccessible. Backing: 1. \"Lightning at Sea \u2013 22?\" (graphite) 2. OK {5star} (graphite)"
+            "value": "Museum of Fine Arts, Boston, Gift of the William H. Lane Foundation (1990.430)      "
         },
         {
             "classified_as": [
@@ -329,6 +371,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8482/caption/",
+            "label": "Georgia O'Keeffe. Lightning at Sea, 1922. Pastel on paper mounted to gray cardboard, illustration board*, 19 x 25 1/4 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of the William H. Lane Foundation (1990.430)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -342,40 +396,6 @@
             "id": "http://data.okeeffemuseum.org/object/8482/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8482/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); William H. Lane Foundation, Leominster, Massachusetts, 1953         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8482/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper mounted to gray cardboard, illustration board*, 19 x 25 1/4 inches"
         },
         {
             "classified_as": [
@@ -430,15 +450,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
-            ],
-            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
+            "id": "http://data.okeeffemuseum.org/exhibition/1006",
             "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
+                "begin_of_the_begin": "1965-12-02T00:00:00",
+                "end_of_the_end": "1966-01-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1006/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/844",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/844/title"
+            ],
+            "label": "Georgia O'Keeffe: Natural Issues: 1918-1924",
+            "timespan": {
+                "begin_of_the_begin": "1992-04-11T00:00:00",
+                "end_of_the_end": "1992-07-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/844/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -460,11 +493,131 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/497",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/497/title"
+            ],
+            "label": " Lane Foundation American Painting Since The Armory Show",
+            "timespan": {
+                "begin_of_the_begin": "1958-07-01T00:00:00",
+                "end_of_the_end": "1959-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/497/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/552",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/713",
+            "timespan": {
+                "begin_of_the_begin": "1958-11-02T00:00:00",
+                "end_of_the_end": "1958-12-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/713/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/712",
+            "timespan": {
+                "begin_of_the_begin": "1958-07-01T00:00:00",
+                "end_of_the_end": "1958-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
+            ],
+            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/714",
+            "timespan": {
+                "begin_of_the_begin": "1959-10-01T00:00:00",
+                "end_of_the_end": "1959-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/714/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/162",
             "timespan": {
                 "begin_of_the_begin": "1923-01-29T00:00:00",
                 "end_of_the_end": "1923-02-10T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
+            ],
+            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -499,92 +652,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1006",
-            "timespan": {
-                "begin_of_the_begin": "1965-12-02T00:00:00",
-                "end_of_the_end": "1966-01-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1006/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/497",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/497/title"
-            ],
-            "label": " Lane Foundation American Painting Since The Armory Show",
-            "timespan": {
-                "begin_of_the_begin": "1958-07-01T00:00:00",
-                "end_of_the_end": "1959-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/497/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/714",
-            "timespan": {
-                "begin_of_the_begin": "1959-10-01T00:00:00",
-                "end_of_the_end": "1959-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/714/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/713",
-            "timespan": {
-                "begin_of_the_begin": "1958-11-02T00:00:00",
-                "end_of_the_end": "1958-12-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/713/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/844",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/844/title"
-            ],
-            "label": "Georgia O'Keeffe: Natural Issues: 1918-1924",
-            "timespan": {
-                "begin_of_the_begin": "1992-04-11T00:00:00",
-                "end_of_the_end": "1992-07-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/844/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/552",
-            "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/695",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/695/title"
@@ -602,23 +669,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
-            ],
-            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/552/title"
@@ -628,36 +678,6 @@
                 "begin_of_the_begin": "1960-10-04T00:00:00",
                 "end_of_the_end": "1960-12-04T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/712",
-            "timespan": {
-                "begin_of_the_begin": "1958-07-01T00:00:00",
-                "end_of_the_end": "1958-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,8 +3,23 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -20,6 +35,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10340",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10340/identifier",
+            "type": "Identifier",
+            "value": "10340"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10340/other_id",
+            "type": "Identifier",
+            "value": "2002, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -43,35 +82,26 @@
             "id": "http://data.okeeffemuseum.org/object/10340/title",
             "type": "Name",
             "value": "Untitled (Horse's Ears)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10340/other_id",
-            "type": "Identifier",
-            "value": "2002, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10340/identifier",
-            "type": "Identifier",
-            "value": "10340"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Horse's Ears), 1960s. Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Untitled (Horse's Ears), 1960s. Graphite on paper, 11 7/8 x 9 inches. Private Collection",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10340/material/0",
+            "label": "graphite",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10340/material/1",
+            "label": "paper",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/285",
+        "label": "Animals",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10340/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1960-01-01T00:00:00",
+            "end_of_the_end": "1969-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10340/production/timespan/0",
             "label": "1960s",
             "type": "TimeSpan"
@@ -185,8 +224,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -195,26 +234,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10340/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10340/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10340/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10340/Materials/",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Graphite on paper"
         },
         {
             "classified_as": [
@@ -224,13 +258,13 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -244,11 +278,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10340/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Horse's Ears), 1960s. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10340/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -258,14 +297,60 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10340/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/10340/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10340/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 7/8 x 9 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10340/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Horse's Ears), 1960s. Graphite on paper, 11 7/8 x 9 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10340/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 11 7/8 x 9 inches"
         }
     ],
     "refers_to": [],

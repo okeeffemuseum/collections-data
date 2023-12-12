@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -25,18 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10158",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10158/title",
-            "type": "Name",
-            "value": "Bare Tree Trunks with Snow"
-        },
         {
             "classified_as": [
                 {
@@ -57,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10158/identifier",
-            "type": "Identifier",
-            "value": "10158"
+            "id": "http://data.okeeffemuseum.org/object/10158/title",
+            "type": "Name",
+            "value": "Bare Tree Trunks with Snow"
         },
         {
             "classified_as": [
@@ -71,7 +68,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10158/other_id",
             "type": "Identifier",
-            "value": "1151, Catalogue Raisonne Number"
+            "value": "1151, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10158/identifier",
+            "type": "Identifier",
+            "value": "10158"
         }
     ],
     "label": "Georgia O'Keeffe. Bare Tree Trunks with Snow, 1946. Oil on canvas, 30 x 40 inches. Dallas Museum of Art",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10158/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1941-01-01T00:00:00",
-            "end_of_the_end": "1951-12-31T00:00:00",
+            "begin_of_the_begin": "1946-01-01T00:00:00",
+            "end_of_the_end": "1946-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10158/production/timespan/0",
             "label": "1946",
             "type": "TimeSpan"
@@ -203,6 +223,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10158/caption/",
+            "label": "Georgia O'Keeffe. Bare Tree Trunks with Snow, 1946. Oil on canvas, 30 x 40 inches. Dallas Museum of Art",
+            "type": "LinguisticObject"
+        },
         {
             "classified_as": [
                 {
@@ -223,22 +255,10 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10158/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300163343",
                     "label": "media",
@@ -247,11 +267,6 @@
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -267,36 +282,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10158/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10158/maker_role",
             "type": "LinguisticObject",
-            "value": "Bare Tree Trunks with Snow, 1946"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10158/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Dallas Museum of Art"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -313,6 +306,28 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10158/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Bare Tree Trunks with Snow, 1946"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -325,14 +340,19 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10158/caption/",
-            "label": "Georgia O'Keeffe. Bare Tree Trunks with Snow, 1946. Oil on canvas, 30 x 40 inches. Dallas Museum of Art",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10158/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Dallas Museum of Art"
         }
     ],
     "refers_to": [],
@@ -375,6 +395,36 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/785",
+            "timespan": {
+                "begin_of_the_begin": "1960-04-10T00:00:00",
+                "end_of_the_end": "1960-05-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/785/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
+            ],
+            "label": "Georgia O'Keeffe: American & Modern",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/701/title"
@@ -392,11 +442,97 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/785",
+            "id": "http://data.okeeffemuseum.org/exhibition/498",
             "timespan": {
-                "begin_of_the_begin": "1960-04-10T00:00:00",
-                "end_of_the_end": "1960-05-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/785/timespan",
+                "begin_of_the_begin": "1950-10-01T00:00:00",
+                "end_of_the_end": "1950-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/640",
+            "timespan": {
+                "begin_of_the_begin": "1956-01-22T00:00:00",
+                "end_of_the_end": "1956-02-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/640/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/564",
+            "timespan": {
+                "begin_of_the_begin": "1953-02-01T00:00:00",
+                "end_of_the_end": "1953-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/564/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/326",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/326/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings 1946-1950",
+            "timespan": {
+                "begin_of_the_begin": "1950-10-01T00:00:00",
+                "end_of_the_end": "1950-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/326/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/432",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/432/title"
+            ],
+            "label": "The One Hundred and Fifty-First Exhibition of American Painting and Sculpture",
+            "timespan": {
+                "begin_of_the_begin": "1956-01-22T00:00:00",
+                "end_of_the_end": "1956-02-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/432/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/839",
+            "timespan": {
+                "begin_of_the_begin": "1961-09-21T00:00:00",
+                "end_of_the_end": "1961-11-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/839/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -435,109 +571,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
-            ],
-            "label": "Georgia O'Keeffe: American & Modern",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/640",
-            "timespan": {
-                "begin_of_the_begin": "1956-01-22T00:00:00",
-                "end_of_the_end": "1956-02-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/640/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/432",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/432/title"
-            ],
-            "label": "The One Hundred and Fifty-First Exhibition of American Painting and Sculpture",
-            "timespan": {
-                "begin_of_the_begin": "1956-01-22T00:00:00",
-                "end_of_the_end": "1956-02-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/432/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/498",
-            "timespan": {
-                "begin_of_the_begin": "1950-10-01T00:00:00",
-                "end_of_the_end": "1950-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/564",
-            "timespan": {
-                "begin_of_the_begin": "1953-02-01T00:00:00",
-                "end_of_the_end": "1953-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/564/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/564",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/564/title"
-            ],
-            "label": "10 Americans: Davis, Demuth, Dove, Feininger, Graves, Marin, O'Keeffe, Shahn, Tobey Weber",
-            "timespan": {
-                "begin_of_the_begin": "1961-09-21T00:00:00",
-                "end_of_the_end": "1961-11-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/564/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/533",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/533/title"
@@ -555,28 +588,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/326",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/564",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/326/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/564/title"
             ],
-            "label": "Georgia O'Keeffe: Paintings 1946-1950",
-            "timespan": {
-                "begin_of_the_begin": "1950-10-01T00:00:00",
-                "end_of_the_end": "1950-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/326/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/839",
+            "label": "10 Americans: Davis, Demuth, Dove, Feininger, Graves, Marin, O'Keeffe, Shahn, Tobey Weber",
             "timespan": {
                 "begin_of_the_begin": "1961-09-21T00:00:00",
                 "end_of_the_end": "1961-11-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/839/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/564/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

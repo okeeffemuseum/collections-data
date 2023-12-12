@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -35,26 +45,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/708/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/708/identifier",
             "type": "Identifier",
-            "value": "1255"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/other_id",
-            "type": "Identifier",
-            "value": "1255, Catalogue Raisonne Number"
+            "value": "708"
         },
         {
             "classified_as": [
@@ -71,6 +69,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/other_id",
+            "type": "Identifier",
+            "value": "1255, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -83,52 +93,45 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/708/identifier",
+            "id": "http://data.okeeffemuseum.org/object/708/otheridentifier",
             "type": "Identifier",
-            "value": "708"
+            "value": "1255"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Mesa), ca. 1952. Graphite on paper, 5 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.239]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/708/material/2",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/708/material/0",
+            "label": "graphite",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/708/material/1",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/708/material/0",
-            "label": "Graphite",
+            "id": "http://data.okeeffemuseum.org/object/708/material/2",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -143,16 +146,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -163,17 +177,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -188,16 +191,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -214,6 +228,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/708/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1947-01-01T00:00:00",
             "end_of_the_end": "1957-12-31T00:00:00",
@@ -224,30 +245,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Mesa), ca. 1952. Graphite on paper, 5 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.239]",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -263,22 +260,34 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/708/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/708/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Gift"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/Measurement/",
+            "type": "LinguisticObject",
+            "value": "5 x 8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
@@ -287,11 +296,6 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -302,24 +306,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/708/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/708/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/Right/",
             "type": "LinguisticObject",
-            "value": "Untitled (Mesa), ca. 1952"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -353,6 +359,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Mesa), ca. 1952. Graphite on paper, 5 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.239]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
                     "type": "Type"
@@ -370,6 +388,45 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Mesa), ca. 1952"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/708/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -378,42 +435,6 @@
             "id": "http://data.okeeffemuseum.org/object/708/Materials/",
             "type": "LinguisticObject",
             "value": "Graphite on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/Measurement/",
-            "type": "LinguisticObject",
-            "value": "5 x 8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/708/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

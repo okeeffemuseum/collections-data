@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -24,6 +33,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8709",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/identifier",
+            "type": "Identifier",
+            "value": "8709"
+        },
         {
             "classified_as": [
                 {
@@ -44,9 +65,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8709/identifier",
-            "type": "Identifier",
-            "value": "8709"
+            "id": "http://data.okeeffemuseum.org/object/8709/title",
+            "type": "Name",
+            "value": "Abstraction"
         },
         {
             "classified_as": [
@@ -58,19 +79,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8709/other_id",
             "type": "Identifier",
-            "value": "648, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/title",
-            "type": "Name",
-            "value": "Abstraction"
+            "value": "648, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Abstraction, 1929. Oil on board, 21 x 15 inches. Private Collection. Private collection, Midwestern state, gift, 1960-85. \u00a9 Georgia O'Keeffe Museum",
@@ -89,24 +98,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -121,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -141,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -166,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -192,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8709/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1924-01-01T00:00:00",
-            "end_of_the_end": "1934-12-31T00:00:00",
+            "begin_of_the_begin": "1929-01-01T00:00:00",
+            "end_of_the_end": "1929-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8709/production/timespan/0",
             "label": "1929",
             "type": "TimeSpan"
@@ -202,6 +222,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: \"G. O'Keeffe / 1 \u2013 1929 \u2013 \" (black paint). Backing: \"Abstraction (oil) \u2013 1929 / by Georgia O'Keeffe / For J. F. Dewald / 44 Beaver St\" (AS, IG, black ink)"
+        },
         {
             "classified_as": [
                 {
@@ -213,18 +245,6 @@
             "id": "http://data.okeeffemuseum.org/object/8709/exhibitions",
             "type": "LinguisticObject",
             "value": "1929 New York (Intimate Gallery), as Abstraction No. I; 1966 Fort Worth; 1974 St. Louis; 1983 Roslyn, no. 30; 1988 Phoenix, no. 16"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/Measurement/",
-            "type": "LinguisticObject",
-            "value": "21 x 15 inches"
         },
         {
             "classified_as": [
@@ -241,6 +261,11 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -249,16 +274,93 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8709/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on board, 21 x 15 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Midwestern state, gift, 1960-85      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/caption/",
+            "label": "Georgia O'Keeffe. Abstraction, 1929. Oil on board, 21 x 15 inches. Private Collection. Private collection, Midwestern state, gift, 1960-85. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/Measurement/",
+            "type": "LinguisticObject",
+            "value": "21 x 15 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8709/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -278,14 +380,7 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/caption/",
-            "label": "Georgia O'Keeffe. Abstraction, 1929. Oil on board, 21 x 15 inches. Private Collection. Private collection, Midwestern state, gift, 1960-85. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300417193",
                     "label": "titles",
@@ -294,11 +389,6 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -314,84 +404,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300138082",
                     "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8709/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: \"G. O'Keeffe / 1 \u2013 1929 \u2013 \" (black paint). Backing: \"Abstraction (oil) \u2013 1929 / by Georgia O'Keeffe / For J. F. Dewald / 44 Beaver St\" (AS, IG, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Midwestern state, gift, 1960-85      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8709/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],
@@ -439,11 +459,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1148",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/780",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/780/title"
+            ],
+            "label": "Paintings by Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1983-01-30T00:00:00",
-                "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
+                "begin_of_the_begin": "1974-09-29T00:00:00",
+                "end_of_the_end": "1974-11-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/780/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/184",
+            "timespan": {
+                "begin_of_the_begin": "1929-02-04T00:00:00",
+                "end_of_the_end": "1929-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1177",
+            "timespan": {
+                "begin_of_the_begin": "1988-04-15T00:00:00",
+                "end_of_the_end": "1988-06-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -465,61 +515,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1107",
+            "id": "http://data.okeeffemuseum.org/exhibition/1148",
             "timespan": {
-                "begin_of_the_begin": "1974-09-29T00:00:00",
-                "end_of_the_end": "1974-11-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1107/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1179",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/184",
-            "timespan": {
-                "begin_of_the_begin": "1929-02-04T00:00:00",
-                "end_of_the_end": "1929-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
+                "begin_of_the_begin": "1983-01-30T00:00:00",
+                "end_of_the_end": "2020-04-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -533,19 +533,6 @@
                 "begin_of_the_begin": "1966-03-01T00:00:00",
                 "end_of_the_end": "1966-05-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1177",
-            "timespan": {
-                "begin_of_the_begin": "1988-04-15T00:00:00",
-                "end_of_the_end": "1988-06-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -571,15 +558,35 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/780",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/780/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/1179",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Paintings by Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
             "timespan": {
-                "begin_of_the_begin": "1974-09-29T00:00:00",
-                "end_of_the_end": "1974-11-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/780/timespan",
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -597,6 +604,19 @@
                 "begin_of_the_begin": "1988-04-15T00:00:00",
                 "end_of_the_end": "1989-02-12T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/828/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1107",
+            "timespan": {
+                "begin_of_the_begin": "1974-09-29T00:00:00",
+                "end_of_the_end": "1974-11-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1107/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

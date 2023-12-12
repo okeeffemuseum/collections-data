@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -28,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8589/other_id",
-            "type": "Identifier",
-            "value": "506, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -52,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8589/otheridentifier",
-            "type": "Identifier",
-            "value": "506"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -72,10 +57,39 @@
             "id": "http://data.okeeffemuseum.org/object/8589/title",
             "type": "Name",
             "value": "Birch and Pink Trees \u2013 Pink"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8589/other_id",
+            "type": "Identifier",
+            "value": "506, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8589/otheridentifier",
+            "type": "Identifier",
+            "value": "506"
         }
     ],
     "label": "Georgia O'Keeffe. Birch and Pink Trees \u2013 Pink, 1925. Oil on canvas, 36 x 22 inches. Colby College Museum of Art. Private collection, New York, NY, purchase 1984",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8589/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8589/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8589/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,8 +206,15 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8589/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1920-01-01T00:00:00",
+            "begin_of_the_begin": "1925-01-01T00:00:00",
             "end_of_the_end": "1925-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8589/production/timespan/0",
             "label": "1925",
@@ -206,14 +226,58 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8589/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8589/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, purchase 1984      "
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8589/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8589/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 x 22 inches"
         },
         {
             "classified_as": [
@@ -254,24 +318,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8589/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8589/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Birch and Pink Trees \u2013 Pink, 1925"
+            "value": "Private collection, New York, NY, purchase 1984      "
         },
         {
             "classified_as": [
@@ -288,25 +342,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8589/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (black crayon) 2. \"Birch & Pine Trees \u2013 Pink / 1925\" [in oval] (AS, graphite) 3. \"by Georgia O'Keeffe\" (AS, black crayon)"
-        },
-        {
-            "classified_as": [
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8589/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Birch and Pink Trees \u2013 Pink, 1925"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -317,58 +381,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8589/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8589/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8589/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 36 x 22 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8589/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (black crayon) 2. \"Birch & Pine Trees \u2013 Pink / 1925\" [in oval] (AS, graphite) 3. \"by Georgia O'Keeffe\" (AS, black crayon)"
         }
     ],
     "refers_to": [],
@@ -399,6 +419,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/653",
+            "timespan": {
+                "begin_of_the_begin": "1957-10-13T00:00:00",
+                "end_of_the_end": "1957-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/653/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/298",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/298/title"
@@ -408,32 +441,6 @@
                 "begin_of_the_begin": "1948-12-22T00:00:00",
                 "end_of_the_end": "1949-03-20T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/298/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/238",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/653",
-            "timespan": {
-                "begin_of_the_begin": "1957-10-13T00:00:00",
-                "end_of_the_end": "1957-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/653/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -464,6 +471,19 @@
                 "begin_of_the_begin": "1957-10-13T00:00:00",
                 "end_of_the_end": "1957-11-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/444/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/238",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

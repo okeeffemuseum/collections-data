@@ -6,6 +6,15 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -24,9 +33,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8715/identifier",
-            "type": "Identifier",
-            "value": "8715"
+            "id": "http://data.okeeffemuseum.org/object/8715/title",
+            "type": "Name",
+            "value": "Pink Dish and Green Leaves"
         },
         {
             "classified_as": [
@@ -36,9 +45,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8715/title",
-            "type": "Name",
-            "value": "Pink Dish and Green Leaves"
+            "id": "http://data.okeeffemuseum.org/object/8715/identifier",
+            "type": "Identifier",
+            "value": "8715"
         },
         {
             "classified_as": [
@@ -62,7 +71,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8715/other_id",
             "type": "Identifier",
-            "value": "654, Catalogue Raisonne Number"
+            "value": "654, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Dish and Green Leaves, 1929. Pastel on board, Gil Tedge Pastel Board, No. 8. Becker New Canaan, Connecticut*, 22 x 28 inches. Private Collection. Private collection, 1987",
@@ -74,28 +83,21 @@
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8715/material/0",
-            "label": "Pastel",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -110,16 +112,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -130,17 +143,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -155,16 +157,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -181,9 +194,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8715/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1924-01-01T00:00:00",
-            "end_of_the_end": "1934-12-31T00:00:00",
+            "begin_of_the_begin": "1929-01-01T00:00:00",
+            "end_of_the_end": "1929-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8715/production/timespan/0",
             "label": "1929",
             "type": "TimeSpan"
@@ -191,40 +211,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -240,18 +226,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: \"Georgia O'Keeffe \u2013 Jan. 1929\" (black ink)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -260,18 +234,6 @@
             "id": "http://data.okeeffemuseum.org/object/8715/Materials/",
             "type": "LinguisticObject",
             "value": "Pastel on board, Gil Tedge Pastel Board, No. 8. Becker New Canaan, Connecticut*"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, 1987      "
         },
         {
             "classified_as": [
@@ -293,58 +255,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8715/provenance/",
-            "label": "Estate of the artist, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8715/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Pastel on board, Gil Tedge Pastel Board, No. 8. Becker New Canaan, Connecticut*, 22 x 28 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8715/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pink Dish and Green Leaves, 1929"
+            "value": "Private collection, 1987      "
         },
         {
             "classified_as": [
@@ -364,11 +282,113 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Georgia O'Keeffe \u2013 Jan. 1929\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/provenance/",
+            "label": "Estate of the artist, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8715/caption/",
             "label": "Georgia O'Keeffe. Pink Dish and Green Leaves, 1929. Pastel on board, Gil Tedge Pastel Board, No. 8. Becker New Canaan, Connecticut*, 22 x 28 inches. Private Collection. Private collection, 1987",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink Dish and Green Leaves, 1929"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8715/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on board, Gil Tedge Pastel Board, No. 8. Becker New Canaan, Connecticut*, 22 x 28 inches"
         }
     ],
     "refers_to": [],
@@ -399,15 +419,84 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
             ],
-            "label": "Georgia O'Keeffe",
+            "label": "An Expanding Collection",
             "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "timespan": {
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "timespan": {
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
+            ],
+            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/552",
+            "timespan": {
+                "begin_of_the_begin": "1952-02-19T00:00:00",
+                "end_of_the_end": "1952-03-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -446,67 +535,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/552",
+            "id": "http://data.okeeffemuseum.org/exhibition/221",
             "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/552/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
-            "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1169",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1988-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
-            "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "begin_of_the_begin": "1932-10-31T00:00:00",
+                "end_of_the_end": "1933-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/221/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -528,11 +561,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
             "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -541,15 +574,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/352",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/352/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
             ],
-            "label": "O'Keeffe Paintings in Pastel: 1914 to 1952",
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1952-02-19T00:00:00",
-                "end_of_the_end": "1952-03-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/352/timespan",
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -558,11 +591,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/221",
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
             "timespan": {
-                "begin_of_the_begin": "1932-10-31T00:00:00",
-                "end_of_the_end": "1933-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/221/timespan",
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -580,19 +613,6 @@
                 "begin_of_the_begin": "1997-07-17T00:00:00",
                 "end_of_the_end": "1998-03-30T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
-            "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

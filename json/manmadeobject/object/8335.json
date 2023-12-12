@@ -8,6 +8,11 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -35,7 +40,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8335/other_id",
             "type": "Identifier",
-            "value": "185, Catalogue Raisonne Number"
+            "value": "185, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -78,33 +83,26 @@
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8335/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8335/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/260",
+        "label": "Portraits and Human Figures",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8335/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8335/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -200,52 +216,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 11 7/8 x 8 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/provenance/",
-            "label": "(The Robert Miller Gallery, Inc., New York, NY)         ",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -269,86 +239,23 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Seated Nude X, 1917"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1966 Fort Worth; 1978 Morristown, no. 33"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/Measurement/",
-            "type": "LinguisticObject",
-            "value": "11 7/8 x 8 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Metropolitan Museum of Art, New York. Van Day Truex Fund, 1981 (1981.324)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8335/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8335/caption/",
             "label": "Georgia O'Keeffe. Seated Nude X, 1917. Watercolor on paper, 11 7/8 x 8 7/8 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. Van Day Truex Fund, 1981 (1981.324)",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
         },
         {
             "classified_as": [
@@ -366,6 +273,115 @@
             "id": "http://data.okeeffemuseum.org/object/8335/institution_caption",
             "type": "LinguisticObject",
             "value": "Metropolitan Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 7/8 x 8 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Seated Nude X, 1917"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Metropolitan Museum of Art, New York. Van Day Truex Fund, 1981 (1981.324)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 11 7/8 x 8 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1966 Fort Worth; 1978 Morristown, no. 33"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8335/provenance/",
+            "label": "(The Robert Miller Gallery, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -408,41 +424,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/791",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/791/title"
             ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1118",
+            "label": "Georgia O'Keeffe",
             "timespan": {
                 "begin_of_the_begin": "1978-04-07T00:00:00",
                 "end_of_the_end": "1978-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1118/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/791/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -464,15 +454,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/791",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/791/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "timespan": {
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1118",
             "timespan": {
                 "begin_of_the_begin": "1978-04-07T00:00:00",
                 "end_of_the_end": "1978-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/791/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1118/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

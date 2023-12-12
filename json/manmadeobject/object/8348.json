@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -35,7 +40,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8348/other_id",
             "type": "Identifier",
-            "value": "203, Catalogue Raisonne Number"
+            "value": "203, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -52,18 +57,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/identifier",
-            "type": "Identifier",
-            "value": "8348"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -72,39 +65,44 @@
             "id": "http://data.okeeffemuseum.org/object/8348/otheridentifier",
             "type": "Identifier",
             "value": "203"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/identifier",
+            "type": "Identifier",
+            "value": "8348"
         }
     ],
     "label": "Georgia O'Keeffe. Evening Star No. V, 1917. Watercolor on paper, 8 3/4 x 11 7/8 inches. McNay Art Museum. Collection of the McNay Art Museum, Bequest of Helen Miller Jones (1989.36)",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8348/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8348/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8348/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8348/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -203,43 +219,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8348/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8348/Materials/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/provenance/",
-            "label": "Helen Miller Jones, San Antonio, Texas, purchase, c. 1966-1970; Estate of Helen Miller Jones, 1986         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 New York (Downtown \u2013 Watercolor), no. 46; 1966 Albuquerque; 1966 Fort Worth; 1970 New York (Whitney), no. 16; 1975 San Antonio; 1985 Santa Fe, no. 20; 1998 San Antonio, no.. 7"
+            "value": "Watercolor on paper"
         },
         {
             "classified_as": [
@@ -256,47 +243,32 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8348/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8348/exhibitions",
             "type": "LinguisticObject",
-            "value": "Evening Star No. V, 1917"
+            "value": "1958 New York (Downtown \u2013 Watercolor), no. 46; 1966 Albuquerque; 1966 Fort Worth; 1970 New York (Whitney), no. 16; 1975 San Antonio; 1985 Santa Fe, no. 20; 1998 San Antonio, no.. 7"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8348/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8348/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Collection of the McNay Art Museum, Bequest of Helen Miller Jones (1989.36)      "
+            "value": "Backing: \"Georgia O'Keeffe\" (black ink)"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -305,9 +277,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8348/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8348/artist_caption",
             "type": "LinguisticObject",
-            "value": "Watercolor on paper, 8 3/4 x 11 7/8 inches"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -320,6 +292,91 @@
             "id": "http://data.okeeffemuseum.org/object/8348/caption/",
             "label": "Georgia O'Keeffe. Evening Star No. V, 1917. Watercolor on paper, 8 3/4 x 11 7/8 inches. McNay Art Museum. Collection of the McNay Art Museum, Bequest of Helen Miller Jones (1989.36)",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/provenance/",
+            "label": "Helen Miller Jones, San Antonio, Texas, purchase, c. 1966-1970; Estate of Helen Miller Jones, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 8 3/4 x 11 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Evening Star No. V, 1917"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8348/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Collection of the McNay Art Museum, Bequest of Helen Miller Jones (1989.36)      "
         },
         {
             "classified_as": [
@@ -337,47 +394,6 @@
             "id": "http://data.okeeffemuseum.org/object/8348/institution_caption",
             "type": "LinguisticObject",
             "value": "McNay Art Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Backing: \"Georgia O'Keeffe\" (black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8348/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -433,28 +449,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/862",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/862/title"
-            ],
-            "label": "O'Keeffe and Texas",
+            "id": "http://data.okeeffemuseum.org/exhibition/1100",
             "timespan": {
-                "begin_of_the_begin": "1998-01-27T00:00:00",
-                "end_of_the_end": "1998-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/862/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1229",
-            "timespan": {
-                "begin_of_the_begin": "1998-01-27T00:00:00",
-                "end_of_the_end": "1998-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1229/timespan",
+                "begin_of_the_begin": "1970-03-15T00:00:00",
+                "end_of_the_end": "1970-04-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -468,6 +467,19 @@
                 "begin_of_the_begin": "1966-03-01T00:00:00",
                 "end_of_the_end": "1966-05-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -493,28 +505,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
             ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "label": "Georgia O'Keeffe: Works on Paper",
             "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -523,67 +522,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/689",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1100",
-            "timespan": {
-                "begin_of_the_begin": "1970-03-15T00:00:00",
-                "end_of_the_end": "1970-04-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1099",
             "timespan": {
                 "begin_of_the_begin": "1970-01-06T00:00:00",
                 "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1010",
-            "timespan": {
-                "begin_of_the_begin": "1966-09-08T00:00:00",
-                "end_of_the_end": "1966-10-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1010/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1098",
-            "timespan": {
-                "begin_of_the_begin": "1970-10-08T00:00:00",
-                "end_of_the_end": "1970-11-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -609,32 +552,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1158",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1099",
-            "timespan": {
-                "begin_of_the_begin": "1970-01-06T00:00:00",
-                "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/480/title"
@@ -652,15 +569,114 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/862",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/862/title"
             ],
-            "label": "Georgia O'Keeffe: Works on Paper",
+            "label": "O'Keeffe and Texas",
+            "timespan": {
+                "begin_of_the_begin": "1998-01-27T00:00:00",
+                "end_of_the_end": "1998-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/862/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1010",
+            "timespan": {
+                "begin_of_the_begin": "1966-09-08T00:00:00",
+                "end_of_the_end": "1966-10-13T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1010/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1229",
+            "timespan": {
+                "begin_of_the_begin": "1998-01-27T00:00:00",
+                "end_of_the_end": "1998-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1229/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1970-01-06T00:00:00",
+                "end_of_the_end": "1971-02-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1158",
             "timespan": {
                 "begin_of_the_begin": "1985-09-14T00:00:00",
                 "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1098",
+            "timespan": {
+                "begin_of_the_begin": "1970-10-08T00:00:00",
+                "end_of_the_end": "1970-11-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1098/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "timespan": {
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

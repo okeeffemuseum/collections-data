@@ -3,6 +3,21 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -20,6 +35,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10306",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10306/otheridentifier",
+            "type": "Identifier",
+            "value": "1450"
+        },
         {
             "classified_as": [
                 {
@@ -42,7 +69,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10306/other_id",
             "type": "Identifier",
-            "value": "1450, Catalogue Raisonne Number"
+            "value": "1450, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -55,23 +82,26 @@
             "id": "http://data.okeeffemuseum.org/object/10306/identifier",
             "type": "Identifier",
             "value": "10306"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10306/otheridentifier",
-            "type": "Identifier",
-            "value": "1450"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Abstraction), ca. 1960. Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Untitled (Abstraction), ca. 1960. Graphite on paper, 6 x 7 7/8 inches, uneven sheet. Private Collection",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10306/material/1",
+            "label": "paper",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10306/material/0",
+            "label": "graphite",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10306/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1955-01-01T00:00:00",
+            "end_of_the_end": "1965-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10306/production/timespan/0",
             "label": "ca. 1960",
             "type": "TimeSpan"
@@ -185,30 +224,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10306/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300404439",
                     "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -246,14 +268,60 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10306/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10306/maker_role",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10306/Measurement/",
+            "type": "LinguisticObject",
+            "value": "6 x 7 7/8 inches, uneven sheet"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10306/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10306/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 6 x 7 7/8 inches, uneven sheet"
         },
         {
             "classified_as": [
@@ -264,8 +332,25 @@
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10306/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Abstraction), ca. 1960. Private Collection",
+            "label": "Georgia O'Keeffe. Untitled (Abstraction), ca. 1960. Graphite on paper, 6 x 7 7/8 inches, uneven sheet. Private Collection",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10306/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         }
     ],
     "refers_to": [],

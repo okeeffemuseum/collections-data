@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300078925",
             "label": "watercolors",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -24,14 +29,26 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8322/other_id",
+            "type": "Identifier",
+            "value": "171, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8322/title",
-            "type": "Name",
-            "value": "Untitled (Woman with Blue Hat)"
+            "id": "http://data.okeeffemuseum.org/object/8322/identifier",
+            "type": "Identifier",
+            "value": "8322"
         },
         {
             "classified_as": [
@@ -53,64 +70,45 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8322/identifier",
-            "type": "Identifier",
-            "value": "8322"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8322/other_id",
-            "type": "Identifier",
-            "value": "171, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/8322/title",
+            "type": "Name",
+            "value": "Untitled (Woman with Blue Hat)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Woman with Blue Hat), 1916-1917. Watercolor, gouache, graphite on paper and cardboard, illustration board*, 20 x 15 1/2 inches. Private Collection. Betty Buttolph, Gainesville, Texas, gift, 1984",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8322/material/0",
+            "label": "watercolor",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8322/material/2",
+            "label": "graphite",
+            "type": "Material"
+        },
         {
             "id": "http://data.okeeffemuseum.org/object/8322/material/1",
             "label": "gouache",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8322/material/0",
-            "label": "Watercolor",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/8322/material/3",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8322/material/2",
-            "label": "Graphite",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/260",
+        "label": "Portraits and Human Figures",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8322/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8322/production/timespan/0",
             "label": "1916-1917",
             "type": "TimeSpan"
@@ -209,20 +225,32 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8322/provenance/",
-            "label": "Jo Gilbert, Canyon, Texas, gift, 1917         ",
+            "id": "http://data.okeeffemuseum.org/object/8322/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor, gouache,  graphite on paper and cardboard, illustration board*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8322/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Woman with Blue Hat), 1916-1917. Watercolor, gouache, graphite on paper and cardboard, illustration board*, 20 x 15 1/2 inches. Private Collection. Betty Buttolph, Gainesville, Texas, gift, 1984",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -231,8 +259,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -255,8 +283,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -265,9 +293,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8322/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8322/maker_role",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8322/provenance/",
+            "label": "Jo Gilbert, Canyon, Texas, gift, 1917         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -294,18 +334,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8322/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor, gouache,  graphite on paper and cardboard, illustration board*"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -318,19 +346,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8322/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8322/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -348,18 +376,6 @@
             "id": "http://data.okeeffemuseum.org/object/8322/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8322/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Woman with Blue Hat), 1916-1917. Watercolor, gouache, graphite on paper and cardboard, illustration board*, 20 x 15 1/2 inches. Private Collection. Betty Buttolph, Gainesville, Texas, gift, 1984",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

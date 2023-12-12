@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -39,18 +48,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/other_id",
-            "type": "Identifier",
-            "value": "301, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -71,6 +68,18 @@
             "id": "http://data.okeeffemuseum.org/object/8410/otheridentifier",
             "type": "Identifier",
             "value": "301"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/other_id",
+            "type": "Identifier",
+            "value": "301, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. White Canna, 1919. Oil on board, 10 x 7 1/4 inches. Private Collection. Private collection, West Hartford, Connecticut, gift, 1994. \u00a9 Georgia O'Keeffe Museum",
@@ -89,24 +98,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -121,16 +123,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -141,17 +154,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -166,16 +168,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -192,9 +205,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8410/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1914-01-01T00:00:00",
-            "end_of_the_end": "1924-12-31T00:00:00",
+            "begin_of_the_begin": "1919-01-01T00:00:00",
+            "end_of_the_end": "1919-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8410/production/timespan/0",
             "label": "1919",
             "type": "TimeSpan"
@@ -202,134 +222,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1926 New York (Intimate Gallery)?; 1935 New York (An American Place), no. 6, as White Canna"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/caption/",
-            "label": "Georgia O'Keeffe. White Canna, 1919. Oil on board, 10 x 7 1/4 inches. Private Collection. Private collection, West Hartford, Connecticut, gift, 1994. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/Measurement/",
-            "type": "LinguisticObject",
-            "value": "10 x 7 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/provenance/",
-            "label": "(An American Place, New York, NY); Bessie Blynn, New York, NY, after 1935; Descended in family; (Bernard Danenberg Galleries, New York, NY); Private collection, New York, NY, 1971         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, West Hartford, Connecticut, gift, 1994      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "White Canna, 1919"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
         {
             "classified_as": [
                 {
@@ -355,18 +247,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8410/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible. Backing: \"The White Flower \u2013 1919 / by Georgia O'Keeffe / Alfred Stieglitz\" (AS, IG, black ink)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -375,6 +255,93 @@
             "id": "http://data.okeeffemuseum.org/object/8410/Right/",
             "type": "LinguisticObject",
             "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/caption/",
+            "label": "Georgia O'Keeffe. White Canna, 1919. Oil on board, 10 x 7 1/4 inches. Private Collection. Private collection, West Hartford, Connecticut, gift, 1994. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1926 New York (Intimate Gallery)?; 1935 New York (An American Place), no. 6, as White Canna"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Canna, 1919"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible. Backing: \"The White Flower \u2013 1919 / by Georgia O'Keeffe / Alfred Stieglitz\" (AS, IG, black ink)"
         },
         {
             "classified_as": [
@@ -392,6 +359,59 @@
             "id": "http://data.okeeffemuseum.org/object/8410/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/provenance/",
+            "label": "(An American Place, New York, NY); Bessie Blynn, New York, NY, after 1935; Descended in family; (Bernard Danenberg Galleries, New York, NY); Private collection, New York, NY, 1971         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/Measurement/",
+            "type": "LinguisticObject",
+            "value": "10 x 7 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8410/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, West Hartford, Connecticut, gift, 1994      "
         }
     ],
     "refers_to": [],
@@ -422,41 +442,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/167",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/167/title"
-            ],
-            "label": "Georgia O'Keeffe: Exhibition of Paintings (1919--1934)",
-            "timespan": {
-                "begin_of_the_begin": "1935-01-27T00:00:00",
-                "end_of_the_end": "1935-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/167/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/249",
             "timespan": {
                 "begin_of_the_begin": "1935-01-27T00:00:00",
                 "end_of_the_end": "1935-03-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/249/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/167",
-            "timespan": {
-                "begin_of_the_begin": "1926-03-11T00:00:00",
-                "end_of_the_end": "1926-04-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -474,6 +464,36 @@
                 "begin_of_the_begin": "1926-03-11T00:00:00",
                 "end_of_the_end": "1926-04-03T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/104/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/167",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/167/title"
+            ],
+            "label": "Georgia O'Keeffe: Exhibition of Paintings (1919--1934)",
+            "timespan": {
+                "begin_of_the_begin": "1935-01-27T00:00:00",
+                "end_of_the_end": "1935-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/167/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/167",
+            "timespan": {
+                "begin_of_the_begin": "1926-03-11T00:00:00",
+                "end_of_the_end": "1926-04-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

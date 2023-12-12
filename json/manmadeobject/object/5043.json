@@ -42,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe Sketching and Eliot Porter with His Camera"
+            "id": "http://data.okeeffemuseum.org/object/5043/identifier",
+            "type": "Identifier",
+            "value": "5043"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/identifier",
-            "type": "Identifier",
-            "value": "5043"
+            "id": "http://data.okeeffemuseum.org/object/5043/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe Sketching and Eliot Porter with His Camera"
         }
     ],
     "label": "Todd Webb. Georgia O'Keeffe Sketching and Eliot Porter with His Camera, 1961. Gelatin silver print, 4 1/2 x 6 1/2 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.104]",
@@ -83,6 +83,46 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                ],
+                "type": [
+                    "Actor",
+                    "schema:Thing"
+                ]
+            },
             {
                 "id": "http://data.okeeffemuseum.org/person/1155",
                 "identified_by": [
@@ -107,46 +147,6 @@
                     "Webb, Todd, 1905-2000"
                 ],
                 "type": "Actor"
-            },
-            {
-                "id": "http://data.okeeffemuseum.org/person/2",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                        "type": "Name",
-                        "value": "Georgia O'Keeffe"
-                    }
-                ],
-                "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
-                ],
-                "type": [
-                    "schema:Thing",
-                    "Actor"
-                ]
             }
         ],
         "consists_of": [
@@ -198,17 +198,6 @@
                         "identified_by": [
                             {
                                 "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
-                            {
-                                "classified_as": [
                                     {
                                         "id": "aat:300404670",
                                         "label": "preferred terms",
@@ -221,16 +210,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -267,8 +267,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -277,38 +277,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/5043/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print, 4 1/2 x 6 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5043/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Handwritten in pencil, on the back of the photograph, is a negative number and a loosely attached label stating that Georgia O'Keeffe sketched in many of the side canyons."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5043/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of Eliot Porter standing next to his view camera on a tripod looking upwards taking a light meter reading. Georgia O'Keeffe stands further away sketching and looking upwards. They are surrounded by the canyon walls and an outcropping of white rocks. This photograph is part of the Glen Canyon Album that Todd Webb gave to Georgia O'Keeffe 'in memory of the great August 1961 trip down the Colorado River.'"
+            "value": "Georgia O'Keeffe Sketching and Eliot Porter with His Camera, 1961"
         },
         {
             "classified_as": [
@@ -325,36 +301,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/5043/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Sketching and Eliot Porter with His Camera, 1961"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5043/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Todd Webb Archive"
+            "value": "Handwritten in pencil, on the back of the photograph, is a negative number and a loosely attached label stating that Georgia O'Keeffe sketched in many of the side canyons."
         },
         {
             "classified_as": [
@@ -371,6 +325,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5043/caption/",
+            "label": "Todd Webb. Georgia O'Keeffe Sketching and Eliot Porter with His Camera, 1961. Gelatin silver print, 4 1/2 x 6 1/2 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.104]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -383,25 +349,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/5043/Measurement/",
             "type": "LinguisticObject",
-            "value": "Todd Webb"
+            "value": "4 1/2 x 6 1/2 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -410,9 +376,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/5043/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Gelatin silver print, 4 1/2 x 6 1/2 inches"
         },
         {
             "classified_as": [
@@ -434,26 +400,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/5043/Right/",
             "type": "LinguisticObject",
-            "value": "4 1/2 x 6 1/2 inches"
+            "value": "\u00a9 Todd Webb Archive"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5043/caption/",
-            "label": "Todd Webb. Georgia O'Keeffe Sketching and Eliot Porter with His Camera, 1961. Gelatin silver print, 4 1/2 x 6 1/2 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.104]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/5043/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5043/Description/",
+            "type": "LinguisticObject",
+            "value": "Portrait of Eliot Porter standing next to his view camera on a tripod looking upwards taking a light meter reading. Georgia O'Keeffe stands further away sketching and looking upwards. They are surrounded by the canyon walls and an outcropping of white rocks. This photograph is part of the Glen Canyon Album that Todd Webb gave to Georgia O'Keeffe 'in memory of the great August 1961 trip down the Colorado River.'"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5043/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Todd Webb"
         }
     ],
     "refers_to": [],

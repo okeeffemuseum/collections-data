@@ -11,6 +11,15 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -40,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8961/other_id",
-            "type": "Identifier",
-            "value": "1040, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -60,6 +57,18 @@
             "id": "http://data.okeeffemuseum.org/object/8961/otheridentifier",
             "type": "Identifier",
             "value": "1040"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8961/other_id",
+            "type": "Identifier",
+            "value": "1040, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -77,37 +86,30 @@
     "label": "Georgia O'Keeffe. Black Hills with Cedar, 1942. Oil on canvas, 16 x 30 inches. Hirshhorn Museum and Sculpture Garden. Hirshhorn Museum and Sculpture Garden, Smithsonian Institution, Bequest of Joseph H. Hirshhorn, 1986 (HMSG 86.3471)",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8961/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8961/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8961/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8961/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1937-01-01T00:00:00",
-            "end_of_the_end": "1947-12-31T00:00:00",
+            "begin_of_the_begin": "1942-01-01T00:00:00",
+            "end_of_the_end": "1942-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8961/production/timespan/0",
             "label": "1942",
             "type": "TimeSpan"
@@ -203,6 +223,28 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8961/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Hills with Cedar, 1942"
+        },
         {
             "classified_as": [
                 {
@@ -218,31 +260,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8961/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Hills & Cedar, New Mexico \u2013 1941 / by Georgia O'Keeffe\" (AD, AAP1, black ink) 2. \"Georgia O'Keeffe / 59 East 54th City \u2013 New York / 'Black Hills & Cedar, New Mexico' \u2013 1941 / An American Place, 509 Madison Ave. / New York, City (Room 1710)\" (AS, Whitney Museum of American Art label, black ink)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8961/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8961/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas, 16 x 30 inches"
         },
         {
             "classified_as": [
@@ -255,6 +290,35 @@
             "id": "http://data.okeeffemuseum.org/object/8961/caption/",
             "label": "Georgia O'Keeffe. Black Hills with Cedar, 1942. Oil on canvas, 16 x 30 inches. Hirshhorn Museum and Sculpture Garden. Hirshhorn Museum and Sculpture Garden, Smithsonian Institution, Bequest of Joseph H. Hirshhorn, 1986 (HMSG 86.3471)",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8961/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8961/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -283,25 +347,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8961/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8961/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -324,63 +393,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8961/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8961/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Black Hills with Cedar, 1942"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8961/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8961/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 30 inches"
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Hills & Cedar, New Mexico \u2013 1941 / by Georgia O'Keeffe\" (AD, AAP1, black ink) 2. \"Georgia O'Keeffe / 59 East 54th City \u2013 New York / 'Black Hills & Cedar, New Mexico' \u2013 1941 / An American Place, 509 Madison Ave. / New York, City (Room 1710)\" (AS, Whitney Museum of American Art label, black ink)"
         }
     ],
     "refers_to": [],
@@ -423,11 +443,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/339",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/861",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/861/title"
+            ],
+            "label": "Georgia O'Keeffe: The Artist in Focus",
             "timespan": {
-                "begin_of_the_begin": "1942-02-02T00:00:00",
-                "end_of_the_end": "1942-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/339/timespan",
+                "begin_of_the_begin": "1998-11-15T00:00:00",
+                "end_of_the_end": "1999-01-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/861/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/240",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/240/title"
+            ],
+            "label": "Annual Exhibition of Contemporary American Art: Sculpture, Paintings, Watercolors and Drawings",
+            "timespan": {
+                "begin_of_the_begin": "1943-11-23T00:00:00",
+                "end_of_the_end": "1944-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/240/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -453,58 +494,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/231",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/231/title"
-            ],
-            "label": "Georgia O'Keeffe: Exhibition of Recent Paintings, 1941",
+            "id": "http://data.okeeffemuseum.org/exhibition/339",
             "timespan": {
                 "begin_of_the_begin": "1942-02-02T00:00:00",
                 "end_of_the_end": "1942-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/231/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/349",
-            "timespan": {
-                "begin_of_the_begin": "1943-11-23T00:00:00",
-                "end_of_the_end": "1944-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/349/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/861",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/861/title"
-            ],
-            "label": "Georgia O'Keeffe: The Artist in Focus",
-            "timespan": {
-                "begin_of_the_begin": "1998-11-15T00:00:00",
-                "end_of_the_end": "1999-01-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/861/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/127",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/339/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -526,15 +520,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/240",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/240/title"
-            ],
-            "label": "Annual Exhibition of Contemporary American Art: Sculpture, Paintings, Watercolors and Drawings",
+            "id": "http://data.okeeffemuseum.org/exhibition/349",
             "timespan": {
                 "begin_of_the_begin": "1943-11-23T00:00:00",
                 "end_of_the_end": "1944-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/240/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/349/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/231",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/231/title"
+            ],
+            "label": "Georgia O'Keeffe: Exhibition of Recent Paintings, 1941",
+            "timespan": {
+                "begin_of_the_begin": "1942-02-02T00:00:00",
+                "end_of_the_end": "1942-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/231/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/127",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

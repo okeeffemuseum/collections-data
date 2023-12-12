@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300010672",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -42,19 +51,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/524/other_id",
             "type": "Identifier",
-            "value": "1697, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/524/identifier",
-            "type": "Identifier",
-            "value": "524"
+            "value": "1697, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -79,10 +76,28 @@
             "id": "http://data.okeeffemuseum.org/object/524/title",
             "type": "Name",
             "value": "Untitled (Clay Pot)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/524/identifier",
+            "type": "Identifier",
+            "value": "524"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Clay Pot), ca. 1980. stoneware, 15 1/2 in h x 10 in diam. Georgia O'Keeffe Museum. Gift of Juan and Anna Marie Hamilton. [2020.6.74]",
-    "made_of": [],
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/524/material/0",
+            "label": "stoneware",
+            "type": "Material"
+        }
+    ],
     "ore:isAggregatedBy": null,
     "part_of": [],
     "produced_by": {
@@ -90,17 +105,6 @@
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +119,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +150,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +164,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,6 +201,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/524/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/stoneware",
+                "label": "Stoneware",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "id": "http://data.okeeffemuseum.org/object/524/production/timespan/0",
             "label": "ca. 1980",
@@ -197,42 +219,37 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/524/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Clay Pot), ca. 1980. stoneware, 15 1/2 in h x 10 in diam. Georgia O'Keeffe Museum. Gift of Juan and Anna Marie Hamilton. [2020.6.74]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/524/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/524/Measurement/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "15 1/2 in h x 10 in diam"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/524/Description/",
+            "type": "LinguisticObject",
+            "value": "stoneware"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -265,30 +282,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/524/Materials/",
-            "type": "LinguisticObject",
-            "value": "stoneware"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/524/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of Juan and Anna Marie Hamilton      "
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -306,8 +299,49 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/524/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Clay Pot), ca. 1980. stoneware, 15 1/2 in h x 10 in diam. Georgia O'Keeffe Museum. Gift of Juan and Anna Marie Hamilton. [2020.6.74]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/524/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/524/Materials/",
+            "type": "LinguisticObject",
+            "value": "stoneware"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -316,8 +350,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -328,26 +362,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/524/Description/",
+            "id": "http://data.okeeffemuseum.org/object/524/CreditLine/",
             "type": "LinguisticObject",
-            "value": "stoneware"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/524/Measurement/",
-            "type": "LinguisticObject",
-            "value": "15 1/2 in h x 10 in diam"
+            "value": "Gift of Juan and Anna Marie Hamilton      "
         }
     ],
     "refers_to": [],

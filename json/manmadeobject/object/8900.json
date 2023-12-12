@@ -3,6 +3,10 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +14,11 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -45,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8900/identifier",
-            "type": "Identifier",
-            "value": "8900"
+            "id": "http://data.okeeffemuseum.org/object/8900/title",
+            "type": "Name",
+            "value": "Dark Rocks"
         },
         {
             "classified_as": [
@@ -57,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8900/title",
-            "type": "Name",
-            "value": "Dark Rocks"
+            "id": "http://data.okeeffemuseum.org/object/8900/identifier",
+            "type": "Identifier",
+            "value": "8900"
         },
         {
             "classified_as": [
@@ -71,16 +80,11 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8900/other_id",
             "type": "Identifier",
-            "value": "943, Catalogue Raisonne Number"
+            "value": "943, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Dark Rocks, 1938. Oil on canvas, 20 x 16 inches. The Museum of Fine Arts, Houston. Private collection, Dallas, Texas, 1970",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8900/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/8900/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8900/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/264",
+        "label": "Rocks",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8900/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1938-01-01T00:00:00",
+            "end_of_the_end": "1938-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8900/production/timespan/0",
             "label": "1938",
             "type": "TimeSpan"
@@ -203,110 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/institution_caption",
-            "type": "LinguisticObject",
-            "value": "The Museum of Fine Arts, Houston"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/provenance/",
-            "label": "(Doris Bry, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Dark Rocks / 1938\" (AD, graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/Measurement/",
-            "type": "LinguisticObject",
-            "value": "20 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8900/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
         {
             "classified_as": [
                 {
@@ -327,6 +243,81 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/provenance/",
+            "label": "(Doris Bry, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Dark Rocks / 1938\" (AD, graphite)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -339,20 +330,49 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Dallas, Texas, 1970      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8900/caption/",
-            "label": "Georgia O'Keeffe. Dark Rocks, 1938. Oil on canvas, 20 x 16 inches. The Museum of Fine Arts, Houston. Private collection, Dallas, Texas, 1970",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8900/institution_caption",
+            "type": "LinguisticObject",
+            "value": "The Museum of Fine Arts, Houston"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8900/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -361,8 +381,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -373,14 +393,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8900/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Dallas, Texas, 1970      "
+            "id": "http://data.okeeffemuseum.org/object/8900/caption/",
+            "label": "Georgia O'Keeffe. Dark Rocks, 1938. Oil on canvas, 20 x 16 inches. The Museum of Fine Arts, Houston. Private collection, Dallas, Texas, 1970",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -423,11 +443,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/306",
+            "id": "http://data.okeeffemuseum.org/exhibition/141",
             "timespan": {
-                "begin_of_the_begin": "1939-01-22T00:00:00",
-                "end_of_the_end": "1939-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
+                "begin_of_the_begin": "2007-05-25T00:00:00",
+                "end_of_the_end": "2007-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -436,11 +456,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/141",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
+            ],
+            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
             "timespan": {
-                "begin_of_the_begin": "2007-05-25T00:00:00",
-                "end_of_the_end": "2007-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "begin_of_the_begin": "2007-02-10T00:00:00",
+                "end_of_the_end": "2008-01-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -466,15 +490,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/81/title"
-            ],
-            "label": "Georgia O'Keeffe: Circling Around Abstraction and Georgia O'Keeffe, Illuminated: Photographs by Tony Vaccaro",
+            "id": "http://data.okeeffemuseum.org/exhibition/306",
             "timespan": {
-                "begin_of_the_begin": "2007-02-10T00:00:00",
-                "end_of_the_end": "2008-01-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/81/timespan",
+                "begin_of_the_begin": "1939-01-22T00:00:00",
+                "end_of_the_end": "1939-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

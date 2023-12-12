@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -31,19 +40,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8905/other_id",
             "type": "Identifier",
-            "value": "948, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8905/identifier",
-            "type": "Identifier",
-            "value": "8905"
+            "value": "948, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -65,6 +62,18 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8905/identifier",
+            "type": "Identifier",
+            "value": "8905"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8905/title",
             "type": "Name",
             "value": "A White Camellia"
@@ -73,39 +82,32 @@
     "label": "Georgia O'Keeffe. A White Camellia, 1938. Pastel on paper mounted on cardboard, 21 1/2 x 27 1/2 inches. Private Collection. Private collection, 1992",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8905/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/8905/material/0",
-            "label": "Pastel",
+            "label": "pastel",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8905/material/2",
             "label": "cardboard",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8905/material/1",
+            "label": "paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -120,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -140,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -191,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8905/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1933-01-01T00:00:00",
-            "end_of_the_end": "1943-12-31T00:00:00",
+            "begin_of_the_begin": "1938-01-01T00:00:00",
+            "end_of_the_end": "1938-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8905/production/timespan/0",
             "label": "1938",
             "type": "TimeSpan"
@@ -201,28 +221,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8905/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "A White Camellia, 1938"
-        },
         {
             "classified_as": [
                 {
@@ -255,71 +253,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8905/Materials/",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper mounted on cardboard"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8905/Measurement/",
-            "type": "LinguisticObject",
-            "value": "21 1/2 x 27 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8905/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8905/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Pastel on paper mounted on cardboard, 21 1/2 x 27 1/2 inches"
+            "value": "A White Camellia, 1938"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8905/provenance/",
-            "label": "(An American Place, New York, NY); Elizabeth Arden, New York, NY, 1939; Patricia Graham Young, New York, NY, by 1986; Estate of Patricia Graham Young, 1990; Sotheby's, New York, NY, sale no. 6025, lot no. 230, 24 May 1990; Gerald Peters Gallery, Santa Fe, New Mexico, and Hirschl & Adler Galleries, Inc., New York, NY, 1990; (Thea Westreich Art Advisory Services, Inc., New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300138082",
                     "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -330,14 +292,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8905/caption/",
-            "label": "Georgia O'Keeffe. A White Camellia, 1938. Pastel on paper mounted on cardboard, 21 1/2 x 27 1/2 inches. Private Collection. Private collection, 1992",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8905/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible. Backing: \"White Camellia (1939) (pastel) / by Georgia O'Keeffe / pastel / Handle with Greatest Care / pastel / Great Care\" (AS, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8905/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1939 New York (An American Place), no. 19, as A White Camellia; 1990 Santa Fe, no. 4; 1991 New York (Hirschl & Adler), no. 66"
         },
         {
             "classified_as": [
@@ -359,26 +333,72 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8905/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8905/Materials/",
             "type": "LinguisticObject",
-            "value": "1939 New York (An American Place), no. 19, as A White Camellia; 1990 Santa Fe, no. 4; 1991 New York (Hirschl & Adler), no. 66"
+            "value": "Pastel on paper mounted on cardboard"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8905/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8905/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Verso: inaccessible. Backing: \"White Camellia (1939) (pastel) / by Georgia O'Keeffe / pastel / Handle with Greatest Care / pastel / Great Care\" (AS, graphite)"
+            "value": "Pastel on paper mounted on cardboard, 21 1/2 x 27 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8905/Measurement/",
+            "type": "LinguisticObject",
+            "value": "21 1/2 x 27 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8905/provenance/",
+            "label": "(An American Place, New York, NY); Elizabeth Arden, New York, NY, 1939; Patricia Graham Young, New York, NY, by 1986; Estate of Patricia Graham Young, 1990; Sotheby's, New York, NY, sale no. 6025, lot no. 230, 24 May 1990; Gerald Peters Gallery, Santa Fe, New Mexico, and Hirschl & Adler Galleries, Inc., New York, NY, 1990; (Thea Westreich Art Advisory Services, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8905/caption/",
+            "label": "Georgia O'Keeffe. A White Camellia, 1938. Pastel on paper mounted on cardboard, 21 1/2 x 27 1/2 inches. Private Collection. Private collection, 1992",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -409,28 +429,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/838",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/838/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
             ],
-            "label": "Georgia O'Keeffe",
+            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
             "timespan": {
-                "begin_of_the_begin": "1990-11-10T00:00:00",
-                "end_of_the_end": "1991-01-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/838/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/306",
-            "timespan": {
-                "begin_of_the_begin": "1939-01-22T00:00:00",
-                "end_of_the_end": "1939-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
+                "begin_of_the_begin": "1991-11-09T00:00:00",
+                "end_of_the_end": "1992-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -444,6 +451,19 @@
                 "begin_of_the_begin": "1990-12-15T00:00:00",
                 "end_of_the_end": "1991-01-12T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1198/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/306",
+            "timespan": {
+                "begin_of_the_begin": "1939-01-22T00:00:00",
+                "end_of_the_end": "1939-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -469,11 +489,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1196",
+            "id": "http://data.okeeffemuseum.org/exhibition/1197",
             "timespan": {
-                "begin_of_the_begin": "1990-11-10T00:00:00",
-                "end_of_the_end": "1990-11-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1196/timespan",
+                "begin_of_the_begin": "1990-11-28T00:00:00",
+                "end_of_the_end": "1990-12-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1197/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -495,11 +515,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1197",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/838",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/838/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1990-11-28T00:00:00",
-                "end_of_the_end": "1990-12-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1197/timespan",
+                "begin_of_the_begin": "1990-11-10T00:00:00",
+                "end_of_the_end": "1991-01-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/838/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -508,15 +532,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
-            ],
-            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
+            "id": "http://data.okeeffemuseum.org/exhibition/1196",
             "timespan": {
-                "begin_of_the_begin": "1991-11-09T00:00:00",
-                "end_of_the_end": "1992-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
+                "begin_of_the_begin": "1990-11-10T00:00:00",
+                "end_of_the_end": "1990-11-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1196/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

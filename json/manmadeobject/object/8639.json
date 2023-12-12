@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -24,14 +33,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8639/title",
-            "type": "Name",
-            "value": "The Red Maple at Lake George"
+            "id": "http://data.okeeffemuseum.org/object/8639/other_id",
+            "type": "Identifier",
+            "value": "569, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -48,6 +57,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/title",
+            "type": "Name",
+            "value": "The Red Maple at Lake George"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -56,27 +77,10 @@
             "id": "http://data.okeeffemuseum.org/object/8639/otheridentifier",
             "type": "Identifier",
             "value": "569"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/other_id",
-            "type": "Identifier",
-            "value": "569, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. The Red Maple at Lake George, 1926. Oil on canvas, 36 x 30 inches. Private Collection. Bedford Family Collection, 1987",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8639/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -84,26 +88,24 @@
             "id": "http://data.okeeffemuseum.org/object/8639/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8639/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8639/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1921-01-01T00:00:00",
-            "end_of_the_end": "1931-12-31T00:00:00",
+            "begin_of_the_begin": "1926-01-01T00:00:00",
+            "end_of_the_end": "1926-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8639/production/timespan/0",
             "label": "1926",
             "type": "TimeSpan"
@@ -202,22 +222,10 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -226,11 +234,6 @@
                 {
                     "id": "aat:300163343",
                     "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
@@ -241,55 +244,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8639/provenance/",
-            "label": "(Doris Bry, New York, NY); Anita O'Keeffe (Mrs. Robert R.) Young, Newport, Rhode Island, after 1965; Estate of Anita O'Keeffe (Mrs. Robert R.) Young, 1985; Robert R. Young Foundation, Cincinnati, Ohio, 1985; Sotheby's, New York, NY, sale no. 5658, lot no. 3, 3 December 1987; (Montgomery Gallery, San Francisco, California)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8639/Materials/",
             "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/caption/",
-            "label": "Georgia O'Keeffe. The Red Maple at Lake George, 1926. Oil on canvas, 36 x 30 inches. Private Collection. Bedford Family Collection, 1987",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1927 New York (Intimate Gallery), as The Red Maple, Lake George; 1927 Brooklyn, no. 1; 1934 New York (An American Place); 1937 Cleveland; 1943 Chicago, no. 10"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -302,35 +264,6 @@
             "id": "http://data.okeeffemuseum.org/object/8639/Measurement/",
             "type": "LinguisticObject",
             "value": "36 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8639/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {circle} [within] OK {5star} (graphite) 2. \"Waxed by Mrs. Keck April 9-46\" (graphite) 3. \"The Red Maple, Lake George \u2013 1926 / by Georgia O'Keeffe / 509 Madison Ave / New York / NY\" [in oval] (AS, black crayon) 4. \"Red Maple \u2013 Lake George, 1926 / (oil) by Georgia O'Keeffe / 509 Madison Ave / c/o An American Place / New York, N.Y.\" (AS, white label, black ink) 5. AAP9 6. \"Red Maple \u2013 Lake George, 1926 / (oil) by Georgia O'Keeffe / 509 Madison Ave / New York, N.Y.\" {all crossed out} (AS, IG, black ink) 7. \"Georgia O'Keeffe / The Red Maple, Lake George / Georgia O'Keeffe 1926 / c/o Geo. F. Of / 126 W 57 Street / New York / N.Y.\" (AS, Cleveland Museum label, black ink)"
         },
         {
             "classified_as": [
@@ -352,6 +285,30 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {circle} [within] OK {5star} (graphite) 2. \"Waxed by Mrs. Keck April 9-46\" (graphite) 3. \"The Red Maple, Lake George \u2013 1926 / by Georgia O'Keeffe / 509 Madison Ave / New York / NY\" [in oval] (AS, black crayon) 4. \"Red Maple \u2013 Lake George, 1926 / (oil) by Georgia O'Keeffe / 509 Madison Ave / c/o An American Place / New York, N.Y.\" (AS, white label, black ink) 5. AAP9 6. \"Red Maple \u2013 Lake George, 1926 / (oil) by Georgia O'Keeffe / 509 Madison Ave / New York, N.Y.\" {all crossed out} (AS, IG, black ink) 7. \"Georgia O'Keeffe / The Red Maple, Lake George / Georgia O'Keeffe 1926 / c/o Geo. F. Of / 126 W 57 Street / New York / N.Y.\" (AS, Cleveland Museum label, black ink)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
@@ -359,6 +316,11 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -369,14 +331,72 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8639/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8639/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1927 New York (Intimate Gallery), as The Red Maple, Lake George; 1927 Brooklyn, no. 1; 1934 New York (An American Place); 1937 Cleveland; 1943 Chicago, no. 10"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/caption/",
+            "label": "Georgia O'Keeffe. The Red Maple at Lake George, 1926. Oil on canvas, 36 x 30 inches. Private Collection. Bedford Family Collection, 1987",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/provenance/",
+            "label": "(Doris Bry, New York, NY); Anita O'Keeffe (Mrs. Robert R.) Young, Newport, Rhode Island, after 1965; Estate of Anita O'Keeffe (Mrs. Robert R.) Young, 1985; Robert R. Young Foundation, Cincinnati, Ohio, 1985; Sotheby's, New York, NY, sale no. 5658, lot no. 3, 3 December 1987; (Montgomery Gallery, San Francisco, California)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8639/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -403,62 +423,6 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/238",
-            "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/282",
-            "timespan": {
-                "begin_of_the_begin": "1937-06-06T00:00:00",
-                "end_of_the_end": "1937-10-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/282/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -493,15 +457,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
-            ],
-            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
+            "id": "http://data.okeeffemuseum.org/exhibition/282",
             "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
+                "begin_of_the_begin": "1937-06-06T00:00:00",
+                "end_of_the_end": "1937-10-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/282/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/185",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/185/title"
+            ],
+            "label": "American Painting from 1860 until Today",
+            "timespan": {
+                "begin_of_the_begin": "1937-06-06T00:00:00",
+                "end_of_the_end": "1937-10-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/185/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -540,15 +517,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/185",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/185/title"
-            ],
-            "label": "American Painting from 1860 until Today",
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
             "timespan": {
-                "begin_of_the_begin": "1937-06-06T00:00:00",
-                "end_of_the_end": "1937-10-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/185/timespan",
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/238",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
+            ],
+            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

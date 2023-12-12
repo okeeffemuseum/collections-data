@@ -42,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/4946/identifier",
-            "type": "Identifier",
-            "value": "4946"
+            "id": "http://data.okeeffemuseum.org/object/4946/title",
+            "type": "Name",
+            "value": "Ida O'Keeffe"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/4946/title",
-            "type": "Name",
-            "value": "Ida O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/4946/identifier",
+            "type": "Identifier",
+            "value": "4946"
         }
     ],
     "label": "Alfred Stieglitz. Ida O'Keeffe, 1924. Gelatin silver print, 5 x 4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. [2006.6.7]",
@@ -83,31 +83,6 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            {
-                "id": "http://data.okeeffemuseum.org/person/964",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500399516"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/964/name/0",
-                        "type": "Name",
-                        "value": "Ida Ten Eyck O'Keeffe"
-                    }
-                ],
-                "label": [
-                    "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961",
-                    "Ida Ten Eyck O'Keeffe"
-                ],
-                "type": "Actor"
-            },
             {
                 "id": "http://data.okeeffemuseum.org/person/260",
                 "identified_by": [
@@ -132,12 +107,80 @@
                     "Alfred Stieglitz"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/964",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500399516"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/964/name/0",
+                        "type": "Name",
+                        "value": "Ida Ten Eyck O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961",
+                    "Ida Ten Eyck O'Keeffe"
+                ],
+                "type": "Actor"
             }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/260",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500024301"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
+                                "type": "Name",
+                                "value": "Alfred Stieglitz"
+                            }
+                        ],
+                        "label": [
+                            "Stieglitz, Alfred, 1864-1946",
+                            "Alfred Stieglitz"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/4946/production/0",
+                "technique": [
+                    {
+                        "id": "relators:pht",
+                        "label": "Photographer",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -177,49 +220,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/260",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500024301"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
-                                "type": "Name",
-                                "value": "Alfred Stieglitz"
-                            }
-                        ],
-                        "label": [
-                            "Stieglitz, Alfred, 1864-1946",
-                            "Alfred Stieglitz"
-                        ],
-                        "type": [
-                            "Actor",
-                            "schema:Thing"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/4946/production/0",
-                "technique": [
-                    {
-                        "id": "relators:pht",
-                        "label": "Photographer",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/4946/production/",
@@ -236,65 +236,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/4946/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/4946/Description/",
             "type": "LinguisticObject",
-            "value": "Photographer: Alfred Stieglitz\nDepicted: Ida Ten Eyck O'Keeffe"
+            "value": "Half length portrait of Ida O'Keeffe drinking a glass of milk and wearing a sweater."
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/4946/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/4946/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/4946/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Ida O'Keeffe, 1924"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/4946/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -328,14 +289,104 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/4946/Description/",
+            "id": "http://data.okeeffemuseum.org/object/4946/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Half length portrait of Ida O'Keeffe drinking a glass of milk and wearing a sweater."
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/4946/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/4946/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 5 x 4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/4946/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Alfred Stieglitz"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/4946/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Alfred Stieglitz\nDepicted: Ida Ten Eyck O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/4946/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Ida O'Keeffe, 1924"
         },
         {
             "classified_as": [
@@ -348,62 +399,27 @@
             "id": "http://data.okeeffemuseum.org/object/4946/Measurement/",
             "type": "LinguisticObject",
             "value": "5 x 4  inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/4946/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Alfred Stieglitz"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/4946/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/4946/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 5 x 4 inches"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
+        {
+            "exif:height": "2826",
+            "exif:width": "2203",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/798985",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300192339"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/visualitem/798985/sequence/0",
+                    "type": "Identifier",
+                    "value": "0"
+                }
+            ],
+            "type": "VisualItem"
+        },
         {
             "exif:height": "4824",
             "exif:width": "3941",
@@ -413,9 +429,9 @@
                     "classified_as": [
                         "aat:300192339"
                     ],
-                    "id": "http://data.okeeffemuseum.org/visualitem/733591/sequence/0",
+                    "id": "http://data.okeeffemuseum.org/visualitem/733591/sequence/1",
                     "type": "Identifier",
-                    "value": "0"
+                    "value": "1"
                 }
             ],
             "type": "VisualItem"

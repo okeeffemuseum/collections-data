@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -35,26 +45,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/1423/identifier",
             "type": "Identifier",
-            "value": "1901"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1423/other_id",
-            "type": "Identifier",
-            "value": "1901, Catalogue Raisonne Number"
+            "value": "1423"
         },
         {
             "classified_as": [
@@ -64,9 +62,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/identifier",
+            "id": "http://data.okeeffemuseum.org/object/1423/title",
+            "type": "Name",
+            "value": "Untitled (Flower), Pelican I Sketchbook"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1423/otheridentifier",
             "type": "Identifier",
-            "value": "1423"
+            "value": "1901"
         },
         {
             "classified_as": [
@@ -83,47 +93,40 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/title",
-            "type": "Name",
-            "value": "Untitled (Flower), Pelican I Sketchbook"
+            "id": "http://data.okeeffemuseum.org/object/1423/other_id",
+            "type": "Identifier",
+            "value": "1901, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Flower), Pelican I Sketchbook, 1943. Graphite on paper, 7 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.718j]",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/1423/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/1423/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +141,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +172,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +186,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,6 +223,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1423/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1943-01-01T00:00:00",
             "end_of_the_end": "1943-12-31T00:00:00",
@@ -222,19 +243,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1423/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/1423/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -251,77 +284,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Flower), Pelican I Sketchbook, 1943. Graphite on paper, 7 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.718j]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1423/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1423/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Untitled (Flower), Pelican I Sketchbook, 1943"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1423/Measurement/",
-            "type": "LinguisticObject",
-            "value": "7 x 4 5/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1423/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1423/Description/",
-            "type": "LinguisticObject",
-            "value": "Upper half of the page is a sketch of an open pedal flower."
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -350,25 +320,64 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
+            "id": "http://data.okeeffemuseum.org/object/1423/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Flower), Pelican I Sketchbook, 1943. Graphite on paper, 7 x 4 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.718j]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1423/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Flower), Pelican I Sketchbook, 1943"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1423/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -401,29 +410,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1423/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/1423/Description/",
             "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
+            "value": "Upper half of the page is a sketch of an open pedal flower."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1423/Measurement/",
+            "type": "LinguisticObject",
+            "value": "7 x 4 5/8 inches"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "exif:height": "3211",
-            "exif:width": "2035",
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/726692",
+            "exif:height": "4150",
+            "exif:width": "2734",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/801264",
             "identified_by": [
                 {
                     "classified_as": [
                         "aat:300192339"
                     ],
-                    "id": "http://data.okeeffemuseum.org/visualitem/726692/sequence/0",
+                    "id": "http://data.okeeffemuseum.org/visualitem/801264/sequence/0",
                     "type": "Identifier",
                     "value": "0"
                 }

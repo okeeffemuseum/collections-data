@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -10,6 +15,11 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -32,18 +42,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/168/other_id",
-            "type": "Identifier",
-            "value": "9, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -61,9 +59,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/identifier",
-            "type": "Identifier",
-            "value": "168"
+            "id": "http://data.okeeffemuseum.org/object/168/title",
+            "type": "Name",
+            "value": "Untitled (Vases)"
         },
         {
             "classified_as": [
@@ -73,9 +71,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/title",
-            "type": "Name",
-            "value": "Untitled (Vases)"
+            "id": "http://data.okeeffemuseum.org/object/168/identifier",
+            "type": "Identifier",
+            "value": "168"
         },
         {
             "classified_as": [
@@ -88,39 +86,44 @@
             "id": "http://data.okeeffemuseum.org/object/168/accessionnumber",
             "type": "Identifier",
             "value": "L.1998.17.1"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/168/other_id",
+            "type": "Identifier",
+            "value": "9, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Vases), 1904. Graphite on paper, 9 x 6 in (22.9 x 15.2 cm). Private Collection. Loan, private collection. [L.1998.17.1]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/168/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/168/material/0",
+            "label": "graphite",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/168/material/0",
-            "label": "Graphite",
+            "id": "http://data.okeeffemuseum.org/object/168/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/294",
+        "label": "Clothing and Domestic Objects",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -135,16 +138,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -155,17 +169,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -180,16 +183,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -206,9 +220,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/168/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1899-01-01T00:00:00",
-            "end_of_the_end": "1909-12-31T00:00:00",
+            "begin_of_the_begin": "1904-01-01T00:00:00",
+            "end_of_the_end": "1904-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/168/production/timespan/0",
             "label": "1904",
             "type": "TimeSpan"
@@ -219,31 +240,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/168/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/168/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Loan, private collection      "
+            "value": "Loan, Private Collection/Loans"
         },
         {
             "classified_as": [
@@ -260,46 +264,31 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/168/institution_caption",
             "type": "LinguisticObject",
-            "value": "Graphite on paper, 9 x 6 in (22.9 x 15.2 cm)"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Vases), 1904"
+            "id": "http://data.okeeffemuseum.org/object/168/provenance/",
+            "label": "Private collection, Chatham, Virginia, gift 1904         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -316,6 +305,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/168/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -324,18 +325,6 @@
             "id": "http://data.okeeffemuseum.org/object/168/exhibitions",
             "type": "LinguisticObject",
             "value": "2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/168/Description/",
-            "type": "LinguisticObject",
-            "value": "Graphite drawing of two cylndrical shapes, one placed in front of the other, in the middle of the page.  A signature is located in the upper left corner."
         },
         {
             "classified_as": [
@@ -360,6 +349,40 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/168/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 9 x 6 in (22.9 x 15.2 cm)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/168/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Loan, private collection      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/168/Measurement/",
@@ -369,26 +392,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/provenance/",
-            "label": "Private collection, Chatham, Virginia, gift 1904         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/168/Description/",
+            "type": "LinguisticObject",
+            "value": "Graphite drawing of two cylndrical shapes, one placed in front of the other, in the middle of the page.  A signature is located in the upper left corner."
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/168/artist_caption",
             "type": "LinguisticObject",
-            "value": "Loan, Private Collection/Loans"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -398,26 +426,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/168/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/168/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/168/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Graphite on paper"
+            "value": "Untitled (Vases), 1904"
         }
     ],
     "refers_to": [],

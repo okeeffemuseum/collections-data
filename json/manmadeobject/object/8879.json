@@ -3,6 +3,16 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
@@ -36,18 +46,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8879/title",
-            "type": "Name",
-            "value": "Untitled (New Mexican Landscape)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -67,40 +65,45 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8879/other_id",
             "type": "Identifier",
-            "value": "908, Catalogue Raisonne Number"
+            "value": "908, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8879/title",
+            "type": "Name",
+            "value": "Untitled (New Mexican Landscape)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (New Mexican Landscape), ca. 1936. Graphite on paper, 6 1/4 x 9 1/4 inches. Grete Meilman Fine Art. Grete Meilman Fine Art, Ltd., New York, NY, 1990",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8879/material/0",
-            "label": "Graphite",
+            "label": "graphite",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8879/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,6 +200,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8879/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1931-01-01T00:00:00",
             "end_of_the_end": "1941-12-31T00:00:00",
@@ -199,13 +220,59 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8879/Measurement/",
+            "type": "LinguisticObject",
+            "value": "6 1/4 x 9 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8879/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 6 1/4 x 9 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8879/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Grete Meilman Fine Art, Ltd., New York, NY, 1990      "
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -221,13 +288,13 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -255,59 +322,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8879/Measurement/",
-            "type": "LinguisticObject",
-            "value": "6 1/4 x 9 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8879/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Grete Meilman Fine Art, Ltd., New York, NY, 1990      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8879/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Graphite on paper, 6 1/4 x 9 1/4 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300025103",
                     "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -318,13 +339,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8879/provenance/",
-            "label": "Private collection, Santa Fe, New Mexico, gift, 1975; Grete Meilman Fine Art, Ltd., New York, NY, and Zaplin-Lampert Gallery, Santa Fe, New Mexico, 1989         ",
+            "id": "http://data.okeeffemuseum.org/object/8879/caption/",
+            "label": "Georgia O'Keeffe. Untitled (New Mexican Landscape), ca. 1936. Graphite on paper, 6 1/4 x 9 1/4 inches. Grete Meilman Fine Art. Grete Meilman Fine Art, Ltd., New York, NY, 1990",
             "type": "LinguisticObject"
         },
         {
@@ -342,13 +363,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8879/caption/",
-            "label": "Georgia O'Keeffe. Untitled (New Mexican Landscape), ca. 1936. Graphite on paper, 6 1/4 x 9 1/4 inches. Grete Meilman Fine Art. Grete Meilman Fine Art, Ltd., New York, NY, 1990",
+            "id": "http://data.okeeffemuseum.org/object/8879/provenance/",
+            "label": "Private collection, Santa Fe, New Mexico, gift, 1975; Grete Meilman Fine Art, Ltd., New York, NY, and Zaplin-Lampert Gallery, Santa Fe, New Mexico, 1989         ",
             "type": "LinguisticObject"
         }
     ],

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -21,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8897",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8897/other_id",
-            "type": "Identifier",
-            "value": "937, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -68,28 +65,47 @@
             "id": "http://data.okeeffemuseum.org/object/8897/otheridentifier",
             "type": "Identifier",
             "value": "937"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8897/other_id",
+            "type": "Identifier",
+            "value": "937, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Gerald's Tree II, 1937. Oil on canvas, 40 x 30 inches. Stark Museum of Art. Stark Museum of Art, Orange, Texas (1987.1.1)",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8897/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8897/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -104,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -124,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -149,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -175,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8897/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1937-01-01T00:00:00",
+            "end_of_the_end": "1937-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8897/production/timespan/0",
             "label": "1937",
             "type": "TimeSpan"
@@ -200,14 +234,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8897/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8897/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "1937-38 New York (An American Place), no. 20, as Gerald's Tree II; 1985 Amarillo, no. 17; 1986 New York (Hirschl & Adler), no. 23; 1986 San Francisco, no. 7"
+            "value": "Oil on canvas, 40 x 30 inches"
         },
         {
             "classified_as": [
@@ -224,25 +268,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8897/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8897/Materials/",
             "type": "LinguisticObject",
-            "value": "Stark Museum of Art, Orange, Texas (1987.1.1)      "
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -253,24 +297,70 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8897/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8897/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 40 x 30 inches"
+            "value": "Gerald's Tree II, 1937"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8897/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Stark Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8897/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1937-38 New York (An American Place), no. 20, as Gerald's Tree II; 1985 Amarillo, no. 17; 1986 New York (Hirschl & Adler), no. 23; 1986 San Francisco, no. 7"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8897/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -287,23 +377,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8897/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Stark Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -316,53 +389,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8897/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8897/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8897/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8897/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Gerald's Tree II, 1937"
+            "value": "Stark Museum of Art, Orange, Texas (1987.1.1)      "
         }
     ],
     "refers_to": [],
@@ -405,15 +439,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
             ],
-            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
+            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
             "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1163",
+            "timespan": {
+                "begin_of_the_begin": "1986-07-25T00:00:00",
+                "end_of_the_end": "1986-09-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -435,15 +482,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/815",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/815/title"
-            ],
-            "label": "Georgia O'Keeffe and Her Contemporaries: A Vision Amidst Tradition",
+            "id": "http://data.okeeffemuseum.org/exhibition/288",
             "timespan": {
-                "begin_of_the_begin": "1985-09-01T00:00:00",
-                "end_of_the_end": "1985-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/815/timespan",
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -452,11 +495,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/288",
+            "id": "http://data.okeeffemuseum.org/exhibition/1160",
             "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-06-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -482,11 +525,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/815",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/815/title"
+            ],
+            "label": "Georgia O'Keeffe and Her Contemporaries: A Vision Amidst Tradition",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-01T00:00:00",
+                "end_of_the_end": "1985-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/815/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
             "timespan": {
                 "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-06-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -500,36 +564,6 @@
                 "begin_of_the_begin": "1985-09-01T00:00:00",
                 "end_of_the_end": "1985-12-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1156/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1163",
-            "timespan": {
-                "begin_of_the_begin": "1986-07-25T00:00:00",
-                "end_of_the_end": "1986-09-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
-            ],
-            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
-            "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

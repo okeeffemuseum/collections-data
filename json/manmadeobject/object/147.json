@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -35,14 +45,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/147/identifier",
+            "id": "http://data.okeeffemuseum.org/object/147/otheridentifier",
             "type": "Identifier",
-            "value": "147"
+            "value": "276"
         },
         {
             "classified_as": [
@@ -66,7 +76,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/147/other_id",
             "type": "Identifier",
-            "value": "276, Catalogue Raisonne Number"
+            "value": "276, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/identifier",
+            "type": "Identifier",
+            "value": "147"
         },
         {
             "classified_as": [
@@ -79,51 +101,32 @@
             "id": "http://data.okeeffemuseum.org/object/147/title",
             "type": "Name",
             "value": "Black Diagonal"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/otheridentifier",
-            "type": "Identifier",
-            "value": "276"
         }
     ],
     "label": "Georgia O'Keeffe. Black Diagonal, 1919. Charcoal on paper, 24 5/8 x 18 3/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.12]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/147/material/0",
-            "label": "charcoal",
+            "id": "http://data.okeeffemuseum.org/object/147/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/147/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/147/material/0",
+            "label": "charcoal",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +141,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +172,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +186,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,6 +223,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/147/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1919-01-01T00:00:00",
             "end_of_the_end": "1919-12-31T00:00:00",
@@ -219,93 +240,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Black Diagonal, 1919"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/Materials/",
-            "type": "LinguisticObject",
-            "value": "Charcoal on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1980 Lincoln, no. 7; \n1983 Rosyln, no. 24; \n1993 London, (Hayward), no. 5; \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) The Poetry of Things \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (Frames of Preference / Maria Chabot / Sense of Place) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) GOK: Abstraction, all venues \n2016 Santa Fe (O'Keeffe) O'Keeffe at the University of Virginia, 1912-1914"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/caption/",
-            "label": "Georgia O'Keeffe. Black Diagonal, 1919. Charcoal on paper, 24 5/8 x 18 3/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.12]",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -321,30 +255,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/147/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/147/provenance/",
-            "label": "Sotheby's, NY, sale no. 7064, lot no. 148,   Gerald Peters Gallery (Santa Fe)   Dec 03 1997   , Andrew Crispo Gallery Inc., NY   1977, Harold Diamond, NY, purchase   1977, (Gerald Peters Gallery, Santa Fe, New Mexico)",
+            "id": "http://data.okeeffemuseum.org/object/147/caption/",
+            "label": "Georgia O'Keeffe. Black Diagonal, 1919. Charcoal on paper, 24 5/8 x 18 3/4 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.12]",
             "type": "LinguisticObject"
         },
         {
@@ -377,9 +294,72 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/147/Right/",
+            "id": "http://data.okeeffemuseum.org/object/147/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/provenance/",
+            "label": "Sotheby's, NY, sale no. 7064, lot no. 148,   Gerald Peters Gallery (Santa Fe)   Dec 03 1997   , Andrew Crispo Gallery Inc., NY   1977, Harold Diamond, NY, purchase   1977, (Gerald Peters Gallery, Santa Fe, New Mexico)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -408,19 +388,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/147/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/147/Right/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -433,6 +408,52 @@
             "id": "http://data.okeeffemuseum.org/object/147/CreditLine/",
             "type": "LinguisticObject",
             "value": "Gift of The Burnett Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1980 Lincoln, no. 7; \n1983 Rosyln, no. 24; \n1993 London, (Hayward), no. 5; \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) The Poetry of Things \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (Frames of Preference / Maria Chabot / Sense of Place) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) GOK: Abstraction, all venues \n2016 Santa Fe (O'Keeffe) O'Keeffe at the University of Virginia, 1912-1914"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/Materials/",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/147/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Diagonal, 1919"
         }
     ],
     "refers_to": [],
@@ -486,6 +507,75 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
+            "timespan": {
+                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-15T00:00:00",
+                "end_of_the_end": "1993-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
+            ],
+            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1136",
+            "timespan": {
+                "begin_of_the_begin": "1980-09-09T00:00:00",
+                "end_of_the_end": "1980-10-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/107",
             "timespan": {
                 "begin_of_the_begin": "2002-06-21T00:00:00",
@@ -499,11 +589,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/70",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
+            ],
+            "label": "Georgia O'Keeffe: American & Modern",
             "timespan": {
-                "begin_of_the_begin": "1998-10-30T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/70/timespan",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -529,11 +636,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "id": "http://data.okeeffemuseum.org/exhibition/70",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "begin_of_the_begin": "1998-10-30T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/70/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -542,15 +649,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
-            ],
-            "label": "Georgia O'Keeffe: American & Modern",
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
             "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -593,36 +696,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1213",
-            "timespan": {
-                "begin_of_the_begin": "1993-10-30T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
-            ],
-            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/798",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/798/title"
@@ -632,58 +705,6 @@
                 "begin_of_the_begin": "1980-09-09T00:00:00",
                 "end_of_the_end": "1980-10-19T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/798/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1136",
-            "timespan": {
-                "begin_of_the_begin": "1980-09-09T00:00:00",
-                "end_of_the_end": "1980-10-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1212",
-            "timespan": {
-                "begin_of_the_begin": "1993-07-15T00:00:00",
-                "end_of_the_end": "1993-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

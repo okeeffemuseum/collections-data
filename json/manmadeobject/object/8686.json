@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -40,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8686/other_id",
-            "type": "Identifier",
-            "value": "623, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -72,10 +69,27 @@
             "id": "http://data.okeeffemuseum.org/object/8686/identifier",
             "type": "Identifier",
             "value": "8686"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8686/other_id",
+            "type": "Identifier",
+            "value": "623, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Shell I, 1928. Oil on canvas, 9 1/4 x 7 1/4 inches. University of New Mexico Art Museum. Private collection, Lakewood, Colorado, 1960s",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8686/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/8686/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8686/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/266",
+        "label": "Shells",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8686/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1923-01-01T00:00:00",
-            "end_of_the_end": "1933-12-31T00:00:00",
+            "begin_of_the_begin": "1928-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8686/production/timespan/0",
             "label": "1928",
             "type": "TimeSpan"
@@ -206,31 +226,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8686/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); (Herbert B. Palmer and Company, Beverly Hills, California)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8686/institution_caption",
+            "type": "LinguisticObject",
+            "value": "University of New Mexico Art Museum"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8686/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8686/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Private collection, Lakewood, Colorado, 1960s      "
         },
         {
             "classified_as": [
@@ -264,24 +284,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8686/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: \"Okeeffe\" (white paint). Backing: 1. \"#17 / 1928 / Shell I\" (graphite) 2. \"Shell / O'Keeffe Exhibition / 29\" [partially obscured by label] (AS, graphite)"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8686/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8686/artist_caption",
             "type": "LinguisticObject",
-            "value": "Shell I, 1928"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -298,65 +325,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8686/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 9 1/4 x 7 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8686/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 1/4 x 7 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8686/institution_caption",
-            "type": "LinguisticObject",
-            "value": "University of New Mexico Art Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8686/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Lakewood, Colorado, 1960s      "
+            "id": "http://data.okeeffemuseum.org/object/8686/caption/",
+            "label": "Georgia O'Keeffe. Shell I, 1928. Oil on canvas, 9 1/4 x 7 1/4 inches. University of New Mexico Art Museum. Private collection, Lakewood, Colorado, 1960s",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -373,26 +349,70 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8686/caption/",
-            "label": "Georgia O'Keeffe. Shell I, 1928. Oil on canvas, 9 1/4 x 7 1/4 inches. University of New Mexico Art Museum. Private collection, Lakewood, Colorado, 1960s",
+            "id": "http://data.okeeffemuseum.org/object/8686/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 1/4 x 7 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8686/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); (Herbert B. Palmer and Company, Beverly Hills, California)         ",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8686/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8686/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Verso: \"Okeeffe\" (white paint). Backing: 1. \"#17 / 1928 / Shell I\" (graphite) 2. \"Shell / O'Keeffe Exhibition / 29\" [partially obscured by label] (AS, graphite)"
+            "value": "Shell I, 1928"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8686/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 9 1/4 x 7 1/4 inches"
         }
     ],
     "refers_to": [],
@@ -423,19 +443,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/184",
-            "timespan": {
-                "begin_of_the_begin": "1929-02-04T00:00:00",
-                "end_of_the_end": "1929-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/120",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/120/title"
@@ -445,6 +452,19 @@
                 "begin_of_the_begin": "1929-02-04T00:00:00",
                 "end_of_the_end": "1929-03-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/120/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/184",
+            "timespan": {
+                "begin_of_the_begin": "1929-02-04T00:00:00",
+                "end_of_the_end": "1929-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

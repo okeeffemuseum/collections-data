@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -29,9 +38,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8570/identifier",
-            "type": "Identifier",
-            "value": "8570"
+            "id": "http://data.okeeffemuseum.org/object/8570/title",
+            "type": "Name",
+            "value": "Pink and Yellow Tulips"
         },
         {
             "classified_as": [
@@ -48,18 +57,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/title",
-            "type": "Name",
-            "value": "Pink and Yellow Tulips"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -67,11 +64,28 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8570/other_id",
             "type": "Identifier",
-            "value": "485, Catalogue Raisonne Number"
+            "value": "485, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/identifier",
+            "type": "Identifier",
+            "value": "8570"
         }
     ],
     "label": "Georgia O'Keeffe. Pink and Yellow Tulips, 1925. Oil on board, 9 3/4 x 6 5/8 inches. Private Collection. Private collection, Chicago, Illinois, 1983",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8570/material/1",
+            "label": "board",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -79,31 +93,19 @@
             "id": "http://data.okeeffemuseum.org/object/8570/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8570/material/1",
-            "label": "board",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8570/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1920-01-01T00:00:00",
-            "end_of_the_end": "1930-12-31T00:00:00",
+            "begin_of_the_begin": "1925-01-01T00:00:00",
+            "end_of_the_end": "1925-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8570/production/timespan/0",
             "label": "1925",
             "type": "TimeSpan"
@@ -202,8 +222,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -212,21 +232,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8570/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8570/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 3/4 x 6 5/8 inches"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -243,6 +251,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/provenance/",
+            "label": "(The Intimate Gallery, New York, NY); Mrs. Herbert Fleischaker, San Francisco, California, 1927; [. . .]; (William Zierler, New York, NY); Sotheby Parke-Bernet, Inc., New York, NY, sale no. 2914, lot no. 94, 22 October 1969; (William Zierler, New York, NY); Private collection, New York, NY, 1969; Christie's, New York, NY, sale no. 2914, lot no. 157, 3 December 1980; ACA Galleries, New York, NY, 1980; (Douglas Kenyon Inc., Chicago, Illinois)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -251,57 +271,6 @@
             "id": "http://data.okeeffemuseum.org/object/8570/CreditLine/",
             "type": "LinguisticObject",
             "value": "Private collection, Chicago, Illinois, 1983      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1926 New York (Intimate Gallery)?"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pink and Yellow Tulips, 1925"
         },
         {
             "classified_as": [
@@ -318,31 +287,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8570/caption/",
-            "label": "Georgia O'Keeffe. Pink and Yellow Tulips, 1925. Oil on board, 9 3/4 x 6 5/8 inches. Private Collection. Private collection, Chicago, Illinois, 1983",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8570/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8570/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Pink and Yellow Tulips, 1925"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -369,14 +348,55 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8570/provenance/",
-            "label": "(The Intimate Gallery, New York, NY); Mrs. Herbert Fleischaker, San Francisco, California, 1927; [. . .]; (William Zierler, New York, NY); Sotheby Parke-Bernet, Inc., New York, NY, sale no. 2914, lot no. 94, 22 October 1969; (William Zierler, New York, NY); Private collection, New York, NY, 1969; Christie's, New York, NY, sale no. 2914, lot no. 157, 3 December 1980; ACA Galleries, New York, NY, 1980; (Douglas Kenyon Inc., Chicago, Illinois)         ",
+            "id": "http://data.okeeffemuseum.org/object/8570/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 3/4 x 6 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/caption/",
+            "label": "Georgia O'Keeffe. Pink and Yellow Tulips, 1925. Oil on board, 9 3/4 x 6 5/8 inches. Private Collection. Private collection, Chicago, Illinois, 1983",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1926 New York (Intimate Gallery)?"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8570/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -407,19 +427,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/167",
-            "timespan": {
-                "begin_of_the_begin": "1926-03-11T00:00:00",
-                "end_of_the_end": "1926-04-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/104",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/104/title"
@@ -429,6 +436,19 @@
                 "begin_of_the_begin": "1926-03-11T00:00:00",
                 "end_of_the_end": "1926-04-03T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/104/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/167",
+            "timespan": {
+                "begin_of_the_begin": "1926-03-11T00:00:00",
+                "end_of_the_end": "1926-04-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -41,9 +50,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8773/identifier",
-            "type": "Identifier",
-            "value": "8773"
+            "id": "http://data.okeeffemuseum.org/object/8773/title",
+            "type": "Name",
+            "value": "Out Back of Marie's I"
         },
         {
             "classified_as": [
@@ -53,9 +62,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8773/title",
-            "type": "Name",
-            "value": "Out Back of Marie's I"
+            "id": "http://data.okeeffemuseum.org/object/8773/identifier",
+            "type": "Identifier",
+            "value": "8773"
         },
         {
             "classified_as": [
@@ -67,7 +76,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8773/other_id",
             "type": "Identifier",
-            "value": "731, Catalogue Raisonne Number"
+            "value": "731, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Out Back of Marie's I, 1930. Oil on canvas, 20 x 24 inches. Private Collection. Private collection, Massachusetts, 1997",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8773/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8773/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -202,13 +222,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -220,42 +240,6 @@
             "id": "http://data.okeeffemuseum.org/object/8773/title_date_caption",
             "type": "LinguisticObject",
             "value": "Out Back of Marie's I, 1930"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Massachusetts, 1997      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/provenance/",
-            "label": "(Doris Bry, New York, NY); Private collection, Darien, Connecticut, 1973; Christie's, New York, NY, sale no. 5794, lot no. 316, 7 December 1984; Private collection, Weston, Massachusetts, 1984; (Sunne Savage, Boston, Massachusetts); Gerald Peters Gallery, New York, NY, 1997; (Aptekar Arts Management, Brookline, Massachusetts)         ",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -289,60 +273,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8773/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8773/CreditLine/",
             "type": "LinguisticObject",
-            "value": "1931 New York (An American Place), among nos. 24-33, as Landscape Near H & M Ranch, toward Abique N.M."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/caption/",
-            "label": "Georgia O'Keeffe. Out Back of Marie's I, 1930. Oil on canvas, 20 x 24 inches. Private Collection. Private collection, Massachusetts, 1997",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 24 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8773/Measurement/",
-            "type": "LinguisticObject",
-            "value": "20 x 24 inches"
+            "value": "Private collection, Massachusetts, 1997      "
         },
         {
             "classified_as": [
@@ -364,19 +302,101 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8773/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1931 New York (An American Place), among nos. 24-33, as Landscape Near H & M Ranch, toward Abique N.M."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 24 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/provenance/",
+            "label": "(Doris Bry, New York, NY); Private collection, Darien, Connecticut, 1973; Christie's, New York, NY, sale no. 5794, lot no. 316, 7 December 1984; Private collection, Weston, Massachusetts, 1984; (Sunne Savage, Boston, Massachusetts); Gerald Peters Gallery, New York, NY, 1997; (Aptekar Arts Management, Brookline, Massachusetts)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/caption/",
+            "label": "Georgia O'Keeffe. Out Back of Marie's I, 1930. Oil on canvas, 20 x 24 inches. Private Collection. Private collection, Massachusetts, 1997",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8773/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 x 24 inches"
         }
     ],
     "refers_to": [],
@@ -407,6 +427,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/133/title"
@@ -416,19 +449,6 @@
                 "begin_of_the_begin": "1931-01-01T00:00:00",
                 "end_of_the_end": "1931-02-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/214",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

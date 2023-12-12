@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -28,6 +37,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/identifier",
+            "type": "Identifier",
+            "value": "8758"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -47,19 +68,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8758/other_id",
             "type": "Identifier",
-            "value": "713, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/identifier",
-            "type": "Identifier",
-            "value": "8758"
+            "value": "713, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -75,25 +84,32 @@
         }
     ],
     "label": "Georgia O'Keeffe. Black Hollyhock, Blue Larkspur, 1930. Oil on canvas. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. George A. Hearn Fund, 1934 [purchase] (34.51)",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "made_of": [
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8758/material/1",
+            "label": "canvas",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -108,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -128,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -153,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -179,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8758/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8758/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -189,28 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
         {
             "classified_as": [
                 {
@@ -234,6 +246,91 @@
             "id": "http://data.okeeffemuseum.org/object/8758/exhibitions",
             "type": "LinguisticObject",
             "value": "1931 New York (An American Place), no on checklist or no. 18, as Black Hollyhock with Blue Larkspur; 1934 New Haven; 1934 New York (An American Place); 1934 New York (First Municipal), no. 672; 1940 Minneapolis; 1941 Montgomery; 1941 Jacksonville; 1941 New York (YMCA); 1944 Utica; 1945 Montgomery; 1946 Canton; 1946 New York (MOMA \u2013 Retro), no. 36; 1946 London (Tate); 1949 New York; 1953 Seattle; 1954 New York (Metropolitan); 1961 Montclair (Montclair Art Museum); 1961 East Hampton; 1965 New York (Metropolitan); 1974 San Juan; 1978 Morristown, no. 10; 1978 Brussels"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/caption/",
+            "label": "Georgia O'Keeffe. Black Hollyhock, Blue Larkspur, 1930. Oil on canvas. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. George A. Hearn Fund, 1934 [purchase] (34.51)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8758/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Hollyhock, Blue Larkspur, 1930"
         },
         {
             "classified_as": [
@@ -263,69 +360,6 @@
             "id": "http://data.okeeffemuseum.org/object/8758/institution_caption",
             "type": "LinguisticObject",
             "value": "Metropolitan Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Black Hollyhock, Blue Larkspur, 1930"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/caption/",
-            "label": "Georgia O'Keeffe. Black Hollyhock, Blue Larkspur, 1930. Oil on canvas. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. George A. Hearn Fund, 1934 [purchase] (34.51)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8758/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -385,109 +419,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/557",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/557/title"
-            ],
-            "label": "Of Art and Nature",
-            "timespan": {
-                "begin_of_the_begin": "1961-08-20T00:00:00",
-                "end_of_the_end": "1961-09-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/557/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/226",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/226/title"
-            ],
-            "label": "American Paintings from the Metropolitan Museum Collection",
-            "timespan": {
-                "begin_of_the_begin": "1941-11-09T00:00:00",
-                "end_of_the_end": "1941-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/226/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/214",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/254",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/254/title"
-            ],
-            "label": "title unknown",
-            "timespan": {
-                "begin_of_the_begin": "1944-03-01T00:00:00",
-                "end_of_the_end": "1944-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/254/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/264",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/264/title"
-            ],
-            "label": "Americna Painting from the Eighteenth Century to the Present Day",
-            "timespan": {
-                "begin_of_the_begin": "1946-06-01T00:00:00",
-                "end_of_the_end": "1946-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/264/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/305",
-            "timespan": {
-                "begin_of_the_begin": "1939-03-04T00:00:00",
-                "end_of_the_end": "1939-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/305/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
-            ],
-            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
+            "id": "http://data.okeeffemuseum.org/exhibition/238",
             "timespan": {
                 "begin_of_the_begin": "1934-01-29T00:00:00",
                 "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -496,221 +432,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
-            ],
-            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/781",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/781/title"
-            ],
-            "label": "Twentieth-Century Art: U.S.A. from the Metropolital Museum of Art",
-            "timespan": {
-                "begin_of_the_begin": "1974-04-19T00:00:00",
-                "end_of_the_end": "1974-06-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/781/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1118",
-            "timespan": {
-                "begin_of_the_begin": "1978-04-07T00:00:00",
-                "end_of_the_end": "1978-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1118/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/391",
-            "timespan": {
-                "begin_of_the_begin": "1945-05-18T00:00:00",
-                "end_of_the_end": "1945-08-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/391/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/373",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/373/title"
-            ],
-            "label": "Contemporary American Painting and Sculpture",
-            "timespan": {
-                "begin_of_the_begin": "1953-02-04T00:00:00",
-                "end_of_the_end": "1953-04-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/373/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1003",
-            "timespan": {
-                "begin_of_the_begin": "1965-04-09T00:00:00",
-                "end_of_the_end": "1965-10-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1003/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/225",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/225/title"
-            ],
-            "label": "title unknown",
+            "id": "http://data.okeeffemuseum.org/exhibition/332",
             "timespan": {
                 "begin_of_the_begin": "1941-03-01T00:00:00",
                 "end_of_the_end": "1941-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/225/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/256",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/256/title"
-            ],
-            "label": "title unknown",
-            "timespan": {
-                "begin_of_the_begin": "1945-05-18T00:00:00",
-                "end_of_the_end": "1945-08-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/256/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1116",
-            "timespan": {
-                "begin_of_the_begin": "1978-06-28T00:00:00",
-                "end_of_the_end": "1978-08-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1116/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/313",
-            "timespan": {
-                "begin_of_the_begin": "1940-10-01T00:00:00",
-                "end_of_the_end": "1940-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/313/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/400",
-            "timespan": {
-                "begin_of_the_begin": "1946-06-01T00:00:00",
-                "end_of_the_end": "1946-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/400/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/789",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/789/title"
-            ],
-            "label": "La peinture Am\u00e9ricaine au 20e si\u00e8cle de la collection du Metropolitan Museum of Art",
-            "timespan": {
-                "begin_of_the_begin": "1978-06-28T00:00:00",
-                "end_of_the_end": "1978-08-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/789/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1108",
-            "timespan": {
-                "begin_of_the_begin": "1974-04-19T00:00:00",
-                "end_of_the_end": "1974-06-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1108/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/332/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -736,11 +462,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/815",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/791",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/791/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1961-08-20T00:00:00",
-                "end_of_the_end": "1961-09-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/815/timespan",
+                "begin_of_the_begin": "1978-04-07T00:00:00",
+                "end_of_the_end": "1978-04-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/791/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -749,15 +479,63 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/386",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/386/title"
-            ],
-            "label": "Columbia Bicentennial Exhibition",
+            "id": "http://data.okeeffemuseum.org/exhibition/400",
             "timespan": {
-                "begin_of_the_begin": "1954-10-01T00:00:00",
-                "end_of_the_end": "1955-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/386/timespan",
+                "begin_of_the_begin": "1946-06-01T00:00:00",
+                "end_of_the_end": "1946-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/400/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1108",
+            "timespan": {
+                "begin_of_the_begin": "1974-04-19T00:00:00",
+                "end_of_the_end": "1974-06-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1108/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/340",
+            "timespan": {
+                "begin_of_the_begin": "1942-09-25T00:00:00",
+                "end_of_the_end": "1943-01-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/340/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/305",
+            "timespan": {
+                "begin_of_the_begin": "1939-03-04T00:00:00",
+                "end_of_the_end": "1939-03-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/305/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/815",
+            "timespan": {
+                "begin_of_the_begin": "1961-08-20T00:00:00",
+                "end_of_the_end": "1961-09-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/815/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -779,161 +557,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/240",
-            "timespan": {
-                "begin_of_the_begin": "1934-02-28T00:00:00",
-                "end_of_the_end": "1934-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/240/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/389",
-            "timespan": {
-                "begin_of_the_begin": "1944-03-01T00:00:00",
-                "end_of_the_end": "1944-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/389/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/158",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/157",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/158/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/157/title"
             ],
-            "label": "First Municipal Art Exhibition: Paintings, Sculpture, Drawings, Prints by Living American Artists Identified with the New York Art World",
-            "timespan": {
-                "begin_of_the_begin": "1934-02-28T00:00:00",
-                "end_of_the_end": "1934-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/158/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/333",
-            "timespan": {
-                "begin_of_the_begin": "1941-11-09T00:00:00",
-                "end_of_the_end": "1941-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/333/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/238",
+            "label": "Georgia O'Keeffe at 'An American Place,' 44 Selected Paintings 1915-1927",
             "timespan": {
                 "begin_of_the_begin": "1934-01-29T00:00:00",
                 "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/567",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/567/title"
-            ],
-            "label": "A Festival of Flowers",
-            "timespan": {
-                "begin_of_the_begin": "1961-04-02T00:00:00",
-                "end_of_the_end": "1961-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/567/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/332",
-            "timespan": {
-                "begin_of_the_begin": "1941-03-01T00:00:00",
-                "end_of_the_end": "1941-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/332/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/692",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/692/title"
-            ],
-            "label": "Three Centuries of American Painting",
-            "timespan": {
-                "begin_of_the_begin": "1965-04-09T00:00:00",
-                "end_of_the_end": "1965-10-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/692/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/574",
-            "timespan": {
-                "begin_of_the_begin": "1953-02-04T00:00:00",
-                "end_of_the_end": "1953-04-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/574/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/207",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/207/title"
-            ],
-            "label": "American Art: 1890-1938; From the Permanent Collection of the Metropolitan Museum of Art, New York",
-            "timespan": {
-                "begin_of_the_begin": "1939-03-04T00:00:00",
-                "end_of_the_end": "1939-03-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/207/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/791",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/791/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1978-04-07T00:00:00",
-                "end_of_the_end": "1978-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/791/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -959,11 +591,199 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/340",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/386",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/386/title"
+            ],
+            "label": "Columbia Bicentennial Exhibition",
             "timespan": {
-                "begin_of_the_begin": "1942-09-25T00:00:00",
-                "end_of_the_end": "1943-01-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/340/timespan",
+                "begin_of_the_begin": "1954-10-01T00:00:00",
+                "end_of_the_end": "1955-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/386/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/789",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/789/title"
+            ],
+            "label": "La peinture Am\u00e9ricaine au 20e si\u00e8cle de la collection du Metropolitan Museum of Art",
+            "timespan": {
+                "begin_of_the_begin": "1978-06-28T00:00:00",
+                "end_of_the_end": "1978-08-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/789/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/373",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/373/title"
+            ],
+            "label": "Contemporary American Painting and Sculpture",
+            "timespan": {
+                "begin_of_the_begin": "1953-02-04T00:00:00",
+                "end_of_the_end": "1953-04-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/373/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/158",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/158/title"
+            ],
+            "label": "First Municipal Art Exhibition: Paintings, Sculpture, Drawings, Prints by Living American Artists Identified with the New York Art World",
+            "timespan": {
+                "begin_of_the_begin": "1934-02-28T00:00:00",
+                "end_of_the_end": "1934-03-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/158/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/207",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/207/title"
+            ],
+            "label": "American Art: 1890-1938; From the Permanent Collection of the Metropolitan Museum of Art, New York",
+            "timespan": {
+                "begin_of_the_begin": "1939-03-04T00:00:00",
+                "end_of_the_end": "1939-03-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/207/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/313",
+            "timespan": {
+                "begin_of_the_begin": "1940-10-01T00:00:00",
+                "end_of_the_end": "1940-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/313/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/391",
+            "timespan": {
+                "begin_of_the_begin": "1945-05-18T00:00:00",
+                "end_of_the_end": "1945-08-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/391/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/254",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/254/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1944-03-01T00:00:00",
+                "end_of_the_end": "1944-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/254/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/557",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/557/title"
+            ],
+            "label": "Of Art and Nature",
+            "timespan": {
+                "begin_of_the_begin": "1961-08-20T00:00:00",
+                "end_of_the_end": "1961-09-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/557/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/781",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/781/title"
+            ],
+            "label": "Twentieth-Century Art: U.S.A. from the Metropolital Museum of Art",
+            "timespan": {
+                "begin_of_the_begin": "1974-04-19T00:00:00",
+                "end_of_the_end": "1974-06-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/781/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/574",
+            "timespan": {
+                "begin_of_the_begin": "1953-02-04T00:00:00",
+                "end_of_the_end": "1953-04-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/574/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -977,6 +797,220 @@
                 "begin_of_the_begin": "1954-10-01T00:00:00",
                 "end_of_the_end": "1955-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/587/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/692",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/692/title"
+            ],
+            "label": "Three Centuries of American Painting",
+            "timespan": {
+                "begin_of_the_begin": "1965-04-09T00:00:00",
+                "end_of_the_end": "1965-10-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/692/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/567",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/567/title"
+            ],
+            "label": "A Festival of Flowers",
+            "timespan": {
+                "begin_of_the_begin": "1961-04-02T00:00:00",
+                "end_of_the_end": "1961-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/567/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/225",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/225/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1941-03-01T00:00:00",
+                "end_of_the_end": "1941-03-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/225/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1118",
+            "timespan": {
+                "begin_of_the_begin": "1978-04-07T00:00:00",
+                "end_of_the_end": "1978-04-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1118/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/256",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/256/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1945-05-18T00:00:00",
+                "end_of_the_end": "1945-08-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/256/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
+            ],
+            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/226",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/226/title"
+            ],
+            "label": "American Paintings from the Metropolitan Museum Collection",
+            "timespan": {
+                "begin_of_the_begin": "1941-11-09T00:00:00",
+                "end_of_the_end": "1941-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/226/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1003",
+            "timespan": {
+                "begin_of_the_begin": "1965-04-09T00:00:00",
+                "end_of_the_end": "1965-10-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1003/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/389",
+            "timespan": {
+                "begin_of_the_begin": "1944-03-01T00:00:00",
+                "end_of_the_end": "1944-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/389/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/333",
+            "timespan": {
+                "begin_of_the_begin": "1941-11-09T00:00:00",
+                "end_of_the_end": "1941-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/333/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1116",
+            "timespan": {
+                "begin_of_the_begin": "1978-06-28T00:00:00",
+                "end_of_the_end": "1978-08-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1116/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/264",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/264/title"
+            ],
+            "label": "Americna Painting from the Eighteenth Century to the Present Day",
+            "timespan": {
+                "begin_of_the_begin": "1946-06-01T00:00:00",
+                "end_of_the_end": "1946-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/264/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/240",
+            "timespan": {
+                "begin_of_the_begin": "1934-02-28T00:00:00",
+                "end_of_the_end": "1934-03-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/240/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

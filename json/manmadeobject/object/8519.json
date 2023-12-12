@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -21,6 +30,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8519",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/otheridentifier",
+            "type": "Identifier",
+            "value": "429"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/other_id",
+            "type": "Identifier",
+            "value": "429, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -44,39 +77,10 @@
             "id": "http://data.okeeffemuseum.org/object/8519/identifier",
             "type": "Identifier",
             "value": "8519"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/otheridentifier",
-            "type": "Identifier",
-            "value": "429"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/other_id",
-            "type": "Identifier",
-            "value": "429, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Calla Lily with Red Background, 1923. Oil on board, 8 1/2 x 6 1/2 inches. Private Collection. Private collection, New York, NY, 1995",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8519/material/1",
-            "label": "board",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -84,26 +88,24 @@
             "id": "http://data.okeeffemuseum.org/object/8519/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8519/material/1",
+            "label": "board",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8519/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1918-01-01T00:00:00",
-            "end_of_the_end": "1928-12-31T00:00:00",
+            "begin_of_the_begin": "1923-01-01T00:00:00",
+            "end_of_the_end": "1923-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8519/production/timespan/0",
             "label": "1923",
             "type": "TimeSpan"
@@ -202,19 +222,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8519/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8519/caption/",
+            "label": "Georgia O'Keeffe. Calla Lily with Red Background, 1923. Oil on board, 8 1/2 x 6 1/2 inches. Private Collection. Private collection, New York, NY, 1995",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Private collection, New York, NY, 1995      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: 1. \"Georgia O'Keeffe \u2013 / 1923 \u2013.\" (black ink) 2. \"[drawing of frame profile] 7/8 usual #6 grey old / no glass / St 6 3/8 x 8 1/2\" (GO, graphite) 3. \"#5\" (unidentified hand, graphite). Backing: 1. \"Calla Lily with Red Background / (Oil) \u2013 1923. / by Georgia O'Keeffe / New York / signed on back / of board.\" (AS, black ink) 2. \"$500\" (AS, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on board, 8 1/2 x 6 1/2 inches"
         },
         {
             "classified_as": [
@@ -236,47 +297,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1924 New York (Anderson), among nos. 8-14, as Calla Lillies; 1928 New York (Intimate Gallery \u2013 Six)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/caption/",
-            "label": "Georgia O'Keeffe. Calla Lily with Red Background, 1923. Oil on board, 8 1/2 x 6 1/2 inches. Private Collection. Private collection, New York, NY, 1995",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -285,28 +305,6 @@
             "id": "http://data.okeeffemuseum.org/object/8519/Measurement/",
             "type": "LinguisticObject",
             "value": "8 1/2 x 6 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Calla Lily with Red Background, 1923"
         },
         {
             "classified_as": [
@@ -323,36 +321,70 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8519/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8519/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, 1995      "
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8519/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8519/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on board, 8 1/2 x 6 1/2 inches"
+            "value": "Calla Lily with Red Background, 1923"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8519/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1924 New York (Anderson), among nos. 8-14, as Calla Lillies; 1928 New York (Intimate Gallery \u2013 Six)"
         },
         {
             "classified_as": [
@@ -365,18 +397,6 @@
             "id": "http://data.okeeffemuseum.org/object/8519/provenance/",
             "label": "(The Intimate Gallery, New York, NY); Mitchell Kennerley, New York, NY, 1928; (An American Place, New York, NY); The artist, return, 1931; (The Downtown Gallery, New York, NY); Private collection, Great Neck, New York, 1955; Sotheby's, New York, NY, sale no. 6782, lot no. 74, 29 November 1995; Gerald Peters Gallery, Santa Fe, New Mexico, and Owings-Dewey Fine Art, Santa Fe, New Mexico, 1995         ",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8519/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: 1. \"Georgia O'Keeffe \u2013 / 1923 \u2013.\" (black ink) 2. \"[drawing of frame profile] 7/8 usual #6 grey old / no glass / St 6 3/8 x 8 1/2\" (GO, graphite) 3. \"#5\" (unidentified hand, graphite). Backing: 1. \"Calla Lily with Red Background / (Oil) \u2013 1923. / by Georgia O'Keeffe / New York / signed on back / of board.\" (AS, black ink) 2. \"$500\" (AS, graphite)"
         }
     ],
     "refers_to": [],
@@ -407,11 +427,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/108",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/5",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/5/title"
+            ],
+            "label": "Georgia O'Keeffe and the Calla Lily in American Art: 1860-1940",
             "timespan": {
                 "begin_of_the_begin": "2002-10-03T00:00:00",
-                "end_of_the_end": "2003-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/108/timespan",
+                "end_of_the_end": "2003-08-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/5/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -433,23 +457,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/5",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/5/title"
-            ],
-            "label": "Georgia O'Keeffe and the Calla Lily in American Art: 1860-1940",
-            "timespan": {
-                "begin_of_the_begin": "2002-10-03T00:00:00",
-                "end_of_the_end": "2003-08-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/5/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/114",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/114/title"
@@ -459,6 +466,19 @@
                 "begin_of_the_begin": "1928-05-11T00:00:00",
                 "end_of_the_end": "1928-05-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/114/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/108",
+            "timespan": {
+                "begin_of_the_begin": "2002-10-03T00:00:00",
+                "end_of_the_end": "2003-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/108/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

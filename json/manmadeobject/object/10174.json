@@ -3,6 +3,20 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -20,6 +34,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10174",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/otheridentifier",
+            "type": "Identifier",
+            "value": "1461"
+        },
         {
             "classified_as": [
                 {
@@ -47,18 +73,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10174/otheridentifier",
-            "type": "Identifier",
-            "value": "1461"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -66,12 +80,30 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10174/other_id",
             "type": "Identifier",
-            "value": "1461, Catalogue Raisonne Number"
+            "value": "1461, Catalogue Raisonn\u00e9"
         }
     ],
-    "label": "Georgia O'Keeffe. Road - Mesa with Mist, 1961. Art Institute of Chicago",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Road - Mesa with Mist, 1961. Oil on canvas, 20 x 16 inches. Art Institute of Chicago",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10174/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +139,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +184,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10174/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1961-01-01T00:00:00",
+            "end_of_the_end": "1961-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10174/production/timespan/0",
             "label": "1961",
             "type": "TimeSpan"
@@ -202,6 +243,57 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Road - Mesa with Mist, 1961"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Art Institute of Chicago"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -219,8 +311,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10174/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
@@ -229,14 +333,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10174/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10174/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Road - Mesa with Mist, 1961"
+            "value": "Oil on canvas, 20 x 16 inches"
         },
         {
             "classified_as": [
@@ -247,25 +351,8 @@
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10174/caption/",
-            "label": "Georgia O'Keeffe. Road - Mesa with Mist, 1961. Art Institute of Chicago",
+            "label": "Georgia O'Keeffe. Road - Mesa with Mist, 1961. Oil on canvas, 20 x 16 inches. Art Institute of Chicago",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10174/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Art Institute of Chicago"
         }
     ],
     "refers_to": [],

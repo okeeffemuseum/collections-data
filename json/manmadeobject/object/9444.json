@@ -11,6 +11,15 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -25,6 +34,30 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/9444",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/title",
+            "type": "Name",
+            "value": "White Iris No. 7"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/other_id",
+            "type": "Identifier",
+            "value": "1316, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -48,34 +81,15 @@
             "id": "http://data.okeeffemuseum.org/object/9444/otheridentifier",
             "type": "Identifier",
             "value": "1316"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/title",
-            "type": "Name",
-            "value": "White Iris No. 7"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/other_id",
-            "type": "Identifier",
-            "value": "1316, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. White Iris No. 7, 1957. Oil on canvas, 40 3/16 x 30 inches. Museo Nacional Thyssen-Bornemisza. Museo Nacional Thyssen-Bornemisza, Madrid, Spain, 1993",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/9444/material/1",
+            "label": "oil paint",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/9444/material/0",
             "label": "canvas",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/9444/material/1",
-            "label": "oil paint",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/9444/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1952-01-01T00:00:00",
-            "end_of_the_end": "1962-12-31T00:00:00",
+            "begin_of_the_begin": "1957-01-01T00:00:00",
+            "end_of_the_end": "1957-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/9444/production/timespan/0",
             "label": "1957",
             "type": "TimeSpan"
@@ -206,19 +226,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9444/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/9444/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Museo Nacional Thyssen-Bornemisza"
+            "value": "Museo Nacional Thyssen-Bornemisza, Madrid, Spain, 1993      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Iris No. 7, 1957"
         },
         {
             "classified_as": [
@@ -245,22 +282,63 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9444/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/9444/institution_caption",
             "type": "LinguisticObject",
-            "value": "White Iris No. 7, 1957"
+            "value": "Museo Nacional Thyssen-Bornemisza"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/caption/",
+            "label": "Georgia O'Keeffe. White Iris No. 7, 1957. Oil on canvas, 40 3/16 x 30 inches. Museo Nacional Thyssen-Bornemisza. Museo Nacional Thyssen-Bornemisza, Madrid, Spain, 1993",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9444/Measurement/",
+            "type": "LinguisticObject",
+            "value": "40 3/16 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300163343",
                     "label": "media",
@@ -269,11 +347,6 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
@@ -292,59 +365,6 @@
             "id": "http://data.okeeffemuseum.org/object/9444/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Museo Nacional Thyssen-Bornemisza, Madrid, Spain, 1993      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/caption/",
-            "label": "Georgia O'Keeffe. White Iris No. 7, 1957. Oil on canvas, 40 3/16 x 30 inches. Museo Nacional Thyssen-Bornemisza. Museo Nacional Thyssen-Bornemisza, Madrid, Spain, 1993",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/Measurement/",
-            "type": "LinguisticObject",
-            "value": "40 3/16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9444/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -387,15 +407,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/854",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/854/title"
-            ],
-            "label": "Identit\u00e0 e alterit\u00e0 figure del corpo 1895-1995",
+            "id": "http://data.okeeffemuseum.org/exhibition/1221",
             "timespan": {
                 "begin_of_the_begin": "1995-06-06T00:00:00",
                 "end_of_the_end": "1995-10-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/854/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1221/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -404,11 +420,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1146",
+            "id": "http://data.okeeffemuseum.org/exhibition/1147",
             "timespan": {
-                "begin_of_the_begin": "1983-09-15T00:00:00",
-                "end_of_the_end": "1983-11-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1146/timespan",
+                "begin_of_the_begin": "1984-01-01T00:00:00",
+                "end_of_the_end": "1984-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1147/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -434,11 +450,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1147",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/854",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/854/title"
+            ],
+            "label": "Identit\u00e0 e alterit\u00e0 figure del corpo 1895-1995",
             "timespan": {
-                "begin_of_the_begin": "1984-01-01T00:00:00",
-                "end_of_the_end": "1984-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1147/timespan",
+                "begin_of_the_begin": "1995-06-06T00:00:00",
+                "end_of_the_end": "1995-10-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/854/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -447,11 +467,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1221",
+            "id": "http://data.okeeffemuseum.org/exhibition/1146",
             "timespan": {
-                "begin_of_the_begin": "1995-06-06T00:00:00",
-                "end_of_the_end": "1995-10-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1221/timespan",
+                "begin_of_the_begin": "1983-09-15T00:00:00",
+                "end_of_the_end": "1983-11-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1146/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

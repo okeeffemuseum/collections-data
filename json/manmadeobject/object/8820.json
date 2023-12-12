@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -31,14 +40,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8820/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/8820/identifier",
             "type": "Identifier",
-            "value": "818"
+            "value": "8820"
         },
         {
             "classified_as": [
@@ -50,7 +59,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8820/other_id",
             "type": "Identifier",
-            "value": "818, Catalogue Raisonne Number"
+            "value": "818, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -67,14 +76,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8820/identifier",
+            "id": "http://data.okeeffemuseum.org/object/8820/otheridentifier",
             "type": "Identifier",
-            "value": "8820"
+            "value": "818"
         }
     ],
     "label": "Georgia O'Keeffe. Green Mountains, Canada, 1932. Oil on canvas, 12 x 36 inches. Art Institute of Chicago. The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1956.365). \u00a9 Art Institute of Chicago",
@@ -93,24 +102,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8820/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1927-01-01T00:00:00",
-            "end_of_the_end": "1937-12-31T00:00:00",
+            "begin_of_the_begin": "1932-01-01T00:00:00",
+            "end_of_the_end": "1932-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8820/production/timespan/0",
             "label": "1932",
             "type": "TimeSpan"
@@ -206,6 +226,91 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8820/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8820/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Green Mountains, Canada, 1932"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8820/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Art Institute of Chicago"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8820/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing 1: none. Backing 2: 1. OK {5star} (graphite) 2. AAP2 3. \"An American Place / Room 1710 / 509 Madison Ave \u2013 / New York\" (AS, graphite) 4. \"Green Mountains \u2013 Canada \u2013 1932 / by Georgia O'Keeffe / c/o An American Place / Room 1710 / 509 Madison Ave / New York / NY\" (AS, black ink) 5. AAP9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8820/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 12 x 36 inches"
+        },
         {
             "classified_as": [
                 {
@@ -217,18 +322,6 @@
             "id": "http://data.okeeffemuseum.org/object/8820/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8820/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1956.365)      "
         },
         {
             "classified_as": [
@@ -250,40 +343,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8820/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 x 36 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8820/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Art Institute of Chicago"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -296,58 +355,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8820/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8820/exhibitions",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8820/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8820/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Green Mountains, Canada, 1932"
+            "value": "1933 New York (An American Place), no. 11, as Green Mountain, Canada; 1943 Chicago, no.. 48; 1944 Philadelphia, no. 280; 1966 Fort Worth"
         },
         {
             "classified_as": [
@@ -364,26 +379,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8820/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8820/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Backing 1: none. Backing 2: 1. OK {5star} (graphite) 2. AAP2 3. \"An American Place / Room 1710 / 509 Madison Ave \u2013 / New York\" (AS, graphite) 4. \"Green Mountains \u2013 Canada \u2013 1932 / by Georgia O'Keeffe / c/o An American Place / Room 1710 / 509 Madison Ave / New York / NY\" (AS, black ink) 5. AAP9"
+            "value": "The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1956.365)      "
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8820/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8820/maker_role",
             "type": "LinguisticObject",
-            "value": "1933 New York (An American Place), no. 11, as Green Mountain, Canada; 1943 Chicago, no.. 48; 1944 Philadelphia, no. 280; 1966 Fort Worth"
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -426,6 +446,62 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
+            ],
+            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
+            "timespan": {
+                "begin_of_the_begin": "1944-09-01T00:00:00",
+                "end_of_the_end": "1944-10-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/372",
+            "timespan": {
+                "begin_of_the_begin": "1944-09-01T00:00:00",
+                "end_of_the_end": "1944-10-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/372/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/701/title"
@@ -460,11 +536,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/372",
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
             "timespan": {
-                "begin_of_the_begin": "1944-09-01T00:00:00",
-                "end_of_the_end": "1944-10-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/372/timespan",
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -486,36 +562,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
-            ],
-            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
-            "timespan": {
-                "begin_of_the_begin": "1944-09-01T00:00:00",
-                "end_of_the_end": "1944-10-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/236/title"
@@ -525,32 +571,6 @@
                 "begin_of_the_begin": "1943-01-21T00:00:00",
                 "end_of_the_end": "1943-02-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300041273",
+            "label": "prints",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -28,14 +38,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8237/title",
-            "type": "Name",
-            "value": "Untitled (Woman Painting)"
+            "id": "http://data.okeeffemuseum.org/object/8237/other_id",
+            "type": "Identifier",
+            "value": "35, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -64,21 +74,21 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8237/other_id",
-            "type": "Identifier",
-            "value": "35, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/8237/title",
+            "type": "Name",
+            "value": "Untitled (Woman Painting)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Woman Painting), 1907-1908. Monotype on paper, 3 7/8 x 3 inches. Chazen Museum of Art at the University of Wisconsin. Private collection, Scottsdale, Arizona, 1987",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8237/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
@@ -87,24 +97,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/260",
+        "label": "Portraits and Human Figures",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8237/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/prints",
+                "label": "Prints",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1902-01-01T00:00:00",
-            "end_of_the_end": "1913-12-31T00:00:00",
+            "begin_of_the_begin": "1907-01-01T00:00:00",
+            "end_of_the_end": "1908-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8237/production/timespan/0",
             "label": "1907-1908",
             "type": "TimeSpan"
@@ -200,79 +221,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8237/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Chazen Museum of Art at the University of Wisconsin"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8237/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Monotype on paper, 3 7/8 x 3 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8237/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Woman Painting), 1907-1908"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8237/provenance/",
-            "label": "Private collection, Canyon, Texas, gift, 1924; Santa Fe East Gallery, Santa Fe, New Mexico, 1984         ",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -293,14 +241,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8237/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8237/exhibitions",
             "type": "LinguisticObject",
-            "value": "Monotype on paper"
+            "value": "1985 Santa Fe, no. 2; 1986 New York (Hirschl & Adler), no. 1; 1986 San Francisco, no. 21"
         },
         {
             "classified_as": [
@@ -322,6 +270,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8237/provenance/",
+            "label": "Private collection, Canyon, Texas, gift, 1924; Santa Fe East Gallery, Santa Fe, New Mexico, 1984         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -330,6 +290,45 @@
             "id": "http://data.okeeffemuseum.org/object/8237/CreditLine/",
             "type": "LinguisticObject",
             "value": "Private collection, Scottsdale, Arizona, 1987      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8237/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Chazen Museum of Art at the University of Wisconsin"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8237/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Woman Painting), 1907-1908"
         },
         {
             "classified_as": [
@@ -346,18 +345,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8237/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1985 Santa Fe, no. 2; 1986 New York (Hirschl & Adler), no. 1; 1986 San Francisco, no. 21"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -366,6 +353,40 @@
             "id": "http://data.okeeffemuseum.org/object/8237/caption/",
             "label": "Georgia O'Keeffe. Untitled (Woman Painting), 1907-1908. Monotype on paper, 3 7/8 x 3 inches. Chazen Museum of Art at the University of Wisconsin. Private collection, Scottsdale, Arizona, 1987",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8237/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Monotype on paper, 3 7/8 x 3 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8237/Materials/",
+            "type": "LinguisticObject",
+            "value": "Monotype on paper"
         }
     ],
     "refers_to": [],
@@ -408,6 +429,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1158",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-06-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/819/title"
@@ -417,6 +464,19 @@
                 "begin_of_the_begin": "1986-04-26T00:00:00",
                 "end_of_the_end": "1986-07-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1161",
+            "timespan": {
+                "begin_of_the_begin": "1986-06-14T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -455,32 +515,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1160",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-06-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1158",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/817/title"
@@ -490,19 +524,6 @@
                 "begin_of_the_begin": "1985-09-14T00:00:00",
                 "end_of_the_end": "1985-11-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1161",
-            "timespan": {
-                "begin_of_the_begin": "1986-06-14T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

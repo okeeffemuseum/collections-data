@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300041273",
+            "label": "prints",
             "type": "Type"
         }
     ],
@@ -36,18 +46,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8236/otheridentifier",
-            "type": "Identifier",
-            "value": "34"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -67,7 +65,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8236/other_id",
             "type": "Identifier",
-            "value": "34, Catalogue Raisonne Number"
+            "value": "34, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8236/otheridentifier",
+            "type": "Identifier",
+            "value": "34"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Woman By Window), 1907-1908. Monotype on paper, 5 x 3 x 11 inches. Private Collection. Private collection, bequest, 1988",
@@ -79,28 +89,21 @@
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8236/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/260",
+        "label": "Portraits and Human Figures",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +118,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +149,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +163,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +200,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8236/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/prints",
+                "label": "Prints",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1902-01-01T00:00:00",
-            "end_of_the_end": "1913-12-31T00:00:00",
+            "begin_of_the_begin": "1907-01-01T00:00:00",
+            "end_of_the_end": "1908-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8236/production/timespan/0",
             "label": "1907-1908",
             "type": "TimeSpan"
@@ -199,14 +220,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8236/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8236/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Recto: \"G. OKeeffe\" (graphite)"
+            "value": "Private collection, bequest, 1988      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8236/Materials/",
+            "type": "LinguisticObject",
+            "value": "Monotype on paper"
         },
         {
             "classified_as": [
@@ -223,6 +256,23 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8236/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -235,30 +285,37 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8236/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8236/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Recto: \"G. OKeeffe\" (graphite)"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8236/provenance/",
+            "label": "Private collection, gift, date unknown; Private collection, bequest, 1958         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
@@ -270,35 +327,6 @@
             "id": "http://data.okeeffemuseum.org/object/8236/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Monotype on paper, 5 x 3 x 11 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8236/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, bequest, 1988      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8236/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -320,14 +348,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8236/provenance/",
-            "label": "Private collection, gift, date unknown; Private collection, bequest, 1958         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8236/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -350,18 +383,6 @@
             "id": "http://data.okeeffemuseum.org/object/8236/title_date_caption",
             "type": "LinguisticObject",
             "value": "Untitled (Woman By Window), 1907-1908"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8236/Materials/",
-            "type": "LinguisticObject",
-            "value": "Monotype on paper"
         },
         {
             "classified_as": [
@@ -404,6 +425,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1190",
+            "timespan": {
+                "begin_of_the_begin": "1989-09-22T00:00:00",
+                "end_of_the_end": "1989-11-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1190/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/833",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/833/title"
@@ -413,19 +447,6 @@
                 "begin_of_the_begin": "1989-09-22T00:00:00",
                 "end_of_the_end": "1989-11-26T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/833/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1190",
-            "timespan": {
-                "begin_of_the_begin": "1989-09-22T00:00:00",
-                "end_of_the_end": "1989-11-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1190/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

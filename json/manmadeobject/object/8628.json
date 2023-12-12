@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -21,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8628",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8628/otheridentifier",
+            "type": "Identifier",
+            "value": "556"
+        },
         {
             "classified_as": [
                 {
@@ -43,19 +64,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8628/other_id",
             "type": "Identifier",
-            "value": "556, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8628/otheridentifier",
-            "type": "Identifier",
-            "value": "556"
+            "value": "556, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -70,26 +79,33 @@
             "value": "Black Iris"
         }
     ],
-    "label": "Georgia O'Keeffe. Black Iris, 1926. Oil on canvas. Private Collection. Private collection, Dallas, Texas, purchase, 1994",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Black Iris, 1926. Oil on canvas, 16 x 12 inches. Private Collection. Private collection, Dallas, Texas, purchase, 1994",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8628/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8628/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -104,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -124,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -149,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -175,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8628/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1921-01-01T00:00:00",
-            "end_of_the_end": "1931-12-31T00:00:00",
+            "begin_of_the_begin": "1926-01-01T00:00:00",
+            "end_of_the_end": "1926-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8628/production/timespan/0",
             "label": "1926",
             "type": "TimeSpan"
@@ -188,55 +222,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8628/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1927 New York (Intimate Gallery), as The Dark Iris No. I; 1963 Minneapolis"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8628/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8628/caption/",
-            "label": "Georgia O'Keeffe. Black Iris, 1926. Oil on canvas. Private Collection. Private collection, Dallas, Texas, purchase, 1994",
+            "label": "Georgia O'Keeffe. Black Iris, 1926. Oil on canvas, 16 x 12 inches. Private Collection. Private collection, Dallas, Texas, purchase, 1994",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8628/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8628/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "16 x 12 inches"
         },
         {
             "classified_as": [
@@ -246,14 +251,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8628/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8628/institution_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -270,6 +275,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8628/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Iris / by Georgia O'Keeffe\" (AS, graphite) 2. IG"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -282,14 +299,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8628/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8628/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Black Iris / by Georgia O'Keeffe\" (AS, graphite) 2. IG"
+            "value": "Oil on canvas, 16 x 12 inches"
         },
         {
             "classified_as": [
@@ -311,32 +338,22 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8628/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8628/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -346,11 +363,40 @@
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8628/title_date_caption",
             "type": "LinguisticObject",
             "value": "Black Iris, 1926"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8628/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8628/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1927 New York (Intimate Gallery), as The Dark Iris No. I; 1963 Minneapolis"
         }
     ],
     "refers_to": [],
@@ -381,28 +427,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/628",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/110",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/628/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/110/title"
             ],
-            "label": "Four Centuries of American Art",
+            "label": "Georgia O'Keeffe: Paintings, 1926",
             "timespan": {
-                "begin_of_the_begin": "1963-11-27T00:00:00",
-                "end_of_the_end": "1964-01-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/628/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/926",
-            "timespan": {
-                "begin_of_the_begin": "1963-11-27T00:00:00",
-                "end_of_the_end": "1964-01-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/926/timespan",
+                "begin_of_the_begin": "1927-01-11T00:00:00",
+                "end_of_the_end": "1927-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/110/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -424,15 +457,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/110",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/110/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings, 1926",
+            "id": "http://data.okeeffemuseum.org/exhibition/926",
             "timespan": {
-                "begin_of_the_begin": "1927-01-11T00:00:00",
-                "end_of_the_end": "1927-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/110/timespan",
+                "begin_of_the_begin": "1963-11-27T00:00:00",
+                "end_of_the_end": "1964-01-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/926/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/628",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/628/title"
+            ],
+            "label": "Four Centuries of American Art",
+            "timespan": {
+                "begin_of_the_begin": "1963-11-27T00:00:00",
+                "end_of_the_end": "1964-01-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/628/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

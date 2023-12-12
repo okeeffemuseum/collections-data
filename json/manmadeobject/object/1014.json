@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -35,14 +44,38 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.5.166"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/other_id",
+            "type": "Identifier",
+            "value": "1013, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1014/title",
-            "type": "Name",
-            "value": "White Feather"
+            "id": "http://data.okeeffemuseum.org/object/1014/identifier",
+            "type": "Identifier",
+            "value": "1014"
         },
         {
             "classified_as": [
@@ -64,37 +97,18 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1014/identifier",
-            "type": "Identifier",
-            "value": "1014"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/accessionnumber",
-            "type": "Identifier",
-            "value": "2006.5.166"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/other_id",
-            "type": "Identifier",
-            "value": "1013, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/1014/title",
+            "type": "Name",
+            "value": "White Feather"
         }
     ],
     "label": "Georgia O'Keeffe. White Feather, 1941. Oil on canvas, 20 x 16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.166]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/1014/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,31 +116,19 @@
             "id": "http://data.okeeffemuseum.org/object/1014/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/1014/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/274",
+        "label": "Feathers",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1014/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1941-01-01T00:00:00",
             "end_of_the_end": "1941-12-31T00:00:00",
@@ -222,23 +242,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -259,26 +262,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1014/Right/",
+            "id": "http://data.okeeffemuseum.org/object/1014/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -298,87 +284,15 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/Measurement/",
-            "type": "LinguisticObject",
-            "value": "20 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300435449",
-                    "label": "current location description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/gallery_location",
-            "type": "LinguisticObject",
-            "value": "Gallery 6/Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/Description/",
-            "type": "LinguisticObject",
-            "value": "The composition is a foreshortened vertical abstraction of a corner of an adobe fireplace with a white vase and feather sitting on the mantel adjacent to a yellow ochre vertical stripe. A single white feather has been placed in a white vase as the focal point of the work."
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/caption/",
-            "label": "Georgia O'Keeffe. White Feather, 1941. Oil on canvas, 20 x 16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.166]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1014/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico, The artist, 1947   Georgia O'Keeffe   1947   Abiquiu/New Mexico, Cady Wells, Pojoaque, New Mexico, c. 1942   Cady Wells   1942   Pojoaque/New Mexico",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300163343",
                     "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -389,8 +303,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Feather, 1941"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -399,9 +335,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1014/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/1014/artist_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -418,24 +354,96 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 16 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1014/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1014/caption/",
+            "label": "Georgia O'Keeffe. White Feather, 1941. Oil on canvas, 20 x 16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.166]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/institution_caption",
             "type": "LinguisticObject",
-            "value": "White Feather, 1941"
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300435449",
+                    "label": "current location description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/gallery_location",
+            "type": "LinguisticObject",
+            "value": "Gallery 6/Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico, The artist, 1947   Georgia O'Keeffe   1947   Abiquiu/New Mexico, Cady Wells, Pojoaque, New Mexico, c. 1942   Cady Wells   1942   Pojoaque/New Mexico",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -448,6 +456,18 @@
             "id": "http://data.okeeffemuseum.org/object/1014/exhibitions",
             "type": "LinguisticObject",
             "value": "1942 New York (An American Place), no. 7, as White Feather; \n1947 Fort Worth \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2014 Eloquent Objects: Georgia O'Keeffe and Still-life Painting in New Mexico, Indianapolis Museum of Art (Nov. 2, 2014 - Feb. 15, 2015); Tacoma Museum of Art,(March 1 - June 7, 2015);Colorado Springs Fine Arts Center (June 25, 2015 - Sept. 13, 2015); Art Museum of South Texas (Oct 15, 2015 - Jan. 3, 2016)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1014/Description/",
+            "type": "LinguisticObject",
+            "value": "The composition is a foreshortened vertical abstraction of a corner of an adobe fireplace with a white vase and feather sitting on the mantel adjacent to a yellow ochre vertical stripe. A single white feather has been placed in a white vase as the focal point of the work."
         }
     ],
     "refers_to": [],
@@ -501,28 +521,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/74",
+            "id": "http://data.okeeffemuseum.org/exhibition/339",
             "timespan": {
-                "begin_of_the_begin": "2018-05-26T00:00:00",
-                "end_of_the_end": "2018-09-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/74/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/279",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/279/title"
-            ],
-            "label": "title unknown",
-            "timespan": {
-                "begin_of_the_begin": "1947-10-01T00:00:00",
-                "end_of_the_end": "1947-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/279/timespan",
+                "begin_of_the_begin": "1942-02-02T00:00:00",
+                "end_of_the_end": "1942-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/339/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -544,11 +547,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/339",
+            "id": "http://data.okeeffemuseum.org/exhibition/74",
             "timespan": {
-                "begin_of_the_begin": "1942-02-02T00:00:00",
-                "end_of_the_end": "1942-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/339/timespan",
+                "begin_of_the_begin": "2018-05-26T00:00:00",
+                "end_of_the_end": "2018-09-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/74/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -579,6 +582,23 @@
                 "begin_of_the_begin": "2018-05-26T00:00:00",
                 "end_of_the_end": "2019-05-19T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/46/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/279",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/279/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1947-10-01T00:00:00",
+                "end_of_the_end": "1947-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/279/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

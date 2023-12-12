@@ -3,8 +3,18 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
@@ -37,14 +47,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/other_id",
+            "id": "http://data.okeeffemuseum.org/object/459/otheridentifier",
             "type": "Identifier",
-            "value": "10, Catalogue Raisonne Number"
+            "value": "10"
         },
         {
             "classified_as": [
@@ -61,30 +71,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/title",
-            "type": "Name",
-            "value": "Untitled (Ida O'Keeffe)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/otheridentifier",
-            "type": "Identifier",
-            "value": "10"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -93,18 +79,42 @@
             "id": "http://data.okeeffemuseum.org/object/459/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.5"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/other_id",
+            "type": "Identifier",
+            "value": "10, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/title",
+            "type": "Name",
+            "value": "Untitled (Ida O'Keeffe)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Ida O'Keeffe), 1904. Graphite on paper, 12 x 9 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.5]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/459/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/459/material/0",
+            "label": "graphite",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/459/material/0",
-            "label": "Graphite",
+            "id": "http://data.okeeffemuseum.org/object/459/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
@@ -116,31 +126,6 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            {
-                "id": "http://data.okeeffemuseum.org/person/964",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500399516"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/964/name/0",
-                        "type": "Name",
-                        "value": "Ida Ten Eyck O'Keeffe"
-                    }
-                ],
-                "label": [
-                    "Ida Ten Eyck O'Keeffe",
-                    "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961"
-                ],
-                "type": "Actor"
-            },
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
@@ -173,56 +158,41 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/964",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500399516"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/964/name/0",
+                        "type": "Name",
+                        "value": "Ida Ten Eyck O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961",
+                    "Ida Ten Eyck O'Keeffe"
+                ],
+                "type": "Actor"
             }
         ],
         "consists_of": [
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/964",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500399516"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/964/name/0",
-                                "type": "Name",
-                                "value": "Ida Ten Eyck O'Keeffe"
-                            }
-                        ],
-                        "label": [
-                            "Ida Ten Eyck O'Keeffe",
-                            "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961"
-                        ],
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/459/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
             {
                 "carried_out_by": [
                     {
@@ -258,12 +228,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -277,9 +247,56 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/964",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500399516"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/964/name/0",
+                                "type": "Name",
+                                "value": "Ida Ten Eyck O'Keeffe"
+                            }
+                        ],
+                        "label": [
+                            "O'Keeffe, Ida (Ida Ten Eyck), 1889-1961",
+                            "Ida Ten Eyck O'Keeffe"
+                        ],
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/459/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/459/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1904-01-01T00:00:00",
             "end_of_the_end": "1904-12-31T00:00:00",
@@ -293,37 +310,52 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/459/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Recto: \"July 15-04/ G. O'Keeffe.\" (graphite)"
+            "value": "Untitled (Ida O'Keeffe), 1904"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/459/artist_caption",
             "type": "LinguisticObject",
-            "value": "Graphite on paper"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/provenance/",
-            "label": "Estate of the artist, 1986         ",
+            "id": "http://data.okeeffemuseum.org/object/459/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Ida O'Keeffe), 1904. Graphite on paper, 12 x 9 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.5]",
             "type": "LinguisticObject"
         },
         {
@@ -341,24 +373,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/459/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Graphite on paper, 12 x 9 inches"
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/Materials/",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper"
         },
         {
             "classified_as": [
@@ -368,9 +402,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/Right/",
+            "id": "http://data.okeeffemuseum.org/object/459/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/Description/",
+            "type": "LinguisticObject",
+            "value": "Sketch of the artist's sister's head and shoulders in profile. Image is in the center of the paper surrounded by negative space on all sides. The subject is facing towards the right side of the paper, with her head tilted slightly downward toward her chest. Her hair is in a loose braid and the collar of her shirt is lightly drawn in. The negative space which defines the area around the face is darkly shaded."
         },
         {
             "classified_as": [
@@ -387,24 +433,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/provenance/",
+            "label": "Estate of the artist, 1986         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Recto: \"July 15-04/ G. O'Keeffe.\" (graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/459/institution_caption",
             "type": "LinguisticObject",
-            "value": "Untitled (Ida O'Keeffe), 1904"
+            "value": "Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -414,9 +479,31 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/459/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/459/Right/",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/459/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Graphite on paper, 12 x 9 inches"
         },
         {
             "classified_as": [
@@ -434,76 +521,6 @@
             "id": "http://data.okeeffemuseum.org/object/459/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe\nDepicted: Ida Ten Eyck O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/Description/",
-            "type": "LinguisticObject",
-            "value": "Sketch of the artist's sister's head and shoulders in profile. Image is in the center of the paper surrounded by negative space on all sides. The subject is facing towards the right side of the paper, with her head tilted slightly downward toward her chest. Her hair is in a loose braid and the collar of her shirt is lightly drawn in. The negative space which defines the area around the face is darkly shaded."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Ida O'Keeffe), 1904. Graphite on paper, 12 x 9 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.5]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/459/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],

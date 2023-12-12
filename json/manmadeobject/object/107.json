@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -67,18 +76,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/107/other_id",
-            "type": "Identifier",
-            "value": "300, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -87,6 +84,18 @@
             "id": "http://data.okeeffemuseum.org/object/107/accessionnumber",
             "type": "Identifier",
             "value": "L.1998.10.1"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/107/other_id",
+            "type": "Identifier",
+            "value": "300, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Red Canna, 1919. Oil on canvas, 8 x 6 inches. Loan, Owings Dewey Gallery. \u00a9 Georgia O'Keeffe Museum. [L.1998.10.1]",
@@ -105,24 +114,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -137,16 +139,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -157,17 +170,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -182,16 +184,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -202,9 +215,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/107/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1914-01-01T00:00:00",
-            "end_of_the_end": "1924-12-31T00:00:00",
+            "begin_of_the_begin": "1919-01-01T00:00:00",
+            "end_of_the_end": "1919-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/107/production/timespan/0",
             "label": "1919",
             "type": "TimeSpan"
@@ -215,26 +235,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/107/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/107/title_date_caption",
             "type": "LinguisticObject",
-            "value": "1923 New York (Anderson) \n1924 New York (Anderson), nos. 31-34, as Cannas \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Permanent Collection (Four Painters / Skunk Cabbage) \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM only \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place)"
+            "value": "Red Canna, 1919"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/107/provenance/",
-            "label": "(Alfred Stieglitz, New York, N.Y.) ^Mrs. Herbert Fleischaker, San Francisco, Calif., 1920s ^__________ unknown ^(William Zierler, Inc., New York, N.Y.) ^Sotheby Parke Bernet Inc., New York, N.Y., Inc., sale no. 2914, lot no. 93, 22 October 1969 ^ACA Galleries, New York, N.Y., 1969 ^(William Zierler, Inc., New York, N.Y.) ^Private collection, New York, N.Y., 1969 ^(William Zierler, Inc., New York, N.Y.) ^Private collection, New York, N.Y., 1971 ^Christie's, New York, N.Y., sale no. 5238, lot no. 194, 3 December 1982, no sale ^(Joanie Gordon, Los Angeles, Calif.) ^(Owings-Dewey Fine Art, Santa Fe, N.Mex.)         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/107/Description/",
+            "type": "LinguisticObject",
+            "value": "Small vertical oil of single reddish orange flower with open petals on a stalk with other closed buds in a background of green and teal."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/107/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/107/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 x 6 inches"
         },
         {
             "classified_as": [
@@ -251,13 +305,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -268,24 +322,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/107/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/107/Right/",
             "type": "LinguisticObject",
-            "value": "Red Canna, 1919"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/107/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1923 New York (Anderson) \n1924 New York (Anderson), nos. 31-34, as Cannas \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Permanent Collection (Four Painters / Skunk Cabbage) \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM only \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place)"
         },
         {
             "classified_as": [
@@ -298,28 +354,6 @@
             "id": "http://data.okeeffemuseum.org/object/107/CreditLine/",
             "type": "LinguisticObject",
             "value": "Loan, Owings Dewey Gallery      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/107/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 8 x 6 inches"
         },
         {
             "classified_as": [
@@ -341,14 +375,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/107/Description/",
-            "type": "LinguisticObject",
-            "value": "Small vertical oil of single reddish orange flower with open petals on a stalk with other closed buds in a background of green and teal."
+            "id": "http://data.okeeffemuseum.org/object/107/provenance/",
+            "label": "(Alfred Stieglitz, New York, N.Y.) ^Mrs. Herbert Fleischaker, San Francisco, Calif., 1920s ^__________ unknown ^(William Zierler, Inc., New York, N.Y.) ^Sotheby Parke Bernet Inc., New York, N.Y., Inc., sale no. 2914, lot no. 93, 22 October 1969 ^ACA Galleries, New York, N.Y., 1969 ^(William Zierler, Inc., New York, N.Y.) ^Private collection, New York, N.Y., 1969 ^(William Zierler, Inc., New York, N.Y.) ^Private collection, New York, N.Y., 1971 ^Christie's, New York, N.Y., sale no. 5238, lot no. 194, 3 December 1982, no sale ^(Joanie Gordon, Los Angeles, Calif.) ^(Owings-Dewey Fine Art, Santa Fe, N.Mex.)         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -356,35 +390,21 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/107/Measurement/",
-            "type": "LinguisticObject",
-            "value": "8 x 6 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/107/Right/",
+            "id": "http://data.okeeffemuseum.org/object/107/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/107/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Oil on canvas, 8 x 6 inches"
         }
     ],
     "refers_to": [],
@@ -415,75 +435,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
-            "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
-            ],
-            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
-            "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -509,11 +465,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
+            ],
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
             "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -522,15 +482,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
             ],
-            "label": "Inaugural Exhibition",
+            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
             "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -552,36 +512,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
-            ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
-            "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/107",
             "timespan": {
                 "begin_of_the_begin": "2002-06-21T00:00:00",
@@ -595,11 +525,26 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/120",
+            "timespan": {
+                "begin_of_the_begin": "2006-09-22T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "type": "TimeSpan"
+            },
             "type": "Activity"
         },
         {
@@ -623,6 +568,47 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/67",
             "timespan": {
                 "begin_of_the_begin": "1998-04-11T00:00:00",
@@ -636,11 +622,45 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/120",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
+            ],
+            "label": "An Expanding Collection",
             "timespan": {
-                "begin_of_the_begin": "2006-09-22T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
+            ],
+            "label": "Inaugural Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

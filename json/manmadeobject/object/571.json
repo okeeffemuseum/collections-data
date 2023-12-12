@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -40,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/otheridentifier",
+            "type": "Identifier",
+            "value": "875"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -47,7 +68,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/571/other_id",
             "type": "Identifier",
-            "value": "875, Catalogue Raisonne Number"
+            "value": "875, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -60,18 +81,6 @@
             "id": "http://data.okeeffemuseum.org/object/571/title",
             "type": "Name",
             "value": "Red Hills Series II-35"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/otheridentifier",
-            "type": "Identifier",
-            "value": "875"
         }
     ],
     "label": "Georgia O'Keeffe. Red Hills Series II-35, 1935. Oil on canvas, 16 x 30 inches. Museum of Texas Tech University. Museum of Texas Tech University, Lubbock",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/571/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1930-01-01T00:00:00",
-            "end_of_the_end": "1940-12-31T00:00:00",
+            "begin_of_the_begin": "1935-01-01T00:00:00",
+            "end_of_the_end": "1935-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/571/production/timespan/0",
             "label": "1935",
             "type": "TimeSpan"
@@ -203,132 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Red Hills Series II-35, 1935"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/caption/",
-            "label": "Georgia O'Keeffe. Red Hills Series II-35, 1935. Oil on canvas, 16 x 30 inches. Museum of Texas Tech University. Museum of Texas Tech University, Lubbock",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Museum of Texas Tech University"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/571/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -340,6 +234,23 @@
             "id": "http://data.okeeffemuseum.org/object/571/CreditLine/",
             "type": "LinguisticObject",
             "value": "Museum of Texas Tech University, Lubbock      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Museum of Texas Tech University"
         },
         {
             "classified_as": [
@@ -357,6 +268,115 @@
             "id": "http://data.okeeffemuseum.org/object/571/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/Measurement/",
+            "type": "LinguisticObject",
+            "value": "16 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/caption/",
+            "label": "Georgia O'Keeffe. Red Hills Series II-35, 1935. Oil on canvas, 16 x 30 inches. Museum of Texas Tech University. Museum of Texas Tech University, Lubbock",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2004 Santa Fe (O'Keeffe) A Sense of Place; all venues \n2013 Santa Fe (O'Keeffe) Katsina; all venues"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Red Hills Series II-35, 1935"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/571/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 16 x 30 inches"
         }
     ],
     "refers_to": [],
@@ -387,23 +407,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1977-09-17T00:00:00",
-                "end_of_the_end": "1977-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/208",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/208/title"
@@ -421,11 +424,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1112",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
                 "begin_of_the_begin": "1977-09-17T00:00:00",
                 "end_of_the_end": "1977-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1112/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -439,6 +446,19 @@
                 "begin_of_the_begin": "1939-01-22T00:00:00",
                 "end_of_the_end": "1939-03-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/306/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1112",
+            "timespan": {
+                "begin_of_the_begin": "1977-09-17T00:00:00",
+                "end_of_the_end": "1977-10-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1112/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300047806",
+            "type": "Type"
+        },
+        {
             "id": "aat:300047090",
             "label": "sculpture",
             "type": "Type"
@@ -28,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10229/identifier",
-            "type": "Identifier",
-            "value": "10229"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -48,6 +45,18 @@
             "id": "http://data.okeeffemuseum.org/object/10229/otheridentifier",
             "type": "Identifier",
             "value": "1126"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10229/other_id",
+            "type": "Identifier",
+            "value": "1126, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -64,30 +73,34 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10229/other_id",
+            "id": "http://data.okeeffemuseum.org/object/10229/identifier",
             "type": "Identifier",
-            "value": "1126, Catalogue Raisonne Number"
+            "value": "10229"
         }
     ],
     "label": "Georgia O'Keeffe. Abstraction (4/10), 1946. White-lacquered bronze, 10 x 10 x 1 1/2 inches. Private Collection",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/10229/material/1",
-            "label": "bronze",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/10229/material/0",
             "label": "lacquer",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10229/material/1",
+            "label": "bronze",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -123,12 +136,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -168,12 +181,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +203,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10229/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/cast-sculptures",
+                "label": "Cast Sculptures",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1941-01-01T00:00:00",
-            "end_of_the_end": "1951-12-31T00:00:00",
+            "begin_of_the_begin": "1946-01-01T00:00:00",
+            "end_of_the_end": "1946-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10229/production/timespan/0",
             "label": "1946",
             "type": "TimeSpan"
@@ -200,23 +220,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10229/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
         {
             "classified_as": [
                 {
@@ -249,28 +252,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10229/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "White-lacquered bronze, 10 x 10 x 1 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -283,19 +264,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10229/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10229/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "White-lacquered bronze, 10 x 10 x 1 1/2 inches"
         },
         {
             "classified_as": [
@@ -317,19 +320,36 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10229/title_date_caption",
             "type": "LinguisticObject",
             "value": "Abstraction (4/10), 1946"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10229/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         }
     ],
     "refers_to": [],

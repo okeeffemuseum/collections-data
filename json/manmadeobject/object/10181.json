@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -25,6 +35,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10181",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10181/otheridentifier",
+            "type": "Identifier",
+            "value": "1170"
+        },
         {
             "classified_as": [
                 {
@@ -47,19 +69,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10181/other_id",
             "type": "Identifier",
-            "value": "1170, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10181/otheridentifier",
-            "type": "Identifier",
-            "value": "1170"
+            "value": "1170, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -77,17 +87,21 @@
     "label": "Georgia O'Keeffe. Preparatory Study for Brooklyn Bridge, 1949. Charcoal on brown paper, 62 7/8 x 36 inches. Brooklyn Museum of Art",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/10181/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/10181/material/0",
             "label": "charcoal",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10181/material/1",
+            "label": "paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -123,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -168,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10181/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1944-01-01T00:00:00",
-            "end_of_the_end": "1954-12-31T00:00:00",
+            "begin_of_the_begin": "1949-01-01T00:00:00",
+            "end_of_the_end": "1949-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10181/production/timespan/0",
             "label": "1949",
             "type": "TimeSpan"
@@ -203,8 +224,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10181/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Charcoal on brown paper, 62 7/8 x 36 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -213,9 +256,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10181/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10181/maker_role",
             "type": "LinguisticObject",
-            "value": "Brooklyn Museum of Art"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -249,19 +292,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10181/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10181/institution_caption",
             "type": "LinguisticObject",
-            "value": "Preparatory Study for Brooklyn Bridge, 1949"
+            "value": "Brooklyn Museum of Art"
         },
         {
             "classified_as": [
@@ -269,16 +307,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10181/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/10181/caption/",
+            "label": "Georgia O'Keeffe. Preparatory Study for Brooklyn Bridge, 1949. Charcoal on brown paper, 62 7/8 x 36 inches. Brooklyn Museum of Art",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -300,36 +333,24 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10181/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/10181/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Charcoal on brown paper, 62 7/8 x 36 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10181/caption/",
-            "label": "Georgia O'Keeffe. Preparatory Study for Brooklyn Bridge, 1949. Charcoal on brown paper, 62 7/8 x 36 inches. Brooklyn Museum of Art",
-            "type": "LinguisticObject"
+            "value": "Preparatory Study for Brooklyn Bridge, 1949"
         }
     ],
     "refers_to": [],

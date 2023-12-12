@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
@@ -21,6 +26,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8285",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8285/title",
+            "type": "Name",
+            "value": "Red and Blue No. II"
+        },
         {
             "classified_as": [
                 {
@@ -55,52 +72,33 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8285/other_id",
             "type": "Identifier",
-            "value": "89, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8285/title",
-            "type": "Name",
-            "value": "Red and Blue No. II"
+            "value": "89, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Red and Blue No. II, 1916. Watercolor on paper, 11 7/8 x 9 inches. Curtis Galleries. Curtis Galleries, Minneapolis, Minnesota, 1998",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8285/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8285/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8285/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8285/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -196,6 +212,35 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8285/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8285/caption/",
+            "label": "Georgia O'Keeffe. Red and Blue No. II, 1916. Watercolor on paper, 11 7/8 x 9 inches. Curtis Galleries. Curtis Galleries, Minneapolis, Minnesota, 1998",
+            "type": "LinguisticObject"
+        },
         {
             "classified_as": [
                 {
@@ -214,21 +259,11 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8285/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8285/Measurement/",
             "type": "LinguisticObject",
-            "value": "Watercolor on paper, 11 7/8 x 9 inches"
+            "value": "11 7/8 x 9 inches"
         },
         {
             "classified_as": [
@@ -245,6 +280,11 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
@@ -252,11 +292,6 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -267,55 +302,24 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8285/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8285/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Curtis Galleries"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8285/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1958 New York (Downtown \u2013 Watercolor), no. 10; 1960 San Antonio; 1961 New York (Downtown \u2013 Aqua)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8285/provenance/",
-            "label": "(Doris Bry, New York, NY); Private collection, Westport, Connecticut, 1976; (Joan T. Washburn, New York, NY); Private collection, London, England, 1988; Christie's, New York, NY, sale no. 9006, lot no. 114, 2 December 1998         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8285/caption/",
-            "label": "Georgia O'Keeffe. Red and Blue No. II, 1916. Watercolor on paper, 11 7/8 x 9 inches. Curtis Galleries. Curtis Galleries, Minneapolis, Minnesota, 1998",
-            "type": "LinguisticObject"
+            "value": "Watercolor on paper, 11 7/8 x 9 inches"
         },
         {
             "classified_as": [
@@ -337,8 +341,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -347,21 +351,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8285/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8285/institution_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Curtis Galleries"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8285/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8285/provenance/",
+            "label": "(Doris Bry, New York, NY); Private collection, Westport, Connecticut, 1976; (Joan T. Washburn, New York, NY); Private collection, London, England, 1988; Christie's, New York, NY, sale no. 9006, lot no. 114, 2 December 1998         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8285/exhibitions",
             "type": "LinguisticObject",
-            "value": "11 7/8 x 9 inches"
+            "value": "1923 New York (Anderson); 1958 New York (Downtown \u2013 Watercolor), no. 10; 1960 San Antonio; 1961 New York (Downtown \u2013 Aqua)"
         }
     ],
     "refers_to": [],
@@ -388,6 +404,60 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/570",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/570/title"
+            ],
+            "label": "Aquamedia-Modern Masters",
+            "timespan": {
+                "begin_of_the_begin": "1961-02-15T00:00:00",
+                "end_of_the_end": "1961-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/570/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/805",
+            "type": "Activity"
+        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -422,13 +492,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/805",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/548",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/548/title"
@@ -440,58 +503,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/689",
             "timespan": {
                 "begin_of_the_begin": "1958-02-25T00:00:00",
                 "end_of_the_end": "1958-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/570",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/570/title"
-            ],
-            "label": "Aquamedia-Modern Masters",
-            "timespan": {
-                "begin_of_the_begin": "1961-02-15T00:00:00",
-                "end_of_the_end": "1961-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/570/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -24,30 +33,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/title",
-            "type": "Name",
-            "value": "Red Lines"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/other_id",
-            "type": "Identifier",
-            "value": "407, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -60,6 +45,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/other_id",
+            "type": "Identifier",
+            "value": "407, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -68,6 +65,18 @@
             "id": "http://data.okeeffemuseum.org/object/8501/identifier",
             "type": "Identifier",
             "value": "8501"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/title",
+            "type": "Name",
+            "value": "Red Lines"
         }
     ],
     "label": "Georgia O'Keeffe. Red Lines, 1923. Oil on canvas, 25 x 20 inches. Private Collection. Private collection, Dallas, Texas, 1994",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8501/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1918-01-01T00:00:00",
-            "end_of_the_end": "1928-12-31T00:00:00",
+            "begin_of_the_begin": "1923-01-01T00:00:00",
+            "end_of_the_end": "1923-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8501/production/timespan/0",
             "label": "1923",
             "type": "TimeSpan"
@@ -199,88 +219,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Dallas, Texas, 1994      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"Red Lines / 1923 / Georgia O'Keeffe\" (AS, graphite) 3. \"Red Lines 1923 / Georgia O'Keeffe\" (WE, AAP6, black ink) 4. \"blue & red lines\" (AD, graphite) 5. AAP11"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/provenance/",
-            "label": "Private collection, Scottsdale, Arizona, purchase, 1985; Greenberg Van Doren Gallery, St. Louis, Missouri, 1994         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/Measurement/",
-            "type": "LinguisticObject",
-            "value": "25 x 20 inches"
-        },
         {
             "classified_as": [
                 {
@@ -292,18 +230,6 @@
             "id": "http://data.okeeffemuseum.org/object/8501/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8501/caption/",
-            "label": "Georgia O'Keeffe. Red Lines, 1923. Oil on canvas, 25 x 20 inches. Private Collection. Private collection, Dallas, Texas, 1994",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -320,6 +246,74 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/Measurement/",
+            "type": "LinguisticObject",
+            "value": "25 x 20 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Red Lines, 1923"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"Red Lines / 1923 / Georgia O'Keeffe\" (AS, graphite) 3. \"Red Lines 1923 / Georgia O'Keeffe\" (WE, AAP6, black ink) 4. \"blue & red lines\" (AD, graphite) 5. AAP11"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -327,11 +321,6 @@
                 {
                     "id": "aat:300163343",
                     "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
@@ -342,24 +331,55 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/provenance/",
+            "label": "Private collection, Scottsdale, Arizona, purchase, 1985; Greenberg Van Doren Gallery, St. Louis, Missouri, 1994         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Dallas, Texas, 1994      "
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8501/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8501/artist_caption",
             "type": "LinguisticObject",
-            "value": "Red Lines, 1923"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8501/caption/",
+            "label": "Georgia O'Keeffe. Red Lines, 1923. Oil on canvas, 25 x 20 inches. Private Collection. Private collection, Dallas, Texas, 1994",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -407,11 +427,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/284",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/104",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/104/title"
+            ],
+            "label": "Fifty Recent Paintings, by Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1937-01-27T00:00:00",
-                "end_of_the_end": "1937-02-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/284/timespan",
+                "begin_of_the_begin": "1926-03-11T00:00:00",
+                "end_of_the_end": "1926-04-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/104/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -420,11 +444,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/238",
+            "id": "http://data.okeeffemuseum.org/exhibition/284",
             "timespan": {
-                "begin_of_the_begin": "1934-01-29T00:00:00",
-                "end_of_the_end": "1934-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
+                "begin_of_the_begin": "1937-01-27T00:00:00",
+                "end_of_the_end": "1937-02-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/284/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -442,6 +466,19 @@
                 "begin_of_the_begin": "1934-01-29T00:00:00",
                 "end_of_the_end": "1934-03-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/157/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/238",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-29T00:00:00",
+                "end_of_the_end": "1934-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/238/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -472,23 +509,6 @@
                 "begin_of_the_begin": "1926-03-11T00:00:00",
                 "end_of_the_end": "1926-04-03T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/104",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/104/title"
-            ],
-            "label": "Fifty Recent Paintings, by Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1926-03-11T00:00:00",
-                "end_of_the_end": "1926-04-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/104/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

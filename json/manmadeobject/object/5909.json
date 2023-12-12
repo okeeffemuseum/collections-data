@@ -88,17 +88,6 @@
                 "identified_by": [
                     {
                         "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
-                    {
-                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -111,16 +100,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             },
             {
@@ -147,6 +147,61 @@
             }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/2",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                                "type": "Name",
+                                "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            }
+                        ],
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                        ],
+                        "type": [
+                            "Actor",
+                            "schema:Thing"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/5909/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -183,61 +238,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/2",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                                "type": "Name",
-                                "value": "Georgia O'Keeffe"
-                            }
-                        ],
-                        "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
-                        ],
-                        "type": [
-                            "schema:Thing",
-                            "Actor"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/5909/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/5909/production/",
@@ -264,38 +264,50 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5909/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "id": "http://data.okeeffemuseum.org/object/5909/caption/",
+            "label": "Myron Wood. Georgia O'Keeffe and Juan Hamilton, 1979. Chromogenic print, 5 x 6 15/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Pikes Peak Library District (Colorado Springs). [2006.6.975]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5909/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Chromogenic print, 5 x 6 15/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5909/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/5909/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe and Juan Hamilton, 1979"
+            "value": "Photographer: Myron Wood\nDepicted: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -308,6 +320,18 @@
             "id": "http://data.okeeffemuseum.org/object/5909/Measurement/",
             "type": "LinguisticObject",
             "value": "5 x 6 15/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5909/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Pikes Peak Library District (Colorado Springs)"
         },
         {
             "classified_as": [
@@ -341,55 +365,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5909/Right/",
+            "id": "http://data.okeeffemuseum.org/object/5909/Description/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Pikes Peak Library District (Colorado Springs)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5909/maker_role",
-            "type": "LinguisticObject",
-            "value": "Photographer: Myron Wood\nDepicted: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5909/caption/",
-            "label": "Myron Wood. Georgia O'Keeffe and Juan Hamilton, 1979. Chromogenic print, 5 x 6 15/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Pikes Peak Library District (Colorado Springs). [2006.6.975]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5909/Materials/",
-            "type": "LinguisticObject",
-            "value": "Chromogenic print"
+            "value": "Portrait of Juan Hamilton and Georgia O'Keeffe in the Abiquiu  studio standing in front of her sculpture Abstraction and one of the paintings, My Day with Juan. O'Keeffe is dressed in a black suit and white shirt and Juan is wearing a dark shirt and jeans. A small sink is visible behind Juan."
         },
         {
             "classified_as": [
@@ -406,25 +389,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5909/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of Juan Hamilton and Georgia O'Keeffe in the Abiquiu  studio standing in front of her sculpture Abstraction and one of the paintings, My Day with Juan. O'Keeffe is dressed in a black suit and white shirt and Juan is wearing a dark shirt and jeans. A small sink is visible behind Juan."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -433,24 +399,58 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5909/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/5909/institution_caption",
             "type": "LinguisticObject",
-            "value": "Chromogenic print, 5 x 6 15/16 inches"
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5909/Materials/",
+            "type": "LinguisticObject",
+            "value": "Chromogenic print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5909/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe and Juan Hamilton, 1979"
         }
     ],
     "refers_to": [],
     "related": [],
     "representation": [
         {
-            "exif:height": "3372",
-            "exif:width": "4685",
-            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/733897",
+            "exif:height": "2984",
+            "exif:width": "4136",
+            "id": "https://iiif.okeeffemuseum.org/image/iiif/2/798871",
             "identified_by": [
                 {
                     "classified_as": [
                         "aat:300192339"
                     ],
-                    "id": "http://data.okeeffemuseum.org/visualitem/733897/sequence/0",
+                    "id": "http://data.okeeffemuseum.org/visualitem/798871/sequence/0",
                     "type": "Identifier",
                     "value": "0"
                 }

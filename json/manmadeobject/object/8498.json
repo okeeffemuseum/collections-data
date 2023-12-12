@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -28,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/identifier",
-            "type": "Identifier",
-            "value": "8498"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -47,7 +44,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8498/other_id",
             "type": "Identifier",
-            "value": "404, Catalogue Raisonne Number"
+            "value": "404, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/title",
+            "type": "Name",
+            "value": "Ends of Barns"
         },
         {
             "classified_as": [
@@ -69,18 +78,13 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8498/title",
-            "type": "Name",
-            "value": "Ends of Barns"
+            "id": "http://data.okeeffemuseum.org/object/8498/identifier",
+            "type": "Identifier",
+            "value": "8498"
         }
     ],
     "label": "Georgia O'Keeffe. Ends of Barns, 1922-1924. Oil on canvas, 16 x 22 inches. Mueum of Fine Arts (MFA Boston). Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane, Juliana Cheney Edwards Collection, Emily L. Ainsley Fund and Grant Walker Fund (1990.380)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8498/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/8498/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8498/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8498/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1917-01-01T00:00:00",
-            "end_of_the_end": "1929-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1924-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8498/production/timespan/0",
             "label": "1922-1924",
             "type": "TimeSpan"
@@ -206,13 +226,73 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1958 Worcester; 1992 Washington"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane, Juliana Cheney Edwards Collection, Emily L. Ainsley Fund and Grant Walker Fund (1990.380)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/Measurement/",
+            "type": "LinguisticObject",
+            "value": "16 x 22 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Mr. and Mrs. William H. Lane, Leominster, Massachusetts, 1957         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8498/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -235,34 +315,10 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Mr. and Mrs. William H. Lane, Leominster, Massachusetts, 1957         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -271,11 +327,6 @@
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -298,53 +349,27 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8498/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8498/artist_caption",
             "type": "LinguisticObject",
-            "value": "Museum of Fine Arts, Boston, Gift of Mr. and Mrs. William H. Lane, Juliana Cheney Edwards Collection, Emily L. Ainsley Fund and Grant Walker Fund (1990.380)      "
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 Worcester; 1992 Washington"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 22 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8498/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300404439",
                     "label": "dates",
@@ -353,11 +378,6 @@
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -368,13 +388,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
@@ -423,37 +443,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1205",
-            "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-09-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1203",
             "timespan": {
                 "begin_of_the_begin": "1992-12-12T00:00:00",
                 "end_of_the_end": "1993-04-04T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/714",
-            "timespan": {
-                "begin_of_the_begin": "1959-10-01T00:00:00",
-                "end_of_the_end": "1959-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/714/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -475,11 +469,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1204",
+            "id": "http://data.okeeffemuseum.org/exhibition/714",
             "timespan": {
-                "begin_of_the_begin": "1993-04-27T00:00:00",
-                "end_of_the_end": "1993-06-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
+                "begin_of_the_begin": "1959-10-01T00:00:00",
+                "end_of_the_end": "1959-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/714/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -488,11 +482,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1206",
+            "id": "http://data.okeeffemuseum.org/exhibition/1205",
             "timespan": {
-                "begin_of_the_begin": "1993-10-02T00:00:00",
-                "end_of_the_end": "1993-12-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1206/timespan",
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-09-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -518,11 +512,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/712",
+            "id": "http://data.okeeffemuseum.org/exhibition/1206",
             "timespan": {
-                "begin_of_the_begin": "1958-07-01T00:00:00",
-                "end_of_the_end": "1958-07-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
+                "begin_of_the_begin": "1993-10-02T00:00:00",
+                "end_of_the_end": "1993-12-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1206/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1204",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-27T00:00:00",
+                "end_of_the_end": "1993-06-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -540,6 +547,19 @@
                 "begin_of_the_begin": "1958-07-01T00:00:00",
                 "end_of_the_end": "1959-10-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/497/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/712",
+            "timespan": {
+                "begin_of_the_begin": "1958-07-01T00:00:00",
+                "end_of_the_end": "1958-07-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/712/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

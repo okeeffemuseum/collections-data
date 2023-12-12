@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -67,11 +76,16 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8462/other_id",
             "type": "Identifier",
-            "value": "363, Catalogue Raisonne Number"
+            "value": "363, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Apple, 1921-1922. Oil on canvas, 6 1/4 x 7 1/2 inches. Phoenix Art Museum. Phoenix Art Museum, Gift of Mr. Edward Jacobson [1991] (91.245)",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8462/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -79,14 +93,13 @@
             "id": "http://data.okeeffemuseum.org/object/8462/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8462/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/268",
+        "label": "Fruits and Vegetables",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -122,12 +135,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -167,12 +180,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8462/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1916-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1921-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8462/production/timespan/0",
             "label": "1921-1922",
             "type": "TimeSpan"
@@ -202,60 +222,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8462/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8462/Measurement/",
             "type": "LinguisticObject",
-            "value": "Stretcher: 1. \"O'Keeffe (white paint) 2. \"200\" (AS, graphite) 3. 87 / 1922\" (AS, graphite). Backing: \"Georgia O'Keeffe [wavy underline]\" (black ink)"
+            "value": "6 1/4 x 7 1/2 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8462/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8462/exhibitions",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8462/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Phoenix Art Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8462/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "1923 New York (Anderson), no. 87"
         },
         {
             "classified_as": [
@@ -284,6 +270,69 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8462/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: 1. \"O'Keeffe (white paint) 2. \"200\" (AS, graphite) 3. 87 / 1922\" (AS, graphite). Backing: \"Georgia O'Keeffe [wavy underline]\" (black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8462/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8462/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8462/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Phoenix Art Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -291,11 +340,6 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -306,24 +350,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8462/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 6 1/4 x 7 1/2 inches"
+            "id": "http://data.okeeffemuseum.org/object/8462/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); Reinhardt Galleries, New York, NY, 1923; Annie B. Jennings, New York, NY, 1931; Oilver B. James, New York, NY, bequest, 1938; Mabel Davis James, Phoenix, Arizona, gift, 1939; Edward Jacobsen, Phoenix, Arizona, gift, 1968         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -345,38 +379,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8462/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); Reinhardt Galleries, New York, NY, 1923; Annie B. Jennings, New York, NY, 1931; Oilver B. James, New York, NY, bequest, 1938; Mabel Davis James, Phoenix, Arizona, gift, 1939; Edward Jacobsen, Phoenix, Arizona, gift, 1968         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8462/Measurement/",
-            "type": "LinguisticObject",
-            "value": "6 1/4 x 7 1/2 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8462/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8462/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "1923 New York (Anderson), no. 87"
+            "value": "Oil on canvas, 6 1/4 x 7 1/2 inches"
         }
     ],
     "refers_to": [],
@@ -407,6 +427,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/99/title"
@@ -416,19 +449,6 @@
                 "begin_of_the_begin": "1923-01-29T00:00:00",
                 "end_of_the_end": "1923-02-10T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -28,6 +37,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8912/title",
+            "type": "Name",
+            "value": "Pink Shell with Seaweed"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -35,19 +56,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8912/other_id",
             "type": "Identifier",
-            "value": "957, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8912/identifier",
-            "type": "Identifier",
-            "value": "8912"
+            "value": "957, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -69,42 +78,35 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/title",
-            "type": "Name",
-            "value": "Pink Shell with Seaweed"
+            "id": "http://data.okeeffemuseum.org/object/8912/identifier",
+            "type": "Identifier",
+            "value": "8912"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Shell with Seaweed, ca. 1938. Pastel on paper, 21 5/8 x 27 1/2 inches. San Diego Museum of Art. San Diego Museum of Art, Gift of Mr. and Mrs. Norton S. Walbridge (1978.088)",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8912/material/0",
-            "label": "Pastel",
+            "id": "http://data.okeeffemuseum.org/object/8912/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8912/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/8912/material/0",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/266",
+        "label": "Shells",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +121,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +152,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +166,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,6 +203,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8912/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1933-01-01T00:00:00",
             "end_of_the_end": "1943-12-31T00:00:00",
@@ -203,31 +223,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8912/Measurement/",
             "type": "LinguisticObject",
-            "value": "San Diego Museum of Art"
+            "value": "21 5/8 x 27 1/2 inches"
         },
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/caption/",
-            "label": "Georgia O'Keeffe. Pink Shell with Seaweed, ca. 1938. Pastel on paper, 21 5/8 x 27 1/2 inches. San Diego Museum of Art. San Diego Museum of Art, Gift of Mr. and Mrs. Norton S. Walbridge (1978.088)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8912/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -259,28 +279,67 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/8912/caption/",
+            "label": "Georgia O'Keeffe. Pink Shell with Seaweed, ca. 1938. Pastel on paper, 21 5/8 x 27 1/2 inches. San Diego Museum of Art. San Diego Museum of Art, Gift of Mr. and Mrs. Norton S. Walbridge (1978.088)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8912/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink Shell with Seaweed, ca. 1938"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8912/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "21 5/8 x 27 1/2 inches"
+            "value": "Pastel on paper, 21 5/8 x 27 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8912/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1937-38 New York (An American Place), among nos. 3-6, as Shell?; 1968 San Diego"
         },
         {
             "classified_as": [
@@ -297,75 +356,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8912/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8912/institution_caption",
             "type": "LinguisticObject",
-            "value": "Pink Shell with Seaweed, ca. 1938"
+            "value": "San Diego Museum of Art"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8912/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper, 21 5/8 x 27 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300025103",
                     "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8912/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8912/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1937-38 New York (An American Place), among nos. 3-6, as Shell?; 1968 San Diego"
         },
         {
             "classified_as": [
@@ -420,11 +440,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/288",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/754",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/754/title"
+            ],
+            "label": "Twentieth Century Tempo",
             "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
+                "begin_of_the_begin": "1968-06-01T00:00:00",
+                "end_of_the_end": "1968-08-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/754/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -463,15 +487,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/754",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/754/title"
-            ],
-            "label": "Twentieth Century Tempo",
+            "id": "http://data.okeeffemuseum.org/exhibition/288",
             "timespan": {
-                "begin_of_the_begin": "1968-06-01T00:00:00",
-                "end_of_the_end": "1968-08-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/754/timespan",
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/288/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

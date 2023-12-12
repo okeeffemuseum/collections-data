@@ -11,6 +11,14 @@
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-catalogue-raisonn-",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": {
@@ -35,6 +43,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.5.39"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -47,14 +67,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/987/other_id",
-            "type": "Identifier",
-            "value": "115, Catalogue Raisonne Number, 121, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/987/title",
+            "type": "Name",
+            "value": "Inside the Tent While at U. of Virginia"
         },
         {
             "classified_as": [
@@ -71,30 +91,23 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/987/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/987/other_id",
             "type": "Identifier",
-            "value": "2006.5.39"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/title",
-            "type": "Name",
-            "value": "Inside the Tent While at U. of Virginia"
+            "value": "115, Catalogue Raisonn\u00e9, 121, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Inside the Tent While at U. of Virginia, 1916. Oil on canvas, 18 1/4 x 23 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.39]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/987/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,14 +115,13 @@
             "id": "http://data.okeeffemuseum.org/object/987/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/987/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -145,12 +157,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -190,12 +202,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +224,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/987/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1916-01-01T00:00:00",
             "end_of_the_end": "1916-12-31T00:00:00",
@@ -225,36 +244,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/Description/",
-            "type": "LinguisticObject",
-            "value": "The large, dark-colored triangular shape of the tent door occupies the center of this image.  On each side of the door, the tent fabric descends from the upper edge of the work and curves outward toward its edges.  The fabric on the left side is decorated with thick vertical stripes, while the fabric on the right side lacks any pattern.  A reddish-colored object with black stripes lies along the base of the door."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/987/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/987/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 18 1/4 x 23 5/8 inches"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions; Stretcher: \n1. \"No 25 1916 From 2nd Exh at 291\" (graphite) \n2. \"Stieglitz\" (graphite) \n3. \"#2\" [in circle] (unidentified hand, graphite) \nVerso: another work, see cat. no 121 \nBacking: \n1. \"Georgia O'Keeffe -- \" (black ink) \n2. \"inside the Tent/ While at U. of Virginia / aprox (1915\" (Juan Hamilton, black ink)"
         },
         {
             "classified_as": [
@@ -276,18 +290,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -296,18 +298,6 @@
             "id": "http://data.okeeffemuseum.org/object/987/caption/",
             "label": "Georgia O'Keeffe. Inside the Tent While at U. of Virginia, 1916. Oil on canvas, 18 1/4 x 23 5/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.39]",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions; Stretcher: \n1. \"No 25 1916 From 2nd Exh at 291\" (graphite) \n2. \"Stieglitz\" (graphite) \n3. \"#2\" [in circle] (unidentified hand, graphite) \nVerso: another work, see cat. no 121 \nBacking: \n1. \"Georgia O'Keeffe -- \" (black ink) \n2. \"inside the Tent/ While at U. of Virginia / aprox (1915\" (Juan Hamilton, black ink)"
         },
         {
             "classified_as": [
@@ -324,43 +314,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/987/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/987/Right/",
             "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/Measurement/",
-            "type": "LinguisticObject",
-            "value": "18 1/4 x 23 5/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -382,14 +343,82 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 18 1/4 x 23 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/987/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/Description/",
+            "type": "LinguisticObject",
+            "value": "The large, dark-colored triangular shape of the tent door occupies the center of this image.  On each side of the door, the tent fabric descends from the upper edge of the work and curves outward toward its edges.  The fabric on the left side is decorated with thick vertical stripes, while the fabric on the right side lacks any pattern.  A reddish-colored object with black stripes lies along the base of the door."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Inside the Tent While at U. of Virginia, 1916"
         },
         {
             "classified_as": [
@@ -406,6 +435,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/987/Measurement/",
+            "type": "LinguisticObject",
+            "value": "18 1/4 x 23 5/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -414,28 +455,6 @@
             "id": "http://data.okeeffemuseum.org/object/987/provenance/",
             "label": "Estate of the artist, 1986   The Georgia O'Keeffe Foundation   1986   Abiquiu/New Mexico",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/987/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Inside the Tent While at U. of Virginia, 1916"
         }
     ],
     "refers_to": [],
@@ -478,6 +497,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/156",
+            "timespan": {
+                "begin_of_the_begin": "1917-04-03T00:00:00",
+                "end_of_the_end": "1917-05-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/156/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/93",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/93/title"
@@ -487,19 +519,6 @@
                 "begin_of_the_begin": "1917-04-03T00:00:00",
                 "end_of_the_end": "1917-05-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/93/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/156",
-            "timespan": {
-                "begin_of_the_begin": "1917-04-03T00:00:00",
-                "end_of_the_end": "1917-05-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/156/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

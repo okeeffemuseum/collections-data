@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -35,18 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/identifier",
-            "type": "Identifier",
-            "value": "170"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -59,14 +56,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/title",
-            "type": "Name",
-            "value": "The White Wave"
+            "id": "http://data.okeeffemuseum.org/object/170/accessionnumber",
+            "type": "Identifier",
+            "value": "L.1998.3.1"
         },
         {
             "classified_as": [
@@ -78,52 +75,57 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/170/other_id",
             "type": "Identifier",
-            "value": "383, Catalogue Raisonne Number"
+            "value": "383, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/170/identifier",
             "type": "Identifier",
-            "value": "L.1998.3.1"
+            "value": "170"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/title",
+            "type": "Name",
+            "value": "The White Wave"
         }
     ],
-    "label": "Georgia O'Keeffe. The White Wave, 1922. Pastel on paper, 19 x 25 (48.3 x 63.5) inches. Private Collection. Extended Loan, Private Collection. \u00a9 Georgia O'Keeffe Museum. [L.1998.3.1]",
+    "label": "Georgia O'Keeffe. The White Wave, 1922. Pastel on paper, 19 x 25 inches. Private Collection. Extended Loan, Private Collection. \u00a9 Georgia O'Keeffe Museum. [L.1998.3.1]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/170/material/0",
-            "label": "Pastel",
+            "id": "http://data.okeeffemuseum.org/object/170/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/170/material/1",
-            "label": "Paper",
+            "id": "http://data.okeeffemuseum.org/object/170/material/0",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +140,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +171,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +185,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,9 +222,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/170/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1917-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/170/production/timespan/0",
             "label": "1922",
             "type": "TimeSpan"
@@ -222,24 +242,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/170/Materials/",
             "type": "LinguisticObject",
-            "value": "Pastel on paper, 19 x 25 (48.3 x 63.5) inches"
+            "value": "Pastel on paper"
         },
         {
             "classified_as": [
@@ -266,31 +276,72 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/provenance/",
+            "label": "(Alfred Stieglitz, New York, N.Y.) ^Sherwood Anderson, New York, N.Y., by 1923 ^Mr. & Mrs. Robert L. Anderson, Marion, Virginia, 1941, bequest ^Robert Lane Anderson, Marion, Virginia, 1951, bequest         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Extended Loan, Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper, 19 x 25 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/170/caption/",
+            "label": "Georgia O'Keeffe. The White Wave, 1922. Pastel on paper, 19 x 25 inches. Private Collection. Extended Loan, Private Collection. \u00a9 Georgia O'Keeffe Museum. [L.1998.3.1]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/Description/",
+            "id": "http://data.okeeffemuseum.org/object/170/Measurement/",
             "type": "LinguisticObject",
-            "value": "Horizontal pastel of white, grey, and greyish-blue wave-like formations with areas of the paper exposed.  In the center is a grey-blue triangular shape, and below it on the page are rippling lines of grey on white."
+            "value": "19 x 25  inches"
         },
         {
             "classified_as": [
@@ -303,18 +354,6 @@
             "id": "http://data.okeeffemuseum.org/object/170/CreditLine/",
             "type": "LinguisticObject",
             "value": "Extended Loan, Private Collection      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/provenance/",
-            "label": "(Alfred Stieglitz, New York, N.Y.) ^Sherwood Anderson, New York, N.Y., by 1923 ^Mr. & Mrs. Robert L. Anderson, Marion, Virginia, 1941, bequest ^Robert Lane Anderson, Marion, Virginia, 1951, bequest         ",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -336,13 +375,37 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/Description/",
+            "type": "LinguisticObject",
+            "value": "Horizontal pastel of white, grey, and greyish-blue wave-like formations with areas of the paper exposed.  In the center is a grey-blue triangular shape, and below it on the page are rippling lines of grey on white."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/170/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -365,62 +428,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/Materials/",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/Measurement/",
-            "type": "LinguisticObject",
-            "value": "19 x 25 (48.3 x 63.5) inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/170/caption/",
-            "label": "Georgia O'Keeffe. The White Wave, 1922. Pastel on paper, 19 x 25 (48.3 x 63.5) inches. Private Collection. Extended Loan, Private Collection. \u00a9 Georgia O'Keeffe Museum. [L.1998.3.1]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/170/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/170/maker_role",
             "type": "LinguisticObject",
-            "value": "Extended Loan, Private Collection"
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -463,11 +483,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/70",
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
             "timespan": {
-                "begin_of_the_begin": "1998-10-30T00:00:00",
+                "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/70/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -476,15 +496,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/70",
+            "timespan": {
+                "begin_of_the_begin": "1998-10-30T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/70/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -510,11 +539,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
+            ],
+            "label": "An Expanding Collection",
             "timespan": {
                 "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -532,19 +565,6 @@
                 "begin_of_the_begin": "1923-01-29T00:00:00",
                 "end_of_the_end": "1923-02-10T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -28,6 +37,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10208/otheridentifier",
+            "type": "Identifier",
+            "value": "1060"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -40,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10208/other_id",
+            "type": "Identifier",
+            "value": "1060, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -48,39 +81,10 @@
             "id": "http://data.okeeffemuseum.org/object/10208/title",
             "type": "Name",
             "value": "Cliffs Beyond Abiquiu"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10208/other_id",
-            "type": "Identifier",
-            "value": "1060, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10208/otheridentifier",
-            "type": "Identifier",
-            "value": "1060"
         }
     ],
     "label": "Georgia O'Keeffe. Cliffs Beyond Abiquiu, 1943. Oil on canvas, 30 x 24 inches. Private Collection",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/10208/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/10208/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10208/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10208/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1938-01-01T00:00:00",
-            "end_of_the_end": "1948-12-31T00:00:00",
+            "begin_of_the_begin": "1943-01-01T00:00:00",
+            "end_of_the_end": "1943-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10208/production/timespan/0",
             "label": "1943",
             "type": "TimeSpan"
@@ -218,20 +238,37 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10208/caption/",
-            "label": "Georgia O'Keeffe. Cliffs Beyond Abiquiu, 1943. Oil on canvas, 30 x 24 inches. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10208/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10208/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -240,8 +277,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -252,13 +289,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -267,20 +299,20 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10208/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/10208/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 30 x 24 inches"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -294,16 +326,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10208/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/10208/caption/",
+            "label": "Georgia O'Keeffe. Cliffs Beyond Abiquiu, 1943. Oil on canvas, 30 x 24 inches. Private Collection",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -313,26 +340,19 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10208/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10208/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/10208/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Oil on canvas, 30 x 24 inches"
         }
     ],
     "refers_to": [],
@@ -363,15 +383,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/246",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/246/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings -- 1943",
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
             "timespan": {
-                "begin_of_the_begin": "1944-01-01T00:00:00",
-                "end_of_the_end": "1944-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/246/timespan",
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -380,11 +396,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/544",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/275",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/275/title"
+            ],
+            "label": "Landscapes: Real and Imaginary",
             "timespan": {
-                "begin_of_the_begin": "1951-10-01T00:00:00",
-                "end_of_the_end": "1951-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/544/timespan",
+                "begin_of_the_begin": "1946-10-29T00:00:00",
+                "end_of_the_end": "1947-08-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/275/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -393,15 +413,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/775",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/775/title"
-            ],
-            "label": "An Exhibition of Paintings: Georgia O'Keeffe, On the Occasion of the M. Carey Thomas Awards",
+            "id": "http://data.okeeffemuseum.org/exhibition/1107",
             "timespan": {
-                "begin_of_the_begin": "1971-10-21T00:00:00",
-                "end_of_the_end": "1971-11-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/775/timespan",
+                "begin_of_the_begin": "1974-09-29T00:00:00",
+                "end_of_the_end": "1974-11-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1107/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -415,66 +431,6 @@
                 "begin_of_the_begin": "1947-06-03T00:00:00",
                 "end_of_the_end": "1947-06-24T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/428/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/780",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/780/title"
-            ],
-            "label": "Paintings by Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1974-09-29T00:00:00",
-                "end_of_the_end": "1974-11-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/780/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/358",
-            "timespan": {
-                "begin_of_the_begin": "1944-01-01T00:00:00",
-                "end_of_the_end": "1944-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/358/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1013",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -500,11 +456,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/246",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/246/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings -- 1943",
             "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
+                "begin_of_the_begin": "1944-01-01T00:00:00",
+                "end_of_the_end": "1944-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/246/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -513,11 +473,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1102",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/775",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/775/title"
+            ],
+            "label": "An Exhibition of Paintings: Georgia O'Keeffe, On the Occasion of the M. Carey Thomas Awards",
             "timespan": {
                 "begin_of_the_begin": "1971-10-21T00:00:00",
                 "end_of_the_end": "1971-11-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1102/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/775/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -526,11 +490,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1107",
+            "id": "http://data.okeeffemuseum.org/exhibition/358",
             "timespan": {
-                "begin_of_the_begin": "1974-09-29T00:00:00",
-                "end_of_the_end": "1974-11-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1107/timespan",
+                "begin_of_the_begin": "1944-01-01T00:00:00",
+                "end_of_the_end": "1944-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/358/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -556,15 +520,71 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/275",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/780",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/275/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/780/title"
             ],
-            "label": "Landscapes: Real and Imaginary",
+            "label": "Paintings by Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1946-10-29T00:00:00",
-                "end_of_the_end": "1947-08-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/275/timespan",
+                "begin_of_the_begin": "1974-09-29T00:00:00",
+                "end_of_the_end": "1974-11-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/780/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/544",
+            "timespan": {
+                "begin_of_the_begin": "1951-10-01T00:00:00",
+                "end_of_the_end": "1951-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/544/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1102",
+            "timespan": {
+                "begin_of_the_begin": "1971-10-21T00:00:00",
+                "end_of_the_end": "1971-11-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1102/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

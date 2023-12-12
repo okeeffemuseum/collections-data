@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -40,21 +49,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/title",
-            "type": "Name",
-            "value": "Black Hollyhock Blue Larkspur"
+            "id": "http://data.okeeffemuseum.org/object/99/identifier",
+            "type": "Identifier",
+            "value": "99"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/99/other_id",
             "type": "Identifier",
-            "value": "L.1997.3.1"
+            "value": "714, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/title",
+            "type": "Name",
+            "value": "Black Hollyhock Blue Larkspur"
         },
         {
             "classified_as": [
@@ -71,35 +92,18 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/identifier",
+            "id": "http://data.okeeffemuseum.org/object/99/accessionnumber",
             "type": "Identifier",
-            "value": "99"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/other_id",
-            "type": "Identifier",
-            "value": "714, Catalogue Raisonne Number"
+            "value": "L.1997.3.1"
         }
     ],
     "label": "Georgia O'Keeffe. Black Hollyhock Blue Larkspur, 1930. Oil on canvas, 30 1/8 x 40 (76.5 x 101.6 cm) inches. Georgia O'Keeffe Museum. Extended Loan, Private Collection. \u00a9 Private Collection*. [L.1997.3.1]",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/99/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -107,11 +111,16 @@
             "id": "http://data.okeeffemuseum.org/object/99/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/99/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
     "ore:isAggregatedBy": {
         "id": "http://data.okeeffemuseum.org/aggregation/257",
-        "label": "Flowers",
+        "label": "Plants, Flowers, and Leaves",
         "type": "Aggregation"
     },
     "part_of": [],
@@ -120,17 +129,6 @@
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -145,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -165,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -190,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -210,9 +219,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/99/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1925-01-01T00:00:00",
-            "end_of_the_end": "1935-12-31T00:00:00",
+            "begin_of_the_begin": "1930-01-01T00:00:00",
+            "end_of_the_end": "1930-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/99/production/timespan/0",
             "label": "1930",
             "type": "TimeSpan"
@@ -223,89 +239,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/99/Right/",
             "type": "LinguisticObject",
-            "value": "Black Hollyhock Blue Larkspur, 1930"
+            "value": "\u00a9 Private Collection*"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/99/Description/",
             "type": "LinguisticObject",
-            "value": "Extended Loan, Private Collection      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1931 New York (An American Place), not on checklist or no. 18, as Black Hollyhock with Blue Larkspur \n1938 Williamsburg \n1943 Chicago, no. 29 \n1944 Philadelphia, no. 276 \n1966 Fort Worth \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Poetry of Things \n1999 Santa Fe (O'Keeffe) Permanent Collection (Four Painters / Skunk Cabbage) \n2001 Santa Fe (O'Keeffe) GOK in Williamsburg \n2001 Santa Fe (O'Keeffe) Permanent Collection (O'Keeffe's O'Keeffe's) \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2006 Santa Fe (O'Keeffe) GOK: Color and Conservation \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Circling Around Abstraction) \n2007 Santa Fe (O'Keeffe) Permanent Collection (WSC) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway) \n2013 Santa Fe (O'Keeffe) Permanent Collection (Katsina) \n2013 Santa Fe (O'Keeffe) Permanent Collection (Modern Nature) \n2014 Santa Fe (O'Keeffe) Permanent Collection (Abiquiu Views x 2) \n2014 Santa Fe (O'Keeffe) Permanent Collection (GR Views / Covarrubias) \n2016 Santa Fe (O'Keeffe) Abstract Nature"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/Measurement/",
-            "type": "LinguisticObject",
-            "value": "30 1/8 x 40  (76.5 x 101.6 cm) inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Black Hollyhock Blue Larkspur 29\" (graphite) \n2. OK * (graphite) \n3. \"509 Madison Ave., New York\" (AIC label, black ink) \n4. AAP2 \n5. AAP11 \n6. \"Black Hollyhock - Blue Larkspur / 1029 / by Georgia O'Keeffe\" (WE, AAP6, blank ink)"
+            "value": "Large magnified flowers on a horizontal canvas.  The maroonish black petals of the hollyhock fill entire right side of the picture plain, with the smaller blue larkspur flowers covering the rest of the canvas on the left."
         },
         {
             "classified_as": [
@@ -318,6 +271,18 @@
             "id": "http://data.okeeffemuseum.org/object/99/aquisition/method/",
             "type": "LinguisticObject",
             "value": "Extended Loan, Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1931 New York (An American Place), not on checklist or no. 18, as Black Hollyhock with Blue Larkspur \n1938 Williamsburg \n1943 Chicago, no. 29 \n1944 Philadelphia, no. 276 \n1966 Fort Worth \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Poetry of Things \n1999 Santa Fe (O'Keeffe) Permanent Collection (Four Painters / Skunk Cabbage) \n2001 Santa Fe (O'Keeffe) GOK in Williamsburg \n2001 Santa Fe (O'Keeffe) Permanent Collection (O'Keeffe's O'Keeffe's) \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Permanent Collection (Stieglitz / Frames of Preference) \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2006 Santa Fe (O'Keeffe) GOK: Color and Conservation \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Circling Around Abstraction) \n2007 Santa Fe (O'Keeffe) Permanent Collection (WSC) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2008 Santa Fe (O'Keeffe) Permanent Collection (GOK and the Camera) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway) \n2013 Santa Fe (O'Keeffe) Permanent Collection (Katsina) \n2013 Santa Fe (O'Keeffe) Permanent Collection (Modern Nature) \n2014 Santa Fe (O'Keeffe) Permanent Collection (Abiquiu Views x 2) \n2014 Santa Fe (O'Keeffe) Permanent Collection (GR Views / Covarrubias) \n2016 Santa Fe (O'Keeffe) Abstract Nature"
         },
         {
             "classified_as": [
@@ -344,6 +309,122 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/provenance/",
+            "label": "Anita O'Keeffe (Mrs. Robert R.) Young, Newport, R.I., by 1968 ^Estate of Anita O'Keeffe (Mrs. Robert R.) Young, 1985 ^Robert R. Young Foundation, Cincinnati, Ohio, 1985 ^Sotheby's, New York, N.Y., sale no. 5658, lot no. 5, 3 December 1987 ^(Gerald Peters Gallery, Santa Fe, N.Mex.)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Hollyhock Blue Larkspur, 1930"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/caption/",
+            "label": "Georgia O'Keeffe. Black Hollyhock Blue Larkspur, 1930. Oil on canvas, 30 1/8 x 40 (76.5 x 101.6 cm) inches. Georgia O'Keeffe Museum. Extended Loan, Private Collection. \u00a9 Private Collection*. [L.1997.3.1]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/maker_role",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Black Hollyhock Blue Larkspur 29\" (graphite) \n2. OK * (graphite) \n3. \"509 Madison Ave., New York\" (AIC label, black ink) \n4. AAP2 \n5. AAP11 \n6. \"Black Hollyhock - Blue Larkspur / 1029 / by Georgia O'Keeffe\" (WE, AAP6, blank ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/99/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Extended Loan, Private Collection      "
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
                     "type": "Type"
@@ -361,79 +442,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/99/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/99/Measurement/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/provenance/",
-            "label": "Anita O'Keeffe (Mrs. Robert R.) Young, Newport, R.I., by 1968 ^Estate of Anita O'Keeffe (Mrs. Robert R.) Young, 1985 ^Robert R. Young Foundation, Cincinnati, Ohio, 1985 ^Sotheby's, New York, N.Y., sale no. 5658, lot no. 5, 3 December 1987 ^(Gerald Peters Gallery, Santa Fe, N.Mex.)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/caption/",
-            "label": "Georgia O'Keeffe. Black Hollyhock Blue Larkspur, 1930. Oil on canvas, 30 1/8 x 40 (76.5 x 101.6 cm) inches. Georgia O'Keeffe Museum. Extended Loan, Private Collection. \u00a9 Private Collection*. [L.1997.3.1]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Private Collection*"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/99/Description/",
-            "type": "LinguisticObject",
-            "value": "Large magnified flowers on a horizontal canvas.  The maroonish black petals of the hollyhock fill entire right side of the picture plain, with the smaller blue larkspur flowers covering the rest of the canvas on the left."
+            "value": "30 1/8 x 40  (76.5 x 101.6 cm) inches"
         }
     ],
     "refers_to": [],
@@ -684,30 +700,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/867",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/867/title"
-            ],
-            "label": "Seeing Beyond",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/124",
             "timespan": {
                 "begin_of_the_begin": "2007-09-21T00:00:00",
@@ -721,109 +713,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
-            ],
-            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
-            ],
-            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
-            "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
-            ],
-            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
-            "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/118",
             "timespan": {
                 "begin_of_the_begin": "2005-05-13T00:00:00",
                 "end_of_the_end": "2006-01-08T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/118/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
-            ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
-            "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -849,23 +743,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
-            ],
-            "label": "Georgia O'Keeffe Paintings",
-            "timespan": {
-                "begin_of_the_begin": "1938-05-04T00:00:00",
-                "end_of_the_end": "1938-05-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/71",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/71/title"
@@ -875,6 +752,87 @@
                 "begin_of_the_begin": "2005-05-13T00:00:00",
                 "end_of_the_end": "2006-01-08T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/71/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
+            ],
+            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
+            "timespan": {
+                "begin_of_the_begin": "1944-09-01T00:00:00",
+                "end_of_the_end": "1944-10-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
+            ],
+            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
+            "timespan": {
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
+            ],
+            "label": "An Expanding Collection",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
+            ],
+            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -896,15 +854,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
-            ],
-            "label": "Inaugural Exhibition",
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
             "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -913,15 +867,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
             "timespan": {
                 "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -930,15 +880,106 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
-            ],
-            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
             "timespan": {
-                "begin_of_the_begin": "1944-09-01T00:00:00",
-                "end_of_the_end": "1944-10-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1236",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
+            ],
+            "label": "Georgia O'Keeffe Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1938-05-04T00:00:00",
+                "end_of_the_end": "1938-05-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/303",
+            "timespan": {
+                "begin_of_the_begin": "1938-05-04T00:00:00",
+                "end_of_the_end": "1938-05-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/303/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
+            ],
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "timespan": {
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
+            ],
+            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -973,45 +1014,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1013",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
-            "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/372",
-            "timespan": {
-                "begin_of_the_begin": "1944-09-01T00:00:00",
-                "end_of_the_end": "1944-10-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/372/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/75",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/75/title"
@@ -1021,65 +1023,6 @@
                 "begin_of_the_begin": "2007-09-21T00:00:00",
                 "end_of_the_end": "2008-09-28T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/75/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/214",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1236",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/303",
-            "timespan": {
-                "begin_of_the_begin": "1938-05-04T00:00:00",
-                "end_of_the_end": "1938-05-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/303/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -1101,11 +1044,67 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/867",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/867/title"
+            ],
+            "label": "Seeing Beyond",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/372",
+            "timespan": {
+                "begin_of_the_begin": "1944-09-01T00:00:00",
+                "end_of_the_end": "1944-10-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/372/timespan",
+                "type": "TimeSpan"
+            },
             "type": "Activity"
         },
         {
@@ -1121,6 +1120,23 @@
                 "begin_of_the_begin": "2001-06-23T00:00:00",
                 "end_of_the_end": "2001-10-21T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/59/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/37",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/37/title"
+            ],
+            "label": "Inaugural Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/37/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

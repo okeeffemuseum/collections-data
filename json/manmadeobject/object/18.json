@@ -3,6 +3,10 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +14,11 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -35,14 +44,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/identifier",
+            "id": "http://data.okeeffemuseum.org/object/18/other_id",
             "type": "Identifier",
-            "value": "18"
+            "value": "294, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -59,26 +68,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/18/identifier",
             "type": "Identifier",
-            "value": "294"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/other_id",
-            "type": "Identifier",
-            "value": "294, Catalogue Raisonne Number"
+            "value": "18"
         },
         {
             "classified_as": [
@@ -91,6 +88,18 @@
             "id": "http://data.okeeffemuseum.org/object/18/title",
             "type": "Name",
             "value": "Blue Line"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/otheridentifier",
+            "type": "Identifier",
+            "value": "294"
         }
     ],
     "label": "Georgia O'Keeffe. Blue Line, 1919. Oil on canvas, 20 3/16 x 17 1/8 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.4.4]",
@@ -109,24 +118,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/18/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1919-01-01T00:00:00",
             "end_of_the_end": "1919-12-31T00:00:00",
@@ -225,55 +245,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/Measurement/",
-            "type": "LinguisticObject",
-            "value": "20 3/16 x 17 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/18/Right/",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/18/CreditLine/",
             "type": "LinguisticObject",
-            "value": "1923 New York (Anderson), no. 63 \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Four Painters of the Stieglitz Circle \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Debating American Modernism \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2008 Santa Fe (O'Keeffe) GOK and the Camera; all venues \n2010 Santa Fe (O'Keeffe) GOK: Abstraction; all venues \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2011 Europe (Rome, Munich, Helsinki) GOK: Retrospective \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway) *installed 12/10/12 as replacement for CR 120 \n2013 Santa Fe (O'Keeffe) Permanent Collection (Modern Nature) \n2015 Columbia Museum of Art, Georgia O'Keeffe and Women Artists of the Carolinas, 1915-2015, Oct 2, 2015 - January 3, 2016"
+            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
         },
         {
             "classified_as": [
@@ -290,60 +281,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/18/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "1923 New York (Anderson), no. 63 \n1997 Santa Fe (O'Keeffe) Inaugural \n1998 Santa Fe (O'Keeffe) Permanent \n1999 Santa Fe (O'Keeffe) Four Painters of the Stieglitz Circle \n2001 Santa Fe (O'Keeffe) O'Keeffe's O'Keeffes \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Debating American Modernism \n2005 Santa Fe (O'Keeffe) Permanent Collection (GOK and Andy Warhol: Flowers) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2008 Santa Fe (O'Keeffe) GOK and the Camera; all venues \n2010 Santa Fe (O'Keeffe) GOK: Abstraction; all venues \n2010 Santa Fe (O'Keeffe) O'Keeffiana \n2011 Europe (Rome, Munich, Helsinki) GOK: Retrospective \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway) *installed 12/10/12 as replacement for CR 120 \n2013 Santa Fe (O'Keeffe) Permanent Collection (Modern Nature) \n2015 Columbia Museum of Art, Georgia O'Keeffe and Women Artists of the Carolinas, 1915-2015, Oct 2, 2015 - January 3, 2016"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/Description/",
+            "id": "http://data.okeeffemuseum.org/object/18/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Vertical canvas of mostly grey-blue tones with some distinct lines of strong color.  General shape is that of a \"U\", dominated in the center by a vertical blue line. In the lower portion ribbons of greyish pink, blue-green, grey-blue curtain-like lines pull to meet in the middle creating the \"U\" shape out of which the delicate blue line rises.  The upper portion radiates from light closest to the blue line blending out to the darkest part of the painting in the upper left & right corners."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 3/16 x 17 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/caption/",
-            "label": "Georgia O'Keeffe. Blue Line, 1919. Oil on canvas, 20 3/16 x 17 1/8 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.4.4]",
-            "type": "LinguisticObject"
+            "value": "Inscriptions: Stretcher: \n1. \"303 / Blue Line\" (graphite) \n2. \"63 / 1919\" (AS, graphite) \n3. \"Georgia O'Keeffe / 114 E. 59\" (AS, graphite)"
         },
         {
             "classified_as": [
@@ -370,14 +327,72 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 20 3/16 x 17 1/8 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/Right/",
+            "id": "http://data.okeeffemuseum.org/object/18/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 3/16 x 17 1/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/Description/",
+            "type": "LinguisticObject",
+            "value": "Vertical canvas of mostly grey-blue tones with some distinct lines of strong color.  General shape is that of a \"U\", dominated in the center by a vertical blue line. In the lower portion ribbons of greyish pink, blue-green, grey-blue curtain-like lines pull to meet in the middle creating the \"U\" shape out of which the delicate blue line rises.  The upper portion radiates from light closest to the blue line blending out to the darkest part of the painting in the upper left & right corners."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -385,28 +400,11 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/18/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: \n1. \"303 / Blue Line\" (graphite) \n2. \"63 / 1919\" (AS, graphite) \n3. \"Georgia O'Keeffe / 114 E. 59\" (AS, graphite)"
+            "id": "http://data.okeeffemuseum.org/object/18/caption/",
+            "label": "Georgia O'Keeffe. Blue Line, 1919. Oil on canvas, 20 3/16 x 17 1/8 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.4.4]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -428,14 +426,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/18/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/18/institution_caption",
             "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation and The Georgia O'Keeffe Foundation      "
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/18/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -489,6 +509,109 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/133",
+            "timespan": {
+                "begin_of_the_begin": "2008-09-26T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/66",
+            "timespan": {
+                "begin_of_the_begin": "1997-07-17T00:00:00",
+                "end_of_the_end": "1998-03-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/76",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/76/title"
+            ],
+            "label": "Georgia O'Keeffe and the Camera: The Art of Identity",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/76/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
+            ],
+            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
+            "timespan": {
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/107",
             "timespan": {
                 "begin_of_the_begin": "2002-06-21T00:00:00",
@@ -528,109 +651,6 @@
                 "begin_of_the_begin": "1998-04-11T00:00:00",
                 "end_of_the_end": "1999-03-28T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/66",
-            "timespan": {
-                "begin_of_the_begin": "1997-07-17T00:00:00",
-                "end_of_the_end": "1998-03-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/66/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/133",
-            "timespan": {
-                "begin_of_the_begin": "2008-09-26T00:00:00",
-                "end_of_the_end": "2009-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/76",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/76/title"
-            ],
-            "label": "Georgia O'Keeffe and the Camera: The Art of Identity",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2009-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/76/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/63/title"
-            ],
-            "label": "Acquisitions and Promised Gifts Since 1997 and Selections from the Permanent Collection: An Exhibition In Honor of the Georgia O'Keeffe Museum's 5th Anniversary",
-            "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/63/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

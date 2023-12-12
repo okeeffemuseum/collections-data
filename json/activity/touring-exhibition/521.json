@@ -2,20 +2,6 @@
     "@context": "https://linked.art/ns/v1/linked-art.json",
     "carried_out_by": [
         {
-            "id": "http://data.okeeffemuseum.org/person/340",
-            "identified_by": [
-                {
-                    "classified_as": [
-                        "aat:300404670"
-                    ],
-                    "id": "http://data.okeeffemuseum.org/person/340/name/0",
-                    "type": "Name",
-                    "value": "Whitney Museum of American Art"
-                }
-            ],
-            "type": "Actor"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/person/258",
             "identified_by": [
                 {
@@ -28,59 +14,26 @@
                 }
             ],
             "type": "Actor"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/person/340",
+            "identified_by": [
+                {
+                    "classified_as": [
+                        "aat:300404670"
+                    ],
+                    "id": "http://data.okeeffemuseum.org/person/340/name/0",
+                    "type": "Name",
+                    "value": "Whitney Museum of American Art"
+                }
+            ],
+            "type": "Actor"
         }
     ],
     "classified_as": [
         "aat:300054766"
     ],
     "consists_of": [
-        {
-            "carried_out_by": [
-                {
-                    "id": "http://data.okeeffemuseum.org/person/1721",
-                    "identified_by": [
-                        {
-                            "classified_as": [
-                                "aat:300404670"
-                            ],
-                            "id": "http://data.okeeffemuseum.org/person/1721/name/1",
-                            "type": "Name",
-                            "value": "The Israel Museum"
-                        }
-                    ],
-                    "type": "Actor"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/761",
-            "timespan": {
-                "begin_of_the_begin": "1959-09-26T00:00:00",
-                "end_of_the_end": "1959-10-24T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/761/timespan",
-                "type": "TimeSpan"
-            },
-            "took_place_at": [
-                {
-                    "id": "http://data.okeeffemuseum.org/place/venue/jerusalem-israel",
-                    "identified_by": [
-                        {
-                            "classified_as": [
-                                "aat:300404670"
-                            ],
-                            "id": "http://data.okeeffemuseum.org/place/venue/jerusalem-israel/name",
-                            "type": "Name",
-                            "value": "Jerusalem/Israel"
-                        }
-                    ],
-                    "type": "Place"
-                }
-            ],
-            "type": "Activity",
-            "used_specific_object": [
-                "http://data.okeeffemuseum.org/object/8960",
-                "http://data.okeeffemuseum.org/object/8840",
-                "http://data.okeeffemuseum.org/object/165"
-            ]
-        },
         {
             "carried_out_by": [
                 {
@@ -123,10 +76,10 @@
             ],
             "type": "Activity",
             "used_specific_object": [
-                "http://data.okeeffemuseum.org/object/8840",
-                "http://data.okeeffemuseum.org/object/10162",
                 "http://data.okeeffemuseum.org/object/8960",
-                "http://data.okeeffemuseum.org/object/165"
+                "http://data.okeeffemuseum.org/object/10162",
+                "http://data.okeeffemuseum.org/object/165",
+                "http://data.okeeffemuseum.org/object/8840"
             ]
         },
         {
@@ -171,9 +124,9 @@
             ],
             "type": "Activity",
             "used_specific_object": [
-                "http://data.okeeffemuseum.org/object/165",
+                "http://data.okeeffemuseum.org/object/8840",
                 "http://data.okeeffemuseum.org/object/8960",
-                "http://data.okeeffemuseum.org/object/8840"
+                "http://data.okeeffemuseum.org/object/165"
             ]
         },
         {
@@ -218,11 +171,58 @@
             ],
             "type": "Activity",
             "used_specific_object": [
-                "http://data.okeeffemuseum.org/object/165",
-                "http://data.okeeffemuseum.org/object/9442",
                 "http://data.okeeffemuseum.org/object/9434",
+                "http://data.okeeffemuseum.org/object/8960",
                 "http://data.okeeffemuseum.org/object/8840",
-                "http://data.okeeffemuseum.org/object/8960"
+                "http://data.okeeffemuseum.org/object/9442",
+                "http://data.okeeffemuseum.org/object/165"
+            ]
+        },
+        {
+            "carried_out_by": [
+                {
+                    "id": "http://data.okeeffemuseum.org/person/1721",
+                    "identified_by": [
+                        {
+                            "classified_as": [
+                                "aat:300404670"
+                            ],
+                            "id": "http://data.okeeffemuseum.org/person/1721/name/1",
+                            "type": "Name",
+                            "value": "The Israel Museum"
+                        }
+                    ],
+                    "type": "Actor"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/761",
+            "timespan": {
+                "begin_of_the_begin": "1959-09-26T00:00:00",
+                "end_of_the_end": "1959-10-24T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/761/timespan",
+                "type": "TimeSpan"
+            },
+            "took_place_at": [
+                {
+                    "id": "http://data.okeeffemuseum.org/place/venue/jerusalem-israel",
+                    "identified_by": [
+                        {
+                            "classified_as": [
+                                "aat:300404670"
+                            ],
+                            "id": "http://data.okeeffemuseum.org/place/venue/jerusalem-israel/name",
+                            "type": "Name",
+                            "value": "Jerusalem/Israel"
+                        }
+                    ],
+                    "type": "Place"
+                }
+            ],
+            "type": "Activity",
+            "used_specific_object": [
+                "http://data.okeeffemuseum.org/object/8960",
+                "http://data.okeeffemuseum.org/object/165",
+                "http://data.okeeffemuseum.org/object/8840"
             ]
         }
     ],
@@ -256,11 +256,11 @@
     },
     "type": "Activity",
     "used_specific_object": [
-        "http://data.okeeffemuseum.org/object/9442",
-        "http://data.okeeffemuseum.org/object/165",
         "http://data.okeeffemuseum.org/object/10162",
+        "http://data.okeeffemuseum.org/object/9442",
         "http://data.okeeffemuseum.org/object/8960",
-        "http://data.okeeffemuseum.org/object/8840",
-        "http://data.okeeffemuseum.org/object/9434"
+        "http://data.okeeffemuseum.org/object/165",
+        "http://data.okeeffemuseum.org/object/9434",
+        "http://data.okeeffemuseum.org/object/8840"
     ]
 }

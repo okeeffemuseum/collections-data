@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -35,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10279/other_id",
+            "type": "Identifier",
+            "value": "1277, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -55,27 +81,10 @@
             "id": "http://data.okeeffemuseum.org/object/10279/title",
             "type": "Name",
             "value": "Winter Cottonwood Trees Soft"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10279/other_id",
-            "type": "Identifier",
-            "value": "1277, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Winter Cottonwood Trees Soft, 1954. Oil on canvas, 20 x 24 inches. Private Collection",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/10279/material/1",
-            "label": "oil paint",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/10279/material/0",
             "label": "canvas",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10279/material/1",
+            "label": "oil paint",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -117,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -137,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -162,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -188,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10279/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1949-01-01T00:00:00",
-            "end_of_the_end": "1959-12-31T00:00:00",
+            "begin_of_the_begin": "1954-01-01T00:00:00",
+            "end_of_the_end": "1954-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10279/production/timespan/0",
             "label": "1954",
             "type": "TimeSpan"
@@ -230,14 +255,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10279/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/10279/caption/",
+            "label": "Georgia O'Keeffe. Winter Cottonwood Trees Soft, 1954. Oil on canvas, 20 x 24 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10279/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "20 x 24 inches"
+            "value": "Oil on canvas, 20 x 24 inches"
         },
         {
             "classified_as": [
@@ -255,6 +302,18 @@
             "id": "http://data.okeeffemuseum.org/object/10279/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10279/Measurement/",
+            "type": "LinguisticObject",
+            "value": "20 x 24 inches"
         },
         {
             "classified_as": [
@@ -284,18 +343,6 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10279/caption/",
-            "label": "Georgia O'Keeffe. Winter Cottonwood Trees Soft, 1954. Oil on canvas, 20 x 24 inches. Private Collection",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 },
                 {
                     "id": "aat:300203630",
@@ -306,28 +353,6 @@
             "id": "http://data.okeeffemuseum.org/object/10279/institution_caption",
             "type": "LinguisticObject",
             "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10279/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 x 24 inches"
         }
     ],
     "refers_to": [],
@@ -358,11 +383,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/613",
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
             "timespan": {
-                "begin_of_the_begin": "1955-03-29T00:00:00",
-                "end_of_the_end": "1955-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
+                "begin_of_the_begin": "1966-05-28T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -388,6 +413,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/613",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/701/title"
@@ -397,19 +435,6 @@
                 "begin_of_the_begin": "1966-03-01T00:00:00",
                 "end_of_the_end": "1966-07-03T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

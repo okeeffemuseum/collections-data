@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -25,30 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10240",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10240/other_id",
-            "type": "Identifier",
-            "value": "1158, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10240/title",
-            "type": "Name",
-            "value": "White Primrose"
-        },
         {
             "classified_as": [
                 {
@@ -72,10 +57,39 @@
             "id": "http://data.okeeffemuseum.org/object/10240/otheridentifier",
             "type": "Identifier",
             "value": "1158"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10240/other_id",
+            "type": "Identifier",
+            "value": "1158, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10240/title",
+            "type": "Name",
+            "value": "White Primrose"
         }
     ],
     "label": "Georgia O'Keeffe. White Primrose, 1947. Oil on canvas, 26 x 20 inches. Private Collection",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10240/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -83,31 +97,19 @@
             "id": "http://data.okeeffemuseum.org/object/10240/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/10240/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10240/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1942-01-01T00:00:00",
-            "end_of_the_end": "1952-12-31T00:00:00",
+            "begin_of_the_begin": "1947-01-01T00:00:00",
+            "end_of_the_end": "1947-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10240/production/timespan/0",
             "label": "1947",
             "type": "TimeSpan"
@@ -203,30 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10240/Measurement/",
-            "type": "LinguisticObject",
-            "value": "26 x 20 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10240/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
         {
             "classified_as": [
                 {
@@ -242,13 +238,30 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10240/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300417193",
                     "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -260,6 +273,18 @@
             "id": "http://data.okeeffemuseum.org/object/10240/title_date_caption",
             "type": "LinguisticObject",
             "value": "White Primrose, 1947"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10240/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -277,6 +302,18 @@
             "id": "http://data.okeeffemuseum.org/object/10240/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10240/Measurement/",
+            "type": "LinguisticObject",
+            "value": "26 x 20 inches"
         },
         {
             "classified_as": [
@@ -316,23 +353,6 @@
             "id": "http://data.okeeffemuseum.org/object/10240/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil on canvas, 26 x 20 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10240/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
         }
     ],
     "refers_to": [],
@@ -380,41 +400,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/788",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/788/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings and Watercolors",
-            "timespan": {
-                "begin_of_the_begin": "1977-09-07T00:00:00",
-                "end_of_the_end": "1977-10-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/788/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1102",
             "timespan": {
                 "begin_of_the_begin": "1971-10-21T00:00:00",
                 "end_of_the_end": "1971-11-02T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1102/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/498",
-            "timespan": {
-                "begin_of_the_begin": "1950-10-01T00:00:00",
-                "end_of_the_end": "1950-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -432,6 +422,36 @@
                 "begin_of_the_begin": "1971-10-21T00:00:00",
                 "end_of_the_end": "1971-11-02T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/775/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/788",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/788/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings and Watercolors",
+            "timespan": {
+                "begin_of_the_begin": "1977-09-07T00:00:00",
+                "end_of_the_end": "1977-10-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/788/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/498",
+            "timespan": {
+                "begin_of_the_begin": "1950-10-01T00:00:00",
+                "end_of_the_end": "1950-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

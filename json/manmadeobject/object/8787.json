@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -31,14 +40,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8787/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8787/otheridentifier",
             "type": "Identifier",
-            "value": "772, Catalogue Raisonne Number"
+            "value": "772"
         },
         {
             "classified_as": [
@@ -67,14 +76,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8787/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/8787/other_id",
             "type": "Identifier",
-            "value": "772"
+            "value": "772, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Cow's Skull with Calico Roses, 1931. Oil on canvas, 36 x 24 inches. Art Institute of Chicago. The Art Institute of Chicago, Gift of Georgia O'Keeffe (1947.712). \u00a9 Art Institute of Chicago",
@@ -93,24 +102,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/297",
+        "label": "Bones",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8787/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1926-01-01T00:00:00",
-            "end_of_the_end": "1936-12-31T00:00:00",
+            "begin_of_the_begin": "1931-01-01T00:00:00",
+            "end_of_the_end": "1931-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8787/production/timespan/0",
             "label": "1931",
             "type": "TimeSpan"
@@ -209,58 +229,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8787/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8787/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "1931-32 New York (An American Place); 1932 New York (MOMA \u2013 American Painting), no. 76; 1934 Philadelphia; 1943 Chicago, no. 45; 1944 Philadelphia, no. 279; 1946 New York (MOMA \u2013 Retro), no. 43; 1987 Washington, no. 75; 1992 Washington"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Art Institute of Chicago, Gift of Georgia O'Keeffe (1947.712)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8787/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8787/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 36 x 24 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Cow's Skull with Calico Roses, 1931"
+            "value": "Art Institute of Chicago"
         },
         {
             "classified_as": [
@@ -282,6 +287,86 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Art Institute of Chicago"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/caption/",
+            "label": "Georgia O'Keeffe. Cow's Skull with Calico Roses, 1931. Oil on canvas, 36 x 24 inches. Art Institute of Chicago. The Art Institute of Chicago, Gift of Georgia O'Keeffe (1947.712). \u00a9 Art Institute of Chicago",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 x 24 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8787/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Cow's Skull with Calico Roses, 1931"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -299,35 +384,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Art Institute of Chicago"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Art Institute of Chicago, Gift of Georgia O'Keeffe (1947.712)      "
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -336,42 +392,6 @@
             "id": "http://data.okeeffemuseum.org/object/8787/Measurement/",
             "type": "LinguisticObject",
             "value": "36 x 24 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/caption/",
-            "label": "Georgia O'Keeffe. Cow's Skull with Calico Roses, 1931. Oil on canvas, 36 x 24 inches. Art Institute of Chicago. The Art Institute of Chicago, Gift of Georgia O'Keeffe (1947.712). \u00a9 Art Institute of Chicago",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Art Institute of Chicago"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8787/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1931-32 New York (An American Place); 1932 New York (MOMA \u2013 American Painting), no. 76; 1934 Philadelphia; 1943 Chicago, no. 45; 1944 Philadelphia, no. 279; 1946 New York (MOMA \u2013 Retro), no. 43; 1987 Washington, no. 75; 1992 Washington"
         }
     ],
     "refers_to": [],
@@ -414,15 +434,37 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/843",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/843/title"
-            ],
-            "label": "Two Lives Georgia O'Keeffe and Alfred Stieglitz, A Conversation in Paintings and Photographs",
+            "id": "http://data.okeeffemuseum.org/exhibition/216",
             "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-12-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/843/timespan",
+                "begin_of_the_begin": "1931-12-27T00:00:00",
+                "end_of_the_end": "1932-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/216/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -444,101 +486,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1206",
+            "id": "http://data.okeeffemuseum.org/exhibition/99",
             "timespan": {
-                "begin_of_the_begin": "1993-10-02T00:00:00",
-                "end_of_the_end": "1993-12-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1206/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1204",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-27T00:00:00",
-                "end_of_the_end": "1993-06-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
-            ],
-            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
-            ],
-            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
-            "timespan": {
-                "begin_of_the_begin": "1944-09-01T00:00:00",
-                "end_of_the_end": "1944-10-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/139",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/139/title"
-            ],
-            "label": "Murals by American Painters and Photographers",
-            "timespan": {
-                "begin_of_the_begin": "1932-05-03T00:00:00",
-                "end_of_the_end": "1932-05-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/139/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/221",
-            "timespan": {
-                "begin_of_the_begin": "1932-10-31T00:00:00",
-                "end_of_the_end": "1933-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/221/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1169",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1988-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2001-08-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -560,76 +512,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/244",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/162",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/162/title"
             ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/214",
-            "timespan": {
-                "begin_of_the_begin": "1931-01-01T00:00:00",
-                "end_of_the_end": "1931-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1205",
-            "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-09-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/100",
-            "timespan": {
-                "begin_of_the_begin": "2002-02-08T00:00:00",
-                "end_of_the_end": "2002-05-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/100/timespan",
-                "type": "TimeSpan"
-            },
+            "label": "Seventy Five Americans",
             "type": "Activity"
         },
         {
@@ -641,62 +528,6 @@
                 "begin_of_the_begin": "1988-03-05T00:00:00",
                 "end_of_the_end": "1988-06-19T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1203",
-            "timespan": {
-                "begin_of_the_begin": "1992-12-12T00:00:00",
-                "end_of_the_end": "1993-04-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/99",
-            "timespan": {
-                "begin_of_the_begin": "2001-05-04T00:00:00",
-                "end_of_the_end": "2001-08-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/220",
-            "timespan": {
-                "begin_of_the_begin": "1932-05-03T00:00:00",
-                "end_of_the_end": "1932-05-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/220/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/60",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/60/title"
-            ],
-            "label": "O'Keeffe's O'Keeffes: The Artist's Collection",
-            "timespan": {
-                "begin_of_the_begin": "2001-05-04T00:00:00",
-                "end_of_the_end": "2002-05-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/60/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -722,11 +553,13 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/162",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/162/title"
-            ],
-            "label": "Seventy Five Americans",
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
+                "type": "TimeSpan"
+            },
             "type": "Activity"
         },
         {
@@ -738,6 +571,19 @@
                 "begin_of_the_begin": "1988-11-18T00:00:00",
                 "end_of_the_end": "1989-02-05T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1205",
+            "timespan": {
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-09-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -763,11 +609,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/216",
+            "id": "http://data.okeeffemuseum.org/exhibition/214",
             "timespan": {
-                "begin_of_the_begin": "1931-12-27T00:00:00",
-                "end_of_the_end": "1932-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/216/timespan",
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -776,15 +622,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/140",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/251",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/140/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/251/title"
             ],
-            "label": "American Painting and Sculptue, 1862--1932",
+            "label": "History of an American: Alfred Stieglitz '291' and After: Selection from the Stieglitz Collection",
             "timespan": {
-                "begin_of_the_begin": "1932-10-31T00:00:00",
-                "end_of_the_end": "1933-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/140/timespan",
+                "begin_of_the_begin": "1944-09-01T00:00:00",
+                "end_of_the_end": "1944-10-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/251/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1204",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-27T00:00:00",
+                "end_of_the_end": "1993-06-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/139",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/139/title"
+            ],
+            "label": "Murals by American Painters and Photographers",
+            "timespan": {
+                "begin_of_the_begin": "1932-05-03T00:00:00",
+                "end_of_the_end": "1932-05-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/139/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1206",
+            "timespan": {
+                "begin_of_the_begin": "1993-10-02T00:00:00",
+                "end_of_the_end": "1993-12-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1206/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -810,11 +699,108 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/98",
+            "id": "http://data.okeeffemuseum.org/exhibition/220",
             "timespan": {
-                "begin_of_the_begin": "2001-09-14T00:00:00",
-                "end_of_the_end": "2002-01-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/98/timespan",
+                "begin_of_the_begin": "1932-05-03T00:00:00",
+                "end_of_the_end": "1932-05-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/220/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/100",
+            "timespan": {
+                "begin_of_the_begin": "2002-02-08T00:00:00",
+                "end_of_the_end": "2002-05-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/100/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/244",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/133",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/133/title"
+            ],
+            "label": "Georgia O'Keeffe: Recent Paintings, New Mexico, New York, Etc. -- Etc.",
+            "timespan": {
+                "begin_of_the_begin": "1931-01-01T00:00:00",
+                "end_of_the_end": "1931-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/133/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/843",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/843/title"
+            ],
+            "label": "Two Lives Georgia O'Keeffe and Alfred Stieglitz, A Conversation in Paintings and Photographs",
+            "timespan": {
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-12-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/843/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/60",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/60/title"
+            ],
+            "label": "O'Keeffe's O'Keeffes: The Artist's Collection",
+            "timespan": {
+                "begin_of_the_begin": "2001-05-04T00:00:00",
+                "end_of_the_end": "2002-05-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/60/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/221",
+            "timespan": {
+                "begin_of_the_begin": "1932-10-31T00:00:00",
+                "end_of_the_end": "1933-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/221/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1203",
+            "timespan": {
+                "begin_of_the_begin": "1992-12-12T00:00:00",
+                "end_of_the_end": "1993-04-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -836,11 +822,45 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "id": "http://data.okeeffemuseum.org/exhibition/98",
             "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "begin_of_the_begin": "2001-09-14T00:00:00",
+                "end_of_the_end": "2002-01-13T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/98/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/140",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/140/title"
+            ],
+            "label": "American Painting and Sculptue, 1862--1932",
+            "timespan": {
+                "begin_of_the_begin": "1932-10-31T00:00:00",
+                "end_of_the_end": "1933-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/140/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

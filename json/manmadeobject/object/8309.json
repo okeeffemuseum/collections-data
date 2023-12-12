@@ -8,6 +8,11 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
@@ -29,9 +34,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8309/title",
-            "type": "Name",
-            "value": "Sunrise"
+            "id": "http://data.okeeffemuseum.org/object/8309/identifier",
+            "type": "Identifier",
+            "value": "8309"
         },
         {
             "classified_as": [
@@ -41,9 +46,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8309/identifier",
-            "type": "Identifier",
-            "value": "8309"
+            "id": "http://data.okeeffemuseum.org/object/8309/title",
+            "type": "Name",
+            "value": "Sunrise"
         },
         {
             "classified_as": [
@@ -67,40 +72,33 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8309/other_id",
             "type": "Identifier",
-            "value": "131, Catalogue Raisonne Number"
+            "value": "131, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Sunrise, 1916. Watercolor on paper, 8 7/8 x 12 inches. Private Collection. Mr. and Mrs. Barney A. Ebsworth, St. Louis, Missouri, 1982",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8309/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8309/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8309/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8309/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -196,18 +212,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/provenance/",
-            "label": "(Doris Bry, New York, NY); William W. Collins, New York, NY, 1973; (Blum-Helman Gallery, New York, NY); (Zabriskie Gallery, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -219,30 +223,6 @@
             "id": "http://data.okeeffemuseum.org/object/8309/Measurement/",
             "type": "LinguisticObject",
             "value": "8 7/8 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/caption/",
-            "label": "Georgia O'Keeffe. Sunrise, 1916. Watercolor on paper, 8 7/8 x 12 inches. Private Collection. Mr. and Mrs. Barney A. Ebsworth, St. Louis, Missouri, 1982",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Mr. and Mrs. Barney A. Ebsworth, St. Louis, Missouri, 1982      "
         },
         {
             "classified_as": [
@@ -264,87 +244,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8309/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 New York (Downtown \u2013 Watercolor), no 26"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Sunrise, 1916"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8309/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 8 7/8 x 12 inches"
+            "id": "http://data.okeeffemuseum.org/object/8309/provenance/",
+            "label": "(Doris Bry, New York, NY); William W. Collins, New York, NY, 1973; (Blum-Helman Gallery, New York, NY); (Zabriskie Gallery, New York, NY)         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -362,6 +269,115 @@
             "id": "http://data.okeeffemuseum.org/object/8309/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Sunrise, 1916"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/caption/",
+            "label": "Georgia O'Keeffe. Sunrise, 1916. Watercolor on paper, 8 7/8 x 12 inches. Private Collection. Mr. and Mrs. Barney A. Ebsworth, St. Louis, Missouri, 1982",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1958 New York (Downtown \u2013 Watercolor), no 26"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Mr. and Mrs. Barney A. Ebsworth, St. Louis, Missouri, 1982      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8309/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 8 7/8 x 12 inches"
         }
     ],
     "refers_to": [],

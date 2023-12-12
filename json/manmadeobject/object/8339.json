@@ -8,6 +8,11 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300078925",
             "label": "watercolors",
             "type": "Type"
@@ -24,18 +29,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8339/otheridentifier",
-            "type": "Identifier",
-            "value": "192"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -44,6 +37,18 @@
             "id": "http://data.okeeffemuseum.org/object/8339/title",
             "type": "Name",
             "value": "Portrait \u2013 W \u2013 No. I"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8339/other_id",
+            "type": "Identifier",
+            "value": "192, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -60,47 +65,40 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8339/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8339/otheridentifier",
             "type": "Identifier",
-            "value": "192, Catalogue Raisonne Number"
+            "value": "192"
         }
     ],
     "label": "Georgia O'Keeffe. Portrait \u2013 W \u2013 No. I, 1917. Watercolor on paper, 11 7/8 x 8 3/8 inches. Private Collection. Private collection, New York, NY, 1987",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8339/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8339/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/260",
+        "label": "Portraits and Human Figures",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8339/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1912-01-01T00:00:00",
-            "end_of_the_end": "1922-12-31T00:00:00",
+            "begin_of_the_begin": "1917-01-01T00:00:00",
+            "end_of_the_end": "1917-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8339/production/timespan/0",
             "label": "1917",
             "type": "TimeSpan"
@@ -204,14 +220,48 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8339/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8339/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Portrait \u2013 W \u2013 No. I, 1917"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8339/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8339/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible"
         },
         {
             "classified_as": [
@@ -224,30 +274,6 @@
             "id": "http://data.okeeffemuseum.org/object/8339/CreditLine/",
             "type": "LinguisticObject",
             "value": "Private collection, New York, NY, 1987      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8339/caption/",
-            "label": "Georgia O'Keeffe. Portrait \u2013 W \u2013 No. I, 1917. Watercolor on paper, 11 7/8 x 8 3/8 inches. Private Collection. Private collection, New York, NY, 1987",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8339/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 New York (Downtown \u2013 Watercolor), no. 49; 1958 Claremont, no. 44; 1959 Bennington, no. 31; 1964 Waltham; 1973 New York (Crispo), no. 90; 1980 Lincoln, no. 4; 1983 Roslyn, no. 36; 1985 Santa Fe, no. 14; 1986 New York (Hirschl & Adler), no. 31"
         },
         {
             "classified_as": [
@@ -276,47 +302,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8339/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8339/exhibitions",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "1958 New York (Downtown \u2013 Watercolor), no. 49; 1958 Claremont, no. 44; 1959 Bennington, no. 31; 1964 Waltham; 1973 New York (Crispo), no. 90; 1980 Lincoln, no. 4; 1983 Roslyn, no. 36; 1985 Santa Fe, no. 14; 1986 New York (Hirschl & Adler), no. 31"
         },
         {
             "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8339/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Portrait \u2013 W \u2013 No. I, 1917"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
@@ -325,8 +324,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
@@ -349,20 +348,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8339/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -371,9 +358,38 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8339/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8339/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8339/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8339/caption/",
+            "label": "Georgia O'Keeffe. Portrait \u2013 W \u2013 No. I, 1917. Watercolor on paper, 11 7/8 x 8 3/8 inches. Private Collection. Private collection, New York, NY, 1987",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -404,49 +420,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
-            ],
-            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/500",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/500/title"
-            ],
-            "label": "An Exhibition of American Painting",
-            "timespan": {
-                "begin_of_the_begin": "1959-10-09T00:00:00",
-                "end_of_the_end": "1959-11-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/500/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
-            ],
-            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
+            "id": "http://data.okeeffemuseum.org/exhibition/1148",
             "timespan": {
                 "begin_of_the_begin": "1983-01-30T00:00:00",
                 "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -460,40 +438,6 @@
                 "begin_of_the_begin": "1958-02-25T00:00:00",
                 "end_of_the_end": "1958-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
-            ],
-            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
-            "timespan": {
-                "begin_of_the_begin": "1958-10-11T00:00:00",
-                "end_of_the_end": "1958-11-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/798",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/798/title"
-            ],
-            "label": "Georgia O'Keeffe An Exhibition of Oils, Watercolors and Drawings",
-            "timespan": {
-                "begin_of_the_begin": "1980-09-09T00:00:00",
-                "end_of_the_end": "1980-10-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/798/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -532,11 +476,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1148",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/500",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/500/title"
+            ],
+            "label": "An Exhibition of American Painting",
             "timespan": {
-                "begin_of_the_begin": "1983-01-30T00:00:00",
-                "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
+                "begin_of_the_begin": "1959-10-09T00:00:00",
+                "end_of_the_end": "1959-11-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/500/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -545,11 +493,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1136",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/798",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/798/title"
+            ],
+            "label": "Georgia O'Keeffe An Exhibition of Oils, Watercolors and Drawings",
             "timespan": {
                 "begin_of_the_begin": "1980-09-09T00:00:00",
                 "end_of_the_end": "1980-10-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/798/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -563,36 +515,6 @@
                 "begin_of_the_begin": "1964-06-01T00:00:00",
                 "end_of_the_end": "1964-06-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/986/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1158",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -644,11 +566,105 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1158",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1158/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/729",
             "timespan": {
                 "begin_of_the_begin": "1959-10-09T00:00:00",
                 "end_of_the_end": "1959-11-06T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/729/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/480",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/480/title"
+            ],
+            "label": "Georgia O'Keeffe: Watercolors, 1916-17",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
+            ],
+            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
+            "timespan": {
+                "begin_of_the_begin": "1983-01-30T00:00:00",
+                "end_of_the_end": "2020-04-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/468",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/468/title"
+            ],
+            "label": "Stieglitz Circle O'Keeffe, Marin, and Dove",
+            "timespan": {
+                "begin_of_the_begin": "1958-10-11T00:00:00",
+                "end_of_the_end": "1958-11-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/468/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1136",
+            "timespan": {
+                "begin_of_the_begin": "1980-09-09T00:00:00",
+                "end_of_the_end": "1980-10-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

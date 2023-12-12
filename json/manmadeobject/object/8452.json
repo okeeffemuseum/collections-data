@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -21,30 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8452",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/otheridentifier",
-            "type": "Identifier",
-            "value": "352"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/other_id",
-            "type": "Identifier",
-            "value": "352, Catalogue Raisonne Number"
-        },
         {
             "classified_as": [
                 {
@@ -68,10 +53,39 @@
             "id": "http://data.okeeffemuseum.org/object/8452/title",
             "type": "Name",
             "value": "Zinnia"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/other_id",
+            "type": "Identifier",
+            "value": "352, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/otheridentifier",
+            "type": "Identifier",
+            "value": "352"
         }
     ],
     "label": "Georgia O'Keeffe. Zinnia, 1921. Oil on canvas, 12 x 9 inches. Private Collection. Private collection, Detroit, Michigan, 1990",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8452/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -79,31 +93,19 @@
             "id": "http://data.okeeffemuseum.org/object/8452/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8452/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8452/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1916-01-01T00:00:00",
-            "end_of_the_end": "1926-12-31T00:00:00",
+            "begin_of_the_begin": "1921-01-01T00:00:00",
+            "end_of_the_end": "1921-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8452/production/timespan/0",
             "label": "1921",
             "type": "TimeSpan"
@@ -199,6 +219,18 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Detroit, Michigan, 1990      "
+        },
         {
             "classified_as": [
                 {
@@ -219,94 +251,26 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8452/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8452/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8452/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8452/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 x 9 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/caption/",
-            "label": "Georgia O'Keeffe. Zinnia, 1921. Oil on canvas, 12 x 9 inches. Private Collection. Private collection, Detroit, Michigan, 1990",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1986 New York (Hirschl & Adler), no. 2; 1986 San Francisco, no. 15"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Zinnia, 1921"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8452/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Detroit, Michigan, 1990      "
+            "value": "Stretcher: inaccessible. Verso: inaccessible"
         },
         {
             "classified_as": [
@@ -323,14 +287,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8452/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8452/caption/",
+            "label": "Georgia O'Keeffe. Zinnia, 1921. Oil on canvas, 12 x 9 inches. Private Collection. Private collection, Detroit, Michigan, 1990",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/Materials/",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible"
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Zinnia, 1921"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8452/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -357,26 +372,31 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8452/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8452/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas, 12 x 9 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8452/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8452/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "1923 New York (Anderson); 1986 New York (Hirschl & Adler), no. 2; 1986 San Francisco, no. 15"
         }
     ],
     "refers_to": [],
@@ -403,6 +423,36 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1160",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-06-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -437,54 +487,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1160",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-06-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1161",
             "timespan": {
                 "begin_of_the_begin": "1986-06-14T00:00:00",
                 "end_of_the_end": "1986-07-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1163",
-            "timespan": {
-                "begin_of_the_begin": "1986-07-25T00:00:00",
-                "end_of_the_end": "1986-09-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -502,6 +509,19 @@
                 "begin_of_the_begin": "1986-07-25T00:00:00",
                 "end_of_the_end": "1986-09-06T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/821/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1163",
+            "timespan": {
+                "begin_of_the_begin": "1986-07-25T00:00:00",
+                "end_of_the_end": "1986-09-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

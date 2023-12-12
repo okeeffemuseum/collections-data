@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -40,18 +49,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/title",
-            "type": "Name",
-            "value": "Pink Tulip"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -64,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/title",
+            "type": "Name",
+            "value": "Pink Tulip"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -71,7 +80,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8634/other_id",
             "type": "Identifier",
-            "value": "564, Catalogue Raisonne Number"
+            "value": "564, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Tulip, 1926. Oil on canvas, 36 x 30 inches. Baltimore Museum of Art. The Baltimore Museum of Art: Bequest of Mabel Garrison Siemonn, in Memory of her Husband, George Siemonn (1964.11.13)",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8634/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1921-01-01T00:00:00",
-            "end_of_the_end": "1931-12-31T00:00:00",
+            "begin_of_the_begin": "1926-01-01T00:00:00",
+            "end_of_the_end": "1926-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8634/production/timespan/0",
             "label": "1926",
             "type": "TimeSpan"
@@ -203,69 +223,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: \"Stieglitz #J / #8 O'Keefe / G 38 gl 58\" (GO, graphite). Backing: 1. \"Pink Tulip \u2013 1926 / O'Keeffe\" (AS, black crayon) 2. AAP11 [twice] 3. \"Tulip 1926 / Georgia O'Keeffe\" (WE, AAP6, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Baltimore Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
         {
             "classified_as": [
                 {
@@ -281,72 +238,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8634/caption/",
-            "label": "Georgia O'Keeffe. Pink Tulip, 1926. Oil on canvas, 36 x 30 inches. Baltimore Museum of Art. The Baltimore Museum of Art: Bequest of Mabel Garrison Siemonn, in Memory of her Husband, George Siemonn (1964.11.13)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8634/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Baltimore Museum of Art: Bequest of Mabel Garrison Siemonn, in Memory of her Husband, George Siemonn (1964.11.13)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/Measurement/",
-            "type": "LinguisticObject",
-            "value": "36 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8634/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 36 x 30 inches"
+            "value": "Stretcher: \"Stieglitz #J / #8 O'Keefe / G 38 gl 58\" (GO, graphite). Backing: 1. \"Pink Tulip \u2013 1926 / O'Keeffe\" (AS, black crayon) 2. AAP11 [twice] 3. \"Tulip 1926 / Georgia O'Keeffe\" (WE, AAP6, black ink)"
         },
         {
             "classified_as": [
@@ -373,6 +272,103 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/caption/",
+            "label": "Georgia O'Keeffe. Pink Tulip, 1926. Oil on canvas, 36 x 30 inches. Baltimore Museum of Art. The Baltimore Museum of Art: Bequest of Mabel Garrison Siemonn, in Memory of her Husband, George Siemonn (1964.11.13)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Baltimore Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -381,6 +377,30 @@
             "id": "http://data.okeeffemuseum.org/object/8634/provenance/",
             "label": "(The Downtown Gallery, New York, NY); Mabel G. Siemonn, New York, NY, 1960         ",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Baltimore Museum of Art: Bequest of Mabel Garrison Siemonn, in Memory of her Husband, George Siemonn (1964.11.13)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8634/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 x 30 inches"
         }
     ],
     "refers_to": [],
@@ -423,11 +443,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/851",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/576",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/576/title"
+            ],
+            "label": "The Museum of Modern Art, Art in Embassies",
             "timespan": {
                 "begin_of_the_begin": "1961-08-01T00:00:00",
                 "end_of_the_end": "1962-06-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/851/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/576/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/284",
+            "timespan": {
+                "begin_of_the_begin": "1937-01-27T00:00:00",
+                "end_of_the_end": "1937-02-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/284/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -453,28 +490,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/576",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/576/title"
-            ],
-            "label": "The Museum of Modern Art, Art in Embassies",
+            "id": "http://data.okeeffemuseum.org/exhibition/851",
             "timespan": {
                 "begin_of_the_begin": "1961-08-01T00:00:00",
                 "end_of_the_end": "1962-06-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/576/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/284",
-            "timespan": {
-                "begin_of_the_begin": "1937-01-27T00:00:00",
-                "end_of_the_end": "1937-02-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/284/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/851/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

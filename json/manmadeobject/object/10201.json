@@ -3,8 +3,23 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -23,14 +38,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10201/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/10201/identifier",
             "type": "Identifier",
-            "value": "1590"
+            "value": "10201"
         },
         {
             "classified_as": [
@@ -54,24 +69,39 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10201/other_id",
             "type": "Identifier",
-            "value": "1590, Catalogue Raisonne Number"
+            "value": "1590, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10201/identifier",
+            "id": "http://data.okeeffemuseum.org/object/10201/otheridentifier",
             "type": "Identifier",
-            "value": "10201"
+            "value": "1590"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Abstraction), 1976. Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. Untitled (Abstraction), 1976. Black ink on paper, 11 x 8 1/2 inches. Private Collection",
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/10201/material/0",
+            "label": "ink",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10201/material/1",
+            "label": "paper",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10201/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1976-01-01T00:00:00",
+            "end_of_the_end": "1976-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10201/production/timespan/0",
             "label": "1976",
             "type": "TimeSpan"
@@ -185,13 +224,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -203,6 +242,18 @@
             "id": "http://data.okeeffemuseum.org/object/10201/title_date_caption",
             "type": "LinguisticObject",
             "value": "Untitled (Abstraction), 1976"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10201/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 x 8 1/2 inches"
         },
         {
             "classified_as": [
@@ -230,19 +281,36 @@
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/10201/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Abstraction), 1976. Private Collection",
+            "label": "Georgia O'Keeffe. Untitled (Abstraction), 1976. Black ink on paper, 11 x 8 1/2 inches. Private Collection",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10201/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -253,19 +321,36 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10201/Materials/",
+            "type": "LinguisticObject",
+            "value": "Black ink on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10201/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10201/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Black ink on paper, 11 x 8 1/2 inches"
         }
     ],
     "refers_to": [],

@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
@@ -21,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8525",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8525/other_id",
+            "type": "Identifier",
+            "value": "435, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -41,9 +62,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/title",
-            "type": "Name",
-            "value": "Four Dark Red Oak Leaves"
+            "id": "http://data.okeeffemuseum.org/object/8525/identifier",
+            "type": "Identifier",
+            "value": "8525"
         },
         {
             "classified_as": [
@@ -53,21 +74,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/identifier",
-            "type": "Identifier",
-            "value": "8525"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8525/other_id",
-            "type": "Identifier",
-            "value": "435, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/8525/title",
+            "type": "Name",
+            "value": "Four Dark Red Oak Leaves"
         }
     ],
     "label": "Georgia O'Keeffe. Four Dark Red Oak Leaves, 1923. Oil on canvasboard, 11 7/8 x 8 7/8 inches. Private Collection. Private collection, Eatonville, Washington, 1987",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8525/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1918-01-01T00:00:00",
-            "end_of_the_end": "1928-12-31T00:00:00",
+            "begin_of_the_begin": "1923-01-01T00:00:00",
+            "end_of_the_end": "1923-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8525/production/timespan/0",
             "label": "1923",
             "type": "TimeSpan"
@@ -202,58 +222,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8525/Materials/",
             "type": "LinguisticObject",
-            "value": "1924 New York (Anderson), among nos. 35-42, as Leaves?"
+            "value": "Oil on canvasboard"
         },
         {
             "classified_as": [
                 {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8525/institution_caption",
             "type": "LinguisticObject",
-            "value": "Four Dark Red Oak Leaves, 1923"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvasboard, 11 7/8 x 8 7/8 inches"
+            "id": "http://data.okeeffemuseum.org/object/8525/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Private collection, Palm Beach, Florida, 1973; Christie's, New York, NY, sale no. 5906, lot no. 289, 31 May 1985; James Goodman Gallery, Inc., New York, NY, 1985; Bill Dean, New York, NY, 1986; Dan Liberman, St. Louis, Missouri, 1987; Harcourt's Modern and Contemporary Gallery, San Francisco, California, 1987         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -270,38 +275,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8525/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvasboard"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8525/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private collection, Eatonville, Washington, 1987      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8525/Measurement/",
-            "type": "LinguisticObject",
-            "value": "11 7/8 x 8 7/8 inches"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -335,48 +321,82 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Private collection, Palm Beach, Florida, 1973; Christie's, New York, NY, sale no. 5906, lot no. 289, 31 May 1985; James Goodman Gallery, Inc., New York, NY, 1985; Bill Dean, New York, NY, 1986; Dan Liberman, St. Louis, Missouri, 1987; Harcourt's Modern and Contemporary Gallery, San Francisco, California, 1987         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8525/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1924 New York (Anderson), among nos. 35-42, as Leaves?"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8525/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvasboard, 11 7/8 x 8 7/8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8525/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8525/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Four Dark Red Oak Leaves, 1923"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8525/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 7/8 x 8 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8525/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Eatonville, Washington, 1987      "
         }
     ],
     "refers_to": [],

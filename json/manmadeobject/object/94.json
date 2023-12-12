@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -35,6 +44,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/other_id",
+            "type": "Identifier",
+            "value": "1443, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/accessionnumber",
+            "type": "Identifier",
+            "value": "1997.6.18"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -52,21 +85,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/title",
-            "type": "Name",
-            "value": "Pink & Green"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/94/identifier",
             "type": "Identifier",
-            "value": "1997.6.18"
+            "value": "94"
         },
         {
             "classified_as": [
@@ -76,25 +97,18 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/identifier",
-            "type": "Identifier",
-            "value": "94"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/other_id",
-            "type": "Identifier",
-            "value": "1443, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/94/title",
+            "type": "Name",
+            "value": "Pink & Green"
         }
     ],
     "label": "Georgia O'Keeffe. Pink & Green, 1960. Oil on canvas, 30 x 16 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.6.18]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/94/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,31 +116,19 @@
             "id": "http://data.okeeffemuseum.org/object/94/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/94/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/94/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1960-01-01T00:00:00",
             "end_of_the_end": "1960-12-31T00:00:00",
@@ -225,26 +245,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300435449",
-                    "label": "current location description",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/gallery_location",
+            "id": "http://data.okeeffemuseum.org/object/94/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Gallery 3/Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/Measurement/",
-            "type": "LinguisticObject",
-            "value": "30 x 16 inches"
+            "value": "Inscriptions: Backing: \"4/27/57/2 glue / 2 white lead turpentine\" \ngraphite, fragment of original backing) \nBacking 2: \"Pink and Green / 1960 / Oil / 30 x 16 / canvas\" \n(OKR, black ink)"
         },
         {
             "classified_as": [
@@ -254,38 +262,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/94/Right/",
             "type": "LinguisticObject",
-            "value": "Burnett Foundation Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1961 New York (Downtown--Paintings), not on checklist \n1993 Greenville \n1993 London (Lefevre), no. 19 \n2009 Santa Fe (O'Keeffe) Beyond Our Shores/Jimson Weed Returns \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -307,8 +286,32 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/Measurement/",
+            "type": "LinguisticObject",
+            "value": "30 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/Description/",
+            "type": "LinguisticObject",
+            "value": "Vertical canvas - abstracted aerial view of an olive green river zigzagging through a salmon-pink colored ground."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -317,14 +320,31 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/94/title_date_caption",
             "type": "LinguisticObject",
             "value": "Pink & Green, 1960"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -341,60 +361,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/94/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 30 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/provenance/",
-            "label": "(The Downtown Gallery, New York, N.Y.) ^Chauncey L. Waddell, New York, N.Y., 1961 ^Desended in family ^Gerald Peters Gallery, Santa Fe, N.Mex., 1987 ^Private collection, Fort Worth, Tex., 1988 ^Gerald Peters Gallery, Santa Fe, N.Mex., 1992 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Backing: \"4/27/57/2 glue / 2 white lead turpentine\" \ngraphite, fragment of original backing) \nBacking 2: \"Pink and Green / 1960 / Oil / 30 x 16 / canvas\" \n(OKR, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/94/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
+            "value": "Burnett Foundation Gift"
         },
         {
             "classified_as": [
@@ -416,26 +390,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/Right/",
+            "id": "http://data.okeeffemuseum.org/object/94/CreditLine/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Gift of The Burnett Foundation      "
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/94/Description/",
+            "id": "http://data.okeeffemuseum.org/object/94/provenance/",
+            "label": "(The Downtown Gallery, New York, N.Y.) ^Chauncey L. Waddell, New York, N.Y., 1961 ^Desended in family ^Gerald Peters Gallery, Santa Fe, N.Mex., 1987 ^Private collection, Fort Worth, Tex., 1988 ^Gerald Peters Gallery, Santa Fe, N.Mex., 1992 ^The Burnett Foundation, Fort Worth, Tex., 1996         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Vertical canvas - abstracted aerial view of an olive green river zigzagging through a salmon-pink colored ground."
+            "value": "Oil on canvas, 30 x 16 inches"
         },
         {
             "classified_as": [
@@ -448,6 +444,30 @@
             "id": "http://data.okeeffemuseum.org/object/94/caption/",
             "label": "Georgia O'Keeffe. Pink & Green, 1960. Oil on canvas, 30 x 16 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [1997.6.18]",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300435449",
+                    "label": "current location description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/gallery_location",
+            "type": "LinguisticObject",
+            "value": "Gallery 3/Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/94/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1961 New York (Downtown--Paintings), not on checklist \n1993 Greenville \n1993 London (Lefevre), no. 19 \n2009 Santa Fe (O'Keeffe) Beyond Our Shores/Jimson Weed Returns \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri)"
         }
     ],
     "refers_to": [],
@@ -475,17 +495,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264578",
-                    "label": "Web pages",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://www.arsny.com/requests",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300041273",
                     "label": "prints",
                     "type": "Type"
@@ -493,6 +502,17 @@
             ],
             "id": "https://prints.okeeffemuseum.org/detail/460706",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264578",
+                    "label": "Web pages",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://www.arsny.com/requests",
+            "type": "LinguisticObject"
         }
     ],
     "type": "ManMadeObject",
@@ -518,11 +538,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1214",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/848",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/848/title"
+            ],
+            "label": "Georgia O'Keeffe (1887-1986)",
             "timespan": {
                 "begin_of_the_begin": "1993-04-08T00:00:00",
                 "end_of_the_end": "1993-05-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/848/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -544,15 +568,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/848",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/571",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/848/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/571/title"
             ],
-            "label": "Georgia O'Keeffe (1887-1986)",
+            "label": "Georgia O'Keeffe: Recent Paintings and Drawings",
             "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-05-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/848/timespan",
+                "begin_of_the_begin": "1961-04-11T00:00:00",
+                "end_of_the_end": "1961-05-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/571/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -578,24 +602,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/135",
-            "timespan": {
-                "begin_of_the_begin": "2009-05-22T00:00:00",
-                "end_of_the_end": "2009-09-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/135/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/846",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/846/title"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/845",
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1961-02-15T00:00:00",
-                "end_of_the_end": "1961-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/845/timespan",
+                "begin_of_the_begin": "1993-07-07T00:00:00",
+                "end_of_the_end": "1993-08-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/846/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -617,15 +632,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/846",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/846/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1214",
             "timespan": {
-                "begin_of_the_begin": "1993-07-07T00:00:00",
-                "end_of_the_end": "1993-08-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/846/timespan",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-05-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -634,15 +645,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/571",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/571/title"
-            ],
-            "label": "Georgia O'Keeffe: Recent Paintings and Drawings",
+            "id": "http://data.okeeffemuseum.org/exhibition/845",
             "timespan": {
-                "begin_of_the_begin": "1961-04-11T00:00:00",
-                "end_of_the_end": "1961-05-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/571/timespan",
+                "begin_of_the_begin": "1961-02-15T00:00:00",
+                "end_of_the_end": "1961-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/845/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/135",
+            "timespan": {
+                "begin_of_the_begin": "2009-05-22T00:00:00",
+                "end_of_the_end": "2009-09-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/135/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

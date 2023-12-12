@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         },
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "aat:300033973",
+            "label": "drawings",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -40,9 +50,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/730/identifier",
-            "type": "Identifier",
-            "value": "730"
+            "id": "http://data.okeeffemuseum.org/object/730/title",
+            "type": "Name",
+            "value": "Untitled (Abstraction/River)"
         },
         {
             "classified_as": [
@@ -52,21 +62,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/730/title",
-            "type": "Name",
-            "value": "Untitled (Abstraction/River)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/730/identifier",
             "type": "Identifier",
-            "value": "2006.5.271"
+            "value": "730"
         },
         {
             "classified_as": [
@@ -90,40 +88,45 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/730/other_id",
             "type": "Identifier",
-            "value": "1343, Catalogue Raisonne Number"
+            "value": "1343, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.5.271"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Abstraction/River), 1959. Blue-black pen on paper, 2 3/8 x 1 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.271]",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/730/material/0",
-            "label": "Blue-black ball point pen",
+            "label": "pen",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/730/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/293",
+        "label": "Marine",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -138,16 +141,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -158,17 +172,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -183,16 +186,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -209,6 +223,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/730/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1959-01-01T00:00:00",
             "end_of_the_end": "1959-12-31T00:00:00",
@@ -222,88 +243,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/Measurement/",
-            "type": "LinguisticObject",
-            "value": "2 3/8 x 1 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Abstraction/River), 1959. Blue-black pen on paper, 2 3/8 x 1 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.271]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Blue-black pen on paper, 2 3/8 x 1 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2009 Santa Fe (O'Keeffe) Beyond Our Shores/Jimson Weed Returns"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -312,23 +251,6 @@
             "id": "http://data.okeeffemuseum.org/object/730/Materials/",
             "type": "LinguisticObject",
             "value": "Blue-black pen on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/730/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -345,19 +267,72 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/Description/",
+            "type": "LinguisticObject",
+            "value": "Winding river branches out into a smaller stream in Blue-black point pen overall on paper."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/Measurement/",
+            "type": "LinguisticObject",
+            "value": "2 3/8 x 1 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/730/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/730/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Blue-black pen on paper, 2 3/8 x 1 3/4 inches"
         },
         {
             "classified_as": [
@@ -379,6 +354,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2009 Santa Fe (O'Keeffe) Beyond Our Shores/Jimson Weed Returns"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Abstraction/River), 1959. Blue-black pen on paper, 2 3/8 x 1 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.271]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -391,22 +390,22 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/730/Description/",
+            "id": "http://data.okeeffemuseum.org/object/730/artist_caption",
             "type": "LinguisticObject",
-            "value": "Winding river branches out into a smaller stream in Blue-black point pen overall on paper."
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -416,11 +415,33 @@
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/730/title_date_caption",
             "type": "LinguisticObject",
             "value": "Untitled (Abstraction/River), 1959"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/730/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -463,19 +484,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/135",
-            "timespan": {
-                "begin_of_the_begin": "2009-05-22T00:00:00",
-                "end_of_the_end": "2009-09-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/135/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/78",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/78/title"
@@ -485,6 +493,19 @@
                 "begin_of_the_begin": "2009-05-22T00:00:00",
                 "end_of_the_end": "2009-09-20T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/78/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/135",
+            "timespan": {
+                "begin_of_the_begin": "2009-05-22T00:00:00",
+                "end_of_the_end": "2009-09-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/135/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

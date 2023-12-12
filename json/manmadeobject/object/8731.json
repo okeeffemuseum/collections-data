@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -28,6 +37,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/title",
+            "type": "Name",
+            "value": "Yellow Cactus"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -35,7 +56,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8731/other_id",
             "type": "Identifier",
-            "value": "675, Catalogue Raisonne Number"
+            "value": "675, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -48,18 +69,6 @@
             "id": "http://data.okeeffemuseum.org/object/8731/otheridentifier",
             "type": "Identifier",
             "value": "675"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/title",
-            "type": "Name",
-            "value": "Yellow Cactus"
         },
         {
             "classified_as": [
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,6 +206,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8731/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1929-01-01T00:00:00",
             "end_of_the_end": "1929-12-31T00:00:00",
@@ -206,87 +226,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8731/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8731/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 30 x 42 inches"
+            "value": "1930 New York (An American Place), no. 10, as Two Yellow Flowers, N.M.; 1953 Dallas, no. 12; 1963 Dallas; 1963 Fort Worth; 1966 Fort Worth; 1975 San Antonio; 1977 Abilene; 1980 Lincoln, no. 30; 1983 Roslyn, no. 43; 1984 Madison; 1985 Amarillo, no. 12; 1986 Perth, no. 61; 1991 New York (Hirschl & Adler), no. 60"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Yellow Cactus, 1929"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); William E. Scott, Fort Worth, Texas, 1960; William E. Scott Foundation, Fort Worth, Texas, bequest, 1961; Modern Art Museum of Fort Worth, Texas, gift, 1963; Sotheby's, New York, NY, sale no. 5860, lot no. 217, 24 May 1989; Hirschl & Adler Galleries, Inc., New York, NY         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8731/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -308,62 +272,48 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Yellow Cactus, 1929"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Dallas Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Dallas, Texas, 1993      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1930 New York (An American Place), no. 10, as Two Yellow Flowers, N.M.; 1953 Dallas, no. 12; 1963 Dallas; 1963 Fort Worth; 1966 Fort Worth; 1975 San Antonio; 1977 Abilene; 1980 Lincoln, no. 30; 1983 Roslyn, no. 43; 1984 Madison; 1985 Amarillo, no. 12; 1986 Perth, no. 61; 1991 New York (Hirschl & Adler), no. 60"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8731/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"[Ye]llow (black ink, AAP1) Cactus Flower \u2013 1929 / by Georgia O'Keeffe\" (AS, AAP1, red ink)"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8731/caption/",
-            "label": "Georgia O'Keeffe. Yellow Cactus, 1929. Oil on canvas, 30 x 42 inches. Dallas Museum of Art. Private collection, Dallas, Texas, 1993",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8731/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Dallas Museum of Art"
         },
         {
             "classified_as": [
@@ -381,6 +331,76 @@
             "id": "http://data.okeeffemuseum.org/object/8731/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/caption/",
+            "label": "Georgia O'Keeffe. Yellow Cactus, 1929. Oil on canvas, 30 x 42 inches. Dallas Museum of Art. Private collection, Dallas, Texas, 1993",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); William E. Scott, Fort Worth, Texas, 1960; William E. Scott Foundation, Fort Worth, Texas, bequest, 1961; Modern Art Museum of Fort Worth, Texas, gift, 1963; Sotheby's, New York, NY, sale no. 5860, lot no. 217, 24 May 1989; Hirschl & Adler Galleries, Inc., New York, NY         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 30 x 42 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"[Ye]llow (black ink, AAP1) Cactus Flower \u2013 1929 / by Georgia O'Keeffe\" (AS, AAP1, red ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8731/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Dallas, Texas, 1993      "
         }
     ],
     "refers_to": [],
@@ -423,32 +443,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1156",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-01T00:00:00",
-                "end_of_the_end": "1985-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1156/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1109",
-            "timespan": {
-                "begin_of_the_begin": "1975-10-24T00:00:00",
-                "end_of_the_end": "1975-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/621",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/621/title"
@@ -460,215 +454,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/189",
-            "timespan": {
-                "begin_of_the_begin": "1930-02-07T00:00:00",
-                "end_of_the_end": "1930-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1014",
-            "timespan": {
-                "begin_of_the_begin": "1966-05-28T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
-            ],
-            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
-            "timespan": {
-                "begin_of_the_begin": "1983-01-30T00:00:00",
-                "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/782",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/782/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1975-10-24T00:00:00",
-                "end_of_the_end": "1975-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/782/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1152",
-            "timespan": {
-                "begin_of_the_begin": "1984-03-02T00:00:00",
-                "end_of_the_end": "1984-04-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1152/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/811",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/811/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1984-03-02T00:00:00",
-                "end_of_the_end": "1984-04-29T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/811/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/919",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1148",
-            "timespan": {
-                "begin_of_the_begin": "1983-01-30T00:00:00",
-                "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1136",
-            "timespan": {
-                "begin_of_the_begin": "1980-09-09T00:00:00",
-                "end_of_the_end": "1980-10-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/565",
-            "timespan": {
-                "begin_of_the_begin": "1953-03-16T00:00:00",
-                "end_of_the_end": "1953-04-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/625",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/625/title"
-            ],
-            "label": "Fort Worth Collection",
-            "timespan": {
-                "begin_of_the_begin": "1963-05-01T00:00:00",
-                "end_of_the_end": "1963-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/625/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1977-09-17T00:00:00",
-                "end_of_the_end": "1977-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
-            ],
-            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
-            "timespan": {
-                "begin_of_the_begin": "1991-11-09T00:00:00",
-                "end_of_the_end": "1992-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1162",
             "timespan": {
                 "begin_of_the_begin": "1986-02-06T00:00:00",
                 "end_of_the_end": "1987-01-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1162/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/815",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/815/title"
-            ],
-            "label": "Georgia O'Keeffe and Her Contemporaries: A Vision Amidst Tradition",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-01T00:00:00",
-                "end_of_the_end": "1985-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/815/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -690,45 +480,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "id": "http://data.okeeffemuseum.org/exhibition/564",
             "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "begin_of_the_begin": "1953-02-01T00:00:00",
+                "end_of_the_end": "1953-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/564/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1014",
+            "timespan": {
+                "begin_of_the_begin": "1966-05-28T00:00:00",
                 "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1112",
-            "timespan": {
-                "begin_of_the_begin": "1977-09-17T00:00:00",
-                "end_of_the_end": "1977-10-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1112/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/798",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/798/title"
-            ],
-            "label": "Georgia O'Keeffe An Exhibition of Oils, Watercolors and Drawings",
-            "timespan": {
-                "begin_of_the_begin": "1980-09-09T00:00:00",
-                "end_of_the_end": "1980-10-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/798/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1014/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -754,15 +523,165 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/125",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/125/title"
-            ],
-            "label": "Georgia O'Keeffe: 27 New Mexico, New York, Lake George, Etc.",
+            "id": "http://data.okeeffemuseum.org/exhibition/189",
             "timespan": {
                 "begin_of_the_begin": "1930-02-07T00:00:00",
                 "end_of_the_end": "1930-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/125/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/798",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/798/title"
+            ],
+            "label": "Georgia O'Keeffe An Exhibition of Oils, Watercolors and Drawings",
+            "timespan": {
+                "begin_of_the_begin": "1980-09-09T00:00:00",
+                "end_of_the_end": "1980-10-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/798/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/811",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/811/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1984-03-02T00:00:00",
+                "end_of_the_end": "1984-04-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/811/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1148",
+            "timespan": {
+                "begin_of_the_begin": "1983-01-30T00:00:00",
+                "end_of_the_end": "2020-04-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1148/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/815",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/815/title"
+            ],
+            "label": "Georgia O'Keeffe and Her Contemporaries: A Vision Amidst Tradition",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-01T00:00:00",
+                "end_of_the_end": "1985-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/815/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
+            ],
+            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
+            "timespan": {
+                "begin_of_the_begin": "1983-01-30T00:00:00",
+                "end_of_the_end": "2020-04-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
+            ],
+            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
+            "timespan": {
+                "begin_of_the_begin": "1991-11-09T00:00:00",
+                "end_of_the_end": "1992-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1199",
+            "timespan": {
+                "begin_of_the_begin": "1991-11-09T00:00:00",
+                "end_of_the_end": "1992-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1199/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1112",
+            "timespan": {
+                "begin_of_the_begin": "1977-09-17T00:00:00",
+                "end_of_the_end": "1977-10-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1112/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
+            ],
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1109",
+            "timespan": {
+                "begin_of_the_begin": "1975-10-24T00:00:00",
+                "end_of_the_end": "1975-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -788,19 +707,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/564",
-            "timespan": {
-                "begin_of_the_begin": "1953-02-01T00:00:00",
-                "end_of_the_end": "1953-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/564/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1013",
             "timespan": {
                 "begin_of_the_begin": "1966-03-01T00:00:00",
@@ -814,11 +720,125 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1199",
+            "id": "http://data.okeeffemuseum.org/exhibition/1136",
             "timespan": {
-                "begin_of_the_begin": "1991-11-09T00:00:00",
-                "end_of_the_end": "1992-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1199/timespan",
+                "begin_of_the_begin": "1980-09-09T00:00:00",
+                "end_of_the_end": "1980-10-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1136/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/919",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1152",
+            "timespan": {
+                "begin_of_the_begin": "1984-03-02T00:00:00",
+                "end_of_the_end": "1984-04-29T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1152/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/625",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/625/title"
+            ],
+            "label": "Fort Worth Collection",
+            "timespan": {
+                "begin_of_the_begin": "1963-05-01T00:00:00",
+                "end_of_the_end": "1963-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/625/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/782",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/782/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1975-10-24T00:00:00",
+                "end_of_the_end": "1975-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/782/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/565",
+            "timespan": {
+                "begin_of_the_begin": "1953-03-16T00:00:00",
+                "end_of_the_end": "1953-04-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/785",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/785/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1977-09-17T00:00:00",
+                "end_of_the_end": "1977-10-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/785/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1156",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-01T00:00:00",
+                "end_of_the_end": "1985-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1156/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/125",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/125/title"
+            ],
+            "label": "Georgia O'Keeffe: 27 New Mexico, New York, Lake George, Etc.",
+            "timespan": {
+                "begin_of_the_begin": "1930-02-07T00:00:00",
+                "end_of_the_end": "1930-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/125/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

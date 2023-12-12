@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -35,7 +45,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/9446/other_id",
             "type": "Identifier",
-            "value": "1340, Catalogue Raisonne Number"
+            "value": "1340, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -78,7 +88,7 @@
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/9446/material/0",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
@@ -87,24 +97,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/9446/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1954-01-01T00:00:00",
-            "end_of_the_end": "1964-12-31T00:00:00",
+            "begin_of_the_begin": "1959-01-01T00:00:00",
+            "end_of_the_end": "1959-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/9446/production/timespan/0",
             "label": "1959",
             "type": "TimeSpan"
@@ -203,43 +224,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9446/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 7/8 x 18 5/8 inches, sheet"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9446/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/9446/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/9446/Materials/",
-            "type": "LinguisticObject",
-            "value": "Charcoal on paper"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -264,15 +261,27 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9446/caption/",
+            "label": "Georgia O'Keeffe. Drawing X, 1959. Charcoal on paper, 24 7/8 x 18 5/8 inches, sheet. Museum of Modern Art (MoMA). Museum of Modern Art, New York. Gift of Abby Aldrich Rockefeller (by exchange)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -283,17 +292,22 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9446/caption/",
-            "label": "Georgia O'Keeffe. Drawing X, 1959. Charcoal on paper, 24 7/8 x 18 5/8 inches, sheet. Museum of Modern Art (MoMA). Museum of Modern Art, New York. Gift of Abby Aldrich Rockefeller (by exchange)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/9446/Materials/",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -302,11 +316,6 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -317,19 +326,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/9446/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/9446/Measurement/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "24 7/8 x 18 5/8 inches, sheet"
         },
         {
             "classified_as": [
@@ -342,6 +346,23 @@
             "id": "http://data.okeeffemuseum.org/object/9446/CreditLine/",
             "type": "LinguisticObject",
             "value": "Museum of Modern Art, New York. Gift of Abby Aldrich Rockefeller (by exchange)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/9446/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -401,23 +422,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/571",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/571/title"
-            ],
-            "label": "Georgia O'Keeffe: Recent Paintings and Drawings",
-            "timespan": {
-                "begin_of_the_begin": "1961-04-11T00:00:00",
-                "end_of_the_end": "1961-05-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/571/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/810",
             "timespan": {
                 "begin_of_the_begin": "1960-10-04T00:00:00",
@@ -436,6 +440,23 @@
                 "begin_of_the_begin": "1961-04-11T00:00:00",
                 "end_of_the_end": "1961-05-06T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/846/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/571",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/571/title"
+            ],
+            "label": "Georgia O'Keeffe: Recent Paintings and Drawings",
+            "timespan": {
+                "begin_of_the_begin": "1961-04-11T00:00:00",
+                "end_of_the_end": "1961-05-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/571/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

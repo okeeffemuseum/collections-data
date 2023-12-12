@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -24,18 +33,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8796/otheridentifier",
-            "type": "Identifier",
-            "value": "784"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -43,7 +40,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8796/other_id",
             "type": "Identifier",
-            "value": "784, Catalogue Raisonne Number"
+            "value": "784, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -68,39 +65,44 @@
             "id": "http://data.okeeffemuseum.org/object/8796/title",
             "type": "Name",
             "value": "Pink Roses and Larkspur"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8796/otheridentifier",
+            "type": "Identifier",
+            "value": "784"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Roses and Larkspur, 1931. Pastel on paper, 16 x 12 inches. Private Collection. Collection of Mr. and Mrs. E. Parry Thomas, Las Vegas, Nevada, 1994",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8796/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8796/material/0",
-            "label": "Pastel",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +199,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8796/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1926-01-01T00:00:00",
-            "end_of_the_end": "1936-12-31T00:00:00",
+            "begin_of_the_begin": "1931-01-01T00:00:00",
+            "end_of_the_end": "1931-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8796/production/timespan/0",
             "label": "1931",
             "type": "TimeSpan"
@@ -199,26 +219,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8796/signaturemarks",
             "type": "LinguisticObject",
-            "value": "1933 New York (An American Place), no. 6, as Flowers; 1986 New York (Hirschl & Adler), no. 6; 1993 London (Lefevre), no. 9"
+            "value": "Verso: inaccessible. Backing: 1. \"Pink Roses and Larkspur \u2013 31\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe\" (black ink)"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/provenance/",
-            "label": "Harold Diamond, New York, NY, purchase, 1976; Doris Bry, New York, NY, 1977; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; Private collection, Sun Valley, Idaho, 1987; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; Private collection, Denver, Colorado, 1987; Sotheby's, New York, NY, sale no. 6507, lot no. 92, 2 December 1993         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8796/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -235,47 +260,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible. Backing: 1. \"Pink Roses and Larkspur \u2013 31\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe\" (black ink)"
+            "id": "http://data.okeeffemuseum.org/object/8796/provenance/",
+            "label": "Harold Diamond, New York, NY, purchase, 1976; Doris Bry, New York, NY, 1977; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; Private collection, Sun Valley, Idaho, 1987; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; Private collection, Denver, Colorado, 1987; Sotheby's, New York, NY, sale no. 6507, lot no. 92, 2 December 1993         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8796/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper, 16 x 12 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -286,26 +289,58 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8796/Materials/",
-            "type": "LinguisticObject",
-            "value": "Pastel on paper"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/caption/",
-            "label": "Georgia O'Keeffe. Pink Roses and Larkspur, 1931. Pastel on paper, 16 x 12 inches. Private Collection. Collection of Mr. and Mrs. E. Parry Thomas, Las Vegas, Nevada, 1994",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8796/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper, 16 x 12 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8796/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1933 New York (An American Place), no. 6, as Flowers; 1986 New York (Hirschl & Adler), no. 6; 1993 London (Lefevre), no. 9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8796/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink Roses and Larkspur, 1931"
         },
         {
             "classified_as": [
@@ -342,38 +377,23 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/8796/caption/",
+            "label": "Georgia O'Keeffe. Pink Roses and Larkspur, 1931. Pastel on paper, 16 x 12 inches. Private Collection. Collection of Mr. and Mrs. E. Parry Thomas, Las Vegas, Nevada, 1994",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8796/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8796/Materials/",
             "type": "LinguisticObject",
-            "value": "Pink Roses and Larkspur, 1931"
+            "value": "Pastel on paper"
         }
     ],
     "refers_to": [],
@@ -404,49 +424,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1161",
-            "timespan": {
-                "begin_of_the_begin": "1986-06-14T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/848",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/848/title"
@@ -456,19 +433,6 @@
                 "begin_of_the_begin": "1993-04-08T00:00:00",
                 "end_of_the_end": "1993-05-07T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/848/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1214",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-05-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -499,6 +463,62 @@
                 "begin_of_the_begin": "1986-04-26T00:00:00",
                 "end_of_the_end": "1986-06-06T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1161",
+            "timespan": {
+                "begin_of_the_begin": "1986-06-14T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1214",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-05-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1214/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

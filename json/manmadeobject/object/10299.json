@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -42,7 +56,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10299/other_id",
             "type": "Identifier",
-            "value": "1354, Catalogue Raisonne Number"
+            "value": "1354, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -69,9 +83,27 @@
             "value": "1354"
         }
     ],
-    "label": "Georgia O'Keeffe. It Was Yellow & Pink I, 1959. Private Collection",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "label": "Georgia O'Keeffe. It Was Yellow & Pink I, 1959. Oil on canvas, 30 x 26 inches. Private Collection",
+    "made_of": [
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10299/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10299/material/1",
+            "label": "canvas",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -107,12 +139,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -152,12 +184,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -174,7 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10299/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
+            "begin_of_the_begin": "1959-01-01T00:00:00",
+            "end_of_the_end": "1959-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10299/production/timespan/0",
             "label": "1959",
             "type": "TimeSpan"
@@ -185,14 +226,24 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10299/caption/",
-            "label": "Georgia O'Keeffe. It Was Yellow & Pink I, 1959. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10299/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 30 x 26 inches"
         },
         {
             "classified_as": [
@@ -202,14 +253,50 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10299/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10299/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10299/caption/",
+            "label": "Georgia O'Keeffe. It Was Yellow & Pink I, 1959. Oil on canvas, 30 x 26 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10299/Measurement/",
+            "type": "LinguisticObject",
+            "value": "30 x 26 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10299/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -227,6 +314,23 @@
             "id": "http://data.okeeffemuseum.org/object/10299/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10299/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -249,23 +353,6 @@
             "id": "http://data.okeeffemuseum.org/object/10299/title_date_caption",
             "type": "LinguisticObject",
             "value": "It Was Yellow & Pink I, 1959"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10299/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -296,19 +383,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1244",
-            "timespan": {
-                "begin_of_the_begin": "1961-05-16T00:00:00",
-                "end_of_the_end": "1961-06-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1244/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/873",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/873/title"
@@ -318,6 +392,19 @@
                 "begin_of_the_begin": "1961-05-16T00:00:00",
                 "end_of_the_end": "1961-06-09T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/873/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1244",
+            "timespan": {
+                "begin_of_the_begin": "1961-05-16T00:00:00",
+                "end_of_the_end": "1961-06-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1244/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -35,6 +44,42 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/title",
+            "type": "Name",
+            "value": "Alligator Pears"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/other_id",
+            "type": "Identifier",
+            "value": "338, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/identifier",
+            "type": "Identifier",
+            "value": "997"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -55,46 +100,15 @@
             "id": "http://data.okeeffemuseum.org/object/997/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.91"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/other_id",
-            "type": "Identifier",
-            "value": "338, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/identifier",
-            "type": "Identifier",
-            "value": "997"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/title",
-            "type": "Name",
-            "value": "Alligator Pears"
         }
     ],
     "label": "Georgia O'Keeffe. Alligator Pears, 1920-1921. Oil on canvas, 23 x 17 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.91]",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/997/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -102,31 +116,19 @@
             "id": "http://data.okeeffemuseum.org/object/997/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/997/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/268",
+        "label": "Fruits and Vegetables",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/997/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1920-01-01T00:00:00",
             "end_of_the_end": "1921-12-31T00:00:00",
@@ -225,25 +245,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/caption/",
-            "label": "Georgia O'Keeffe. Alligator Pears, 1920-1921. Oil on canvas, 23 x 17 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.91]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -252,33 +255,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/997/maker_role",
             "type": "LinguisticObject",
-            "value": "Alligator Pears, 1920-1921"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/Description/",
-            "type": "LinguisticObject",
-            "value": "Four green pears rest in a brown basket with a large handle.  The basket sits on a circular white form, and the portion of the background visible through the handle is also white.  Much of the rest of the background is pink; however, the upper-left corner is gray."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300435449",
-                    "label": "current location description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/gallery_location",
-            "type": "LinguisticObject",
-            "value": "Gallery 2/Museum"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -286,23 +265,21 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/Measurement/",
-            "type": "LinguisticObject",
-            "value": "23 x 17 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/997/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 23 x 17 inches"
         },
         {
             "classified_as": [
@@ -324,14 +301,50 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/997/CreditLine/",
             "type": "LinguisticObject",
-            "value": "1923 New York (Anderson) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri) \n2013 Santa Fe (O'Keeffe) Modern Nature \n2015 New Mexico Museum of Art, Sept 11, 2015 - Jan. 17, 2016, Georgia O'Keeffe in Process"
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300435449",
+                    "label": "current location description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/gallery_location",
+            "type": "LinguisticObject",
+            "value": "Gallery 2/Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -353,26 +366,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/997/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "Alligator Pears, 1920-1921"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/Right/",
+            "id": "http://data.okeeffemuseum.org/object/997/signaturemarks",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Inscriptions: Stretcher: \"Stieglitz\" [drawing of frame and two illegible words] (George Of, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1923 New York (Anderson) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Modernists in NM) \n2009 Santa Fe (O'Keeffe) Permanent Collection (Beyond Our Shores/Jimson Weed Returns) \n2011 Santa Fe (O'Keeffe) Permanent Collection (Robert Henri) \n2013 Santa Fe (O'Keeffe) Modern Nature \n2015 New Mexico Museum of Art, Sept 11, 2015 - Jan. 17, 2016, Georgia O'Keeffe in Process"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -389,65 +436,38 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/Description/",
+            "type": "LinguisticObject",
+            "value": "Four green pears rest in a brown basket with a large handle.  The basket sits on a circular white form, and the portion of the background visible through the handle is also white.  Much of the rest of the background is pink; however, the upper-left corner is gray."
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/997/caption/",
+            "label": "Georgia O'Keeffe. Alligator Pears, 1920-1921. Oil on canvas, 23 x 17 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.91]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/997/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/997/Measurement/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 23 x 17 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/997/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: \"Stieglitz\" [drawing of frame and two illegible words] (George Of, graphite)"
+            "value": "23 x 17 inches"
         }
     ],
     "refers_to": [],
@@ -475,17 +495,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264578",
-                    "label": "Web pages",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://www.arsny.com/requests",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300041273",
                     "label": "prints",
                     "type": "Type"
@@ -493,6 +502,17 @@
             ],
             "id": "https://prints.okeeffemuseum.org/detail/501369",
             "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264578",
+                    "label": "Web pages",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://www.arsny.com/requests",
+            "type": "LinguisticObject"
         }
     ],
     "type": "ManMadeObject",
@@ -501,11 +521,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
+            ],
+            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
             "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "begin_of_the_begin": "2009-02-13T00:00:00",
+                "end_of_the_end": "2009-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -531,15 +555,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/77",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/77/title"
-            ],
-            "label": "MODERNISTS IN NEW MEXICO: Works from a Private Collector",
+            "id": "http://data.okeeffemuseum.org/exhibition/134",
             "timespan": {
                 "begin_of_the_begin": "2009-02-13T00:00:00",
                 "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/77/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -548,11 +568,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/134",
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
             "timespan": {
-                "begin_of_the_begin": "2009-02-13T00:00:00",
-                "end_of_the_end": "2009-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/134/timespan",
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

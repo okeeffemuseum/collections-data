@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -36,6 +45,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/title",
+            "type": "Name",
+            "value": "My Autumn"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -43,7 +64,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8735/other_id",
             "type": "Identifier",
-            "value": "679, Catalogue Raisonne Number"
+            "value": "679, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -56,18 +77,6 @@
             "id": "http://data.okeeffemuseum.org/object/8735/identifier",
             "type": "Identifier",
             "value": "8735"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/title",
-            "type": "Name",
-            "value": "My Autumn"
         }
     ],
     "label": "Georgia O'Keeffe. My Autumn, 1929. Oil on canvas, 40 x 30 inches. Private Collection. Private collection, La Jolla, California, 1995",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,6 +202,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8735/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1929-01-01T00:00:00",
             "end_of_the_end": "1929-12-31T00:00:00",
@@ -202,14 +222,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8735/provenance/",
-            "label": "(Doris Bry, New York, NY); Private collection, Clearwater, Florida, 1976; Christie's, New York, NY, sale no. 8290, lot no. 46, 30 November 1995         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8735/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "My Autumn, 1929"
         },
         {
             "classified_as": [
@@ -243,75 +290,10 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/Measurement/",
-            "type": "LinguisticObject",
-            "value": "40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1930 New York (An American Place), no. 23, as Yellow and Red Leaves; 1933 New York (An American Place), no. 20, as Autumn Leaves?; 1934 New York (Whitney \u2013 Second Biennial), no. 14; 1946 New York (MOMA \u2013 Retro), no. 35"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8735/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
@@ -320,11 +302,6 @@
                 {
                     "id": "aat:300163343",
                     "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -335,13 +312,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -350,9 +322,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8735/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8735/artist_caption",
             "type": "LinguisticObject",
-            "value": "My Autumn, 1929"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/provenance/",
+            "label": "(Doris Bry, New York, NY); Private collection, Clearwater, Florida, 1976; Christie's, New York, NY, sale no. 8290, lot no. 46, 30 November 1995         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"Georgia O'Keeffe / 509 Madison Ave. N. Y. City / This Autumn \u2013 / 509 Madison Ave. N.Y. City / An American Place / Room 1710\" (AS, 1934 exhibition label, black ink)"
         },
         {
             "classified_as": [
@@ -369,14 +365,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8735/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8735/exhibitions",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {5star} (graphite) 2. \"Georgia O'Keeffe / 509 Madison Ave. N. Y. City / This Autumn \u2013 / 509 Madison Ave. N.Y. City / An American Place / Room 1710\" (AS, 1934 exhibition label, black ink)"
+            "value": "1930 New York (An American Place), no. 23, as Yellow and Red Leaves; 1933 New York (An American Place), no. 20, as Autumn Leaves?; 1934 New York (Whitney \u2013 Second Biennial), no. 14; 1946 New York (MOMA \u2013 Retro), no. 35"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/Measurement/",
+            "type": "LinguisticObject",
+            "value": "40 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8735/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         }
     ],
     "refers_to": [],
@@ -407,19 +427,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/405",
             "timespan": {
                 "begin_of_the_begin": "1946-05-14T00:00:00",
@@ -433,11 +440,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/243",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1934-01-01T00:00:00",
-                "end_of_the_end": "1935-01-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/243/timespan",
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -480,45 +491,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/147",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/147/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings -- New & Some Old",
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
             "timespan": {
                 "begin_of_the_begin": "1933-01-07T00:00:00",
                 "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/147/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/189",
-            "timespan": {
-                "begin_of_the_begin": "1930-02-07T00:00:00",
-                "end_of_the_end": "1930-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -549,6 +526,49 @@
                 "begin_of_the_begin": "1930-02-07T00:00:00",
                 "end_of_the_end": "1930-03-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/125/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/147",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/147/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings -- New & Some Old",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/147/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/243",
+            "timespan": {
+                "begin_of_the_begin": "1934-01-01T00:00:00",
+                "end_of_the_end": "1935-01-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/243/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/189",
+            "timespan": {
+                "begin_of_the_begin": "1930-02-07T00:00:00",
+                "end_of_the_end": "1930-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

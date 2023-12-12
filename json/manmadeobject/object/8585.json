@@ -11,6 +11,15 @@
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -33,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8585/title",
-            "type": "Name",
-            "value": "Fall Maple Leaves"
+            "id": "http://data.okeeffemuseum.org/object/8585/identifier",
+            "type": "Identifier",
+            "value": "8585"
         },
         {
             "classified_as": [
@@ -47,19 +56,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8585/other_id",
             "type": "Identifier",
-            "value": "501, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8585/identifier",
-            "type": "Identifier",
-            "value": "8585"
+            "value": "501, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -72,15 +69,22 @@
             "id": "http://data.okeeffemuseum.org/object/8585/otheridentifier",
             "type": "Identifier",
             "value": "501"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8585/title",
+            "type": "Name",
+            "value": "Fall Maple Leaves"
         }
     ],
     "label": "Georgia O'Keeffe. Fall Maple Leaves, 1925. Oil on canvas, 15 7/8 x 13 inches. Rhode Island School of Design, Museum of Art. Museum of Art, Rhode Island School of Design; Gift of the Robert R. Young Foundation in memory of the family of Robert R. Young (1987.078.4)",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8585/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/8585/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8585/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,8 +206,15 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8585/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1920-01-01T00:00:00",
+            "begin_of_the_begin": "1925-01-01T00:00:00",
             "end_of_the_end": "1925-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8585/production/timespan/0",
             "label": "1925",
@@ -206,19 +226,65 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8585/caption/",
+            "label": "Georgia O'Keeffe. Fall Maple Leaves, 1925. Oil on canvas, 15 7/8 x 13 inches. Rhode Island School of Design, Museum of Art. Museum of Art, Rhode Island School of Design; Gift of the Robert R. Young Foundation in memory of the family of Robert R. Young (1987.078.4)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8585/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8585/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Fall Maple Leaves, 1925"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8585/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -240,53 +306,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8585/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: \"#14 / R 13 x 16 ST 12 7/8 x 15 7/8\" {\"13 x 16\" crossed out} (GO, graphite). Backing: \"Fall Maple Leaves (1925) / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
+            "id": "http://data.okeeffemuseum.org/object/8585/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Dr. Abram Kanof, New York, NY, 1947; The Downtown Gallery, New York, NY, 1966; Private collection, Kings Point, New York, 1968; Bernard Danenberg Galleries, New York, NY, 1969; (Trosby Auction Galleries, Palm Beach, Florida); Anita O'Keeffe (Mrs. Robert R.) Young, Newport, Rhode Island, 1970; Estate of Anita O'Keeffe (Mrs. Robert R. Young), 1985; Robert R. Young Foundation, Cincinnati, Ohio, 1985         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8585/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1947 New York (Downtown)"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8585/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Fall Maple Leaves, 1925"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8585/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8585/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Rhode Island School of Design, Museum of Art"
+            "value": "Oil on canvas, 15 7/8 x 13 inches"
         },
         {
             "classified_as": [
@@ -303,48 +364,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8585/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8585/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 15 7/8 x 13 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8585/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Dr. Abram Kanof, New York, NY, 1947; The Downtown Gallery, New York, NY, 1966; Private collection, Kings Point, New York, 1968; Bernard Danenberg Galleries, New York, NY, 1969; (Trosby Auction Galleries, Palm Beach, Florida); Anita O'Keeffe (Mrs. Robert R.) Young, Newport, Rhode Island, 1970; Estate of Anita O'Keeffe (Mrs. Robert R. Young), 1985; Robert R. Young Foundation, Cincinnati, Ohio, 1985         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8585/caption/",
-            "label": "Georgia O'Keeffe. Fall Maple Leaves, 1925. Oil on canvas, 15 7/8 x 13 inches. Rhode Island School of Design, Museum of Art. Museum of Art, Rhode Island School of Design; Gift of the Robert R. Young Foundation in memory of the family of Robert R. Young (1987.078.4)",
-            "type": "LinguisticObject"
+            "value": "Rhode Island School of Design, Museum of Art"
         },
         {
             "classified_as": [
@@ -361,26 +393,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8585/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8585/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8585/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1947 New York (Downtown)"
+            "value": "Stretcher: \"#14 / R 13 x 16 ST 12 7/8 x 15 7/8\" {\"13 x 16\" crossed out} (GO, graphite). Backing: \"Fall Maple Leaves (1925) / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
         }
     ],
     "refers_to": [],
@@ -423,23 +443,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/282",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/282/title"
-            ],
-            "label": "22nd Annual Exhibition",
-            "timespan": {
-                "begin_of_the_begin": "1947-09-23T00:00:00",
-                "end_of_the_end": "1947-10-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/282/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/447",
             "timespan": {
                 "begin_of_the_begin": "1947-09-23T00:00:00",
@@ -462,6 +465,23 @@
                 "begin_of_the_begin": "1947-04-01T00:00:00",
                 "end_of_the_end": "1947-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/280/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/282",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/282/title"
+            ],
+            "label": "22nd Annual Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1947-09-23T00:00:00",
+                "end_of_the_end": "1947-10-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/282/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

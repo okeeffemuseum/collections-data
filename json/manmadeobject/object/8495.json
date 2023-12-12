@@ -11,6 +11,15 @@
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -28,6 +37,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8495/other_id",
+            "type": "Identifier",
+            "value": "401, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -36,18 +57,6 @@
             "id": "http://data.okeeffemuseum.org/object/8495/identifier",
             "type": "Identifier",
             "value": "8495"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8495/other_id",
-            "type": "Identifier",
-            "value": "401, Catalogue Raisonne Number"
         },
         {
             "classified_as": [
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,6 +206,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8495/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1917-01-01T00:00:00",
             "end_of_the_end": "1927-12-31T00:00:00",
@@ -206,54 +226,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8495/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1946 New York (MOMA \u2013 Retro), no. 6; 1970 New York (Whitney), no. 30; 1973 New York (Crispo), no. 95; 1973 Keene; 1983 Roslyn, no. 42; 1992 Williamstown, no. 10"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8495/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8495/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Vassar College, Frances Lehman Loeb Art Center"
+            "id": "http://data.okeeffemuseum.org/object/8495/caption/",
+            "label": "Georgia O'Keeffe. Spring, ca. 1922. Oil on canvas, 35 1/2 x 30 3/8 inches. Vassar College, Frances Lehman Loeb Art Center. The Frances Lehman Loeb Art Center, Vassar College, Bequest of Mrs. Arthur Schwab (Edna Bryner '07) [1967] (67.31.15)",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -264,14 +255,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8495/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8495/title_date_caption",
             "type": "LinguisticObject",
-            "value": "35 1/2 x 30 3/8 inches"
+            "value": "Spring, ca. 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8495/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Vassar College, Frances Lehman Loeb Art Center"
         },
         {
             "classified_as": [
@@ -288,6 +306,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8495/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1923 New York (Anderson); 1946 New York (MOMA \u2013 Retro), no. 6; 1970 New York (Whitney), no. 30; 1973 New York (Crispo), no. 95; 1973 Keene; 1983 Roslyn, no. 42; 1992 Williamstown, no. 10"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -300,35 +330,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8495/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8495/Measurement/",
             "type": "LinguisticObject",
-            "value": "Spring, ca. 1922"
+            "value": "35 1/2 x 30 3/8 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
@@ -339,20 +359,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8495/caption/",
-            "label": "Georgia O'Keeffe. Spring, ca. 1922. Oil on canvas, 35 1/2 x 30 3/8 inches. Vassar College, Frances Lehman Loeb Art Center. The Frances Lehman Loeb Art Center, Vassar College, Bequest of Mrs. Arthur Schwab (Edna Bryner '07) [1967] (67.31.15)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8495/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
@@ -361,8 +381,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -411,11 +431,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1100",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/777",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/777/title"
+            ],
+            "label": "Four MacDowell Medalists: Alexander Calder, Edward Hopper, Louis Nevelson, Georgia O\"Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1970-03-15T00:00:00",
-                "end_of_the_end": "1970-04-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
+                "begin_of_the_begin": "1973-08-19T00:00:00",
+                "end_of_the_end": "1973-09-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/777/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -424,41 +448,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1099",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
+            ],
+            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
+            "timespan": {
+                "begin_of_the_begin": "1983-01-30T00:00:00",
+                "end_of_the_end": "2020-04-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
                 "begin_of_the_begin": "1970-01-06T00:00:00",
                 "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/844",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/844/title"
-            ],
-            "label": "Georgia O'Keeffe: Natural Issues: 1918-1924",
-            "timespan": {
-                "begin_of_the_begin": "1992-04-11T00:00:00",
-                "end_of_the_end": "1992-07-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/844/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -480,32 +495,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "id": "http://data.okeeffemuseum.org/exhibition/1099",
             "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/808",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/808/title"
-            ],
-            "label": "Nevelson and O'Keeffe, Independents of the 20th Century",
-            "timespan": {
-                "begin_of_the_begin": "1983-01-30T00:00:00",
-                "end_of_the_end": "2020-04-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/808/timespan",
+                "begin_of_the_begin": "1970-01-06T00:00:00",
+                "end_of_the_end": "1971-02-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1099/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -544,11 +538,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1104",
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
             "timespan": {
-                "begin_of_the_begin": "1973-08-19T00:00:00",
-                "end_of_the_end": "1973-09-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1104/timespan",
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/844",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/844/title"
+            ],
+            "label": "Georgia O'Keeffe: Natural Issues: 1918-1924",
+            "timespan": {
+                "begin_of_the_begin": "1992-04-11T00:00:00",
+                "end_of_the_end": "1992-07-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/844/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -570,15 +611,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/773",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/773/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1100",
             "timespan": {
-                "begin_of_the_begin": "1970-01-06T00:00:00",
-                "end_of_the_end": "1971-02-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/773/timespan",
+                "begin_of_the_begin": "1970-03-15T00:00:00",
+                "end_of_the_end": "1970-04-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1100/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -587,28 +624,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/777",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/777/title"
-            ],
-            "label": "Four MacDowell Medalists: Alexander Calder, Edward Hopper, Louis Nevelson, Georgia O\"Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1104",
             "timespan": {
                 "begin_of_the_begin": "1973-08-19T00:00:00",
                 "end_of_the_end": "1973-09-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/777/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1104/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

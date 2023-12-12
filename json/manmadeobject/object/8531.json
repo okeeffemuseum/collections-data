@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -31,14 +40,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8531/title",
-            "type": "Name",
-            "value": "Grey Line with Lavender and Yellow"
+            "id": "http://data.okeeffemuseum.org/object/8531/other_id",
+            "type": "Identifier",
+            "value": "442, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -55,14 +64,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8531/other_id",
-            "type": "Identifier",
-            "value": "442, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/8531/title",
+            "type": "Name",
+            "value": "Grey Line with Lavender and Yellow"
         },
         {
             "classified_as": [
@@ -80,37 +89,30 @@
     "label": "Georgia O'Keeffe. Grey Line with Lavender and Yellow, 1923-1924. Oil on canvas, 48 x 30 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York, Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.1). \u00a9 Metropolitan Museum of Art",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8531/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8531/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8531/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8531/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1918-01-01T00:00:00",
-            "end_of_the_end": "1929-12-31T00:00:00",
+            "begin_of_the_begin": "1923-01-01T00:00:00",
+            "end_of_the_end": "1924-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8531/production/timespan/0",
             "label": "1923-1924",
             "type": "TimeSpan"
@@ -206,62 +226,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8531/caption/",
-            "label": "Georgia O'Keeffe. Grey Line with Lavender and Yellow, 1923-1924. Oil on canvas, 48 x 30 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York, Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.1). \u00a9 Metropolitan Museum of Art",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8531/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 48 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8531/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Grey Line with Lavender and Yellow, 1923-1924"
-        },
         {
             "classified_as": [
                 {
@@ -282,14 +246,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8531/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8531/Materials/",
             "type": "LinguisticObject",
-            "value": "Backing: 1. \"Grey Line with Lavender & Yellow \u2013 1923?\" (black crayon) 2. \"Abstraction {crossed out}\" (black crayon) 3. OK {5star} (black crayon) 4. \"O'Keeffe\" (AS, black crayon)"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -302,6 +266,64 @@
             "id": "http://data.okeeffemuseum.org/object/8531/Right/",
             "type": "LinguisticObject",
             "value": "\u00a9 Metropolitan Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8531/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 48 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8531/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1934 New York (An American Place)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8531/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing: 1. \"Grey Line with Lavender & Yellow \u2013 1923?\" (black crayon) 2. \"Abstraction {crossed out}\" (black crayon) 3. OK {5star} (black crayon) 4. \"O'Keeffe\" (AS, black crayon)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8531/Measurement/",
+            "type": "LinguisticObject",
+            "value": "48 x 30 inches"
         },
         {
             "classified_as": [
@@ -335,38 +357,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8531/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1934 New York (An American Place)"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8531/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8531/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8531/Measurement/",
-            "type": "LinguisticObject",
-            "value": "48 x 30 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -374,16 +377,33 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8531/caption/",
+            "label": "Georgia O'Keeffe. Grey Line with Lavender and Yellow, 1923-1924. Oil on canvas, 48 x 30 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York, Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.1). \u00a9 Metropolitan Museum of Art",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8531/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8531/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Grey Line with Lavender and Yellow, 1923-1924"
         }
     ],
     "refers_to": [],

@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -24,14 +33,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8411/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8411/identifier",
             "type": "Identifier",
-            "value": "302, Catalogue Raisonne Number"
+            "value": "8411"
         },
         {
             "classified_as": [
@@ -48,14 +57,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8411/title",
-            "type": "Name",
-            "value": "Pink Gladiolus"
+            "id": "http://data.okeeffemuseum.org/object/8411/other_id",
+            "type": "Identifier",
+            "value": "302, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -65,18 +74,13 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8411/identifier",
-            "type": "Identifier",
-            "value": "8411"
+            "id": "http://data.okeeffemuseum.org/object/8411/title",
+            "type": "Name",
+            "value": "Pink Gladiolus"
         }
     ],
     "label": "Georgia O'Keeffe. Pink Gladiolus, 1919. Oil on canvas, 7 x 6 inches. Gerald Peters Gallery. Gerald Peters Gallery, Santa Fe, New Mexico, 1998",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8411/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -84,26 +88,24 @@
             "id": "http://data.okeeffemuseum.org/object/8411/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8411/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8411/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1914-01-01T00:00:00",
-            "end_of_the_end": "1924-12-31T00:00:00",
+            "begin_of_the_begin": "1919-01-01T00:00:00",
+            "end_of_the_end": "1919-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8411/production/timespan/0",
             "label": "1919",
             "type": "TimeSpan"
@@ -202,31 +222,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8411/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gerald Peters Gallery, Santa Fe, New Mexico, 1998      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8411/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/8411/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); Mrs. Herbert Fleischaker, San Francisco, California, c. 1924; [. . .]; (William Zierler, Inc., New York, NY); Sotheby Parke Bernet Inc., New York, NY, sale no. 2914, lot no. 92, 22 October 1969; ACA Galleries, New York, NY, 1969; William W. Collins, New York, NY, 1970; Mr. and Mrs. Abe Adler, New York, NY, 1975; (ACA Galleries, New York, NY); Private collection, San Antonio, Texas, 1981         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -236,19 +239,36 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8411/title_date_caption",
             "type": "LinguisticObject",
             "value": "Pink Gladiolus, 1919"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8411/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Gerald Peters Gallery"
         },
         {
             "classified_as": [
@@ -265,18 +285,42 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8411/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gerald Peters Gallery, Santa Fe, New Mexico, 1998      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8411/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -304,18 +348,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8411/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); Mrs. Herbert Fleischaker, San Francisco, California, c. 1924; [. . .]; (William Zierler, Inc., New York, NY); Sotheby Parke Bernet Inc., New York, NY, sale no. 2914, lot no. 92, 22 October 1969; ACA Galleries, New York, NY, 1969; William W. Collins, New York, NY, 1970; Mr. and Mrs. Abe Adler, New York, NY, 1975; (ACA Galleries, New York, NY); Private collection, San Antonio, Texas, 1981         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -324,35 +356,6 @@
             "id": "http://data.okeeffemuseum.org/object/8411/signaturemarks",
             "type": "LinguisticObject",
             "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: \"Pink Gladiola \u2013 / 1922 / by / Georgia O'Keeffe\" (AS, IG, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8411/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Gerald Peters Gallery"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8411/Measurement/",
-            "type": "LinguisticObject",
-            "value": "7 x 6 inches"
         },
         {
             "classified_as": [
@@ -369,14 +372,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8411/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8411/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8411/Measurement/",
+            "type": "LinguisticObject",
+            "value": "7 x 6 inches"
         }
     ],
     "refers_to": [],
@@ -407,7 +427,80 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1177",
+            "timespan": {
+                "begin_of_the_begin": "1988-04-15T00:00:00",
+                "end_of_the_end": "1988-06-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1220",
+            "timespan": {
+                "begin_of_the_begin": "1995-06-30T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1181",
+            "timespan": {
+                "begin_of_the_begin": "1988-12-15T00:00:00",
+                "end_of_the_end": "1989-02-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1181/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
+            ],
+            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
+            "timespan": {
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1179",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/828",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/828/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Painting",
+            "timespan": {
+                "begin_of_the_begin": "1988-04-15T00:00:00",
+                "end_of_the_end": "1989-02-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/828/timespan",
+                "type": "TimeSpan"
+            },
             "type": "Activity"
         },
         {
@@ -449,79 +542,6 @@
                 "begin_of_the_begin": "1988-09-15T00:00:00",
                 "end_of_the_end": "1988-10-15T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1180/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1181",
-            "timespan": {
-                "begin_of_the_begin": "1988-12-15T00:00:00",
-                "end_of_the_end": "1989-02-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1181/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/99",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/99/title"
-            ],
-            "label": "Alfred Stieglitz Presents One Hundred Pictures: Oils, Water-colors, Pastels, Drawings, by Georgia O'Keeffe, American",
-            "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/99/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1220",
-            "timespan": {
-                "begin_of_the_begin": "1995-06-30T00:00:00",
-                "end_of_the_end": "1995-08-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/828",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/828/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Painting",
-            "timespan": {
-                "begin_of_the_begin": "1988-04-15T00:00:00",
-                "end_of_the_end": "1989-02-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/828/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1177",
-            "timespan": {
-                "begin_of_the_begin": "1988-04-15T00:00:00",
-                "end_of_the_end": "1988-06-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1177/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

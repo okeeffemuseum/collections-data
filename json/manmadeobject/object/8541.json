@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -28,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8541/identifier",
-            "type": "Identifier",
-            "value": "8541"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -59,7 +56,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8541/other_id",
             "type": "Identifier",
-            "value": "452, Catalogue Raisonne Number"
+            "value": "452, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8541/identifier",
+            "type": "Identifier",
+            "value": "8541"
         },
         {
             "classified_as": [
@@ -77,37 +86,30 @@
     "label": "Georgia O'Keeffe. A Celebration, 1924. Oil on canvas, 35 x 18 inches. Seattle Art Museum. Seattle Art Museum, Gift of The Georgia O'Keeffe Foundation [1994] (94.89)",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8541/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8541/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8541/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/291",
+        "label": "Sky",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8541/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1919-01-01T00:00:00",
-            "end_of_the_end": "1929-12-31T00:00:00",
+            "begin_of_the_begin": "1924-01-01T00:00:00",
+            "end_of_the_end": "1924-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8541/production/timespan/0",
             "label": "1924",
             "type": "TimeSpan"
@@ -206,13 +226,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -223,36 +243,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8541/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {circle} (graphite) 2. \"A Celebration / by Georgia O'Keeffe / 1924 / Catalogue #113 Exhibition / 7 Americans / 1925\" (AS, graphite)"
+            "id": "http://data.okeeffemuseum.org/object/8541/provenance/",
+            "label": "Estate of the artist, 1986; The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1993         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8541/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8541/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 35 x 18 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -274,26 +289,36 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8541/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 35 x 18 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8541/institution_caption",
             "type": "LinguisticObject",
             "value": "Seattle Art Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8541/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1925 New York (Anderson), no. 113, as A Celebration; 1993 London (Hayward), no. 46"
         },
         {
             "classified_as": [
@@ -320,18 +345,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8541/provenance/",
-            "label": "Estate of the artist, 1986; The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1993         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -344,19 +357,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8541/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8541/Measurement/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "35 x 18 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8541/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. OK {circle} (graphite) 2. \"A Celebration / by Georgia O'Keeffe / 1924 / Catalogue #113 Exhibition / 7 Americans / 1925\" (AS, graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8541/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1925 New York (Anderson), no. 113, as A Celebration; 1993 London (Hayward), no. 46"
         },
         {
             "classified_as": [
@@ -369,18 +401,6 @@
             "id": "http://data.okeeffemuseum.org/object/8541/caption/",
             "label": "Georgia O'Keeffe. A Celebration, 1924. Oil on canvas, 35 x 18 inches. Seattle Art Museum. Seattle Art Museum, Gift of The Georgia O'Keeffe Foundation [1994] (94.89)",
             "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8541/Measurement/",
-            "type": "LinguisticObject",
-            "value": "35 x 18 inches"
         }
     ],
     "refers_to": [],
@@ -423,6 +443,36 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/101",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/101/title"
+            ],
+            "label": "Alfred Stieglitz Presents Seven Americans: 159  Paintings, Photographs & things, Recent & Never Before Publicly Shown, by Arthur G. Cove, Marsden Hartley, John Marin, Charles Demuth, Paul Strand, Georgia O'Keeffe, Alfred Stieglitz",
+            "timespan": {
+                "begin_of_the_begin": "1925-03-09T00:00:00",
+                "end_of_the_end": "1925-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/101/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/847/title"
@@ -453,54 +503,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/164",
-            "timespan": {
-                "begin_of_the_begin": "1925-03-09T00:00:00",
-                "end_of_the_end": "1925-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/164/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/101",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/101/title"
-            ],
-            "label": "Alfred Stieglitz Presents Seven Americans: 159  Paintings, Photographs & things, Recent & Never Before Publicly Shown, by Arthur G. Cove, Marsden Hartley, John Marin, Charles Demuth, Paul Strand, Georgia O'Keeffe, Alfred Stieglitz",
-            "timespan": {
-                "begin_of_the_begin": "1925-03-09T00:00:00",
-                "end_of_the_end": "1925-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/101/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1212",
             "timespan": {
                 "begin_of_the_begin": "1993-07-15T00:00:00",
                 "end_of_the_end": "1993-10-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/164",
+            "timespan": {
+                "begin_of_the_begin": "1925-03-09T00:00:00",
+                "end_of_the_end": "1925-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/164/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

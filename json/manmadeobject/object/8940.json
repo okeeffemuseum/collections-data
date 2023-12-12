@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -21,30 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8940",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/other_id",
-            "type": "Identifier",
-            "value": "993, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/otheridentifier",
-            "type": "Identifier",
-            "value": "993"
-        },
         {
             "classified_as": [
                 {
@@ -60,6 +45,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/other_id",
+            "type": "Identifier",
+            "value": "993, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -68,10 +65,27 @@
             "id": "http://data.okeeffemuseum.org/object/8940/title",
             "type": "Name",
             "value": "Cactus and Indian Paintbrush"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/otheridentifier",
+            "type": "Identifier",
+            "value": "993"
         }
     ],
     "label": "Georgia O'Keeffe. Cactus and Indian Paintbrush, 1940. Oil on canvas, 5 3/4 x 8 inches. Private Collection. Private collection, Chicago, Illinois, 1988",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8940/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -79,31 +93,19 @@
             "id": "http://data.okeeffemuseum.org/object/8940/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8940/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8940/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1935-01-01T00:00:00",
-            "end_of_the_end": "1945-12-31T00:00:00",
+            "begin_of_the_begin": "1940-01-01T00:00:00",
+            "end_of_the_end": "1940-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8940/production/timespan/0",
             "label": "1940",
             "type": "TimeSpan"
@@ -202,13 +222,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/Measurement/",
+            "type": "LinguisticObject",
+            "value": "5 3/4 x 8 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -219,13 +251,56 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/caption/",
+            "label": "Georgia O'Keeffe. Cactus and Indian Paintbrush, 1940. Oil on canvas, 5 3/4 x 8 inches. Private Collection. Private collection, Chicago, Illinois, 1988",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1941 New York (An American Place \u2013 O'Keeffe), no. 2, as Yellow Cactus With Indian Paint Brush; 1945 Los Angeles; 1986 New York (Hirschl & Adler), no. 11; 1986 San Francisco, no. 23"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Chicago, Illinois, 1988      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/provenance/",
+            "label": "(An American Place, New York, NY); Keith Warner, Fort Lauderdale, Florida, 1942; Parke-Bernet Galleries, Inc., New York, NY, sale  no. 1109, lot no. 41, 15 December, 1949; Dr. E. G. Stoloff, New York, NY, 1949; Davis & Langdale Company, Inc., New York, NY, 1979; Mark Carliner, Studio City, California, 1979; Coe Kerr Gallery, Inc., New York, NY, and Hirschl & Adler Galleries, Inc., New York, NY, 1984; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; (Hirschl & Adler Galleries, Inc., New York, NY and Bronson-Rollins & Associates, Inc., Los Angeles, California)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -234,9 +309,21 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8940/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8940/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 5 3/4 x 8 inches"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8940/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Georgia O'Keeffe / Summer 1940 / Cactus and Indian Paintbrush /\" (black ink) 2. {6star} (black ink) 3. AAP1"
         },
         {
             "classified_as": [
@@ -254,18 +341,6 @@
             "id": "http://data.okeeffemuseum.org/object/8940/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"Georgia O'Keeffe / Summer 1940 / Cactus and Indian Paintbrush /\" (black ink) 2. {6star} (black ink) 3. AAP1"
         },
         {
             "classified_as": [
@@ -292,38 +367,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1941 New York (An American Place \u2013 O'Keeffe), no. 2, as Yellow Cactus With Indian Paint Brush; 1945 Los Angeles; 1986 New York (Hirschl & Adler), no. 11; 1986 San Francisco, no. 23"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/provenance/",
-            "label": "(An American Place, New York, NY); Keith Warner, Fort Lauderdale, Florida, 1942; Parke-Bernet Galleries, Inc., New York, NY, sale  no. 1109, lot no. 41, 15 December, 1949; Dr. E. G. Stoloff, New York, NY, 1949; Davis & Langdale Company, Inc., New York, NY, 1979; Mark Carliner, Studio City, California, 1979; Coe Kerr Gallery, Inc., New York, NY, and Hirschl & Adler Galleries, Inc., New York, NY, 1984; Gerald Peters Gallery, Santa Fe, New Mexico, 1987; (Hirschl & Adler Galleries, Inc., New York, NY and Bronson-Rollins & Associates, Inc., Los Angeles, California)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8940/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8940/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "5 3/4 x 8 inches"
+            "value": "Oil on canvas, 5 3/4 x 8 inches"
         },
         {
             "classified_as": [
@@ -336,47 +397,6 @@
             "id": "http://data.okeeffemuseum.org/object/8940/Materials/",
             "type": "LinguisticObject",
             "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Chicago, Illinois, 1988      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8940/caption/",
-            "label": "Georgia O'Keeffe. Cactus and Indian Paintbrush, 1940. Oil on canvas, 5 3/4 x 8 inches. Private Collection. Private collection, Chicago, Illinois, 1988",
-            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -403,79 +423,6 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1163",
-            "timespan": {
-                "begin_of_the_begin": "1986-07-25T00:00:00",
-                "end_of_the_end": "1986-09-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/392",
-            "timespan": {
-                "begin_of_the_begin": "1945-11-01T00:00:00",
-                "end_of_the_end": "1945-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/392/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
-            ],
-            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
-            "timespan": {
-                "begin_of_the_begin": "1986-04-26T00:00:00",
-                "end_of_the_end": "1986-07-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/257",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/257/title"
-            ],
-            "label": "title unknown",
-            "timespan": {
-                "begin_of_the_begin": "1945-11-01T00:00:00",
-                "end_of_the_end": "1945-12-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/257/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/334",
-            "timespan": {
-                "begin_of_the_begin": "1941-01-27T00:00:00",
-                "end_of_the_end": "1941-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -510,15 +457,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/821",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/821/title"
-            ],
-            "label": "A Selection of Paintings by Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/334",
             "timespan": {
-                "begin_of_the_begin": "1986-07-25T00:00:00",
-                "end_of_the_end": "1986-09-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/821/timespan",
+                "begin_of_the_begin": "1941-01-27T00:00:00",
+                "end_of_the_end": "1941-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/392",
+            "timespan": {
+                "begin_of_the_begin": "1945-11-01T00:00:00",
+                "end_of_the_end": "1945-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/392/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/257",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/257/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1945-11-01T00:00:00",
+                "end_of_the_end": "1945-12-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/257/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -532,6 +505,53 @@
                 "begin_of_the_begin": "1986-06-14T00:00:00",
                 "end_of_the_end": "1986-07-14T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1161/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1163",
+            "timespan": {
+                "begin_of_the_begin": "1986-07-25T00:00:00",
+                "end_of_the_end": "1986-09-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1163/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/819/title"
+            ],
+            "label": "Georgia O'Keeffe: Selected Paintings and Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1986-04-26T00:00:00",
+                "end_of_the_end": "1986-07-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/819/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/821",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/821/title"
+            ],
+            "label": "A Selection of Paintings by Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1986-07-25T00:00:00",
+                "end_of_the_end": "1986-09-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/821/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

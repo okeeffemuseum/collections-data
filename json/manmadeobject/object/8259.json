@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -28,14 +38,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8259/title",
-            "type": "Name",
-            "value": "No. 14 Special"
+            "id": "http://data.okeeffemuseum.org/object/8259/otheridentifier",
+            "type": "Identifier",
+            "value": "61"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/other_id",
+            "type": "Identifier",
+            "value": "61, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -52,33 +74,21 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8259/other_id",
-            "type": "Identifier",
-            "value": "61, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/otheridentifier",
-            "type": "Identifier",
-            "value": "61"
+            "id": "http://data.okeeffemuseum.org/object/8259/title",
+            "type": "Name",
+            "value": "No. 14 Special"
         }
     ],
     "label": "Georgia O'Keeffe. No. 14 Special, 1916. Charcoal on paper, 24 3/4 x 18 3/4 inches. National Gallery of Art, Washington. National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.9)",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8259/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
@@ -87,24 +97,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -119,16 +122,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -139,17 +153,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -164,16 +167,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8259/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8259/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -200,6 +221,64 @@
         "type": "Production"
     },
     "referred_to_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper, 24 3/4 x 18 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 3/4 x 18 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.9)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1917 New York (Grand Central), no. 4, as Expression No. 24; 1993 London (Hayward), no. 2"
+        },
         {
             "classified_as": [
                 {
@@ -211,28 +290,6 @@
             "id": "http://data.okeeffemuseum.org/object/8259/Materials/",
             "type": "LinguisticObject",
             "value": "Charcoal on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Charcoal on paper, 24 3/4 x 18 3/4 inches"
         },
         {
             "classified_as": [
@@ -254,14 +311,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8259/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8259/institution_caption",
             "type": "LinguisticObject",
-            "value": "24 3/4 x 18 3/4 inches"
+            "value": "National Gallery of Art, Washington"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8259/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing: 1. \"No 14 Special\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe / c/o '291' / 291 Fifth Avenue / Drawing\" (AS, graphite) 4. \"1916\" (AS, brown graphite) 5. \"Stieglitz\" (AS, brown graphite)"
         },
         {
             "classified_as": [
@@ -269,11 +343,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8259/caption/",
-            "label": "Georgia O'Keeffe. No. 14 Special, 1916. Charcoal on paper, 24 3/4 x 18 3/4 inches. National Gallery of Art, Washington. National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.9)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8259/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -312,72 +391,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1917 New York (Grand Central), no. 4, as Expression No. 24; 1993 London (Hayward), no. 2"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Backing: 1. \"No 14 Special\" (graphite) 2. OK {5star} (graphite) 3. \"Georgia O'Keeffe / c/o '291' / 291 Fifth Avenue / Drawing\" (AS, graphite) 4. \"1916\" (AS, brown graphite) 5. \"Stieglitz\" (AS, brown graphite)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8259/institution_caption",
-            "type": "LinguisticObject",
-            "value": "National Gallery of Art, Washington"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.9)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8259/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/8259/caption/",
+            "label": "Georgia O'Keeffe. No. 14 Special, 1916. Charcoal on paper, 24 3/4 x 18 3/4 inches. National Gallery of Art, Washington. National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.9)",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -420,6 +441,49 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/157",
+            "timespan": {
+                "begin_of_the_begin": "1917-04-10T00:00:00",
+                "end_of_the_end": "1917-05-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/157/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
+            ],
+            "label": "Georgia O'Keeffe: American & Modern",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "timespan": {
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/94",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/94/title"
@@ -455,49 +519,6 @@
                 "begin_of_the_begin": "1993-07-15T00:00:00",
                 "end_of_the_end": "1993-10-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/847",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/847/title"
-            ],
-            "label": "Georgia O'Keeffe: American & Modern",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/847/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/157",
-            "timespan": {
-                "begin_of_the_begin": "1917-04-10T00:00:00",
-                "end_of_the_end": "1917-05-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/157/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

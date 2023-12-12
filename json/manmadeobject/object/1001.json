@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -35,42 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/otheridentifier",
-            "type": "Identifier",
-            "value": "534"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/other_id",
-            "type": "Identifier",
-            "value": "534, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/identifier",
-            "type": "Identifier",
-            "value": "1001"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -83,6 +56,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/otheridentifier",
+            "type": "Identifier",
+            "value": "534"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -91,6 +76,30 @@
             "id": "http://data.okeeffemuseum.org/object/1001/title",
             "type": "Name",
             "value": "Clam and Mussel"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/other_id",
+            "type": "Identifier",
+            "value": "534, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/identifier",
+            "type": "Identifier",
+            "value": "1001"
         }
     ],
     "label": "Georgia O'Keeffe. Clam and Mussel, 1926. Oil on canvas, 9 x 7 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.107]",
@@ -109,24 +118,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/266",
+        "label": "Shells",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,6 +225,13 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/1001/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1926-01-01T00:00:00",
             "end_of_the_end": "1926-12-31T00:00:00",
@@ -237,6 +257,42 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions: Stretcher: \n1. August 1926 / Georgia O'Keeffe\" (graphite) \n2. \"Zinc W / Shape 2\" (graphite) \n3. O'Keeffe B\" [B in circle] (George Of, graphite) \n4. \"111 [in circle] #2 (unidentified hand, graphite) \nBacking: \n1. \"New York -- N.Y.\" (AIC label, black ink) \n2. \"Dark Shell\" (Alfred Stieglitz, graphite) \n3. \"Georgia O'Keeffe...Gallery / Exhibition 1927\" \n[inscription obscured by label] (Alfred Stieglitz, graphite) \n4. AAP2 \n5. AAP9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -245,6 +301,57 @@
             "id": "http://data.okeeffemuseum.org/object/1001/Measurement/",
             "type": "LinguisticObject",
             "value": "9 x 7 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 9 x 7 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -278,8 +385,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -288,84 +395,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1001/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/1001/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 9 x 7 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Clam and Mussel, 1926"
         },
         {
             "classified_as": [
@@ -394,48 +431,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/Description/",
-            "type": "LinguisticObject",
-            "value": "In this small painting, a mussel shell rests inside a clam shell.  The inner sides of both shells are visible to the viewer.  The clam shell is light in color.  Its hinge touches the left side of the canvas.  The mussel shell is darker in color, and much of its visible inner side reflects its characteristic pearlesque luster."
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1001/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/1001/artist_caption",
             "type": "LinguisticObject",
-            "value": "Clam and Mussel, 1926"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1001/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: \n1. August 1926 / Georgia O'Keeffe\" (graphite) \n2. \"Zinc W / Shape 2\" (graphite) \n3. O'Keeffe B\" [B in circle] (George Of, graphite) \n4. \"111 [in circle] #2 (unidentified hand, graphite) \nBacking: \n1. \"New York -- N.Y.\" (AIC label, black ink) \n2. \"Dark Shell\" (Alfred Stieglitz, graphite) \n3. \"Georgia O'Keeffe...Gallery / Exhibition 1927\" \n[inscription obscured by label] (Alfred Stieglitz, graphite) \n4. AAP2 \n5. AAP9"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -448,6 +456,18 @@
             "id": "http://data.okeeffemuseum.org/object/1001/gallery_location",
             "type": "LinguisticObject",
             "value": "Gallery 5/Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1001/Description/",
+            "type": "LinguisticObject",
+            "value": "In this small painting, a mussel shell rests inside a clam shell.  The inner sides of both shells are visible to the viewer.  The clam shell is light in color.  Its hinge touches the left side of the canvas.  The mussel shell is darker in color, and much of its visible inner side reflects its characteristic pearlesque luster."
         }
     ],
     "refers_to": [],
@@ -501,11 +521,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/127",
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
             "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -514,11 +534,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/85",
+            "id": "http://data.okeeffemuseum.org/exhibition/51",
             "timespan": {
-                "begin_of_the_begin": "2018-11-21T00:00:00",
-                "end_of_the_end": "2019-03-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/85/timespan",
+                "begin_of_the_begin": "2017-08-25T00:00:00",
+                "end_of_the_end": "2017-11-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/51/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -527,84 +547,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
-            "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1172",
-            "timespan": {
-                "begin_of_the_begin": "1988-11-18T00:00:00",
-                "end_of_the_end": "1989-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
             ],
             "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/16",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/16/title"
-            ],
-            "label": "Georgia O'Keeffe and Ansel Adams: Natural Affinities",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2009-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/16/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/88",
-            "timespan": {
-                "begin_of_the_begin": "2019-07-19T00:00:00",
-                "end_of_the_end": "2019-10-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/88/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/52",
-            "timespan": {
-                "begin_of_the_begin": "2017-12-16T00:00:00",
-                "end_of_the_end": "2018-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/52/timespan",
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -630,32 +581,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
-            "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1169",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1988-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/110",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/110/title"
@@ -673,11 +598,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "id": "http://data.okeeffemuseum.org/exhibition/127",
             "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -686,63 +611,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/87",
-            "timespan": {
-                "begin_of_the_begin": "2019-03-29T00:00:00",
-                "end_of_the_end": "2019-06-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/87/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/89",
-            "timespan": {
-                "begin_of_the_begin": "2019-11-21T00:00:00",
-                "end_of_the_end": "2020-02-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/89/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/51",
-            "timespan": {
-                "begin_of_the_begin": "2017-08-25T00:00:00",
-                "end_of_the_end": "2017-11-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/51/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "label": "Georgia O'Keeffe",
             "timespan": {
                 "begin_of_the_begin": "1943-01-21T00:00:00",
                 "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/34",
-            "timespan": {
-                "begin_of_the_begin": "2017-03-03T00:00:00",
-                "end_of_the_end": "2017-07-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/34/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -764,15 +641,158 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/85",
+            "timespan": {
+                "begin_of_the_begin": "2018-11-21T00:00:00",
+                "end_of_the_end": "2019-03-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/85/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/34",
+            "timespan": {
+                "begin_of_the_begin": "2017-03-03T00:00:00",
+                "end_of_the_end": "2017-07-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/34/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/87",
+            "timespan": {
+                "begin_of_the_begin": "2019-03-29T00:00:00",
+                "end_of_the_end": "2019-06-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/87/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/16",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/16/title"
+            ],
+            "label": "Georgia O'Keeffe and Ansel Adams: Natural Affinities",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2009-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/16/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1172",
+            "timespan": {
+                "begin_of_the_begin": "1988-11-18T00:00:00",
+                "end_of_the_end": "1989-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
             "timespan": {
                 "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "timespan": {
+                "begin_of_the_begin": "1989-04-02T00:00:00",
                 "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/89",
+            "timespan": {
+                "begin_of_the_begin": "2019-11-21T00:00:00",
+                "end_of_the_end": "2020-02-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/89/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/88",
+            "timespan": {
+                "begin_of_the_begin": "2019-07-19T00:00:00",
+                "end_of_the_end": "2019-10-13T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/88/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/52",
+            "timespan": {
+                "begin_of_the_begin": "2017-12-16T00:00:00",
+                "end_of_the_end": "2018-04-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/52/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

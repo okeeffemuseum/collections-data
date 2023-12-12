@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -24,6 +33,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/title",
+            "type": "Name",
+            "value": "Blue Flower"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -31,7 +52,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8562/other_id",
             "type": "Identifier",
-            "value": "477, Catalogue Raisonne Number"
+            "value": "477, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -56,18 +77,6 @@
             "id": "http://data.okeeffemuseum.org/object/8562/otheridentifier",
             "type": "Identifier",
             "value": "477"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/title",
-            "type": "Name",
-            "value": "Blue Flower"
         }
     ],
     "label": "Georgia O'Keeffe. Blue Flower, 1924-1928. Oil on board, 11 3/4 x 9 1/2 inches. Private Collection. Private collection, Palm Beach, Florida, 1986",
@@ -86,24 +95,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -118,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -138,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -163,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -189,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8562/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1919-01-01T00:00:00",
-            "end_of_the_end": "1930-12-31T00:00:00",
+            "begin_of_the_begin": "1924-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8562/production/timespan/0",
             "label": "1924-1928",
             "type": "TimeSpan"
@@ -205,50 +225,59 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Blue Flower, 1924-1928"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8562/caption/",
             "label": "Georgia O'Keeffe. Blue Flower, 1924-1928. Oil on board, 11 3/4 x 9 1/2 inches. Private Collection. Private collection, Palm Beach, Florida, 1986",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible. Backing: 1. \"For Mrs. & Dr. Hirst / Ever gratefully / Alfred Stieglitz / Oct 6/44 / Georgia O'Keeffe / 'Blue Flower' \u2013 1928 / repainted\" [followed by arrow pointing to 1928] (AS, black ink) 2. \"Blue Flower \u2013 1928 / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 3/4 x 9 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, Palm Beach, Florida, 1986      "
         },
         {
             "classified_as": [
@@ -270,25 +299,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8562/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Blue Flower, 1924-1928"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300163343",
                     "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -321,18 +360,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible. Backing: 1. \"For Mrs. & Dr. Hirst / Ever gratefully / Alfred Stieglitz / Oct 6/44 / Georgia O'Keeffe / 'Blue Flower' \u2013 1928 / repainted\" [followed by arrow pointing to 1928] (AS, black ink) 2. \"Blue Flower \u2013 1928 / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -345,26 +372,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8562/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, Palm Beach, Florida, 1986      "
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8562/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8562/maker_role",
             "type": "LinguisticObject",
-            "value": "11 3/4 x 9 1/2 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -424,6 +444,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1069",
+            "timespan": {
+                "begin_of_the_begin": "1968-10-01T00:00:00",
+                "end_of_the_end": "1968-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1069/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/749",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/749/title"
@@ -446,19 +479,6 @@
                 "begin_of_the_begin": "1925-03-09T00:00:00",
                 "end_of_the_end": "1925-03-28T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/164/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1069",
-            "timespan": {
-                "begin_of_the_begin": "1968-10-01T00:00:00",
-                "end_of_the_end": "1968-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1069/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

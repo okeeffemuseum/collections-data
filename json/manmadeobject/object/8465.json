@@ -3,6 +3,15 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -16,6 +25,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8465",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/other_id",
+            "type": "Identifier",
+            "value": "366, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -51,51 +72,32 @@
             "id": "http://data.okeeffemuseum.org/object/8465/otheridentifier",
             "type": "Identifier",
             "value": "366"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/other_id",
-            "type": "Identifier",
-            "value": "366, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Pink and Green, 1922. Pastel on linen, 16 x 14 inches. Private Collection. Mr. and Mrs. A. Alfred Taubman, Bloomfield Hills, Michigan, 1983",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8465/material/0",
-            "label": "Pastel",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/8465/material/1",
             "label": "linen",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8465/material/0",
+            "label": "pastel",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -110,16 +112,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -130,17 +143,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -155,16 +157,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -181,9 +194,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8465/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1916-01-01T00:00:00",
-            "end_of_the_end": "1927-12-31T00:00:00",
+            "begin_of_the_begin": "1922-01-01T00:00:00",
+            "end_of_the_end": "1922-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8465/production/timespan/0",
             "label": "1922",
             "type": "TimeSpan"
@@ -191,86 +211,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/provenance/",
-            "label": "(Doris Bry, New York, NY); Mark Lutz, Philadelphia, Pennsylvania, 1950; John Lutz, Philadelphia, Pennsylvania, bequest, before 1983; William Jepson, Philadelphia, Pennsylvania, gift, before 1983; Private collection, Rosemont, New York, gift, 1983; Sotheby Parke Bernet Inc., New York, NY, sale no. 1524, lot no. 223, 8 December 1983         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Pastel on linen, 16 x 14 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1923 New York (Anderson); 1927 Brooklyn, no. 8"
-        },
         {
             "classified_as": [
                 {
@@ -286,42 +226,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Pink and Green, 1922"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8465/Measurement/",
-            "type": "LinguisticObject",
-            "value": "16 x 14 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -330,9 +236,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8465/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8465/maker_role",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -369,6 +275,120 @@
             "id": "http://data.okeeffemuseum.org/object/8465/signaturemarks",
             "type": "LinguisticObject",
             "value": "Stretcher: inaccessible. Verso: inaccessible"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on linen, 16 x 14 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Pink and Green, 1922"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1923 New York (Anderson); 1927 Brooklyn, no. 8"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/Measurement/",
+            "type": "LinguisticObject",
+            "value": "16 x 14 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8465/provenance/",
+            "label": "(Doris Bry, New York, NY); Mark Lutz, Philadelphia, Pennsylvania, 1950; John Lutz, Philadelphia, Pennsylvania, bequest, before 1983; William Jepson, Philadelphia, Pennsylvania, gift, before 1983; Private collection, Rosemont, New York, gift, 1983; Sotheby Parke Bernet Inc., New York, NY, sale no. 1524, lot no. 223, 8 December 1983         ",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -399,23 +419,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/109",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/109/title"
-            ],
-            "label": "Paintings by Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1927-06-06T00:00:00",
-                "end_of_the_end": "1927-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/109/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/81",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/81/title"
@@ -433,11 +436,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/172",
+            "id": "http://data.okeeffemuseum.org/exhibition/162",
             "timespan": {
-                "begin_of_the_begin": "1927-06-06T00:00:00",
-                "end_of_the_end": "1927-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/172/timespan",
+                "begin_of_the_begin": "1923-01-29T00:00:00",
+                "end_of_the_end": "1923-02-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -446,11 +449,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/162",
+            "id": "http://data.okeeffemuseum.org/exhibition/141",
             "timespan": {
-                "begin_of_the_begin": "1923-01-29T00:00:00",
-                "end_of_the_end": "1923-02-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/162/timespan",
+                "begin_of_the_begin": "2007-05-25T00:00:00",
+                "end_of_the_end": "2007-09-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/172",
+            "timespan": {
+                "begin_of_the_begin": "1927-06-06T00:00:00",
+                "end_of_the_end": "1927-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/172/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -476,11 +492,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/141",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/109",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/109/title"
+            ],
+            "label": "Paintings by Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "2007-05-25T00:00:00",
-                "end_of_the_end": "2007-09-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/141/timespan",
+                "begin_of_the_begin": "1927-06-06T00:00:00",
+                "end_of_the_end": "1927-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

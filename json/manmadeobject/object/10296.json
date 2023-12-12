@@ -6,6 +6,20 @@
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
         }
     ],
     "crm:P104_is_subject_to": null,
@@ -28,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10296/identifier",
-            "type": "Identifier",
-            "value": "10296"
+            "id": "http://data.okeeffemuseum.org/object/10296/title",
+            "type": "Name",
+            "value": "Austrian Copper Rose IV"
         },
         {
             "classified_as": [
@@ -42,7 +56,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10296/other_id",
             "type": "Identifier",
-            "value": "1333, Catalogue Raisonne Number"
+            "value": "1333, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -52,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10296/title",
-            "type": "Name",
-            "value": "Austrian Copper Rose IV"
+            "id": "http://data.okeeffemuseum.org/object/10296/identifier",
+            "type": "Identifier",
+            "value": "10296"
         },
         {
             "classified_as": [
@@ -72,11 +86,8 @@
     "label": "Georgia O'Keeffe. Austrian Copper Rose IV, 1958. Oil on canvas and cardboard, 8 3/8 x 6 3/4 inches. Private Collection",
     "made_of": [
         {
-            "exact_match": [
-                "aat:300015050"
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10296/material/0",
-            "label": "oil paint",
+            "id": "http://data.okeeffemuseum.org/object/10296/material/1",
+            "label": "canvas",
             "type": "Material"
         },
         {
@@ -85,12 +96,19 @@
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/10296/material/1",
-            "label": "canvas",
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10296/material/0",
+            "label": "oil paint",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -126,12 +144,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -171,12 +189,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +211,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10296/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1953-01-01T00:00:00",
-            "end_of_the_end": "1963-12-31T00:00:00",
+            "begin_of_the_begin": "1958-01-01T00:00:00",
+            "end_of_the_end": "1958-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10296/production/timespan/0",
             "label": "1958",
             "type": "TimeSpan"
@@ -206,43 +231,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10296/Measurement/",
-            "type": "LinguisticObject",
-            "value": "8 3/8 x 6 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10296/caption/",
-            "label": "Georgia O'Keeffe. Austrian Copper Rose IV, 1958. Oil on canvas and cardboard, 8 3/8 x 6 3/4 inches. Private Collection",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10296/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/10296/artist_caption",
             "type": "LinguisticObject",
-            "value": "Private Collection"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -276,22 +277,39 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10296/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10296/institution_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10296/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 3/8 x 6 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
@@ -300,11 +318,6 @@
                 {
                     "id": "aat:300417193",
                     "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -315,8 +328,20 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10296/caption/",
+            "label": "Georgia O'Keeffe. Austrian Copper Rose IV, 1958. Oil on canvas and cardboard, 8 3/8 x 6 3/4 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -325,8 +350,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],

@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300047806",
+            "type": "Type"
+        },
+        {
             "id": "aat:300047090",
             "label": "sculpture",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -35,19 +44,19 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/10234/other_id",
             "type": "Identifier",
-            "value": "1142, Catalogue Raisonne Number"
+            "value": "1142, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10234/identifier",
+            "id": "http://data.okeeffemuseum.org/object/10234/otheridentifier",
             "type": "Identifier",
-            "value": "10234"
+            "value": "1142"
         },
         {
             "classified_as": [
@@ -64,14 +73,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10234/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/10234/identifier",
             "type": "Identifier",
-            "value": "1142"
+            "value": "10234"
         }
     ],
     "label": "Georgia O'Keeffe. Abstraction, 1946. Cast aluminum, 118 x 118 x 57 3/4 inches. Private Collection",
@@ -82,7 +91,11 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -118,12 +131,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -163,12 +176,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -185,9 +198,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10234/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/cast-sculptures",
+                "label": "Cast Sculptures",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1941-01-01T00:00:00",
-            "end_of_the_end": "1951-12-31T00:00:00",
+            "begin_of_the_begin": "1946-01-01T00:00:00",
+            "end_of_the_end": "1946-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10234/production/timespan/0",
             "label": "1946",
             "type": "TimeSpan"
@@ -198,26 +218,46 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10234/caption/",
-            "label": "Georgia O'Keeffe. Abstraction, 1946. Cast aluminum, 118 x 118 x 57 3/4 inches. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10234/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Abstraction, 1946"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10234/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/10234/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "118 x 118 x 57 3/4 inches"
+            "value": "Cast aluminum, 118 x 118 x 57 3/4 inches"
         },
         {
             "classified_as": [
@@ -234,41 +274,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10234/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Cast aluminum, 118 x 118 x 57 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10234/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/10234/caption/",
+            "label": "Georgia O'Keeffe. Abstraction, 1946. Cast aluminum, 118 x 118 x 57 3/4 inches. Private Collection",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -281,6 +294,35 @@
             "id": "http://data.okeeffemuseum.org/object/10234/signaturemarks",
             "type": "LinguisticObject",
             "value": "Edition of 3"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10234/Measurement/",
+            "type": "LinguisticObject",
+            "value": "118 x 118 x 57 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10234/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -298,28 +340,6 @@
             "id": "http://data.okeeffemuseum.org/object/10234/institution_caption",
             "type": "LinguisticObject",
             "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10234/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Abstraction, 1946"
         },
         {
             "classified_as": [

@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -25,18 +34,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8939",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/title",
-            "type": "Name",
-            "value": "Yellow Cactus"
-        },
         {
             "classified_as": [
                 {
@@ -64,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/title",
+            "type": "Name",
+            "value": "Yellow Cactus"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -71,7 +80,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8939/other_id",
             "type": "Identifier",
-            "value": "992, Catalogue Raisonne Number"
+            "value": "992, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Yellow Cactus, 1940. Oil and tempera on canvas-covered board, 12 x 16 inches. Randolph-Macon Women's College. Maier Museum of Art. Maier Museum of Art, Randolph-Macon Woman's College, Lynchburg, Virginia, Louise Jordan Smith Fund, 1944",
@@ -90,24 +99,17 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8939/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1935-01-01T00:00:00",
-            "end_of_the_end": "1945-12-31T00:00:00",
+            "begin_of_the_begin": "1940-01-01T00:00:00",
+            "end_of_the_end": "1940-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8939/production/timespan/0",
             "label": "1940",
             "type": "TimeSpan"
@@ -206,19 +226,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8939/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8939/artist_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -231,134 +251,6 @@
             "id": "http://data.okeeffemuseum.org/object/8939/CreditLine/",
             "type": "LinguisticObject",
             "value": "Maier Museum of Art, Randolph-Macon Woman's College, Lynchburg, Virginia, Louise Jordan Smith Fund, 1944      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Yellow Cactus, 1940"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1941 New York (An American Place \u2013 O'Keeffe), no. 1, as Yellow Cactus; 1949 Lynchburg; 1957 Lynchburg; 1959 Lynchburg; 1964 Lynchburg; 1964 Richmond; 1964 Roanoke; 1965 Lynchburg; 1966 Wilmington; 1969 Richmond"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/caption/",
-            "label": "Georgia O'Keeffe. Yellow Cactus, 1940. Oil and tempera on canvas-covered board, 12 x 16 inches. Randolph-Macon Women's College. Maier Museum of Art. Maier Museum of Art, Randolph-Macon Woman's College, Lynchburg, Virginia, Louise Jordan Smith Fund, 1944",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/provenance/",
-            "label": "(An American Place, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Randolph-Macon Women's College. Maier Museum of Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/Measurement/",
-            "type": "LinguisticObject",
-            "value": "12 x 16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil and tempera on canvas-covered board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8939/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: \"Georgia O'Keeffe / Summer 1940\" (black ink). Backing: \"O'Keeffe Exhibition \u2013 1941. / Yellow Cactus \u2013 1940 / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
         },
         {
             "classified_as": [
@@ -381,6 +273,134 @@
             "id": "http://data.okeeffemuseum.org/object/8939/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Oil and tempera on canvas-covered board, 12 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1941 New York (An American Place \u2013 O'Keeffe), no. 1, as Yellow Cactus; 1949 Lynchburg; 1957 Lynchburg; 1959 Lynchburg; 1964 Lynchburg; 1964 Richmond; 1964 Roanoke; 1965 Lynchburg; 1966 Wilmington; 1969 Richmond"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: \"Georgia O'Keeffe / Summer 1940\" (black ink). Backing: \"O'Keeffe Exhibition \u2013 1941. / Yellow Cactus \u2013 1940 / by Georgia O'Keeffe\" (AS, AAP1, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil and tempera on canvas-covered board"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Randolph-Macon Women's College. Maier Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/provenance/",
+            "label": "(An American Place, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/caption/",
+            "label": "Georgia O'Keeffe. Yellow Cactus, 1940. Oil and tempera on canvas-covered board, 12 x 16 inches. Randolph-Macon Women's College. Maier Museum of Art. Maier Museum of Art, Randolph-Macon Woman's College, Lynchburg, Virginia, Louise Jordan Smith Fund, 1944",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/Measurement/",
+            "type": "LinguisticObject",
+            "value": "12 x 16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8939/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Yellow Cactus, 1940"
         }
     ],
     "refers_to": [],
@@ -423,66 +443,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/981",
-            "timespan": {
-                "begin_of_the_begin": "1964-12-06T00:00:00",
-                "end_of_the_end": "1965-01-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/981/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/715",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/715/title"
-            ],
-            "label": "Paintings from the Collection of American Painting at Randolph Macon Woman's College",
-            "timespan": {
-                "begin_of_the_begin": "1966-10-10T00:00:00",
-                "end_of_the_end": "1967-07-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/715/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/659",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/659/title"
-            ],
-            "label": "Art Between the Two World Wars",
-            "timespan": {
-                "begin_of_the_begin": "1964-04-10T00:00:00",
-                "end_of_the_end": "1964-04-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/659/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/978",
-            "timespan": {
-                "begin_of_the_begin": "1964-09-11T00:00:00",
-                "end_of_the_end": "1964-10-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/978/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1094",
             "timespan": {
                 "begin_of_the_begin": "1969-01-01T00:00:00",
@@ -496,15 +456,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/769",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/309",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/769/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/309/title"
             ],
-            "label": "The Randolph Macon Woman's College Collection of American Art",
+            "label": "Fifteen Paintings from the Collection of Randolph-Macon Woman's College",
             "timespan": {
-                "begin_of_the_begin": "1969-01-01T00:00:00",
-                "end_of_the_end": "1970-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/769/timespan",
+                "begin_of_the_begin": "1949-10-10T00:00:00",
+                "end_of_the_end": "1950-01-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/309/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -513,71 +473,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/653",
+            "id": "http://data.okeeffemuseum.org/exhibition/978",
             "timespan": {
-                "begin_of_the_begin": "1957-10-13T00:00:00",
-                "end_of_the_end": "1957-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/653/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/444",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/444/title"
-            ],
-            "label": "A Loan Exhibition from the Phillips Collection, Washington",
-            "timespan": {
-                "begin_of_the_begin": "1957-10-13T00:00:00",
-                "end_of_the_end": "1957-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/444/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/736",
-            "timespan": {
-                "begin_of_the_begin": "1959-03-01T00:00:00",
-                "end_of_the_end": "1959-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/736/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1028",
-            "timespan": {
-                "begin_of_the_begin": "1966-10-10T00:00:00",
-                "end_of_the_end": "1966-11-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1028/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/683",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/683/title"
-            ],
-            "label": "Two Centuries of American Painting from the Collection of Randolph-Macon Woman's College",
-            "timespan": {
-                "begin_of_the_begin": "1965-02-27T00:00:00",
-                "end_of_the_end": "1965-08-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/683/timespan",
+                "begin_of_the_begin": "1964-09-11T00:00:00",
+                "end_of_the_end": "1964-10-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/978/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -603,11 +503,178 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/736",
+            "timespan": {
+                "begin_of_the_begin": "1959-03-01T00:00:00",
+                "end_of_the_end": "1959-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/736/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/227",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/227/title"
+            ],
+            "label": "Exhibition of Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1941-01-27T00:00:00",
+                "end_of_the_end": "1941-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/227/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/334",
             "timespan": {
                 "begin_of_the_begin": "1941-01-27T00:00:00",
                 "end_of_the_end": "1941-03-11T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/653",
+            "timespan": {
+                "begin_of_the_begin": "1957-10-13T00:00:00",
+                "end_of_the_end": "1957-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/653/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/769",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/769/title"
+            ],
+            "label": "The Randolph Macon Woman's College Collection of American Art",
+            "timespan": {
+                "begin_of_the_begin": "1969-01-01T00:00:00",
+                "end_of_the_end": "1970-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/769/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/715",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/715/title"
+            ],
+            "label": "Paintings from the Collection of American Painting at Randolph Macon Woman's College",
+            "timespan": {
+                "begin_of_the_begin": "1966-10-10T00:00:00",
+                "end_of_the_end": "1967-07-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/715/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/444",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/444/title"
+            ],
+            "label": "A Loan Exhibition from the Phillips Collection, Washington",
+            "timespan": {
+                "begin_of_the_begin": "1957-10-13T00:00:00",
+                "end_of_the_end": "1957-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/444/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/683",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/683/title"
+            ],
+            "label": "Two Centuries of American Painting from the Collection of Randolph-Macon Woman's College",
+            "timespan": {
+                "begin_of_the_begin": "1965-02-27T00:00:00",
+                "end_of_the_end": "1965-08-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/683/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1028",
+            "timespan": {
+                "begin_of_the_begin": "1966-10-10T00:00:00",
+                "end_of_the_end": "1966-11-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1028/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/981",
+            "timespan": {
+                "begin_of_the_begin": "1964-12-06T00:00:00",
+                "end_of_the_end": "1965-01-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/981/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/992",
+            "timespan": {
+                "begin_of_the_begin": "1965-02-27T00:00:00",
+                "end_of_the_end": "1965-08-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/992/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/674",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/674/title"
+            ],
+            "label": "Selections from the Randolph Macon Woman's College Collection",
+            "timespan": {
+                "begin_of_the_begin": "1964-12-06T00:00:00",
+                "end_of_the_end": "1965-01-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/674/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -642,36 +709,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/674",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/674/title"
-            ],
-            "label": "Selections from the Randolph Macon Woman's College Collection",
-            "timespan": {
-                "begin_of_the_begin": "1964-12-06T00:00:00",
-                "end_of_the_end": "1965-01-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/674/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/992",
-            "timespan": {
-                "begin_of_the_begin": "1965-02-27T00:00:00",
-                "end_of_the_end": "1965-08-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/992/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/672",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/672/title"
@@ -689,32 +726,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/227",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/659",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/227/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/659/title"
             ],
-            "label": "Exhibition of Georgia O'Keeffe",
+            "label": "Art Between the Two World Wars",
             "timespan": {
-                "begin_of_the_begin": "1941-01-27T00:00:00",
-                "end_of_the_end": "1941-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/227/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/309",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/309/title"
-            ],
-            "label": "Fifteen Paintings from the Collection of Randolph-Macon Woman's College",
-            "timespan": {
-                "begin_of_the_begin": "1949-10-10T00:00:00",
-                "end_of_the_end": "1950-01-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/309/timespan",
+                "begin_of_the_begin": "1964-04-10T00:00:00",
+                "end_of_the_end": "1964-04-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/659/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

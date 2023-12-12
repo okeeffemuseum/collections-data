@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300189621",
+            "label": "works on paper",
             "type": "Type"
         }
     ],
@@ -28,14 +37,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10155/title",
-            "type": "Name",
-            "value": "In the Patio I"
+            "id": "http://data.okeeffemuseum.org/object/10155/other_id",
+            "type": "Identifier",
+            "value": "1146, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -52,6 +61,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10155/title",
+            "type": "Name",
+            "value": "In the Patio I"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -60,27 +81,10 @@
             "id": "http://data.okeeffemuseum.org/object/10155/otheridentifier",
             "type": "Identifier",
             "value": "1146"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10155/other_id",
-            "type": "Identifier",
-            "value": "1146, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. In the Patio I, 1946. Oil on paper, 30 x 24 inches. San Diego Museum of Art",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/10155/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -88,26 +92,24 @@
             "id": "http://data.okeeffemuseum.org/object/10155/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10155/material/1",
+            "label": "paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -122,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -142,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -167,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -193,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10155/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1941-01-01T00:00:00",
-            "end_of_the_end": "1951-12-31T00:00:00",
+            "begin_of_the_begin": "1946-01-01T00:00:00",
+            "end_of_the_end": "1946-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10155/production/timespan/0",
             "label": "1946",
             "type": "TimeSpan"
@@ -206,46 +226,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10155/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/10155/Measurement/",
             "type": "LinguisticObject",
-            "value": "In the Patio I, 1946"
+            "value": "30 x 24 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10155/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10155/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on paper, 30 x 24 inches"
+            "id": "http://data.okeeffemuseum.org/object/10155/caption/",
+            "label": "Georgia O'Keeffe. In the Patio I, 1946. Oil on paper, 30 x 24 inches. San Diego Museum of Art",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -262,13 +279,35 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10155/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on paper, 30 x 24 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
@@ -296,43 +335,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10155/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10155/caption/",
-            "label": "Georgia O'Keeffe. In the Patio I, 1946. Oil on paper, 30 x 24 inches. San Diego Museum of Art",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10155/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/10155/title_date_caption",
             "type": "LinguisticObject",
-            "value": "30 x 24 inches"
+            "value": "In the Patio I, 1946"
         }
     ],
     "refers_to": [],
@@ -375,148 +395,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/569",
-            "timespan": {
-                "begin_of_the_begin": "1953-09-22T00:00:00",
-                "end_of_the_end": "1953-10-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/569/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/565",
-            "timespan": {
-                "begin_of_the_begin": "1953-03-16T00:00:00",
-                "end_of_the_end": "1953-04-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/810",
-            "timespan": {
-                "begin_of_the_begin": "1960-10-04T00:00:00",
-                "end_of_the_end": "1960-12-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/810/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/326",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/326/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings 1946-1950",
-            "timespan": {
-                "begin_of_the_begin": "1950-10-01T00:00:00",
-                "end_of_the_end": "1950-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/326/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/368",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/368/title"
-            ],
-            "label": "28th Season Exhibition: New or Recent Paintings and Sculpture by Davis, Dove, Karfiol, Kuniyoshi, Marin, O'Keeffe, Shahn, Sheeler, Spencer, Zorach",
-            "timespan": {
-                "begin_of_the_begin": "1953-09-22T00:00:00",
-                "end_of_the_end": "1953-10-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/368/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1026",
-            "timespan": {
-                "begin_of_the_begin": "1966-04-01T00:00:00",
-                "end_of_the_end": "1966-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1026/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/972",
-            "timespan": {
-                "begin_of_the_begin": "1964-10-06T00:00:00",
-                "end_of_the_end": "1964-10-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/972/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/498",
-            "timespan": {
-                "begin_of_the_begin": "1950-10-01T00:00:00",
-                "end_of_the_end": "1950-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1169",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1988-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/364",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/364/title"
@@ -534,11 +412,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1000",
+            "id": "http://data.okeeffemuseum.org/exhibition/569",
             "timespan": {
-                "begin_of_the_begin": "1965-11-02T00:00:00",
-                "end_of_the_end": "1965-11-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1000/timespan",
+                "begin_of_the_begin": "1953-09-22T00:00:00",
+                "end_of_the_end": "1953-10-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/569/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -564,15 +442,114 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/689",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/713",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/689/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/713/title"
             ],
-            "label": "Group with Stasack Exhibition",
+            "label": "Past and Present",
+            "timespan": {
+                "begin_of_the_begin": "1966-04-01T00:00:00",
+                "end_of_the_end": "1966-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/713/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1000",
             "timespan": {
                 "begin_of_the_begin": "1965-11-02T00:00:00",
                 "end_of_the_end": "1965-11-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/689/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1000/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1026",
+            "timespan": {
+                "begin_of_the_begin": "1966-04-01T00:00:00",
+                "end_of_the_end": "1966-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1026/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/498",
+            "timespan": {
+                "begin_of_the_begin": "1950-10-01T00:00:00",
+                "end_of_the_end": "1950-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/498/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/368",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/368/title"
+            ],
+            "label": "28th Season Exhibition: New or Recent Paintings and Sculpture by Davis, Dove, Karfiol, Kuniyoshi, Marin, O'Keeffe, Shahn, Sheeler, Spencer, Zorach",
+            "timespan": {
+                "begin_of_the_begin": "1953-09-22T00:00:00",
+                "end_of_the_end": "1953-10-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/368/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/810",
+            "timespan": {
+                "begin_of_the_begin": "1960-10-04T00:00:00",
+                "end_of_the_end": "1960-12-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/810/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -598,15 +575,58 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/713",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/326",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/713/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/326/title"
             ],
-            "label": "Past and Present",
+            "label": "Georgia O'Keeffe: Paintings 1946-1950",
             "timespan": {
-                "begin_of_the_begin": "1966-04-01T00:00:00",
-                "end_of_the_end": "1966-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/713/timespan",
+                "begin_of_the_begin": "1950-10-01T00:00:00",
+                "end_of_the_end": "1950-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/326/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/565",
+            "timespan": {
+                "begin_of_the_begin": "1953-03-16T00:00:00",
+                "end_of_the_end": "1953-04-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/972",
+            "timespan": {
+                "begin_of_the_begin": "1964-10-06T00:00:00",
+                "end_of_the_end": "1964-10-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/972/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/689",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/689/title"
+            ],
+            "label": "Group with Stasack Exhibition",
+            "timespan": {
+                "begin_of_the_begin": "1965-11-02T00:00:00",
+                "end_of_the_end": "1965-11-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/689/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

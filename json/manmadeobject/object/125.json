@@ -3,8 +3,17 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300010898",
+            "type": "Type"
+        },
+        {
             "id": "aat:300047090",
             "label": "sculpture",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -35,26 +44,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/125/other_id",
+            "id": "http://data.okeeffemuseum.org/object/125/identifier",
             "type": "Identifier",
-            "value": "947, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/otheridentifier",
-            "type": "Identifier",
-            "value": "947"
+            "value": "125"
         },
         {
             "classified_as": [
@@ -83,14 +80,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/125/identifier",
+            "id": "http://data.okeeffemuseum.org/object/125/other_id",
             "type": "Identifier",
-            "value": "125"
+            "value": "947, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/otheridentifier",
+            "type": "Identifier",
+            "value": "947"
         }
     ],
     "label": "Steuben Glass, Georgia O'Keeffe. Steuben Glass Bowl with Jimson Weed Image, 1938. Glass, 14 inches in diameter. Georgia O'Keeffe Museum. Gift of Mrs. Flora C. Crichton. [1997.13.1]",
@@ -101,43 +110,14 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            {
-                "id": "http://data.okeeffemuseum.org/person/240",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "http://id.loc.gov/authorities/names/n50058364"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/240/name/0",
-                        "type": "Name",
-                        "value": "Steuben Glass"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:former"
-                        ],
-                        "exact_match": [
-                            "http://id.loc.gov/authorities/names/n50058364"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/240/name/1",
-                        "type": "Name",
-                        "value": "Steuben"
-                    }
-                ],
-                "label": "Steuben Glass",
-                "type": "Actor"
-            },
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
@@ -170,64 +150,49 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/240",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:former"
+                        ],
+                        "exact_match": [
+                            "http://id.loc.gov/authorities/names/n50058364"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/240/name/1",
+                        "type": "Name",
+                        "value": "Steuben"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "http://id.loc.gov/authorities/names/n50058364"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/240/name/0",
+                        "type": "Name",
+                        "value": "Steuben Glass"
+                    }
+                ],
+                "label": "Steuben Glass",
+                "type": "Actor"
             }
         ],
         "consists_of": [
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/240",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "http://id.loc.gov/authorities/names/n50058364"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/240/name/0",
-                                "type": "Name",
-                                "value": "Steuben Glass"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:former"
-                                ],
-                                "exact_match": [
-                                    "http://id.loc.gov/authorities/names/n50058364"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/240/name/1",
-                                "type": "Name",
-                                "value": "Steuben"
-                            }
-                        ],
-                        "label": "Steuben Glass",
-                        "type": "Actor"
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/125/production/0",
-                "technique": [
-                    {
-                        "id": "relators:mfr",
-                        "label": "Manufacturer",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
             {
                 "carried_out_by": [
                     {
@@ -263,12 +228,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -282,9 +247,64 @@
                     }
                 ],
                 "type": "Production"
+            },
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/240",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:former"
+                                ],
+                                "exact_match": [
+                                    "http://id.loc.gov/authorities/names/n50058364"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/240/name/1",
+                                "type": "Name",
+                                "value": "Steuben"
+                            },
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "http://id.loc.gov/authorities/names/n50058364"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/240/name/0",
+                                "type": "Name",
+                                "value": "Steuben Glass"
+                            }
+                        ],
+                        "label": "Steuben Glass",
+                        "type": "Actor"
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/125/production/0",
+                "technique": [
+                    {
+                        "id": "relators:mfr",
+                        "label": "Manufacturer",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/125/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/glassware",
+                "label": "Glassware",
+                "type": "Type"
+            }
+        ],
         "timespan": {
             "begin_of_the_begin": "1938-01-01T00:00:00",
             "end_of_the_end": "1938-12-31T00:00:00",
@@ -295,42 +315,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/Materials/",
-            "type": "LinguisticObject",
-            "value": "Glass"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/caption/",
-            "label": "Steuben Glass, Georgia O'Keeffe. Steuben Glass Bowl with Jimson Weed Image, 1938. Glass, 14 inches in diameter. Georgia O'Keeffe Museum. Gift of Mrs. Flora C. Crichton. [1997.13.1]",
-            "type": "LinguisticObject"
-        },
         {
             "classified_as": [
                 {
@@ -356,77 +340,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/125/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/125/Measurement/",
             "type": "LinguisticObject",
-            "value": "Manufacturer: Steuben Glass\nDesigner: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Steuben Glass, Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of Mrs. Flora C. Crichton      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/125/exhibitions",
-            "type": "LinguisticObject",
-            "value": "Sept. 28, 2000 - Jan 1, 2001 Twenty Seven Contemporary Artists; Steuben, Corning Incorporated \nOct. 14, 2003 - April 20, 2004  Glass and Glamour; Steuben's Moment, 1930-1960; The Museum of the City of New York \n2009 Santa Fe (O'Keeffe) Beyond Our Shores \n2014 Santa Fe (O'Keeffe) Lobby"
+            "value": "14 inches in diameter"
         },
         {
             "classified_as": [
@@ -453,6 +374,59 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of Mrs. Flora C. Crichton      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Steuben Glass, Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/caption/",
+            "label": "Steuben Glass, Georgia O'Keeffe. Steuben Glass Bowl with Jimson Weed Image, 1938. Glass, 14 inches in diameter. Georgia O'Keeffe Museum. Gift of Mrs. Flora C. Crichton. [1997.13.1]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300080091",
                     "label": "description",
                     "type": "Type"
@@ -465,14 +439,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/125/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/125/Materials/",
             "type": "LinguisticObject",
-            "value": "14 inches in diameter"
+            "value": "Glass"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/maker_role",
+            "type": "LinguisticObject",
+            "value": "Manufacturer: Steuben Glass\nDesigner: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/125/exhibitions",
+            "type": "LinguisticObject",
+            "value": "Sept. 28, 2000 - Jan 1, 2001 Twenty Seven Contemporary Artists; Steuben, Corning Incorporated \nOct. 14, 2003 - April 20, 2004  Glass and Glamour; Steuben's Moment, 1930-1960; The Museum of the City of New York \n2009 Santa Fe (O'Keeffe) Beyond Our Shores \n2014 Santa Fe (O'Keeffe) Lobby"
         }
     ],
     "refers_to": [],

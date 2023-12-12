@@ -3,13 +3,23 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -45,9 +55,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8256/identifier",
-            "type": "Identifier",
-            "value": "8256"
+            "id": "http://data.okeeffemuseum.org/object/8256/title",
+            "type": "Name",
+            "value": "Second, Out Of My Head"
         },
         {
             "classified_as": [
@@ -59,7 +69,7 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8256/other_id",
             "type": "Identifier",
-            "value": "56, Catalogue Raisonne Number"
+            "value": "56, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -69,25 +79,29 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8256/title",
-            "type": "Name",
-            "value": "Second, Out Of My Head"
+            "id": "http://data.okeeffemuseum.org/object/8256/identifier",
+            "type": "Identifier",
+            "value": "8256"
         }
     ],
     "label": "Georgia O'Keeffe. Second, Out Of My Head, 1915. Charcoal on paper, 24 x 18 1/2 inches. National Gallery of Art, Washington. National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.1)",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8256/material/1",
-            "label": "Paper",
-            "type": "Material"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/object/8256/material/0",
             "label": "charcoal",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8256/material/1",
+            "label": "paper",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -123,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -168,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -190,9 +204,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8256/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/drawings",
+                "label": "Drawings",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1910-01-01T00:00:00",
-            "end_of_the_end": "1920-12-31T00:00:00",
+            "begin_of_the_begin": "1915-01-01T00:00:00",
+            "end_of_the_end": "1915-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8256/production/timespan/0",
             "label": "1915",
             "type": "TimeSpan"
@@ -203,13 +224,54 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8256/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8256/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 x 18 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8256/provenance/",
+            "label": "Estate of the artist, 1986; The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1991         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -232,17 +294,34 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8256/provenance/",
-            "label": "Estate of the artist, 1986; The Georgia O'Keeffe Foundation, Abiquiu, New Mexico, 1991         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8256/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1916 New York (291)?"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8256/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.1)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300163343",
                     "label": "media",
@@ -251,11 +330,6 @@
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -278,35 +352,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8256/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "National Gallery of Art, Washington, Alfred Stieglitz Collection, Gift of The Georgia O'Keeffe Foundation (1992.89.1)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8256/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -319,35 +364,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8256/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1916 New York (291)?"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8256/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 x 18 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
@@ -355,6 +371,11 @@
                 {
                     "id": "aat:300417193",
                     "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],

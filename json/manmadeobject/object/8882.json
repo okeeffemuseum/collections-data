@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,6 +15,10 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -43,14 +52,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/other_id",
+            "id": "http://data.okeeffemuseum.org/object/8882/otheridentifier",
             "type": "Identifier",
-            "value": "913, Catalogue Raisonne Number"
+            "value": "913"
         },
         {
             "classified_as": [
@@ -67,18 +76,23 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/8882/other_id",
             "type": "Identifier",
-            "value": "913"
+            "value": "913, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. The House I Live In, 1937. Oil on canvas, 14 x 30 inches. Yale University Art Gallery. Private collection, New Haven, Connecticut, 1967. \u00a9 Georgia O'Keeffe Museum",
     "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8882/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -86,31 +100,19 @@
             "id": "http://data.okeeffemuseum.org/object/8882/material/0",
             "label": "oil paint",
             "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8882/material/1",
-            "label": "canvas",
-            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/258",
+        "label": "Buildings and Built Environments",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8882/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1937-01-01T00:00:00",
+            "end_of_the_end": "1937-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8882/production/timespan/0",
             "label": "1937",
             "type": "TimeSpan"
@@ -212,11 +232,21 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/caption/",
-            "label": "Georgia O'Keeffe. The House I Live In, 1937. Oil on canvas, 14 x 30 inches. Yale University Art Gallery. Private collection, New Haven, Connecticut, 1967. \u00a9 Georgia O'Keeffe Museum",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8882/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 14 x 30 inches"
         },
         {
             "classified_as": [
@@ -233,48 +263,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8882/Right/",
             "type": "LinguisticObject",
-            "value": "The House I Live In, 1937"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8882/provenance/",
-            "label": "(Doris Bry, New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8882/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1937-38 New York (An American Place), no. 18, as The House I Live In; 1953 Dallas, no. 19"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -287,52 +283,6 @@
             "id": "http://data.okeeffemuseum.org/object/8882/Measurement/",
             "type": "LinguisticObject",
             "value": "14 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8882/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8882/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Yale University Art Gallery"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8882/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, New Haven, Connecticut, 1967      "
         },
         {
             "classified_as": [
@@ -354,14 +304,50 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/Right/",
+            "id": "http://data.okeeffemuseum.org/object/8882/CreditLine/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Private collection, New Haven, Connecticut, 1967      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8882/caption/",
+            "label": "Georgia O'Keeffe. The House I Live In, 1937. Oil on canvas, 14 x 30 inches. Yale University Art Gallery. Private collection, New Haven, Connecticut, 1967. \u00a9 Georgia O'Keeffe Museum",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8882/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1937-38 New York (An American Place), no. 18, as The House I Live In; 1953 Dallas, no. 19"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8882/provenance/",
+            "label": "(Doris Bry, New York, NY)         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -378,13 +364,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
@@ -393,9 +374,48 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8882/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8882/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 14 x 30 inches"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8882/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Yale University Art Gallery"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8882/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "The House I Live In, 1937"
         }
     ],
     "refers_to": [],
@@ -438,11 +458,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/565",
+            "timespan": {
+                "begin_of_the_begin": "1953-03-16T00:00:00",
+                "end_of_the_end": "1953-04-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/132",
             "timespan": {
                 "begin_of_the_begin": "2008-05-23T00:00:00",
                 "end_of_the_end": "2008-09-07T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/132/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
+            ],
+            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
+            "timespan": {
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -481,36 +531,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/133",
-            "timespan": {
-                "begin_of_the_begin": "2008-09-26T00:00:00",
-                "end_of_the_end": "2009-02-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
-            ],
-            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
-            "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/364",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/364/title"
@@ -541,11 +561,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/565",
+            "id": "http://data.okeeffemuseum.org/exhibition/133",
             "timespan": {
-                "begin_of_the_begin": "1953-03-16T00:00:00",
-                "end_of_the_end": "1953-04-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/565/timespan",
+                "begin_of_the_begin": "2008-09-26T00:00:00",
+                "end_of_the_end": "2009-02-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/133/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

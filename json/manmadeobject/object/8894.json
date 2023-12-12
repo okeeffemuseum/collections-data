@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -24,14 +33,26 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/other_id",
+            "type": "Identifier",
+            "value": "930, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8894/title",
-            "type": "Name",
-            "value": "Red Hills with White Cloud"
+            "id": "http://data.okeeffemuseum.org/object/8894/identifier",
+            "type": "Identifier",
+            "value": "8894"
         },
         {
             "classified_as": [
@@ -48,48 +69,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/other_id",
-            "type": "Identifier",
-            "value": "930, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8894/identifier",
-            "type": "Identifier",
-            "value": "8894"
+            "id": "http://data.okeeffemuseum.org/object/8894/title",
+            "type": "Name",
+            "value": "Red Hills with White Cloud"
         }
     ],
     "label": "Georgia O'Keeffe. Red Hills with White Cloud, 1937. Oil on canvas, 6 x 7 inches. Private Collection. Private collection, 1998",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "made_of": [
+        {
+            "id": "http://data.okeeffemuseum.org/object/8894/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/261",
+        "label": "Landscapes",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -104,16 +120,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -124,17 +151,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -149,16 +165,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -175,9 +202,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8894/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1932-01-01T00:00:00",
-            "end_of_the_end": "1942-12-31T00:00:00",
+            "begin_of_the_begin": "1937-01-01T00:00:00",
+            "end_of_the_end": "1937-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8894/production/timespan/0",
             "label": "1937",
             "type": "TimeSpan"
@@ -188,31 +222,65 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"For Sally and Mitchell Wilder from Georgia and the McDermott's\" (black ink) 2. \"Red Hills with White Cloud / 1937 / oil / 6 x 7 inches / canvas / Baker 6577\" (OKR, black ink)"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8894/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8894/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8894/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8894/title_date_caption",
             "type": "LinguisticObject",
-            "value": "1937-38 New York (An American Place), no. 15, as Red Hills with White Cloud; 1960 Worcester, no. 19; 1966 Albuquerque; 1966 Fort Worth; 1975 San Antonio; 1995 New York"
+            "value": "Red Hills with White Cloud, 1937"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, 1998      "
         },
         {
             "classified_as": [
@@ -225,6 +293,81 @@
             "id": "http://data.okeeffemuseum.org/object/8894/provenance/",
             "label": "Mr. and Mrs. Eugene McDermott, Dallas, Texas, gift, 1966; Sally and Mitchell Wilder, Fort Worth, Texas, gift, 1966; James Maroney, Inc., New York, NY, 1980; Private collection, Millbrook, New York, 1981; Christie's, New York, NY, sale, no. 8886, lot no. 183, 21 May 1998         ",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/caption/",
+            "label": "Georgia O'Keeffe. Red Hills with White Cloud, 1937. Oil on canvas, 6 x 7 inches. Private Collection. Private collection, 1998",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 6 x 7 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8894/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1937-38 New York (An American Place), no. 15, as Red Hills with White Cloud; 1960 Worcester, no. 19; 1966 Albuquerque; 1966 Fort Worth; 1975 San Antonio; 1995 New York"
         },
         {
             "classified_as": [
@@ -246,79 +389,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/caption/",
-            "label": "Georgia O'Keeffe. Red Hills with White Cloud, 1937. Oil on canvas, 6 x 7 inches. Private Collection. Private collection, 1998",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 6 x 7 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Red Hills with White Cloud, 1937"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -327,42 +397,6 @@
             "id": "http://data.okeeffemuseum.org/object/8894/Measurement/",
             "type": "LinguisticObject",
             "value": "6 x 7 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, 1998      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8894/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible. Backing: 1. \"For Sally and Mitchell Wilder from Georgia and the McDermott's\" (black ink) 2. \"Red Hills with White Cloud / 1937 / oil / 6 x 7 inches / canvas / Baker 6577\" (OKR, black ink)"
         }
     ],
     "refers_to": [],
@@ -393,15 +427,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/853",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/853/title"
             ],
-            "label": "Georgia O'Keeffe: Forty Years of her Art",
+            "label": "Georgia O'Keeffe: Floral Works and Small Paintings",
             "timespan": {
-                "begin_of_the_begin": "1960-10-04T00:00:00",
-                "end_of_the_end": "1960-12-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
+                "begin_of_the_begin": "1995-05-04T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/853/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -410,11 +444,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1109",
+            "id": "http://data.okeeffemuseum.org/exhibition/1220",
             "timespan": {
-                "begin_of_the_begin": "1975-10-24T00:00:00",
-                "end_of_the_end": "1975-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
+                "begin_of_the_begin": "1995-06-30T00:00:00",
+                "end_of_the_end": "1995-08-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -428,6 +475,40 @@
                 "begin_of_the_begin": "1960-10-04T00:00:00",
                 "end_of_the_end": "1960-12-04T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/810/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
+            ],
+            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
+            "timespan": {
+                "begin_of_the_begin": "1937-12-27T00:00:00",
+                "end_of_the_end": "1938-02-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/782",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/782/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1975-10-24T00:00:00",
+                "end_of_the_end": "1975-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/782/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -466,15 +547,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/698",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/698/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1010",
             "timespan": {
                 "begin_of_the_begin": "1966-09-08T00:00:00",
                 "end_of_the_end": "1966-10-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/698/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1010/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1109",
+            "timespan": {
+                "begin_of_the_begin": "1975-10-24T00:00:00",
+                "end_of_the_end": "1975-11-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1109/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -496,88 +586,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1013",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1220",
-            "timespan": {
-                "begin_of_the_begin": "1995-06-30T00:00:00",
-                "end_of_the_end": "1995-08-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1220/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/782",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/782/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
+            ],
+            "label": "Georgia O'Keeffe: Forty Years of her Art",
+            "timespan": {
+                "begin_of_the_begin": "1960-10-04T00:00:00",
+                "end_of_the_end": "1960-12-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/698",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/698/title"
             ],
             "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1975-10-24T00:00:00",
-                "end_of_the_end": "1975-11-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/782/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/190",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/190/title"
-            ],
-            "label": "Georgia O'Keeffe: The 14th Annual Exhibition of Paintings With some Recent O'Keeffe Letters",
-            "timespan": {
-                "begin_of_the_begin": "1937-12-27T00:00:00",
-                "end_of_the_end": "1938-02-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/190/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/853",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/853/title"
-            ],
-            "label": "Georgia O'Keeffe: Floral Works and Small Paintings",
-            "timespan": {
-                "begin_of_the_begin": "1995-05-04T00:00:00",
-                "end_of_the_end": "1995-08-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/853/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1010",
-            "timespan": {
                 "begin_of_the_begin": "1966-09-08T00:00:00",
                 "end_of_the_end": "1966-10-13T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1010/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/698/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

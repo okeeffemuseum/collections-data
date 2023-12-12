@@ -3,13 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -47,14 +56,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8725/accessionnumber",
+            "id": "http://data.okeeffemuseum.org/object/8725/identifier",
             "type": "Identifier",
-            "value": "2021.4.1"
+            "value": "8725"
         },
         {
             "classified_as": [
@@ -71,6 +80,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/accessionnumber",
+            "type": "Identifier",
+            "value": "2021.4.1"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300264273",
                     "label": "nonpreferred terms",
                     "type": "Type"
@@ -78,28 +99,11 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8725/other_id",
             "type": "Identifier",
-            "value": "668, Catalogue Raisonne Number"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/identifier",
-            "type": "Identifier",
-            "value": "8725"
+            "value": "668, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Black Cross with Stars and Blue, 1929. Oil on canvas, 40 x 30 inches. Georgia O'Keeffe Museum. Georgia O'Keeffe Museum, Museum Purchase. \u00a9 Georgia O'Keeffe Museum. [2021.4.1]",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8725/material/1",
-            "label": "oil paint",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -107,26 +111,24 @@
             "id": "http://data.okeeffemuseum.org/object/8725/material/0",
             "label": "canvas",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8725/material/1",
+            "label": "oil paint",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/295",
+        "label": "Christian Objects",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -141,16 +143,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -161,17 +174,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,16 +188,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -212,9 +225,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8725/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1924-01-01T00:00:00",
-            "end_of_the_end": "1934-01-30T00:00:00",
+            "begin_of_the_begin": "1929-01-01T00:00:00",
+            "end_of_the_end": "1929-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8725/production/timespan/0",
             "label": "1929",
             "type": "TimeSpan"
@@ -232,53 +252,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8725/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8725/exhibitions",
             "type": "LinguisticObject",
-            "value": "Stretcher: inaccessible. Verso: inaccessible"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Black Cross with Stars and Blue, 1929"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "1930 New York (An American Place), no. 12, as Black Cross with Stars and Blue; 1977 San Francisco, no. 13; 1993 London (Hayward), no. 60"
         },
         {
             "classified_as": [
@@ -295,106 +276,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1930 New York (An American Place), no. 12, as Black Cross with Stars and Blue; 1977 San Francisco, no. 13; 1993 London (Hayward), no. 60"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/provenance/",
-            "label": "(Doris Bry, New York, NY); John Berggruen Gallery, San Francisco, California, 1976; Kennedy Galleries, Inc., New York, NY, 1977         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8725/Right/",
+            "id": "http://data.okeeffemuseum.org/object/8725/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Purchase"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8725/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8725/Description/",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum, Museum Purchase      "
+            "value": "Vertical painting with a large black cross spanning the surface of the picture plane with a massive cross beam running across the upper quadrant and the base stem running the vertical length of the painting. The cross is slightly off center to the viewers left. Looming behind the cross is a rolling mountain range of deep blues hues. Soft white light illuminates the edge of mountain tops and rises into a glorious gradation of of turquoise and blue sky, dotted with white circular stars."
         },
         {
             "classified_as": [
@@ -411,14 +312,145 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: inaccessible. Verso: inaccessible"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 40 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/provenance/",
+            "label": "(Doris Bry, New York, NY); John Berggruen Gallery, San Francisco, California, 1976; Kennedy Galleries, Inc., New York, NY, 1977         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Black Cross with Stars and Blue, 1929"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8725/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/8725/Right/",
             "type": "LinguisticObject",
-            "value": "Purchase"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8725/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum, Museum Purchase      "
         },
         {
             "classified_as": [
@@ -431,18 +463,6 @@
             "id": "http://data.okeeffemuseum.org/object/8725/Measurement/",
             "type": "LinguisticObject",
             "value": "40 x 30 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8725/Description/",
-            "type": "LinguisticObject",
-            "value": "Vertical painting with a large black cross spanning the surface of the picture plane with a massive cross beam running across the upper quadrant and the base stem running the vertical length of the painting. The cross is slightly off center to the viewers left. Looming behind the cross is a rolling mountain range of deep blues hues. Soft white light illuminates the edge of mountain tops and rises into a glorious gradation of of turquoise and blue sky, dotted with white circular stars."
         }
     ],
     "refers_to": [],
@@ -473,11 +493,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "id": "http://data.okeeffemuseum.org/exhibition/1213",
             "timespan": {
-                "begin_of_the_begin": "1993-07-15T00:00:00",
-                "end_of_the_end": "1993-10-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "begin_of_the_begin": "1993-10-30T00:00:00",
+                "end_of_the_end": "1994-01-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -486,11 +506,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1211",
+            "id": "http://data.okeeffemuseum.org/exhibition/1115",
             "timespan": {
-                "begin_of_the_begin": "1993-04-08T00:00:00",
-                "end_of_the_end": "1993-06-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
+                "begin_of_the_begin": "1977-09-07T00:00:00",
+                "end_of_the_end": "1977-10-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1115/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -516,11 +536,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1115",
+            "id": "http://data.okeeffemuseum.org/exhibition/189",
             "timespan": {
-                "begin_of_the_begin": "1977-09-07T00:00:00",
-                "end_of_the_end": "1977-10-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1115/timespan",
+                "begin_of_the_begin": "1930-02-07T00:00:00",
+                "end_of_the_end": "1930-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -529,11 +549,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/189",
+            "id": "http://data.okeeffemuseum.org/exhibition/1211",
             "timespan": {
-                "begin_of_the_begin": "1930-02-07T00:00:00",
-                "end_of_the_end": "1930-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
+                "begin_of_the_begin": "1993-04-08T00:00:00",
+                "end_of_the_end": "1993-06-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1211/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -559,6 +579,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1212",
+            "timespan": {
+                "begin_of_the_begin": "1993-07-15T00:00:00",
+                "end_of_the_end": "1993-10-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1212/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/788",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/788/title"
@@ -568,19 +601,6 @@
                 "begin_of_the_begin": "1977-09-07T00:00:00",
                 "end_of_the_end": "1977-10-15T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/788/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1213",
-            "timespan": {
-                "begin_of_the_begin": "1993-10-30T00:00:00",
-                "end_of_the_end": "1994-01-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1213/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

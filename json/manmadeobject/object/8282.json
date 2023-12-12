@@ -3,13 +3,18 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300078925",
-            "label": "watercolors",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
             "type": "Type"
         }
     ],
@@ -67,40 +72,33 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8282/other_id",
             "type": "Identifier",
-            "value": "86, Catalogue Raisonne Number"
+            "value": "86, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Red and Green No. III, 1916. Watercolor on paper, 11 3/4 x 8 3/4 inches. Private Collection. Private collection, New York, NY, gift, 1966",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8282/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8282/material/0",
-            "label": "Watercolor",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/284",
+        "label": "Abstractions",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +113,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +144,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +158,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,9 +195,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8282/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/watercolor",
+                "label": "Watercolor",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1911-01-01T00:00:00",
-            "end_of_the_end": "1921-12-31T00:00:00",
+            "begin_of_the_begin": "1916-01-01T00:00:00",
+            "end_of_the_end": "1916-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8282/production/timespan/0",
             "label": "1916",
             "type": "TimeSpan"
@@ -199,10 +215,17 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8282/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Verso: inaccessible"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300417193",
                     "label": "titles",
@@ -212,11 +235,40 @@
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8282/title_date_caption",
             "type": "LinguisticObject",
             "value": "Red and Green No. III, 1916"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8282/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Edith G. Halpert, New York, NY, 1958         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8282/caption/",
+            "label": "Georgia O'Keeffe. Red and Green No. III, 1916. Watercolor on paper, 11 3/4 x 8 3/4 inches. Private Collection. Private collection, New York, NY, gift, 1966",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -243,6 +295,23 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8282/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300048720",
                     "label": "exhibition records",
                     "type": "Type"
@@ -251,6 +320,18 @@
             "id": "http://data.okeeffemuseum.org/object/8282/exhibitions",
             "type": "LinguisticObject",
             "value": "1958 New York (Downtown \u2013 Watercolor), no. 7; 1960 Clinton, no. 19; 1960 Washington (Hirshhorn); 1962 Washington (Corcoran); 1965 London"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8282/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, New York, NY, gift, 1966      "
         },
         {
             "classified_as": [
@@ -272,47 +353,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8282/caption/",
-            "label": "Georgia O'Keeffe. Red and Green No. III, 1916. Watercolor on paper, 11 3/4 x 8 3/4 inches. Private Collection. Private collection, New York, NY, gift, 1966",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8282/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8282/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Verso: inaccessible"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -321,30 +361,6 @@
             "id": "http://data.okeeffemuseum.org/object/8282/Materials/",
             "type": "LinguisticObject",
             "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8282/Measurement/",
-            "type": "LinguisticObject",
-            "value": "11 3/4 x 8 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8282/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, gift, 1966      "
         },
         {
             "classified_as": [
@@ -366,14 +382,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8282/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Edith G. Halpert, New York, NY, 1958         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8282/Measurement/",
+            "type": "LinguisticObject",
+            "value": "11 3/4 x 8 3/4 inches"
         }
     ],
     "refers_to": [],
@@ -404,67 +420,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/689",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/991",
-            "timespan": {
-                "begin_of_the_begin": "1965-07-14T00:00:00",
-                "end_of_the_end": "1965-08-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/991/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/910",
-            "timespan": {
-                "begin_of_the_begin": "1962-11-01T00:00:00",
-                "end_of_the_end": "1962-11-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/910/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/784",
             "timespan": {
                 "begin_of_the_begin": "1960-11-13T00:00:00",
                 "end_of_the_end": "1960-12-17T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/784/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/682",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/682/title"
-            ],
-            "label": "Six Decades of American Art",
-            "timespan": {
-                "begin_of_the_begin": "1965-07-14T00:00:00",
-                "end_of_the_end": "1965-08-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/682/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -490,6 +450,32 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/910",
+            "timespan": {
+                "begin_of_the_begin": "1962-11-01T00:00:00",
+                "end_of_the_end": "1962-11-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/910/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/611",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/611/title"
@@ -507,15 +493,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/532",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/532/title"
-            ],
-            "label": "Selections from the Edith Gregor Halpert Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/991",
             "timespan": {
-                "begin_of_the_begin": "1960-11-13T00:00:00",
-                "end_of_the_end": "1960-12-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/532/timespan",
+                "begin_of_the_begin": "1965-07-14T00:00:00",
+                "end_of_the_end": "1965-08-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/991/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -529,6 +511,40 @@
                 "begin_of_the_begin": "1962-09-28T00:00:00",
                 "end_of_the_end": "1962-11-11T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/909/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/682",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/682/title"
+            ],
+            "label": "Six Decades of American Art",
+            "timespan": {
+                "begin_of_the_begin": "1965-07-14T00:00:00",
+                "end_of_the_end": "1965-08-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/682/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/532",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/532/title"
+            ],
+            "label": "Selections from the Edith Gregor Halpert Collection",
+            "timespan": {
+                "begin_of_the_begin": "1960-11-13T00:00:00",
+                "end_of_the_end": "1960-12-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/532/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

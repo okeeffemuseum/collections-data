@@ -3,8 +3,22 @@
     "about": [],
     "classified_as": [
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033618",
+            "label": "paintings",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -23,26 +37,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10267/otheridentifier",
-            "type": "Identifier",
-            "value": "1242"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10267/other_id",
-            "type": "Identifier",
-            "value": "1242, Catalogue Raisonne Number"
+            "id": "http://data.okeeffemuseum.org/object/10267/title",
+            "type": "Name",
+            "value": "Winter Trees with Flowers"
         },
         {
             "classified_as": [
@@ -59,14 +61,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10267/title",
-            "type": "Name",
-            "value": "Winter Trees with Flowers"
+            "id": "http://data.okeeffemuseum.org/object/10267/other_id",
+            "type": "Identifier",
+            "value": "1242, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10267/otheridentifier",
+            "type": "Identifier",
+            "value": "1242"
         }
     ],
     "label": "Georgia O'Keeffe. Winter Trees with Flowers, 1952. Oil on canvas, 12 x 16 inches. Private Collection",
@@ -85,7 +99,11 @@
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/259",
+        "label": "Trees",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
@@ -121,12 +139,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986"
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -166,12 +184,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986"
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -188,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/10267/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1947-01-01T00:00:00",
-            "end_of_the_end": "1957-12-31T00:00:00",
+            "begin_of_the_begin": "1952-01-01T00:00:00",
+            "end_of_the_end": "1952-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/10267/production/timespan/0",
             "label": "1952",
             "type": "TimeSpan"
@@ -201,31 +226,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10267/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/10267/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Private Collection"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10267/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10267/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Oil on canvas, 12 x 16 inches"
         },
         {
             "classified_as": [
@@ -243,35 +278,6 @@
             "id": "http://data.okeeffemuseum.org/object/10267/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10267/caption/",
-            "label": "Georgia O'Keeffe. Winter Trees with Flowers, 1952. Oil on canvas, 12 x 16 inches. Private Collection",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10267/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -310,24 +316,43 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10267/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/10267/artist_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 x 16 inches"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10267/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10267/caption/",
+            "label": "Georgia O'Keeffe. Winter Trees with Flowers, 1952. Oil on canvas, 12 x 16 inches. Private Collection",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],

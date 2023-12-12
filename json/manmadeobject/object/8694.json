@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -40,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8694/other_id",
+            "type": "Identifier",
+            "value": "633, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -60,40 +81,35 @@
             "id": "http://data.okeeffemuseum.org/object/8694/otheridentifier",
             "type": "Identifier",
             "value": "633"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8694/other_id",
-            "type": "Identifier",
-            "value": "633, Catalogue Raisonne Number"
         }
     ],
     "label": "Georgia O'Keeffe. Single Lily with Red, 1928. Oil on board, 12 x 6 1/4 inches. Whitney Museum of American Art. Whitney Museum of American Art, New York; Purchase [1933] (33.29)",
-    "made_of": [],
-    "ore:isAggregatedBy": null,
+    "made_of": [
+        {
+            "exact_match": [
+                "aat:300015050"
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8694/material/0",
+            "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8694/material/1",
+            "label": "board",
+            "type": "Material"
+        }
+    ],
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -108,16 +124,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -128,17 +155,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -153,16 +169,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -179,9 +206,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8694/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1923-01-01T00:00:00",
-            "end_of_the_end": "1933-12-31T00:00:00",
+            "begin_of_the_begin": "1928-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8694/production/timespan/0",
             "label": "1928",
             "type": "TimeSpan"
@@ -192,53 +226,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8694/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1929 New York (Intimate Gallery), as Calla Lily on Red; 1933 New York (Whitney \u2013 Acquisitions); 1933 New York (Whitney \u2013 Summer), no. 10; 1935 New York (Whitney \u2013 Sculpture \u2013 May); 1935 New York (Whitney \u2013 Sculpture \u2013 October); 1938 New York (Whitney \u2013 Permanent \u2013 September); 1938 New York (Whitney \u2013 Selections); 1946 New York (MOMA \u2013 Retro), no. 32; 1966 Fort Worth; 1981 New York (Whitney); 1994 Stamford"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8694/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on board, 12 x 6 1/4 inches"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8694/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8694/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "value": "Whitney Museum of American Art"
         },
         {
             "classified_as": [
@@ -255,24 +255,31 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8694/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1929 New York (Intimate Gallery), as Calla Lily on Red; 1933 New York (Whitney \u2013 Acquisitions); 1933 New York (Whitney \u2013 Summer), no. 10; 1935 New York (Whitney \u2013 Sculpture \u2013 May); 1935 New York (Whitney \u2013 Sculpture \u2013 October); 1938 New York (Whitney \u2013 Permanent \u2013 September); 1938 New York (Whitney \u2013 Selections); 1946 New York (MOMA \u2013 Retro), no. 32; 1966 Fort Worth; 1981 New York (Whitney); 1994 Stamford"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8694/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8694/artist_caption",
             "type": "LinguisticObject",
-            "value": "Single Lily with Red, 1928"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -289,19 +296,24 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8694/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8694/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Whitney Museum of American Art"
+            "value": "Oil on board, 12 x 6 1/4 inches"
         },
         {
             "classified_as": [
@@ -330,6 +342,28 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8694/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Single Lily with Red, 1928"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300010358",
                     "label": "materials",
                     "type": "Type"
@@ -342,23 +376,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8694/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -367,6 +384,23 @@
             "id": "http://data.okeeffemuseum.org/object/8694/Measurement/",
             "type": "LinguisticObject",
             "value": "12 x 6 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8694/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -409,41 +443,62 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
             ],
-            "label": "Georgia O'Keeffe",
+            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-07-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/149",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/149/title"
+            ],
+            "label": "Summer Exhibition: Paintings, Sculpture, Prints and Watercolors from the Permanent Collection",
+            "timespan": {
+                "begin_of_the_begin": "1933-05-04T00:00:00",
+                "end_of_the_end": "1933-06-30T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/149/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/851",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/851/title"
+            ],
+            "label": "Of, For, and By Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1994-02-25T00:00:00",
+                "end_of_the_end": "1994-05-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/851/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
             "timespan": {
                 "begin_of_the_begin": "1946-05-14T00:00:00",
                 "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/229",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-10T00:00:00",
-                "end_of_the_end": "1933-02-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/229/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/301",
-            "timespan": {
-                "begin_of_the_begin": "1938-09-15T00:00:00",
-                "end_of_the_end": "1938-10-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/301/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -491,15 +546,37 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/149",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/149/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/301",
+            "timespan": {
+                "begin_of_the_begin": "1938-09-15T00:00:00",
+                "end_of_the_end": "1938-10-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/301/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "Summer Exhibition: Paintings, Sculpture, Prints and Watercolors from the Permanent Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/229",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-10T00:00:00",
+                "end_of_the_end": "1933-02-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/229/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/230",
             "timespan": {
                 "begin_of_the_begin": "1933-05-04T00:00:00",
                 "end_of_the_end": "1933-06-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/149/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/230/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -508,32 +585,75 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/174",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/174/title"
-            ],
-            "label": "Sculpture, Paintings and Prints from the Permanent Collection",
-            "timespan": {
-                "begin_of_the_begin": "1935-10-15T00:00:00",
-                "end_of_the_end": "1935-11-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/174/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/851",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/851/title"
-            ],
-            "label": "Of, For, and By Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/1218",
             "timespan": {
                 "begin_of_the_begin": "1994-02-25T00:00:00",
                 "end_of_the_end": "1994-05-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/851/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/1218/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/160",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/160/title"
+            ],
+            "label": "Fall Exhibition of Paintings, Prints, Sculpture from the Permanent Collection",
+            "timespan": {
+                "begin_of_the_begin": "1934-10-02T00:00:00",
+                "end_of_the_end": "1934-10-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/160/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/269/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/269/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/173",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/173/title"
+            ],
+            "label": "Sculpture, Paintings and Prints from the Permanent Collection",
+            "timespan": {
+                "begin_of_the_begin": "1935-05-01T00:00:00",
+                "end_of_the_end": "1935-05-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/173/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/184",
+            "timespan": {
+                "begin_of_the_begin": "1929-02-04T00:00:00",
+                "end_of_the_end": "1929-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -559,11 +679,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1218",
+            "id": "http://data.okeeffemuseum.org/exhibition/255",
             "timespan": {
-                "begin_of_the_begin": "1994-02-25T00:00:00",
-                "end_of_the_end": "1994-05-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1218/timespan",
+                "begin_of_the_begin": "1935-05-01T00:00:00",
+                "end_of_the_end": "1935-05-15T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/255/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -572,11 +692,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/256",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/174",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/174/title"
+            ],
+            "label": "Sculpture, Paintings and Prints from the Permanent Collection",
             "timespan": {
                 "begin_of_the_begin": "1935-10-15T00:00:00",
                 "end_of_the_end": "1935-11-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/256/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/174/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -594,6 +718,53 @@
                 "begin_of_the_begin": "1935-02-12T00:00:00",
                 "end_of_the_end": "1935-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/120",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/120/title"
+            ],
+            "label": "Georgia O'Keeffe Paintings, 1928",
+            "timespan": {
+                "begin_of_the_begin": "1929-02-04T00:00:00",
+                "end_of_the_end": "1929-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/120/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/254",
+            "timespan": {
+                "begin_of_the_begin": "1935-02-12T00:00:00",
+                "end_of_the_end": "1935-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/254/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/148",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/148/title"
+            ],
+            "label": "Acquisitions for the Year 1932",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-10T00:00:00",
+                "end_of_the_end": "1933-02-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/148/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -632,148 +803,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/160",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/160/title"
-            ],
-            "label": "Fall Exhibition of Paintings, Prints, Sculpture from the Permanent Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/256",
             "timespan": {
-                "begin_of_the_begin": "1934-10-02T00:00:00",
-                "end_of_the_end": "1934-10-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/160/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/701",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/701/title"
-            ],
-            "label": "Georgia O'Keeffe: An Exhibition of the Work of the Artist from 1915 to 1966",
-            "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-07-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/701/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/255",
-            "timespan": {
-                "begin_of_the_begin": "1935-05-01T00:00:00",
-                "end_of_the_end": "1935-05-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/255/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/254",
-            "timespan": {
-                "begin_of_the_begin": "1935-02-12T00:00:00",
-                "end_of_the_end": "1935-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/254/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/173",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/173/title"
-            ],
-            "label": "Sculpture, Paintings and Prints from the Permanent Collection",
-            "timespan": {
-                "begin_of_the_begin": "1935-05-01T00:00:00",
-                "end_of_the_end": "1935-05-15T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/173/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/230",
-            "timespan": {
-                "begin_of_the_begin": "1933-05-04T00:00:00",
-                "end_of_the_end": "1933-06-30T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/230/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/120",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/120/title"
-            ],
-            "label": "Georgia O'Keeffe Paintings, 1928",
-            "timespan": {
-                "begin_of_the_begin": "1929-02-04T00:00:00",
-                "end_of_the_end": "1929-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/120/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/184",
-            "timespan": {
-                "begin_of_the_begin": "1929-02-04T00:00:00",
-                "end_of_the_end": "1929-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/184/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/148",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/148/title"
-            ],
-            "label": "Acquisitions for the Year 1932",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-10T00:00:00",
-                "end_of_the_end": "1933-02-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/148/timespan",
+                "begin_of_the_begin": "1935-10-15T00:00:00",
+                "end_of_the_end": "1935-11-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/256/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

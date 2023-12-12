@@ -8,6 +8,15 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/:http://vocab.getty.edu/aat/300404632",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -67,40 +76,33 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8239/other_id",
             "type": "Identifier",
-            "value": "37, Catalogue Raisonne Number"
+            "value": "37, Catalogue Raisonn\u00e9"
         }
     ],
-    "label": "Georgia O'Keeffe. Untitled (Flower), ca. 1907, ca. 1908. Pastel on paper, construction paper, 8 1/2 x 6 1/2 inches. Private Collection. Bob S. and Charlotte J. Roberson, College Park, Maryland, bequest, 1970",
+    "label": "Georgia O'Keeffe. Untitled (Flower), ca. 1907, ca. 1908. Pastel on paper, construction paper*, 8 1/2 x 6 1/2 inches. Private Collection. Bob S. and Charlotte J. Roberson, College Park, Maryland, bequest, 1970",
     "made_of": [
         {
             "id": "http://data.okeeffemuseum.org/object/8239/material/1",
-            "label": "Paper",
+            "label": "paper",
             "type": "Material"
         },
         {
             "id": "http://data.okeeffemuseum.org/object/8239/material/0",
-            "label": "Pastel",
+            "label": "pastel",
             "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -115,16 +117,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -135,17 +148,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -160,16 +162,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -186,54 +199,32 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8239/production/",
-        "timespan": [
+        "technique": [
             {
-                "begin_of_the_begin": "1902-01-01T00:00:00",
-                "end_of_the_end": "1912-12-31T00:00:00",
-                "id": "http://data.okeeffemuseum.org/object/8239/production/timespan/0",
-                "label": "ca. 1907",
-                "type": "TimeSpan"
-            },
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/pastels",
+                "label": "Pastels",
+                "type": "Type"
+            }
+        ],
+        "timespan": [
             {
                 "begin_of_the_begin": "1903-01-01T00:00:00",
                 "end_of_the_end": "1913-12-31T00:00:00",
                 "id": "http://data.okeeffemuseum.org/object/8239/production/timespan/1",
                 "label": "ca. 1908",
                 "type": "TimeSpan"
+            },
+            {
+                "begin_of_the_begin": "1902-01-01T00:00:00",
+                "end_of_the_end": "1912-12-31T00:00:00",
+                "id": "http://data.okeeffemuseum.org/object/8239/production/timespan/0",
+                "label": "ca. 1907",
+                "type": "TimeSpan"
             }
         ],
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8239/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8239/Measurement/",
-            "type": "LinguisticObject",
-            "value": "8 1/2 x 6 1/2 inches"
-        },
         {
             "classified_as": [
                 {
@@ -259,35 +250,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8239/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8239/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Flower), ca. 1907, ca. 1908. Pastel on paper, construction paper, 8 1/2 x 6 1/2 inches. Private Collection. Bob S. and Charlotte J. Roberson, College Park, Maryland, bequest, 1970",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300026687",
                     "label": "acknowledgments",
                     "type": "Type"
@@ -300,6 +262,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8239/Measurement/",
+            "type": "LinguisticObject",
+            "value": "8 1/2 x 6 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055863",
                     "label": "provenance",
                     "type": "Type"
@@ -308,6 +282,28 @@
             "id": "http://data.okeeffemuseum.org/object/8239/provenance/",
             "label": "Ianthe Bond Hebel, Charlottesville, Virginia, gift, 1913         ",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8239/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Pastel on paper, construction paper*, 8 1/2 x 6 1/2 inches"
         },
         {
             "classified_as": [
@@ -336,7 +332,36 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8239/Materials/",
             "type": "LinguisticObject",
-            "value": "Pastel on paper, construction paper"
+            "value": "Pastel on paper, construction paper*"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8239/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Flower), ca. 1907, ca. 1908. Pastel on paper, construction paper*, 8 1/2 x 6 1/2 inches. Private Collection. Bob S. and Charlotte J. Roberson, College Park, Maryland, bequest, 1970",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8239/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -346,19 +371,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8239/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8239/institution_caption",
             "type": "LinguisticObject",
-            "value": "Pastel on paper, construction paper, 8 1/2 x 6 1/2 inches"
+            "value": "Private Collection"
         }
     ],
     "refers_to": [],

@@ -8,8 +8,17 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -31,14 +40,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/identifier",
+            "id": "http://data.okeeffemuseum.org/object/8703/otheridentifier",
             "type": "Identifier",
-            "value": "8703"
+            "value": "642"
         },
         {
             "classified_as": [
@@ -62,28 +71,23 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8703/other_id",
             "type": "Identifier",
-            "value": "642, Catalogue Raisonne Number"
+            "value": "642, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/8703/identifier",
             "type": "Identifier",
-            "value": "642"
+            "value": "8703"
         }
     ],
     "label": "Georgia O'Keeffe. Yellow Hickory Leaves with Daisy, 1928. Oil on canvas, 40 x 30 inches. Art Institute of Chicago. The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1965.1180). \u00a9 Art Institute of Chicago",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8703/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
@@ -91,26 +95,24 @@
             "id": "http://data.okeeffemuseum.org/object/8703/material/0",
             "label": "oil paint",
             "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8703/material/1",
+            "label": "canvas",
+            "type": "Material"
         }
     ],
-    "ore:isAggregatedBy": null,
+    "ore:isAggregatedBy": {
+        "id": "http://data.okeeffemuseum.org/aggregation/257",
+        "label": "Plants, Flowers, and Leaves",
+        "type": "Aggregation"
+    },
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    },
                     {
                         "classified_as": [
                             {
@@ -125,16 +127,27 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
+                    },
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
                     }
                 ],
                 "label": [
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                 ],
                 "type": [
-                    "schema:Thing",
-                    "Actor"
+                    "Actor",
+                    "schema:Thing"
                 ]
             }
         ],
@@ -145,17 +158,6 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,16 +172,27 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
+                            },
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
                             }
                         ],
                         "label": [
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
                         ],
                         "type": [
-                            "schema:Thing",
-                            "Actor"
+                            "Actor",
+                            "schema:Thing"
                         ]
                     }
                 ],
@@ -196,9 +209,16 @@
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/8703/production/",
+        "technique": [
+            {
+                "id": "http://data.okeeffemuseum.org/vocab/production-technique/oil-painting",
+                "label": "Oil Painting",
+                "type": "Type"
+            }
+        ],
         "timespan": {
-            "begin_of_the_begin": "1923-01-01T00:00:00",
-            "end_of_the_end": "1933-12-31T00:00:00",
+            "begin_of_the_begin": "1928-01-01T00:00:00",
+            "end_of_the_end": "1928-12-31T00:00:00",
             "id": "http://data.okeeffemuseum.org/object/8703/production/timespan/0",
             "label": "1928",
             "type": "TimeSpan"
@@ -206,42 +226,6 @@
         "type": "Production"
     },
     "referred_to_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8703/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1965.1180)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8703/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: \"plate glass for this\" (GO, graphite). Verso: \"G. O'Keeffe / 10-10-28\" (yellow paint)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8703/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
         {
             "classified_as": [
                 {
@@ -267,26 +251,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/Right/",
+            "id": "http://data.okeeffemuseum.org/object/8703/Materials/",
             "type": "LinguisticObject",
-            "value": "\u00a9 Art Institute of Chicago"
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8703/signaturemarks",
             "type": "LinguisticObject",
-            "value": "40 x 30 inches"
+            "value": "Stretcher: \"plate glass for this\" (GO, graphite). Verso: \"G. O'Keeffe / 10-10-28\" (yellow paint)"
         },
         {
             "classified_as": [
@@ -303,19 +287,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8703/Measurement/",
             "type": "LinguisticObject",
-            "value": "Art Institute of Chicago"
+            "value": "40 x 30 inches"
         },
         {
             "classified_as": [
@@ -324,32 +303,39 @@
                     "label": "captions",
                     "type": "Type"
                 },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8703/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
                 {
                     "id": "aat:300025103",
                     "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/8703/artist_caption",
             "type": "LinguisticObject",
             "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8703/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Art Institute of Chicago"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8703/provenance/",
+            "label": "(The Intimate Gallery, New York, NY); Mitchell Kennerley, New York, NY, 1929; (An American Place, New York, NY); The artist, return, 1931         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -366,18 +352,47 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8703/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Art Institute of Chicago, Alfred Stieglitz Collection, gift of Georgia O'Keeffe (1965.1180)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8703/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
@@ -388,14 +403,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8703/provenance/",
-            "label": "(The Intimate Gallery, New York, NY); Mitchell Kennerley, New York, NY, 1929; (An American Place, New York, NY); The artist, return, 1931         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8703/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Art Institute of Chicago"
         }
     ],
     "refers_to": [],
@@ -438,6 +458,96 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
+            ],
+            "label": "Georgia O'Keeffe Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1938-05-04T00:00:00",
+                "end_of_the_end": "1938-05-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/120",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/120/title"
+            ],
+            "label": "Georgia O'Keeffe Paintings, 1928",
+            "timespan": {
+                "begin_of_the_begin": "1929-02-04T00:00:00",
+                "end_of_the_end": "1929-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/120/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/344",
+            "timespan": {
+                "begin_of_the_begin": "1943-01-21T00:00:00",
+                "end_of_the_end": "1943-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/228",
+            "timespan": {
+                "begin_of_the_begin": "1933-01-07T00:00:00",
+                "end_of_the_end": "1933-03-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/405",
+            "timespan": {
+                "begin_of_the_begin": "1946-05-14T00:00:00",
+                "end_of_the_end": "1946-08-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/269",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/269/title"
@@ -468,92 +578,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/236",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/236/title"
-            ],
-            "label": "Georgia O'Keeffe",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/236/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/303",
-            "timespan": {
-                "begin_of_the_begin": "1938-05-04T00:00:00",
-                "end_of_the_end": "1938-05-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/303/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/228",
-            "timespan": {
-                "begin_of_the_begin": "1933-01-07T00:00:00",
-                "end_of_the_end": "1933-03-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/228/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/205",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/205/title"
-            ],
-            "label": "Georgia O'Keeffe Paintings",
-            "timespan": {
-                "begin_of_the_begin": "1938-05-04T00:00:00",
-                "end_of_the_end": "1938-05-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/205/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/344",
-            "timespan": {
-                "begin_of_the_begin": "1943-01-21T00:00:00",
-                "end_of_the_end": "1943-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/344/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/405",
-            "timespan": {
-                "begin_of_the_begin": "1946-05-14T00:00:00",
-                "end_of_the_end": "1946-08-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/405/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/147",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/147/title"
@@ -571,15 +595,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/120",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/120/title"
-            ],
-            "label": "Georgia O'Keeffe Paintings, 1928",
+            "id": "http://data.okeeffemuseum.org/exhibition/303",
             "timespan": {
-                "begin_of_the_begin": "1929-02-04T00:00:00",
-                "end_of_the_end": "1929-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/120/timespan",
+                "begin_of_the_begin": "1938-05-04T00:00:00",
+                "end_of_the_end": "1938-05-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/303/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
