@@ -3,12 +3,12 @@
     "about": [],
     "classified_as": [
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
-            "id": "aat:300033799",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -17,8 +17,8 @@
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -30,30 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8511",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/otheridentifier",
-            "type": "Identifier",
-            "value": "418"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/identifier",
-            "type": "Identifier",
-            "value": "8511"
-        },
         {
             "classified_as": [
                 {
@@ -74,9 +50,33 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/8511/identifier",
+            "type": "Identifier",
+            "value": "8511"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/8511/title",
             "type": "Name",
             "value": "Two Dark Alligator Pears on Green"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/otheridentifier",
+            "type": "Identifier",
+            "value": "418"
         }
     ],
     "label": "Georgia O'Keeffe. Two Dark Alligator Pears on Green, 1923. Oil on board, 7 1/4 x 8 7/8 inches. Private Collection. Private collection, New York, NY, bequest, 1998",
@@ -108,6 +108,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -120,27 +131,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -151,6 +151,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,27 +176,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -222,72 +222,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8511/provenance/",
-            "label": "(Doris Bry, New York, NY); (Donald Morris Gallery, Inc., Birmingham, Michigan); Private collection, Birmingham, Michigan, 1972         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8511/Materials/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, New York, NY, bequest, 1998      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1924 New York (Anderson), among nos. 1-7, as Alligator Pears?"
+            "value": "Oil on board"
         },
         {
             "classified_as": [
@@ -304,77 +246,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8511/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8511/CreditLine/",
             "type": "LinguisticObject",
-            "value": "Stretcher: \"Stieglitz / 1/4 [drawing of frame] [illegible word] / St R 7 3/4 x 9 3/4 / glass / set [illegible word]\" (GO, pencil). Verso: inaccessible. Backing: OK {5star} (graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/Measurement/",
-            "type": "LinguisticObject",
-            "value": "7 1/4 x 8 7/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on board"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8511/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on board, 7 1/4 x 8 7/8 inches"
+            "value": "Private collection, New York, NY, bequest, 1998      "
         },
         {
             "classified_as": [
@@ -397,6 +276,127 @@
             "id": "http://data.okeeffemuseum.org/object/8511/title_date_caption",
             "type": "LinguisticObject",
             "value": "Two Dark Alligator Pears on Green, 1923"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: \"Stieglitz / 1/4 [drawing of frame] [illegible word] / St R 7 3/4 x 9 3/4 / glass / set [illegible word]\" (GO, pencil). Verso: inaccessible. Backing: OK {5star} (graphite)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/provenance/",
+            "label": "(Doris Bry, New York, NY); (Donald Morris Gallery, Inc., Birmingham, Michigan); Private collection, Birmingham, Michigan, 1972         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/Measurement/",
+            "type": "LinguisticObject",
+            "value": "7 1/4 x 8 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on board, 7 1/4 x 8 7/8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8511/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1924 New York (Anderson), among nos. 1-7, as Alligator Pears?"
         }
     ],
     "refers_to": [],

@@ -3,11 +3,6 @@
     "about": [],
     "classified_as": [
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
-            "type": "Type"
-        },
-        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
@@ -19,6 +14,11 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -34,6 +34,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8730",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/other_id",
+            "type": "Identifier",
+            "value": "674, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -69,18 +81,6 @@
             "id": "http://data.okeeffemuseum.org/object/8730/title",
             "type": "Name",
             "value": "White Flower"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/other_id",
-            "type": "Identifier",
-            "value": "674, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. White Flower, 1929. Oil on canvas, 30 x 36 inches. Cleveland Museum of Art. The Cleveland Museum of Art, Hinman B. Hurlbut Collection (2162.1930)",
@@ -112,6 +112,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -124,27 +135,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -155,6 +155,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -169,27 +180,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -226,19 +226,53 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8730/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8730/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Cleveland Museum of Art, Hinman B. Hurlbut Collection (2162.1930)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "White Flower, 1929"
         },
         {
             "classified_as": [
@@ -250,6 +284,47 @@
             ],
             "id": "http://data.okeeffemuseum.org/object/8730/provenance/",
             "label": "(An American Place, New York, NY)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1930 New York (An American Place), no. 9, as White Flower, N.M.; 1930 Cleveland; 1935 Buffalo; 1937 Cleveland; 1965 Milton"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Cleveland Museum of Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/caption/",
+            "label": "Georgia O'Keeffe. White Flower, 1929. Oil on canvas, 30 x 36 inches. Cleveland Museum of Art. The Cleveland Museum of Art, Hinman B. Hurlbut Collection (2162.1930)",
             "type": "LinguisticObject"
         },
         {
@@ -267,69 +342,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "White Flower, 1929"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1930 New York (An American Place), no. 9, as White Flower, N.M.; 1930 Cleveland; 1935 Buffalo; 1937 Cleveland; 1965 Milton"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Cleveland Museum of Art, Hinman B. Hurlbut Collection (2162.1930)      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300028702",
                     "label": "inscriptions",
                     "type": "Type"
@@ -342,13 +354,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8730/Measurement/",
+            "type": "LinguisticObject",
+            "value": "30 x 36 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -367,40 +391,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/caption/",
-            "label": "Georgia O'Keeffe. White Flower, 1929. Oil on canvas, 30 x 36 inches. Cleveland Museum of Art. The Cleveland Museum of Art, Hinman B. Hurlbut Collection (2162.1930)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8730/Measurement/",
-            "type": "LinguisticObject",
-            "value": "30 x 36 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8730/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8730/artist_caption",
             "type": "LinguisticObject",
-            "value": "Cleveland Museum of Art"
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -428,23 +428,23 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/%20https://www.clevelandart.org/art/1930.2162",
-            "type": "InformationObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300041273",
                     "label": "prints",
                     "type": "Type"
                 }
             ],
             "id": "https://prints.okeeffemuseum.org/detail/460761",
+            "type": "InformationObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/%20https://www.clevelandart.org/art/1930.2162",
             "type": "InformationObject"
         }
     ],
@@ -454,11 +454,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/189",
+            "id": "http://data.okeeffemuseum.org/exhibition/993",
             "timespan": {
-                "begin_of_the_begin": "1930-02-07T00:00:00",
-                "end_of_the_end": "1930-03-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -467,11 +467,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/993",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/164",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/164/title"
+            ],
+            "label": "The Art of Today: An Exhibition of Contemporary Pictures and Sculpture Arranged and Sponsored by the Women's Advisory Committee fo the Albrigh Art Gallery",
+            "timespan": {
+                "begin_of_the_begin": "1935-12-21T00:00:00",
+                "end_of_the_end": "1936-02-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/164/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/994",
             "timespan": {
                 "begin_of_the_begin": "1965-04-20T00:00:00",
                 "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/993/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/189",
+            "timespan": {
+                "begin_of_the_begin": "1930-02-07T00:00:00",
+                "end_of_the_end": "1930-03-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/189/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -497,15 +527,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/684",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/684/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/246",
             "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/684/timespan",
+                "begin_of_the_begin": "1935-12-21T00:00:00",
+                "end_of_the_end": "1936-02-06T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/246/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -514,24 +540,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/994",
+            "id": "http://data.okeeffemuseum.org/exhibition/282",
             "timespan": {
-                "begin_of_the_begin": "1965-04-20T00:00:00",
-                "end_of_the_end": "1965-05-10T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/994/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/188",
-            "timespan": {
-                "begin_of_the_begin": "1930-06-06T00:00:00",
-                "end_of_the_end": "1930-07-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/188/timespan",
+                "begin_of_the_begin": "1937-06-06T00:00:00",
+                "end_of_the_end": "1937-10-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/282/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -557,11 +570,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/246",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/684",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/684/title"
+            ],
+            "label": "Georgia O'Keeffe",
             "timespan": {
-                "begin_of_the_begin": "1935-12-21T00:00:00",
-                "end_of_the_end": "1936-02-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/246/timespan",
+                "begin_of_the_begin": "1965-04-20T00:00:00",
+                "end_of_the_end": "1965-05-10T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/684/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/188",
+            "timespan": {
+                "begin_of_the_begin": "1930-06-06T00:00:00",
+                "end_of_the_end": "1930-07-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/188/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -577,19 +607,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/282",
-            "timespan": {
-                "begin_of_the_begin": "1937-06-06T00:00:00",
-                "end_of_the_end": "1937-10-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/282/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/124",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/124/title"
@@ -599,23 +616,6 @@
                 "begin_of_the_begin": "1930-06-06T00:00:00",
                 "end_of_the_end": "1930-07-07T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/124/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/164",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/164/title"
-            ],
-            "label": "The Art of Today: An Exhibition of Contemporary Pictures and Sculpture Arranged and Sponsored by the Women's Advisory Committee fo the Albrigh Art Gallery",
-            "timespan": {
-                "begin_of_the_begin": "1935-12-21T00:00:00",
-                "end_of_the_end": "1936-02-06T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/164/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -10,11 +15,6 @@
         {
             "id": "aat:300078925",
             "label": "watercolors",
-            "type": "Type"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -30,6 +30,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8368",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8368/other_id",
+            "type": "Identifier",
+            "value": "245, Catalogue Raisonn\u00e9"
+        },
         {
             "classified_as": [
                 {
@@ -57,18 +69,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8368/other_id",
-            "type": "Identifier",
-            "value": "245, Catalogue Raisonn\u00e9"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -82,13 +82,13 @@
     "label": "Georgia O'Keeffe. Tree and Picket Fence, 1918. Watercolor on paper, 17 7/8 x 11 7/8 inches. Milwaukee Art Museum. Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley (M1977.131)",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/8368/material/0",
-            "label": "watercolor",
+            "id": "http://data.okeeffemuseum.org/object/8368/material/1",
+            "label": "paper",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/8368/material/1",
-            "label": "paper",
+            "id": "http://data.okeeffemuseum.org/object/8368/material/0",
+            "label": "watercolor",
             "type": "Material"
         }
     ],
@@ -105,6 +105,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -117,27 +128,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -148,6 +148,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -162,27 +173,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -219,19 +219,72 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8368/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/8368/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Milwaukee Art Museum"
+            "value": "Tree and Picket Fence, 1918"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8368/provenance/",
+            "label": "(The Downtown Gallery, New York, NY); Allen-Bradley Company, Milwaukee, Wisconsin, 1960; Bradley Family Foundation, Milwaukee, Wisconsin, gift, 1969         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8368/caption/",
+            "label": "Georgia O'Keeffe. Tree and Picket Fence, 1918. Watercolor on paper, 17 7/8 x 11 7/8 inches. Milwaukee Art Museum. Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley (M1977.131)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8368/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1958 New York (Downtown \u2013 Watercolor), no. 53; 1969 Mason City; 1969 New Orleans; 1989 Milwaukee, no. 15; 1998 Santa Fe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8368/Measurement/",
+            "type": "LinguisticObject",
+            "value": "17 7/8 x 11 7/8 inches"
         },
         {
             "classified_as": [
@@ -253,8 +306,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 },
                 {
@@ -263,21 +316,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8368/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8368/institution_caption",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8368/provenance/",
-            "label": "(The Downtown Gallery, New York, NY); Allen-Bradley Company, Milwaukee, Wisconsin, 1960; Bradley Family Foundation, Milwaukee, Wisconsin, gift, 1969         ",
-            "type": "LinguisticObject"
+            "value": "Milwaukee Art Museum"
         },
         {
             "classified_as": [
@@ -297,27 +338,15 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8368/Measurement/",
-            "type": "LinguisticObject",
-            "value": "17 7/8 x 11 7/8 inches"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
                     "type": "Type"
                 }
             ],
@@ -343,45 +372,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8368/caption/",
-            "label": "Georgia O'Keeffe. Tree and Picket Fence, 1918. Watercolor on paper, 17 7/8 x 11 7/8 inches. Milwaukee Art Museum. Milwaukee Art Museum, Gift of Mrs. Harry Lynde Bradley (M1977.131)",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
                 },
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8368/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8368/maker_role",
             "type": "LinguisticObject",
-            "value": "Tree and Picket Fence, 1918"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8368/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1958 New York (Downtown \u2013 Watercolor), no. 53; 1969 Mason City; 1969 New Orleans; 1989 Milwaukee, no. 15; 1998 Santa Fe"
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -424,11 +424,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/689",
+            "id": "http://data.okeeffemuseum.org/exhibition/1091",
             "timespan": {
-                "begin_of_the_begin": "1958-02-25T00:00:00",
-                "end_of_the_end": "1958-03-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
+                "begin_of_the_begin": "1970-01-19T00:00:00",
+                "end_of_the_end": "1970-02-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1091/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/763",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/763/title"
+            ],
+            "label": "Selections from the Bradley Collection",
+            "timespan": {
+                "begin_of_the_begin": "1969-01-09T00:00:00",
+                "end_of_the_end": "1969-02-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/763/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "timespan": {
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -446,36 +476,6 @@
                 "begin_of_the_begin": "1958-02-25T00:00:00",
                 "end_of_the_end": "1958-03-22T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/480/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
-            ],
-            "label": "An Expanding Collection",
-            "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1190",
-            "timespan": {
-                "begin_of_the_begin": "1989-09-22T00:00:00",
-                "end_of_the_end": "1989-11-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1190/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -518,11 +518,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1089",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/40",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/40/title"
+            ],
+            "label": "An Expanding Collection",
             "timespan": {
-                "begin_of_the_begin": "1969-11-07T00:00:00",
-                "end_of_the_end": "2019-12-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1089/timespan",
+                "begin_of_the_begin": "1998-04-11T00:00:00",
+                "end_of_the_end": "1999-03-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/40/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -544,11 +548,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1090",
+            "id": "http://data.okeeffemuseum.org/exhibition/1089",
             "timespan": {
                 "begin_of_the_begin": "1969-11-07T00:00:00",
-                "end_of_the_end": "1969-12-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1090/timespan",
+                "end_of_the_end": "2019-12-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1089/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -557,15 +561,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/763",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/763/title"
-            ],
-            "label": "Selections from the Bradley Collection",
+            "id": "http://data.okeeffemuseum.org/exhibition/1090",
             "timespan": {
-                "begin_of_the_begin": "1969-01-09T00:00:00",
-                "end_of_the_end": "1969-02-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/763/timespan",
+                "begin_of_the_begin": "1969-11-07T00:00:00",
+                "end_of_the_end": "1969-12-28T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1090/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -587,11 +587,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/67",
+            "id": "http://data.okeeffemuseum.org/exhibition/1190",
             "timespan": {
-                "begin_of_the_begin": "1998-04-11T00:00:00",
-                "end_of_the_end": "1999-03-28T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/67/timespan",
+                "begin_of_the_begin": "1989-09-22T00:00:00",
+                "end_of_the_end": "1989-11-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1190/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -600,11 +600,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1091",
+            "id": "http://data.okeeffemuseum.org/exhibition/689",
             "timespan": {
-                "begin_of_the_begin": "1970-01-19T00:00:00",
-                "end_of_the_end": "1970-02-22T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1091/timespan",
+                "begin_of_the_begin": "1958-02-25T00:00:00",
+                "end_of_the_end": "1958-03-22T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/689/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

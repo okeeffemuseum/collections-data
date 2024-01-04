@@ -103,14 +103,25 @@
                     }
                 ],
                 "label": [
-                    "Todd Webb",
-                    "Webb, Todd, 1905-2000"
+                    "Webb, Todd, 1905-2000",
+                    "Todd Webb"
                 ],
                 "type": "Actor"
             },
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
                     {
                         "classified_as": [
                             {
@@ -125,31 +136,75 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/2",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                                "type": "Name",
+                                "value": "Georgia O'Keeffe"
+                            }
+                        ],
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/5041/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -173,8 +228,8 @@
                             }
                         ],
                         "label": [
-                            "Todd Webb",
-                            "Webb, Todd, 1905-2000"
+                            "Webb, Todd, 1905-2000",
+                            "Todd Webb"
                         ],
                         "type": "Actor"
                     }
@@ -185,61 +240,6 @@
                     {
                         "id": "relators:pht",
                         "label": "Photographer",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/2",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                                "type": "Name",
-                                "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            }
-                        ],
-                        "label": [
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
-                        ],
-                        "type": [
-                            "Actor",
-                            "schema:Thing"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/5041/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
                         "type": "Type"
                     }
                 ],
@@ -267,6 +267,137 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 9 7/16 x 7 7/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Todd Webb Archive"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Sketching in Glen Canyon, 1961"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/maker_role",
+            "type": "LinguisticObject",
+            "value": "Photographer: Todd Webb\nDepicted: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5041/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Todd Webb"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -291,69 +422,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/Description/",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe leaning against a flat rock outcrop sketching, dressed in a matching jacket and skirt. Tish is sitting on a rock above her and Doris Bry is walking away from them in the sand. This photograph is part of the Glen Canyon Album that Todd Webb gave to Georgia O'Keeffe 'in memory of the great August 1961 trip down the Colorado River.'"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Todd Webb Archive"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Sketching in Glen Canyon, 1961"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -366,82 +434,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5041/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/5041/Description/",
             "type": "LinguisticObject",
-            "value": "Photographer: Todd Webb\nDepicted: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 9 7/16 x 7 7/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Todd Webb"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5041/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
+            "value": "Georgia O'Keeffe leaning against a flat rock outcrop sketching, dressed in a matching jacket and skirt. Tish is sitting on a rock above her and Doris Bry is walking away from them in the sand. This photograph is part of the Glen Canyon Album that Todd Webb gave to Georgia O'Keeffe 'in memory of the great August 1961 trip down the Colorado River.'"
         }
     ],
     "refers_to": [],

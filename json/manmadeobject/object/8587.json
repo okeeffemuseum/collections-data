@@ -3,7 +3,8 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033799",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -12,13 +13,12 @@
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         }
     ],
@@ -30,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8587",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/title",
-            "type": "Name",
-            "value": "Lake George \u2013 Mountain to the North"
-        },
         {
             "classified_as": [
                 {
@@ -77,21 +65,33 @@
             "id": "http://data.okeeffemuseum.org/object/8587/otheridentifier",
             "type": "Identifier",
             "value": "504"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/title",
+            "type": "Name",
+            "value": "Lake George \u2013 Mountain to the North"
         }
     ],
     "label": "Georgia O'Keeffe. Lake George \u2013 Mountain to the North, 1925. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, West Coast, 1996",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8587/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8587/material/0",
             "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8587/material/1",
+            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -108,6 +108,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -120,27 +131,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -151,6 +151,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,27 +176,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -222,30 +222,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Private collection, West Coast, 1996      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/caption/",
-            "label": "Georgia O'Keeffe. Lake George \u2013 Mountain to the North, 1925. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, West Coast, 1996",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300163343",
                     "label": "media",
                     "type": "Type"
@@ -268,67 +244,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8587/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/8587/Measurement/",
             "type": "LinguisticObject",
-            "value": "Backing: \"Lake George \u2013 Mountain to the North / Summer \u2013 1925 / by Georgia O'Keeffe\" (AS, IG, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); Dr. Leopold Stieglitz, New York, NY, 1925; Elizabeth Stieglitz Davidson, New York, NY, 1934; Sue Davidson Lowe, Madison, Connecticut, 1956; (Martha Parrish & James Reinish, Inc., New York, NY, and Greenberg Van Doren Gallery, St. Louis, Missouri); Guggenheim, Asher Associates, Inc., New York, NY)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8587/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1926 New York (Intimate Gallery)?; 1991 New York (Hirschl & Adler), no. 57"
+            "value": "18 x 32 inches"
         },
         {
             "classified_as": [
@@ -350,14 +273,72 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8587/Measurement/",
+            "id": "http://data.okeeffemuseum.org/object/8587/title_date_caption",
             "type": "LinguisticObject",
-            "value": "18 x 32 inches"
+            "value": "Lake George \u2013 Mountain to the North, 1925"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/caption/",
+            "label": "Georgia O'Keeffe. Lake George \u2013 Mountain to the North, 1925. Oil on canvas, 18 x 32 inches. Private Collection. Private collection, West Coast, 1996",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing: \"Lake George \u2013 Mountain to the North / Summer \u2013 1925 / by Georgia O'Keeffe\" (AS, IG, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1926 New York (Intimate Gallery)?; 1991 New York (Hirschl & Adler), no. 57"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Private collection, West Coast, 1996      "
         },
         {
             "classified_as": [
@@ -379,13 +360,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -394,9 +370,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8587/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/8587/maker_role",
             "type": "LinguisticObject",
-            "value": "Lake George \u2013 Mountain to the North, 1925"
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8587/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); Dr. Leopold Stieglitz, New York, NY, 1925; Elizabeth Stieglitz Davidson, New York, NY, 1934; Sue Davidson Lowe, Madison, Connecticut, 1956; (Martha Parrish & James Reinish, Inc., New York, NY, and Greenberg Van Doren Gallery, St. Louis, Missouri); Guggenheim, Asher Associates, Inc., New York, NY)         ",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -427,36 +427,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
-            ],
-            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
-            "timespan": {
-                "begin_of_the_begin": "1991-11-09T00:00:00",
-                "end_of_the_end": "1992-01-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/167",
-            "timespan": {
-                "begin_of_the_begin": "1926-03-11T00:00:00",
-                "end_of_the_end": "1926-04-03T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/104",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/104/title"
@@ -479,6 +449,36 @@
                 "begin_of_the_begin": "1991-11-09T00:00:00",
                 "end_of_the_end": "1992-01-04T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1199/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/839",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/839/title"
+            ],
+            "label": "Six American Modernists-Marsden Hartley, Gaston Lachaise, Elie Nadelman, Georgia O'Keeffe, Charles Sheeler, John Storrs",
+            "timespan": {
+                "begin_of_the_begin": "1991-11-09T00:00:00",
+                "end_of_the_end": "1992-01-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/839/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/167",
+            "timespan": {
+                "begin_of_the_begin": "1926-03-11T00:00:00",
+                "end_of_the_end": "1926-04-03T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/167/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

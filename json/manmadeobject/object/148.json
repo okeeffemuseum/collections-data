@@ -3,12 +3,8 @@
     "about": [],
     "classified_as": [
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
-            "type": "Type"
-        },
-        {
-            "id": "aat:300033799",
+            "id": "aat:300033618",
+            "label": "paintings",
             "type": "Type"
         },
         {
@@ -17,8 +13,12 @@
             "type": "Type"
         },
         {
-            "id": "aat:300033618",
-            "label": "paintings",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -44,14 +44,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/148/other_id",
             "type": "Identifier",
-            "value": "558"
+            "value": "558, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/identifier",
+            "type": "Identifier",
+            "value": "148"
         },
         {
             "classified_as": [
@@ -73,48 +85,36 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/identifier",
-            "type": "Identifier",
-            "value": "148"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/other_id",
-            "type": "Identifier",
-            "value": "558, Catalogue Raisonn\u00e9"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
             "id": "http://data.okeeffemuseum.org/object/148/title",
             "type": "Name",
             "value": "The Black Iris"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/otheridentifier",
+            "type": "Identifier",
+            "value": "558"
         }
     ],
     "label": "Georgia O'Keeffe. The Black Iris, 1926. Oil on canvas, 9 x 7 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.19]",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/148/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/148/material/0",
             "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/148/material/1",
+            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -131,6 +131,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -143,27 +154,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -174,6 +174,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -188,27 +199,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -245,91 +245,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/148/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/caption/",
-            "label": "Georgia O'Keeffe. The Black Iris, 1926. Oil on canvas, 9 x 7 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.19]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Burnett Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: \n1. \"The Black Iris 1926 / Georgia O'Keeffe\" (black ink) \n2. \"Georgia O'Keeffe -- 1926\" (black ink) \n3. \"by Georgia O'Keeffe\" (AS, IG, black ink [label cut off])"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/provenance/",
-            "label": "(Alfred Stieglitz, New York, N.Y.) ^Mrs. Carlton H. Palmer, New York, N.Y., 1920s ^(Reinhardt Galleries, New York, N.Y.), unknown ^The artist, purchase, 1933 ^(The Downtown Gallery, New York, N.Y.) ^Mr. and Mrs. John Denman, Bellevue, Wash., 1950 ^(A. J. Kollar, Fine Paintings, Seattle, WA.), 1989 ^(Middendorf Gallery, Washington, D.C.) ^Private collection, Washington, D.C., 1989 ^(Middendorf Gallery, Washington, D.C.)         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 x 7 inches"
+            "value": "Gift"
         },
         {
             "classified_as": [
@@ -351,19 +274,96 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/148/institution_caption",
             "type": "LinguisticObject",
-            "value": "The Black Iris, 1926"
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Burnett Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 x 7 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300435449",
+                    "label": "current location description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/gallery_location",
+            "type": "LinguisticObject",
+            "value": "Gallery 1/Museum"
         },
         {
             "classified_as": [
@@ -390,26 +390,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/148/signaturemarks",
             "type": "LinguisticObject",
-            "value": "1927 New York (Intimate Gallery), as \"The Dark Iris No. II\"; \n1951 Tokyo; \n1954 Tokyo; \n1955 New York, no. 18; \n1961 New York (MOMA); \n1987 New York (Washburn), no. 87; \n1987 Washington, no. 48; \n1992 Washington \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Photographs by Alfred Stieglitz: Gift of GOKF \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM and High only \n2008 Santa Fe (O'Keeffe) GOK and Ansel Adams; all venues \n2010 Santa Fe (O'Keeffe) GOK: Abstraction; all venues \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway)"
+            "value": "Inscriptions: Stretcher: \n1. \"The Black Iris 1926 / Georgia O'Keeffe\" (black ink) \n2. \"Georgia O'Keeffe -- 1926\" (black ink) \n3. \"by Georgia O'Keeffe\" (AS, IG, black ink [label cut off])"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300435449",
-                    "label": "current location description",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/gallery_location",
+            "id": "http://data.okeeffemuseum.org/object/148/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Gallery 1/Museum"
+            "value": "The Black Iris, 1926"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/provenance/",
+            "label": "(Alfred Stieglitz, New York, N.Y.) ^Mrs. Carlton H. Palmer, New York, N.Y., 1920s ^(Reinhardt Galleries, New York, N.Y.), unknown ^The artist, purchase, 1933 ^(The Downtown Gallery, New York, N.Y.) ^Mr. and Mrs. John Denman, Bellevue, Wash., 1950 ^(A. J. Kollar, Fine Paintings, Seattle, WA.), 1989 ^(Middendorf Gallery, Washington, D.C.) ^Private collection, Washington, D.C., 1989 ^(Middendorf Gallery, Washington, D.C.)         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/148/caption/",
+            "label": "Georgia O'Keeffe. The Black Iris, 1926. Oil on canvas, 9 x 7 inches. Georgia O'Keeffe Museum. Gift of The Burnett Foundation. \u00a9 Georgia O'Keeffe Museum. [2007.1.19]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -426,48 +460,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/148/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/148/exhibitions",
             "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/148/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "1927 New York (Intimate Gallery), as \"The Dark Iris No. II\"; \n1951 Tokyo; \n1954 Tokyo; \n1955 New York, no. 18; \n1961 New York (MOMA); \n1987 New York (Washburn), no. 87; \n1987 Washington, no. 48; \n1992 Washington \n2002 Santa Fe (O'Keeffe) Permanent Collection (Edward Weston) \n2002 Santa Fe (O'Keeffe) GOKM 5th Anniversary \n2003 Santa Fe (O'Keeffe) Permanent Collection (Debating American Modernism) \n2003 Santa Fe (O'Keeffe) Photographs by Alfred Stieglitz: Gift of GOKF \n2004 Santa Fe (O'Keeffe) Permanent Collection (In the American Grain) \n2005 Santa Fe (O'Keeffe) Permanent Collection (Photography of Charles Sheeler) \n2005 Santa Fe (O'Keeffe) GOK and Andy Warhol: Flowers \n2006 Santa Fe (O'Keeffe) Permanent Collection (Celebration of New Work) \n2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine) \n2007 Santa Fe (O'Keeffe) Women of the Stieglitz Circle; GOKM and High only \n2008 Santa Fe (O'Keeffe) GOK and Ansel Adams; all venues \n2010 Santa Fe (O'Keeffe) GOK: Abstraction; all venues \n2012 Santa Fe (O'Keeffe) Permanent Collection (Jaune Quick-to-See Smith) \n2012 Santa Fe (O'Keeffe) Permanent Collection (Faraway)"
         }
     ],
     "refers_to": [],
@@ -521,11 +521,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "id": "http://data.okeeffemuseum.org/exhibition/174",
             "timespan": {
-                "begin_of_the_begin": "1989-04-02T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "begin_of_the_begin": "1927-01-11T00:00:00",
+                "end_of_the_end": "1927-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/174/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -551,11 +551,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/107",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/576",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/576/title"
+            ],
+            "label": "The Museum of Modern Art, Art in Embassies",
             "timespan": {
-                "begin_of_the_begin": "2002-06-21T00:00:00",
-                "end_of_the_end": "2002-09-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
+                "begin_of_the_begin": "1961-08-01T00:00:00",
+                "end_of_the_end": "1962-06-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/576/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1173",
+            "timespan": {
+                "begin_of_the_begin": "1989-04-02T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1173/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/546",
+            "timespan": {
+                "begin_of_the_begin": "1951-01-01T00:00:00",
+                "end_of_the_end": "1951-01-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/546/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -569,6 +599,45 @@
                 "begin_of_the_begin": "1988-11-18T00:00:00",
                 "end_of_the_end": "1989-02-05T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1172/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1170",
+            "timespan": {
+                "begin_of_the_begin": "1988-03-05T00:00:00",
+                "end_of_the_end": "1988-06-19T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1205",
+            "timespan": {
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-09-12T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1169",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1988-02-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -594,11 +663,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "id": "http://data.okeeffemuseum.org/exhibition/1204",
             "timespan": {
-                "begin_of_the_begin": "2003-01-24T00:00:00",
-                "end_of_the_end": "2003-04-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "begin_of_the_begin": "1993-04-27T00:00:00",
+                "end_of_the_end": "1993-06-26T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -607,67 +676,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
-            ],
-            "label": "Georgia O'Keeffe",
+            "id": "http://data.okeeffemuseum.org/exhibition/107",
             "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1989-06-18T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1171",
-            "timespan": {
-                "begin_of_the_begin": "1988-07-31T00:00:00",
-                "end_of_the_end": "1988-10-16T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/118",
-            "timespan": {
-                "begin_of_the_begin": "2005-05-13T00:00:00",
-                "end_of_the_end": "2006-01-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/118/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1169",
-            "timespan": {
-                "begin_of_the_begin": "1987-11-01T00:00:00",
-                "end_of_the_end": "1988-02-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1169/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1205",
-            "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-09-12T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1205/timespan",
+                "begin_of_the_begin": "2002-06-21T00:00:00",
+                "end_of_the_end": "2002-09-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/107/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -693,133 +706,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/843",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/843/title"
-            ],
-            "label": "Two Lives Georgia O'Keeffe and Alfred Stieglitz, A Conversation in Paintings and Photographs",
-            "timespan": {
-                "begin_of_the_begin": "1992-07-17T00:00:00",
-                "end_of_the_end": "1993-12-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/843/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1204",
-            "timespan": {
-                "begin_of_the_begin": "1993-04-27T00:00:00",
-                "end_of_the_end": "1993-06-26T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1204/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1170",
-            "timespan": {
-                "begin_of_the_begin": "1988-03-05T00:00:00",
-                "end_of_the_end": "1988-06-19T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1170/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/576",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/576/title"
-            ],
-            "label": "The Museum of Modern Art, Art in Embassies",
-            "timespan": {
-                "begin_of_the_begin": "1961-08-01T00:00:00",
-                "end_of_the_end": "1962-06-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/576/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/174",
-            "timespan": {
-                "begin_of_the_begin": "1927-01-11T00:00:00",
-                "end_of_the_end": "1927-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/174/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/110",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/110/title"
-            ],
-            "label": "Georgia O'Keeffe: Paintings, 1926",
-            "timespan": {
-                "begin_of_the_begin": "1927-01-11T00:00:00",
-                "end_of_the_end": "1927-02-27T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/110/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1203",
-            "timespan": {
-                "begin_of_the_begin": "1992-12-12T00:00:00",
-                "end_of_the_end": "1993-04-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
-            ],
-            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/112",
-            "timespan": {
-                "begin_of_the_begin": "2003-05-02T00:00:00",
-                "end_of_the_end": "2004-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/112/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/63",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/63/title"
@@ -837,37 +723,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/826",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/826/title"
+            ],
+            "label": "Georgia O'Keeffe",
+            "timespan": {
+                "begin_of_the_begin": "1987-11-01T00:00:00",
+                "end_of_the_end": "1989-06-18T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/826/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/851",
             "timespan": {
                 "begin_of_the_begin": "1961-08-01T00:00:00",
                 "end_of_the_end": "1962-06-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/851/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/127",
-            "timespan": {
-                "begin_of_the_begin": "2008-05-23T00:00:00",
-                "end_of_the_end": "2008-09-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/599",
-            "timespan": {
-                "begin_of_the_begin": "1954-08-23T00:00:00",
-                "end_of_the_end": "1954-09-05T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/599/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -893,11 +770,28 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/546",
+            "id": "http://data.okeeffemuseum.org/exhibition/112",
             "timespan": {
-                "begin_of_the_begin": "1951-01-01T00:00:00",
-                "end_of_the_end": "1951-01-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/546/timespan",
+                "begin_of_the_begin": "2003-05-02T00:00:00",
+                "end_of_the_end": "2004-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/112/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/843",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/843/title"
+            ],
+            "label": "Two Lives Georgia O'Keeffe and Alfred Stieglitz, A Conversation in Paintings and Photographs",
+            "timespan": {
+                "begin_of_the_begin": "1992-07-17T00:00:00",
+                "end_of_the_end": "1993-12-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/843/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -923,11 +817,117 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1203",
+            "timespan": {
+                "begin_of_the_begin": "1992-12-12T00:00:00",
+                "end_of_the_end": "1993-04-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1203/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/118",
+            "timespan": {
+                "begin_of_the_begin": "2005-05-13T00:00:00",
+                "end_of_the_end": "2006-01-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/118/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/64",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/64/title"
+            ],
+            "label": "Debating American Modernism: Stieglitz, Duchamp, and the New York Avant-Garde",
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/110",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/110/title"
+            ],
+            "label": "Georgia O'Keeffe: Paintings, 1926",
+            "timespan": {
+                "begin_of_the_begin": "1927-01-11T00:00:00",
+                "end_of_the_end": "1927-02-27T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/110/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1171",
+            "timespan": {
+                "begin_of_the_begin": "1988-07-31T00:00:00",
+                "end_of_the_end": "1988-10-16T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1171/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/599",
+            "timespan": {
+                "begin_of_the_begin": "1954-08-23T00:00:00",
+                "end_of_the_end": "1954-09-05T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/599/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/1206",
             "timespan": {
                 "begin_of_the_begin": "1993-10-02T00:00:00",
                 "end_of_the_end": "1993-12-05T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/1206/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/109",
+            "timespan": {
+                "begin_of_the_begin": "2003-01-24T00:00:00",
+                "end_of_the_end": "2003-04-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/109/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/127",
+            "timespan": {
+                "begin_of_the_begin": "2008-05-23T00:00:00",
+                "end_of_the_end": "2008-09-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/127/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

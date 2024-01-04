@@ -3,13 +3,13 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300046300",
+            "label": "photographs",
             "type": "Type"
         },
         {
-            "id": "aat:300046300",
-            "label": "photographs",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -54,9 +54,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5294/identifier",
-            "type": "Identifier",
-            "value": "5294"
+            "id": "http://data.okeeffemuseum.org/object/5294/title",
+            "type": "Name",
+            "value": "Alfred Stieglitz"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5294/title",
-            "type": "Name",
-            "value": "Alfred Stieglitz"
+            "id": "http://data.okeeffemuseum.org/object/5294/identifier",
+            "type": "Identifier",
+            "value": "5294"
         }
     ],
     "label": "Elli Marcus. Alfred Stieglitz, 1929-1946. Gelatin silver print, 10 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. [2006.6.367]",
@@ -83,6 +83,25 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
+            {
+                "id": "http://data.okeeffemuseum.org/person/1121",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/1121/name/0",
+                        "type": "Name",
+                        "value": "Elli Marcus"
+                    }
+                ],
+                "label": "Elli Marcus",
+                "type": "Actor"
+            },
             {
                 "id": "http://data.okeeffemuseum.org/person/260",
                 "identified_by": [
@@ -103,35 +122,59 @@
                     }
                 ],
                 "label": [
-                    "Stieglitz, Alfred, 1864-1946",
-                    "Alfred Stieglitz"
+                    "Alfred Stieglitz",
+                    "Stieglitz, Alfred, 1864-1946"
                 ],
                 "type": [
                     "schema:Thing",
                     "Actor"
                 ]
-            },
-            {
-                "id": "http://data.okeeffemuseum.org/person/1121",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/1121/name/0",
-                        "type": "Name",
-                        "value": "Elli Marcus"
-                    }
-                ],
-                "label": "Elli Marcus",
-                "type": "Actor"
             }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/260",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500024301"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
+                                "type": "Name",
+                                "value": "Alfred Stieglitz"
+                            }
+                        ],
+                        "label": [
+                            "Alfred Stieglitz",
+                            "Stieglitz, Alfred, 1864-1946"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/5294/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -165,49 +208,6 @@
                     }
                 ],
                 "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/260",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500024301"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/260/name/0",
-                                "type": "Name",
-                                "value": "Alfred Stieglitz"
-                            }
-                        ],
-                        "label": [
-                            "Stieglitz, Alfred, 1864-1946",
-                            "Alfred Stieglitz"
-                        ],
-                        "type": [
-                            "schema:Thing",
-                            "Actor"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/5294/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
             }
         ],
         "id": "http://data.okeeffemuseum.org/object/5294/production/",
@@ -231,37 +231,25 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5294/Description/",
+            "id": "http://data.okeeffemuseum.org/object/5294/Materials/",
             "type": "LinguisticObject",
-            "value": "Profile head shot of Alfred Stieglitz wearing glasses with eyes looking upward, wearing a white shirt, blurred painting in background."
+            "value": "Gelatin silver print"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5294/Measurement/",
-            "type": "LinguisticObject",
-            "value": "10 x 8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300138082",
                     "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -272,6 +260,11 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -279,11 +272,6 @@
                 {
                     "id": "aat:300417193",
                     "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
                     "type": "Type"
                 }
             ],
@@ -316,23 +304,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5294/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -341,18 +312,6 @@
             "id": "http://data.okeeffemuseum.org/object/5294/aquisition/method/",
             "type": "LinguisticObject",
             "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5294/caption/",
-            "label": "Elli Marcus. Alfred Stieglitz, 1929-1946. Gelatin silver print, 10 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. [2006.6.367]",
-            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -369,19 +328,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5294/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/5294/Description/",
             "type": "LinguisticObject",
-            "value": "Elli Marcus"
+            "value": "Profile head shot of Alfred Stieglitz wearing glasses with eyes looking upward, wearing a white shirt, blurred painting in background."
         },
         {
             "classified_as": [
@@ -398,14 +352,60 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5294/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/5294/artist_caption",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print"
+            "value": "Elli Marcus"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5294/caption/",
+            "label": "Elli Marcus. Alfred Stieglitz, 1929-1946. Gelatin silver print, 10 x 8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. [2006.6.367]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5294/Measurement/",
+            "type": "LinguisticObject",
+            "value": "10 x 8 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5294/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],

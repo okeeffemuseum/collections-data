@@ -42,6 +42,18 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/5978/identifier",
+            "type": "Identifier",
+            "value": "5978"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/5978/title",
             "type": "Name",
             "value": "Georgia O'Keeffe, Todd Webb and Lucille Webb on Ghost Ranch Patio"
@@ -57,18 +69,6 @@
             "id": "http://data.okeeffemuseum.org/object/5978/accessionnumber",
             "type": "Identifier",
             "value": "2006.6.1044"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/identifier",
-            "type": "Identifier",
-            "value": "5978"
         }
     ],
     "label": "Todd Webb. Georgia O'Keeffe, Todd Webb and Lucille Webb on Ghost Ranch Patio, ca. 1960s. Gelatin silver print, 4 1/8 x 6 1/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.1044]",
@@ -83,46 +83,6 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            {
-                "id": "http://data.okeeffemuseum.org/person/2",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                        "type": "Name",
-                        "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    }
-                ],
-                "label": [
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
-                ],
-                "type": [
-                    "Actor",
-                    "schema:Thing"
-                ]
-            },
             {
                 "id": "http://data.okeeffemuseum.org/person/1155",
                 "identified_by": [
@@ -143,10 +103,50 @@
                     }
                 ],
                 "label": [
-                    "Todd Webb",
-                    "Webb, Todd, 1905-2000"
+                    "Webb, Todd, 1905-2000",
+                    "Todd Webb"
                 ],
                 "type": "Actor"
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
             }
         ],
         "consists_of": [
@@ -156,6 +156,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,27 +181,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -228,8 +228,8 @@
                             }
                         ],
                         "label": [
-                            "Todd Webb",
-                            "Webb, Todd, 1905-2000"
+                            "Webb, Todd, 1905-2000",
+                            "Todd Webb"
                         ],
                         "type": "Actor"
                     }
@@ -267,6 +267,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -280,6 +292,119 @@
             "id": "http://data.okeeffemuseum.org/object/5978/maker_role",
             "type": "LinguisticObject",
             "value": "Photographer: Todd Webb\nDepicted: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/Description/",
+            "type": "LinguisticObject",
+            "value": "Profile view of O'Keeffe sitting at a table eating with Todd and Lucille Webb in the courtyard of the Ghost Ranch house; a collection of rocks in the foreground and 2 skulls with horns hanging from the portale in the background."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/caption/",
+            "label": "Todd Webb. Georgia O'Keeffe, Todd Webb and Lucille Webb on Ghost Ranch Patio, ca. 1960s. Gelatin silver print, 4 1/8 x 6 1/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.1044]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2016 Santa Fe (Georgia O'Keeffe) O'keeffe at the University of Virginia, 1912-1914"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Todd Webb studio stamp on the back of the photograph in black ink, handwritten in pencil is the word date with a question mark."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Todd Webb Archive"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5978/Measurement/",
+            "type": "LinguisticObject",
+            "value": "4 1/8 x 6 1/8 inches"
         },
         {
             "classified_as": [
@@ -301,47 +426,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Todd Webb studio stamp on the back of the photograph in black ink, handwritten in pencil is the word date with a question mark."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
@@ -349,6 +433,11 @@
                 {
                     "id": "aat:300404439",
                     "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -362,46 +451,10 @@
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/Measurement/",
-            "type": "LinguisticObject",
-            "value": "4 1/8 x 6 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/caption/",
-            "label": "Todd Webb. Georgia O'Keeffe, Todd Webb and Lucille Webb on Ghost Ranch Patio, ca. 1960s. Gelatin silver print, 4 1/8 x 6 1/8 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.1044]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2016 Santa Fe (Georgia O'Keeffe) O'keeffe at the University of Virginia, 1912-1914"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -413,59 +466,6 @@
             "id": "http://data.okeeffemuseum.org/object/5978/medium_dim_caption",
             "type": "LinguisticObject",
             "value": "Gelatin silver print, 4 1/8 x 6 1/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/Description/",
-            "type": "LinguisticObject",
-            "value": "Profile view of O'Keeffe sitting at a table eating with Todd and Lucille Webb in the courtyard of the Ghost Ranch house; a collection of rocks in the foreground and 2 skulls with horns hanging from the portale in the background."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5978/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Todd Webb Archive"
         }
     ],
     "refers_to": [],
@@ -483,6 +483,19 @@
                     "id": "http://data.okeeffemuseum.org/visualitem/795251/sequence/0",
                     "type": "Identifier",
                     "value": "0"
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "classified_as": [
+                        {
+                            "id": "aat:300080091",
+                            "label": "description",
+                            "type": "Type"
+                        }
+                    ],
+                    "type": "LinguisticObject",
+                    "value": "Black and white photograph of O'Keeffe, left in profile, sitting at a set dining table with Todd and Lucille Webb, facing, in the courtyard of the Ghost Ranch house. A collection of rocks in the foreground, and two skulls with horns hanging from the portal behind, with view of mesa in the background."
                 }
             ],
             "type": "VisualItem"

@@ -8,6 +8,11 @@
             "type": "Type"
         },
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -15,11 +20,6 @@
         {
             "id": "aat:300078925",
             "label": "watercolors",
-            "type": "Type"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -69,18 +69,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/otheridentifier",
-            "type": "Identifier",
-            "value": "1639"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -101,18 +89,30 @@
             "id": "http://data.okeeffemuseum.org/object/1076/other_id",
             "type": "Identifier",
             "value": "1639, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/otheridentifier",
+            "type": "Identifier",
+            "value": "1639"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Abstraction Red Wave with Circle), 1979. Watercolor on paper, 22 x 29 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.493]",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/1076/material/1",
-            "label": "paper",
+            "id": "http://data.okeeffemuseum.org/object/1076/material/0",
+            "label": "watercolor",
             "type": "Material"
         },
         {
-            "id": "http://data.okeeffemuseum.org/object/1076/material/0",
-            "label": "watercolor",
+            "id": "http://data.okeeffemuseum.org/object/1076/material/1",
+            "label": "paper",
             "type": "Material"
         }
     ],
@@ -129,6 +129,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -141,27 +152,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -172,6 +172,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,27 +197,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -243,14 +243,53 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1076/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/1076/artist_caption",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Abstraction Red Wave with Circle), 1979. Watercolor on paper, 22 x 29 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.493]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper, 22 x 29 3/4 inches"
         },
         {
             "classified_as": [
@@ -263,18 +302,6 @@
             "id": "http://data.okeeffemuseum.org/object/1076/Measurement/",
             "type": "LinguisticObject",
             "value": "22 x 29 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine)"
         },
         {
             "classified_as": [
@@ -294,34 +321,34 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1076/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Abstraction Red Wave with Circle), 1979. Watercolor on paper, 22 x 29 3/4 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.493]",
+            "id": "http://data.okeeffemuseum.org/object/1076/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/provenance/",
+            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
             "type": "LinguisticObject"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/Description/",
-            "type": "LinguisticObject",
-            "value": "A red wave peaks near the left edge of the work and then curves across the paper toward the right side.  The color of the wave fades as the wave crosses the paper.  A red circle is located in the trough of the wave."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -330,9 +357,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1076/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/1076/maker_role",
             "type": "LinguisticObject",
-            "value": "Watercolor on paper, 22 x 29 3/4 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -361,14 +388,38 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1076/provenance/",
-            "label": "Estate of the artist, 1986   Georgia O'Keeffe   1986   Abiquiu/New Mexico",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/1076/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/exhibitions",
+            "type": "LinguisticObject",
+            "value": "2007 Santa Fe (O'Keeffe) Permanent Collection (Living Artists: Sherrie Levine)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1076/Description/",
+            "type": "LinguisticObject",
+            "value": "A red wave peaks near the left edge of the work and then curves across the paper toward the right side.  The color of the wave fades as the wave crosses the paper.  A red circle is located in the trough of the wave."
         },
         {
             "classified_as": [
@@ -385,45 +436,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300417193",
                     "label": "titles",
                     "type": "Type"
@@ -432,28 +444,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/1076/title_date_caption",
             "type": "LinguisticObject",
             "value": "Untitled (Abstraction Red Wave with Circle), 1979"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1076/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
         }
     ],
     "refers_to": [],
@@ -471,6 +471,19 @@
                     "id": "http://data.okeeffemuseum.org/visualitem/789930/sequence/0",
                     "type": "Identifier",
                     "value": "0"
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "classified_as": [
+                        {
+                            "id": "aat:300080091",
+                            "label": "description",
+                            "type": "Type"
+                        }
+                    ],
+                    "type": "LinguisticObject",
+                    "value": "A red wave peaks near the left edge of the work and then curves across the paper toward the right side.  The color of the wave fades as the wave crosses the paper.  A red circle is located in the trough of the wave."
                 }
             ],
             "type": "VisualItem"
@@ -501,23 +514,6 @@
                 "begin_of_the_begin": "2017-03-03T00:00:00",
                 "end_of_the_end": "2017-07-23T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/34/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/25",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/25/title"
-            ],
-            "label": "Georgia O'Keeffe:  Living Modern",
-            "timespan": {
-                "begin_of_the_begin": "2017-03-03T00:00:00",
-                "end_of_the_end": "2020-02-09T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/25/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -557,6 +553,23 @@
                 "begin_of_the_begin": "2017-12-16T00:00:00",
                 "end_of_the_end": "2018-04-07T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/52/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/25",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/25/title"
+            ],
+            "label": "Georgia O'Keeffe:  Living Modern",
+            "timespan": {
+                "begin_of_the_begin": "2017-03-03T00:00:00",
+                "end_of_the_end": "2020-02-09T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/25/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

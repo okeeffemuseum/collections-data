@@ -13,12 +13,12 @@
             "type": "Type"
         },
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
+            "id": "aat:300033799",
             "type": "Type"
         },
         {
-            "id": "aat:300033799",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -30,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8458",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8458/other_id",
-            "type": "Identifier",
-            "value": "359, Catalogue Raisonn\u00e9"
-        },
         {
             "classified_as": [
                 {
@@ -65,6 +53,18 @@
             "id": "http://data.okeeffemuseum.org/object/8458/identifier",
             "type": "Identifier",
             "value": "8458"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8458/other_id",
+            "type": "Identifier",
+            "value": "359, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -135,12 +135,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -180,12 +180,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -222,26 +222,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8458/exhibitions",
+            "id": "http://data.okeeffemuseum.org/object/8458/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "1923 New York (Anderson)"
+            "value": "Oil on canvas, 18 1/2 x 15 inches"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8458/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/8458/institution_caption",
             "type": "LinguisticObject",
-            "value": "The Museum of Modern Art, New York. Gift of Florence Cane (826.63)      "
+            "value": "Private Collection"
         },
         {
             "classified_as": [
@@ -263,25 +278,56 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8458/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/8458/exhibitions",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "1923 New York (Anderson)"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8458/provenance/",
+            "label": "(Alfred Stieglitz, New York, NY); (The Anderson Galleries, New York, NY, auction, lot no. 48, 23 February 1922); Florence Cane, New York, NY, 1922         ",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
                 {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8458/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Museum of Modern Art, New York. Gift of Florence Cane (826.63)      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8458/caption/",
+            "label": "Georgia O'Keeffe. Cedar and Red Maple, Lake George, 1921. Oil on canvas, 18 1/2 x 15 inches. Private Collection. The Museum of Modern Art, New York. Gift of Florence Cane (826.63)",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -290,9 +336,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8458/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/8458/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 18 1/2 x 15 inches"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -309,14 +355,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300010358",
+                    "label": "materials",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8458/caption/",
-            "label": "Georgia O'Keeffe. Cedar and Red Maple, Lake George, 1921. Oil on canvas, 18 1/2 x 15 inches. Private Collection. The Museum of Modern Art, New York. Gift of Florence Cane (826.63)",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8458/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -339,52 +385,6 @@
             "id": "http://data.okeeffemuseum.org/object/8458/title_date_caption",
             "type": "LinguisticObject",
             "value": "Cedar and Red Maple, Lake George, 1921"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8458/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055863",
-                    "label": "provenance",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8458/provenance/",
-            "label": "(Alfred Stieglitz, New York, NY); (The Anderson Galleries, New York, NY, auction, lot no. 48, 23 February 1922); Florence Cane, New York, NY, 1922         ",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8458/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
         }
     ],
     "refers_to": [],

@@ -42,6 +42,18 @@
                     "type": "Type"
                 }
             ],
+            "id": "http://data.okeeffemuseum.org/object/6602/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
             "id": "http://data.okeeffemuseum.org/object/6602/identifier",
             "type": "Identifier",
             "value": "6602"
@@ -57,18 +69,6 @@
             "id": "http://data.okeeffemuseum.org/object/6602/accessionnumber",
             "type": "Identifier",
             "value": "2014.3.53"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
         }
     ],
     "label": "Arnold Newman. Georgia O'Keeffe, Apr 17 1944. Gelatin silver print, 9 9/16 x 7 3/4 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 Getty Images. [2014.3.53]",
@@ -83,6 +83,46 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
+            },
             {
                 "id": "http://data.okeeffemuseum.org/person/993",
                 "identified_by": [
@@ -119,46 +159,6 @@
                 ],
                 "label": "Arnold Newman",
                 "type": "Actor"
-            },
-            {
-                "id": "http://data.okeeffemuseum.org/person/2",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                        "type": "Name",
-                        "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    }
-                ],
-                "label": [
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
-                ],
-                "type": [
-                    "Actor",
-                    "schema:Thing"
-                ]
             }
         ],
         "consists_of": [
@@ -168,6 +168,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -182,27 +193,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -291,13 +291,59 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
-                },
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/Description/",
+            "type": "LinguisticObject",
+            "value": "Portrait of Georgia O'Keeffe sitting in profile with blank background; dressed in a black long sleeved shirt and silver buttons; hands folded over each other in lap, hair pulled back, face looking at camera with neutral gaze."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/Measurement/",
+            "type": "LinguisticObject",
+            "value": "9 9/16 x 7 3/4 inches"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300191074",
                     "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 9 9/16 x 7 3/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
@@ -308,14 +354,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6602/provenance/",
-            "label": "Sweeney Archives: Fine Art Photography   James Sweeney      New York",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/6602/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Museum Purchase      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
         },
         {
             "classified_as": [
@@ -337,6 +395,45 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Arnold Newman"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6602/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe, Apr 17 1944"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300055547",
                     "label": "legal concepts",
                     "type": "Type"
@@ -349,60 +446,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6602/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Signed by the photographer in pencil on the mount."
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Museum Purchase      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 9 9/16 x 7 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
+            "id": "http://data.okeeffemuseum.org/object/6602/provenance/",
+            "label": "Sweeney Archives: Fine Art Photography   James Sweeney      New York",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -419,35 +470,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/Measurement/",
-            "type": "LinguisticObject",
-            "value": "9 9/16 x 7 3/4 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Arnold Newman"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
@@ -460,36 +482,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6602/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/6602/signaturemarks",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe, Apr 17 1944"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6602/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of Georgia O'Keeffe sitting in profile with blank background; dressed in a black long sleeved shirt and silver buttons; hands folded over each other in lap, hair pulled back, face looking at camera with neutral gaze."
+            "value": "Signed by the photographer in pencil on the mount."
         }
     ],
     "refers_to": [],
@@ -507,6 +507,19 @@
                     "id": "http://data.okeeffemuseum.org/visualitem/795390/sequence/0",
                     "type": "Identifier",
                     "value": "0"
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "classified_as": [
+                        {
+                            "id": "aat:300080091",
+                            "label": "description",
+                            "type": "Type"
+                        }
+                    ],
+                    "type": "LinguisticObject",
+                    "value": "Portrait of Georgia O'Keeffe sitting in profile with blank background; dressed in a black long sleeved shirt and silver buttons; hands folded over each other in lap, hair pulled back, face looking at camera with neutral gaze."
                 }
             ],
             "type": "VisualItem"
@@ -533,19 +546,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/52",
-            "timespan": {
-                "begin_of_the_begin": "2017-12-16T00:00:00",
-                "end_of_the_end": "2018-04-07T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/52/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/25",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/25/title"
@@ -555,6 +555,19 @@
                 "begin_of_the_begin": "2017-03-03T00:00:00",
                 "end_of_the_end": "2020-02-09T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/25/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/52",
+            "timespan": {
+                "begin_of_the_begin": "2017-12-16T00:00:00",
+                "end_of_the_end": "2018-04-07T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/52/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

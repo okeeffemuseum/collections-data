@@ -3,6 +3,11 @@
     "about": [],
     "classified_as": [
         {
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
+            "type": "Type"
+        },
+        {
             "id": "aat:300133025",
             "label": "works of art",
             "type": "Type"
@@ -14,11 +19,6 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
-            "type": "Type"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         }
     ],
@@ -44,18 +44,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/other_id",
-            "type": "Identifier",
-            "value": "1502, Catalogue Raisonn\u00e9"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300312355",
                     "label": "accession numbers",
                     "type": "Type"
@@ -64,6 +52,18 @@
             "id": "http://data.okeeffemuseum.org/object/1055/accessionnumber",
             "type": "Identifier",
             "value": "2006.5.391"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/other_id",
+            "type": "Identifier",
+            "value": "1502, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -105,16 +105,16 @@
     "label": "Georgia O'Keeffe. Canyon No. II, ca. 1965. Oil on canvas, 36 x 25 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.391]",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/1055/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/1055/material/0",
             "label": "oil paint",
-            "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/1055/material/1",
-            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -131,6 +131,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -143,27 +154,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -174,6 +174,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -188,27 +199,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -245,74 +245,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300203630",
+                    "label": "owners",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1055/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/1055/institution_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1967 New York (Whitney - Annual) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2011 Europe (Rome, Munich, Helsinki) GOK: Retrospective \n2012 Santa Fe (O'Keeffe) Faraway"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/Measurement/",
-            "type": "LinguisticObject",
-            "value": "36 x 25 inches"
+            "value": "Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -320,11 +265,38 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1055/caption/",
-            "label": "Georgia O'Keeffe. Canyon No. II, ca. 1965. Oil on canvas, 36 x 25 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.391]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/1055/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 36 x 25 inches"
         },
         {
             "classified_as": [
@@ -353,87 +325,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1055/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/1055/exhibitions",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
+            "value": "1967 New York (Whitney - Annual) \n2008 Santa Fe (O'Keeffe) Permanent Collection (Hartley) \n2011 Europe (Rome, Munich, Helsinki) GOK: Retrospective \n2012 Santa Fe (O'Keeffe) Faraway"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/1055/signaturemarks",
+            "id": "http://data.okeeffemuseum.org/object/1055/Right/",
             "type": "LinguisticObject",
-            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Aug.-1 - 64 / Last one No C\" (graphite) \n2. \"Canyon Country IV\" (Juan Hamilton, black ink)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/1055/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 36 x 25 inches"
+            "value": "\u00a9 Georgia O'Keeffe Museum"
         },
         {
             "classified_as": [
@@ -456,6 +367,95 @@
             "id": "http://data.okeeffemuseum.org/object/1055/title_date_caption",
             "type": "LinguisticObject",
             "value": "Canyon No. II, ca. 1965"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/caption/",
+            "label": "Georgia O'Keeffe. Canyon No. II, ca. 1965. Oil on canvas, 36 x 25 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.391]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions: Stretcher: inaccessible \nVerso: inaccessible \nBacking: \n1. \"Aug.-1 - 64 / Last one No C\" (graphite) \n2. \"Canyon Country IV\" (Juan Hamilton, black ink)"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/Measurement/",
+            "type": "LinguisticObject",
+            "value": "36 x 25 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/1055/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -473,6 +473,19 @@
                     "id": "http://data.okeeffemuseum.org/visualitem/789793/sequence/0",
                     "type": "Identifier",
                     "value": "0"
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "classified_as": [
+                        {
+                            "id": "aat:300080091",
+                            "label": "description",
+                            "type": "Type"
+                        }
+                    ],
+                    "type": "LinguisticObject",
+                    "value": "Two cliffs slope towards each other and form a v-shape in the center of the canvas.  The hill on the left has a steep slant, while the slant of the hill on the right curves a bit more.  Two lighter-colored bands with a central v-shaped dip cross the lower portion of the work."
                 }
             ],
             "type": "VisualItem"
@@ -515,6 +528,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/87",
+            "timespan": {
+                "begin_of_the_begin": "2019-03-29T00:00:00",
+                "end_of_the_end": "2019-06-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/87/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/25",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/25/title"
@@ -524,19 +550,6 @@
                 "begin_of_the_begin": "2017-03-03T00:00:00",
                 "end_of_the_end": "2020-02-09T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/25/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/87",
-            "timespan": {
-                "begin_of_the_begin": "2019-03-29T00:00:00",
-                "end_of_the_end": "2019-06-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/87/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

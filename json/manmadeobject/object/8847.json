@@ -3,22 +3,22 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300133025",
-            "label": "works of art",
-            "type": "Type"
-        },
-        {
             "id": "aat:300033618",
             "label": "paintings",
             "type": "Type"
         },
         {
-            "id": "aat:300033799",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
+            "id": "aat:300133025",
+            "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -30,18 +30,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8847",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8847/other_id",
-            "type": "Identifier",
-            "value": "863, Catalogue Raisonn\u00e9"
-        },
         {
             "classified_as": [
                 {
@@ -77,21 +65,33 @@
             "id": "http://data.okeeffemuseum.org/object/8847/otheridentifier",
             "type": "Identifier",
             "value": "863"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8847/other_id",
+            "type": "Identifier",
+            "value": "863, Catalogue Raisonn\u00e9"
         }
     ],
     "label": "Georgia O'Keeffe. Blue Morning Glories, 1935. Oil on canvas, 12 1/4 x 9 inches. Private Collection. Private collection, Winnetka, Illinois, 1990",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/8847/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8847/material/0",
             "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/8847/material/1",
+            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -108,6 +108,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -120,27 +131,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -151,6 +151,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -165,27 +176,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -246,31 +246,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300055863",
+                    "label": "provenance",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8847/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8847/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Stretcher: 1. \"9 1/8 x 12 5/16\" (unidentified hand, graphite) 2. \"H [in circle]\" (unidentified hand, graphite). Verso: 1. another work, see cat. no. 820 2. \"G. O'Keeffe / 35\" (green paint)"
+            "id": "http://data.okeeffemuseum.org/object/8847/provenance/",
+            "label": "(An American Place, New York, NY); Ann Morgan, New York, NY, 1936; Malvina Hoffman, New York, NY, gift, 1936; Estate of Malvina Hoffman, 1966; Sotheby Parke Bernet Inc., New York, NY, sale no. 4365, lot no. 249A, 25 April 1980; Regis Collection, Minneapolis, Minnesota, 1980; (James Maroney, Inc., New York, NY); Private collection, New York, NY, 1981; Estate of private collector, 1989; Christie's, New York, NY, sale no. 6972, lot no. 204, 1 December 1989; Beltexsan Galleries, Fort Worth, Texas, 1989; Gerald Peters Gallery, Santa Fe, New Mexico, 1990         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -305,28 +288,6 @@
             "id": "http://data.okeeffemuseum.org/object/8847/exhibitions",
             "type": "LinguisticObject",
             "value": "1936 New York (An American Place), no. 13, as Blue Morning Glories, New Mexico, I; 1980 Columbia"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8847/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 12 1/4 x 9 inches"
         },
         {
             "classified_as": [
@@ -372,14 +333,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8847/provenance/",
-            "label": "(An American Place, New York, NY); Ann Morgan, New York, NY, 1936; Malvina Hoffman, New York, NY, gift, 1936; Estate of Malvina Hoffman, 1966; Sotheby Parke Bernet Inc., New York, NY, sale no. 4365, lot no. 249A, 25 April 1980; Regis Collection, Minneapolis, Minnesota, 1980; (James Maroney, Inc., New York, NY); Private collection, New York, NY, 1981; Estate of private collector, 1989; Christie's, New York, NY, sale no. 6972, lot no. 204, 1 December 1989; Beltexsan Galleries, Fort Worth, Texas, 1989; Gerald Peters Gallery, Santa Fe, New Mexico, 1990         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8847/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Stretcher: 1. \"9 1/8 x 12 5/16\" (unidentified hand, graphite) 2. \"H [in circle]\" (unidentified hand, graphite). Verso: 1. another work, see cat. no. 820 2. \"G. O'Keeffe / 35\" (green paint)"
         },
         {
             "classified_as": [
@@ -389,8 +350,47 @@
                     "type": "Type"
                 },
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8847/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 12 1/4 x 9 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8847/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300203630",
                     "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -427,6 +427,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1135",
+            "timespan": {
+                "begin_of_the_begin": "1980-08-01T00:00:00",
+                "end_of_the_end": "1980-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1135/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/180",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/180/title"
@@ -436,6 +449,19 @@
                 "begin_of_the_begin": "1936-01-07T00:00:00",
                 "end_of_the_end": "1936-02-27T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/180/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1134",
+            "timespan": {
+                "begin_of_the_begin": "1980-08-01T00:00:00",
+                "end_of_the_end": "1980-09-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -457,19 +483,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1135",
-            "timespan": {
-                "begin_of_the_begin": "1980-08-01T00:00:00",
-                "end_of_the_end": "1980-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1135/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/797",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/797/title"
@@ -479,19 +492,6 @@
                 "begin_of_the_begin": "1980-08-01T00:00:00",
                 "end_of_the_end": "1980-09-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/797/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1134",
-            "timespan": {
-                "begin_of_the_begin": "1980-08-01T00:00:00",
-                "end_of_the_end": "1980-09-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1134/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

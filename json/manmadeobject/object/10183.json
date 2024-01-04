@@ -3,12 +3,8 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033799",
-            "type": "Type"
-        },
-        {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
+            "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
         },
         {
@@ -17,8 +13,12 @@
             "type": "Type"
         },
         {
-            "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
-            "label": "Catalogue Raisonn\u00e9 Object",
+            "id": "aat:300033799",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         }
     ],
@@ -49,6 +49,18 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10183/title",
+            "type": "Name",
+            "value": "Black Patio Door"
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -66,18 +78,6 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10183/title",
-            "type": "Name",
-            "value": "Black Patio Door"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
             "id": "http://data.okeeffemuseum.org/object/10183/identifier",
             "type": "Identifier",
             "value": "10183"
@@ -86,16 +86,16 @@
     "label": "Georgia O'Keeffe. Black Patio Door, 1955. Oil on canvas, 40 x 30 inches. Amon Carter Museum of American Art",
     "made_of": [
         {
-            "id": "http://data.okeeffemuseum.org/object/10183/material/1",
-            "label": "oil paint",
-            "type": "Material"
-        },
-        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/10183/material/0",
             "label": "canvas",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10183/material/1",
+            "label": "oil paint",
             "type": "Material"
         }
     ],
@@ -112,6 +112,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -124,27 +135,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -155,6 +155,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -169,27 +180,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -226,14 +226,24 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10183/caption/",
-            "label": "Georgia O'Keeffe. Black Patio Door, 1955. Oil on canvas, 40 x 30 inches. Amon Carter Museum of American Art",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10183/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas, 40 x 30 inches"
         },
         {
             "classified_as": [
@@ -246,6 +256,47 @@
             "id": "http://data.okeeffemuseum.org/object/10183/Measurement/",
             "type": "LinguisticObject",
             "value": "40 x 30 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10183/caption/",
+            "label": "Georgia O'Keeffe. Black Patio Door, 1955. Oil on canvas, 40 x 30 inches. Amon Carter Museum of American Art",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10183/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Amon Carter Museum of American Art"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10183/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -272,18 +323,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10183/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300138082",
                     "label": "techniques",
                     "type": "Type"
@@ -297,45 +336,6 @@
             "id": "http://data.okeeffemuseum.org/object/10183/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10183/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Amon Carter Museum of American Art"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10183/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 40 x 30 inches"
         },
         {
             "classified_as": [
@@ -411,11 +411,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "id": "http://data.okeeffemuseum.org/exhibition/663",
             "timespan": {
-                "begin_of_the_begin": "1966-03-01T00:00:00",
-                "end_of_the_end": "1966-05-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
+                "begin_of_the_begin": "1957-12-31T00:00:00",
+                "end_of_the_end": "1958-01-25T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/663/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -424,15 +424,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/460",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/529",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/460/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/529/title"
             ],
             "label": "title unknown",
             "timespan": {
-                "begin_of_the_begin": "1957-03-01T00:00:00",
-                "end_of_the_end": "1957-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/460/timespan",
+                "begin_of_the_begin": "1959-03-01T00:00:00",
+                "end_of_the_end": "1959-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/529/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -454,28 +454,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/454",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/454/title"
             ],
-            "label": "Georgia O'Keeffe: Forty Years of her Art",
-            "timespan": {
-                "begin_of_the_begin": "1960-10-04T00:00:00",
-                "end_of_the_end": "1960-12-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/663",
+            "label": "32nd annual Exhibition",
             "timespan": {
                 "begin_of_the_begin": "1957-12-31T00:00:00",
                 "end_of_the_end": "1958-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/663/timespan",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/454/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -518,36 +505,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/733",
-            "timespan": {
-                "begin_of_the_begin": "1959-09-13T00:00:00",
-                "end_of_the_end": "1959-10-20T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/733/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/529",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/529/title"
-            ],
-            "label": "title unknown",
-            "timespan": {
-                "begin_of_the_begin": "1959-03-01T00:00:00",
-                "end_of_the_end": "1959-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/529/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/exhibition/924",
             "timespan": {
                 "begin_of_the_begin": "1963-03-01T00:00:00",
@@ -561,24 +518,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/780",
-            "timespan": {
-                "begin_of_the_begin": "1959-03-01T00:00:00",
-                "end_of_the_end": "1959-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/780/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/552",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/552/title"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/671",
+            "label": "Georgia O'Keeffe: Forty Years of her Art",
             "timespan": {
-                "begin_of_the_begin": "1958-06-01T00:00:00",
-                "end_of_the_end": "1958-06-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/671/timespan",
+                "begin_of_the_begin": "1960-10-04T00:00:00",
+                "end_of_the_end": "1960-12-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/552/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -592,6 +540,36 @@
                 "begin_of_the_begin": "1957-03-01T00:00:00",
                 "end_of_the_end": "1957-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/669/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/626",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/626/title"
+            ],
+            "label": "Six Painters",
+            "timespan": {
+                "begin_of_the_begin": "1963-03-01T00:00:00",
+                "end_of_the_end": "1963-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/626/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/671",
+            "timespan": {
+                "begin_of_the_begin": "1958-06-01T00:00:00",
+                "end_of_the_end": "1958-06-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/671/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -617,6 +595,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/733",
+            "timespan": {
+                "begin_of_the_begin": "1959-09-13T00:00:00",
+                "end_of_the_end": "1959-10-20T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/733/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/exhibition/810",
             "timespan": {
                 "begin_of_the_begin": "1960-10-04T00:00:00",
@@ -630,15 +621,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/454",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/454/title"
-            ],
-            "label": "32nd annual Exhibition",
+            "id": "http://data.okeeffemuseum.org/exhibition/780",
             "timespan": {
-                "begin_of_the_begin": "1957-12-31T00:00:00",
-                "end_of_the_end": "1958-01-25T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/454/timespan",
+                "begin_of_the_begin": "1959-03-01T00:00:00",
+                "end_of_the_end": "1959-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/780/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/460",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/460/title"
+            ],
+            "label": "title unknown",
+            "timespan": {
+                "begin_of_the_begin": "1957-03-01T00:00:00",
+                "end_of_the_end": "1957-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/460/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/1013",
+            "timespan": {
+                "begin_of_the_begin": "1966-03-01T00:00:00",
+                "end_of_the_end": "1966-05-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/1013/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -656,23 +673,6 @@
                 "begin_of_the_begin": "1958-06-01T00:00:00",
                 "end_of_the_end": "1958-06-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/462/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/626",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/626/title"
-            ],
-            "label": "Six Painters",
-            "timespan": {
-                "begin_of_the_begin": "1963-03-01T00:00:00",
-                "end_of_the_end": "1963-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/626/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

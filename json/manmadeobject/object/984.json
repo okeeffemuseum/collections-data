@@ -8,11 +8,6 @@
             "type": "Type"
         },
         {
-            "id": "aat:300033973",
-            "label": "drawings",
-            "type": "Type"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
             "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
@@ -20,6 +15,11 @@
         {
             "id": "aat:300189621",
             "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -45,26 +45,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
+                    "id": "aat:300264273",
+                    "label": "nonpreferred terms",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/984/title",
-            "type": "Name",
-            "value": "Drawing"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/otheridentifier",
+            "id": "http://data.okeeffemuseum.org/object/984/other_id",
             "type": "Identifier",
-            "value": "59"
+            "value": "59, Catalogue Raisonn\u00e9"
         },
         {
             "classified_as": [
@@ -93,14 +81,26 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300264273",
-                    "label": "nonpreferred terms",
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/984/other_id",
+            "id": "http://data.okeeffemuseum.org/object/984/otheridentifier",
             "type": "Identifier",
-            "value": "59, Catalogue Raisonn\u00e9"
+            "value": "59"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/title",
+            "type": "Name",
+            "value": "Drawing"
         }
     ],
     "label": "Georgia O'Keeffe. Drawing, 1915-1916. Charcoal on paper, 24 3/4 x 18 1/2 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Georgia O'Keeffe Museum. [2006.5.19]",
@@ -129,6 +129,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -141,27 +152,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -172,6 +172,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -186,27 +197,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -246,81 +246,6 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Charcoal on paper, 24 3/4 x 18 1/2 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/exhibitions",
-            "type": "LinguisticObject",
-            "value": "2006 Santa Fe (O'Keeffe) A Celebration of New Work \n2006 Santa Fe (O'Keeffe) Permanent Collection (GOK: Color and Conservation) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2016 Santa Fe (O'Keeffe) O'Keeffe at the University of Virginia, 1912-1914"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/aquisition/method/",
-            "type": "LinguisticObject",
-            "value": "Gift"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Inscriptions: Verso: \"#4\" (unidentified hand, graphite)"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
                 }
             ],
             "id": "http://data.okeeffemuseum.org/object/984/caption/",
@@ -330,48 +255,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
+                    "id": "aat:300080091",
+                    "label": "description",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/984/CreditLine/",
+            "id": "http://data.okeeffemuseum.org/object/984/Description/",
             "type": "LinguisticObject",
-            "value": "Gift of The Georgia O'Keeffe Foundation      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Drawing, 1915-1916"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/Measurement/",
-            "type": "LinguisticObject",
-            "value": "24 3/4 x 18 1/2 inches"
+            "value": "A large, dark-colored blanket hangs across much of the upper portion of the image, with soft folds flowing off to the right. A second blanket comprised of alternating black and white horizontal stripes of various sizes descends from the upper-left corner across much of the lower portion of the drawing.  It lies in heavier folds than the darker blanket on its right.  A small patch of dark color is exposed in the lower-left portion of the drawing, forming a contrast to the striped blanket that it borders."
         },
         {
             "classified_as": [
@@ -384,6 +275,28 @@
             "id": "http://data.okeeffemuseum.org/object/984/Materials/",
             "type": "LinguisticObject",
             "value": "Charcoal on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Charcoal on paper, 24 3/4 x 18 1/2 inches"
         },
         {
             "classified_as": [
@@ -405,31 +318,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/984/institution_caption",
+            "id": "http://data.okeeffemuseum.org/object/984/exhibitions",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300080091",
-                    "label": "description",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/984/Description/",
-            "type": "LinguisticObject",
-            "value": "A large, dark-colored blanket hangs across much of the upper portion of the image, with soft folds flowing off to the right. A second blanket comprised of alternating black and white horizontal stripes of various sizes descends from the upper-left corner across much of the lower portion of the drawing.  It lies in heavier folds than the darker blanket on its right.  A small patch of dark color is exposed in the lower-left portion of the drawing, forming a contrast to the striped blanket that it borders."
+            "value": "2006 Santa Fe (O'Keeffe) A Celebration of New Work \n2006 Santa Fe (O'Keeffe) Permanent Collection (GOK: Color and Conservation) \n2006 Santa Fe (O'Keeffe) Permanent Collection (Paul Strand) \n2010 Santa Fe (O'Keeffe) Permanent Collection (Rothenberg: Moving in Place) \n2016 Santa Fe (O'Keeffe) O'Keeffe at the University of Virginia, 1912-1914"
         },
         {
             "classified_as": [
@@ -446,14 +342,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/984/Right/",
+            "id": "http://data.okeeffemuseum.org/object/984/artist_caption",
             "type": "LinguisticObject",
-            "value": "\u00a9 Georgia O'Keeffe Museum"
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -466,6 +367,105 @@
             "id": "http://data.okeeffemuseum.org/object/984/provenance/",
             "label": "Estate of the artist, 1986         ",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Drawing, 1915-1916"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Gift"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/Measurement/",
+            "type": "LinguisticObject",
+            "value": "24 3/4 x 18 1/2 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "Gift of The Georgia O'Keeffe Foundation      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe Museum"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/984/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Inscriptions: Verso: \"#4\" (unidentified hand, graphite)"
         }
     ],
     "refers_to": [],
@@ -493,17 +493,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300041273",
-                    "label": "prints",
-                    "type": "Type"
-                }
-            ],
-            "id": "https://prints.okeeffemuseum.org/detail/501365",
-            "type": "InformationObject"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300264578",
                     "label": "Web pages",
                     "type": "Type"
@@ -511,23 +500,21 @@
             ],
             "id": "https://www.arsny.com/requests",
             "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300041273",
+                    "label": "prints",
+                    "type": "Type"
+                }
+            ],
+            "id": "https://prints.okeeffemuseum.org/detail/501365",
+            "type": "InformationObject"
         }
     ],
     "type": "ManMadeObject",
     "used_for": [
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/120",
-            "timespan": {
-                "begin_of_the_begin": "2006-09-22T00:00:00",
-                "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -549,15 +536,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
-            ],
-            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "id": "http://data.okeeffemuseum.org/exhibition/120",
             "timespan": {
-                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "begin_of_the_begin": "2006-09-22T00:00:00",
                 "end_of_the_end": "2007-01-14T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/120/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -571,6 +554,23 @@
                 "begin_of_the_begin": "2006-02-10T00:00:00",
                 "end_of_the_end": "2006-06-04T00:00:00",
                 "id": "http://data.okeeffemuseum.org/exhibition/119/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/73",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/73/title"
+            ],
+            "label": "Moments in Modernism: PAUL STRAND, SOUTHWEST",
+            "timespan": {
+                "begin_of_the_begin": "2004-01-01T00:00:00",
+                "end_of_the_end": "2007-01-14T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/73/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

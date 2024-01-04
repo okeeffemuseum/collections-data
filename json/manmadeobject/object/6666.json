@@ -42,9 +42,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/title",
-            "type": "Name",
-            "value": "Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/6666/identifier",
+            "type": "Identifier",
+            "value": "6666"
         },
         {
             "classified_as": [
@@ -66,9 +66,9 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/identifier",
-            "type": "Identifier",
-            "value": "6666"
+            "id": "http://data.okeeffemuseum.org/object/6666/title",
+            "type": "Name",
+            "value": "Georgia O'Keeffe"
         }
     ],
     "label": "Carl Van Vechten. Georgia O'Keeffe, Feb 22 1935. Gelatin silver print, 13 7/8 x 10 15/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 The Van Vechten Trust. [2014.3.148]",
@@ -83,46 +83,6 @@
     "part_of": [],
     "produced_by": {
         "carried_out_by": [
-            {
-                "id": "http://data.okeeffemuseum.org/person/2",
-                "identified_by": [
-                    {
-                        "classified_as": [
-                            {
-                                "id": "aat:300404670",
-                                "label": "preferred terms",
-                                "type": "Type"
-                            }
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                        "type": "Name",
-                        "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
-                    }
-                ],
-                "label": [
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
-                ],
-                "type": [
-                    "Actor",
-                    "schema:Thing"
-                ]
-            },
             {
                 "id": "http://data.okeeffemuseum.org/person/980",
                 "identified_by": [
@@ -147,6 +107,46 @@
                     "Van Vechten, Carl, 1880-1964"
                 ],
                 "type": "Actor"
+            },
+            {
+                "id": "http://data.okeeffemuseum.org/person/2",
+                "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
+                            {
+                                "id": "aat:300404670",
+                                "label": "preferred terms",
+                                "type": "Type"
+                            }
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                        "type": "Name",
+                        "value": "Georgia O'Keeffe"
+                    }
+                ],
+                "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                    "O'Keeffe, Georgia, 1887-1986",
+                    "Georgia O'Keeffe"
+                ],
+                "type": [
+                    "schema:Thing",
+                    "Actor"
+                ]
             }
         ],
         "consists_of": [
@@ -156,6 +156,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -170,27 +181,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -279,67 +279,41 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6666/Measurement/",
-            "type": "LinguisticObject",
-            "value": "13 7/8 x 10 15/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6666/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 The Van Vechten Trust"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300025103",
+                    "label": "artists",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/6666/artist_caption",
             "type": "LinguisticObject",
-            "value": "Photographer: Carl Van Vechten\nDepicted: Georgia O'Keeffe"
+            "value": "Carl Van Vechten"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6666/Materials/",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print"
-        },
-        {
-            "classified_as": [
+                },
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/provenance/",
-            "label": "Sweeney Archives: Fine Art Photography   James Sweeney      New York",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/6666/medium_dim_caption",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print, 13 7/8 x 10 15/16 inches"
         },
         {
             "classified_as": [
@@ -361,8 +335,56 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6666/Description/",
+            "type": "LinguisticObject",
+            "value": "Portrait of Georgia O'Keeffe in front of a floral background; quarter-length view; hair is pulled back from face, head turned slightly to viewer right with downward gaze, raised eyebrow, and neutral expression, she wears a white blouse with tie closure at neck under a black outer garment \n(collarless sweater or jacket)."
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6666/Materials/",
+            "type": "LinguisticObject",
+            "value": "Gelatin silver print"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6666/Measurement/",
+            "type": "LinguisticObject",
+            "value": "13 7/8 x 10 15/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6666/aquisition/method/",
+            "type": "LinguisticObject",
+            "value": "Purchase"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
@@ -371,8 +393,8 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -383,53 +405,19 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6666/caption/",
-            "label": "Carl Van Vechten. Georgia O'Keeffe, Feb 22 1935. Gelatin silver print, 13 7/8 x 10 15/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 The Van Vechten Trust. [2014.3.148]",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/6666/maker_role",
             "type": "LinguisticObject",
-            "value": "Carl Van Vechten"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/6666/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Gelatin silver print, 13 7/8 x 10 15/16 inches"
+            "value": "Photographer: Carl Van Vechten\nDepicted: Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -451,21 +439,33 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/6666/Right/",
             "type": "LinguisticObject",
-            "value": "Purchase"
+            "value": "\u00a9 The Van Vechten Trust"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/6666/Description/",
-            "type": "LinguisticObject",
-            "value": "Portrait of Georgia O'Keeffe in front of a floral background; quarter-length view; hair is pulled back from face, head turned slightly to viewer right with downward gaze, raised eyebrow, and neutral expression, she wears a white blouse with tie closure at neck under a black outer garment \n(collarless sweater or jacket)."
+            "id": "http://data.okeeffemuseum.org/object/6666/caption/",
+            "label": "Carl Van Vechten. Georgia O'Keeffe, Feb 22 1935. Gelatin silver print, 13 7/8 x 10 15/16 inches. Georgia O'Keeffe Museum. Museum Purchase. \u00a9 The Van Vechten Trust. [2014.3.148]",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/6666/provenance/",
+            "label": "Sweeney Archives: Fine Art Photography   James Sweeney      New York",
+            "type": "LinguisticObject"
         }
     ],
     "refers_to": [],
@@ -483,6 +483,19 @@
                     "id": "http://data.okeeffemuseum.org/visualitem/799549/sequence/0",
                     "type": "Identifier",
                     "value": "0"
+                }
+            ],
+            "referred_to_by": [
+                {
+                    "classified_as": [
+                        {
+                            "id": "aat:300080091",
+                            "label": "description",
+                            "type": "Type"
+                        }
+                    ],
+                    "type": "LinguisticObject",
+                    "value": "Black and white photograph quarter-length portrait of O'Keeffe in front of a small flowered wallpaper background, seated towards the right and head turned to the right, looking down, hair pulled back, wearing a white blouse with tie closure at neck under a black garment."
                 }
             ],
             "type": "VisualItem"

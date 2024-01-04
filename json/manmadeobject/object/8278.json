@@ -3,11 +3,6 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300078925",
-            "label": "watercolors",
-            "type": "Type"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
             "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
@@ -15,6 +10,11 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300078925",
+            "label": "watercolors",
             "type": "Type"
         }
     ],
@@ -26,30 +26,6 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/8278",
     "identified_by": [
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/otheridentifier",
-            "type": "Identifier",
-            "value": "82"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/title",
-            "type": "Name",
-            "value": "Untitled (Red, Blue and Green)"
-        },
         {
             "classified_as": [
                 {
@@ -73,6 +49,30 @@
             "id": "http://data.okeeffemuseum.org/object/8278/other_id",
             "type": "Identifier",
             "value": "82, Catalogue Raisonn\u00e9"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/otheridentifier",
+            "type": "Identifier",
+            "value": "82"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/title",
+            "type": "Name",
+            "value": "Untitled (Red, Blue and Green)"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Red, Blue and Green), 1916. Watercolor on paper, 17 1/2 x 13 3/8 inches. Private Collection. The Tobin Foundation, San Antonio, Texas, 1987, extended loan, McNay Art Museum, San Antonio, Texas",
@@ -101,6 +101,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -113,27 +124,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -144,6 +144,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -158,27 +169,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -215,19 +215,24 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8278/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/8278/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Watercolor on paper, 17 1/2 x 13 3/8 inches"
         },
         {
             "classified_as": [
@@ -244,88 +249,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Private Collection"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Tobin Foundation, San Antonio, Texas, 1987, extended loan, McNay Art Museum, San Antonio, Texas      "
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/Materials/",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Watercolor on paper, 17 1/2 x 13 3/8 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300048720",
-                    "label": "exhibition records",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8278/exhibitions",
-            "type": "LinguisticObject",
-            "value": "1985 Santa Fe, no. 10; 1998 San Antonio, no 15"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
                     "id": "aat:300404439",
                     "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -337,6 +267,18 @@
             "id": "http://data.okeeffemuseum.org/object/8278/title_date_caption",
             "type": "LinguisticObject",
             "value": "Untitled (Red, Blue and Green), 1916"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055863",
+                    "label": "provenance",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/provenance/",
+            "label": "Harold Diamond, New York, NY, purchase, 1977; (Joshua Strychalski, New York, NY); Middendorf Gallery, Washington, DC, 1978; Private collection, Jacksonville, Florida, 1980; (Middendorf Gallery, Washington, DC); Doris Bry, New York, NY, 1981; (Joan T. Washburn, New York, NY, 1986); William Dean, New York, NY, 1986; Middendorf Gallery, Washington, DC, 1986; Gerald Peters Gallery, Santa Fe, New Mexico, 1987         ",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -365,14 +307,55 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055863",
-                    "label": "provenance",
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8278/provenance/",
-            "label": "Harold Diamond, New York, NY, purchase, 1977; (Joshua Strychalski, New York, NY); Middendorf Gallery, Washington, DC, 1978; Private collection, Jacksonville, Florida, 1980; (Middendorf Gallery, Washington, DC); Doris Bry, New York, NY, 1981; (Joan T. Washburn, New York, NY, 1986); William Dean, New York, NY, 1986; Middendorf Gallery, Washington, DC, 1986; Gerald Peters Gallery, Santa Fe, New Mexico, 1987         ",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/8278/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Tobin Foundation, San Antonio, Texas, 1987, extended loan, McNay Art Museum, San Antonio, Texas      "
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300048720",
+                    "label": "exhibition records",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/exhibitions",
+            "type": "LinguisticObject",
+            "value": "1985 Santa Fe, no. 10; 1998 San Antonio, no 15"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/Materials/",
+            "type": "LinguisticObject",
+            "value": "Watercolor on paper"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
         },
         {
             "classified_as": [
@@ -390,6 +373,23 @@
             "id": "http://data.okeeffemuseum.org/object/8278/maker_role",
             "type": "LinguisticObject",
             "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8278/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Private Collection"
         }
     ],
     "refers_to": [],
@@ -416,6 +416,23 @@
     "subject_of": [],
     "type": "ManMadeObject",
     "used_for": [
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
+            ],
+            "label": "Georgia O'Keeffe: Works on Paper",
+            "timespan": {
+                "begin_of_the_begin": "1985-09-14T00:00:00",
+                "end_of_the_end": "1985-11-17T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
         {
             "classified_as": [
                 "aat:300054766"
@@ -455,23 +472,6 @@
                 "begin_of_the_begin": "1998-01-27T00:00:00",
                 "end_of_the_end": "1998-04-01T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/862/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/817",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/817/title"
-            ],
-            "label": "Georgia O'Keeffe: Works on Paper",
-            "timespan": {
-                "begin_of_the_begin": "1985-09-14T00:00:00",
-                "end_of_the_end": "1985-11-17T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/817/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

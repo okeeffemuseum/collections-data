@@ -3,13 +3,8 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300189621",
-            "label": "works on paper",
-            "type": "Type"
-        },
-        {
-            "id": "aat:300033973",
-            "label": "drawings",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
@@ -18,8 +13,13 @@
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300189621",
+            "label": "works on paper",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033973",
+            "label": "drawings",
             "type": "Type"
         }
     ],
@@ -35,6 +35,18 @@
     "depicts": [],
     "id": "http://data.okeeffemuseum.org/object/10261",
     "identified_by": [
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404620",
+                    "label": "catalog numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10261/otheridentifier",
+            "type": "Identifier",
+            "value": "1222"
+        },
         {
             "classified_as": [
                 {
@@ -70,18 +82,6 @@
             "id": "http://data.okeeffemuseum.org/object/10261/other_id",
             "type": "Identifier",
             "value": "1222, Catalogue Raisonn\u00e9"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404620",
-                    "label": "catalog numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10261/otheridentifier",
-            "type": "Identifier",
-            "value": "1222"
         }
     ],
     "label": "Georgia O'Keeffe. Untitled (Poppy), ca. 1950. Graphite on medium thick, cream, slightly textured wove paper*, 6 5/8 x 6 inches. Private Collection",
@@ -137,12 +137,12 @@
                 ],
                 "label": [
                     "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                    "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe"
+                    "Georgia O'Keeffe",
+                    "O'Keeffe, Georgia, 1887-1986"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -182,12 +182,12 @@
                         ],
                         "label": [
                             "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe"
+                            "Georgia O'Keeffe",
+                            "O'Keeffe, Georgia, 1887-1986"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -227,10 +227,39 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10261/caption/",
+            "label": "Georgia O'Keeffe. Untitled (Poppy), ca. 1950. Graphite on medium thick, cream, slightly textured wove paper*, 6 5/8 x 6 inches. Private Collection",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
                 },
+                {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10261/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
                 {
                     "id": "aat:300266036",
                     "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
                 },
                 {
@@ -246,8 +275,8 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 },
                 {
@@ -256,21 +285,31 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10261/artist_caption",
+            "id": "http://data.okeeffemuseum.org/object/10261/maker_role",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe"
+            "value": "Artist: Georgia O'Keeffe"
         },
         {
             "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10261/caption/",
-            "label": "Georgia O'Keeffe. Untitled (Poppy), ca. 1950. Graphite on medium thick, cream, slightly textured wove paper*, 6 5/8 x 6 inches. Private Collection",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10261/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Untitled (Poppy), ca. 1950"
         },
         {
             "classified_as": [
@@ -292,41 +331,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10261/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/10261/Measurement/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10261/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Untitled (Poppy), ca. 1950"
+            "value": "6 5/8 x 6 inches"
         },
         {
             "classified_as": [
@@ -339,18 +351,6 @@
             "id": "http://data.okeeffemuseum.org/object/10261/Materials/",
             "type": "LinguisticObject",
             "value": "Graphite on medium thick, cream, slightly textured wove paper*"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10261/Measurement/",
-            "type": "LinguisticObject",
-            "value": "6 5/8 x 6 inches"
         }
     ],
     "refers_to": [],

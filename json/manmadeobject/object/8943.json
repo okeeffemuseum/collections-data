@@ -8,10 +8,6 @@
             "type": "Type"
         },
         {
-            "id": "aat:300033799",
-            "type": "Type"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
             "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
@@ -19,6 +15,10 @@
         {
             "id": "aat:300033618",
             "label": "paintings",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -40,18 +40,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/title",
-            "type": "Name",
-            "value": "Red and Yellow Cliffs"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -60,6 +48,18 @@
             "id": "http://data.okeeffemuseum.org/object/8943/otheridentifier",
             "type": "Identifier",
             "value": "997"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/title",
+            "type": "Name",
+            "value": "Red and Yellow Cliffs"
         },
         {
             "classified_as": [
@@ -89,16 +89,16 @@
     "label": "Georgia O'Keeffe. Red and Yellow Cliffs, 1940. Oil on canvas, 24 x 36 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.4). \u00a9 Metropolitan Museum of Art",
     "made_of": [
         {
+            "id": "http://data.okeeffemuseum.org/object/8943/material/1",
+            "label": "canvas",
+            "type": "Material"
+        },
+        {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/8943/material/0",
             "label": "oil paint",
-            "type": "Material"
-        },
-        {
-            "id": "http://data.okeeffemuseum.org/object/8943/material/1",
-            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -115,6 +115,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -127,27 +138,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -158,6 +158,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -172,27 +183,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -229,14 +229,87 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8943/Right/",
+            "id": "http://data.okeeffemuseum.org/object/8943/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "\u00a9 Metropolitan Museum of Art"
+            "value": "Oil on canvas, 24 x 36 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300138082",
+                    "label": "techniques",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/maker_role",
+            "type": "LinguisticObject",
+            "value": "Artist: Georgia O'Keeffe"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300417193",
+                    "label": "titles",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300404439",
+                    "label": "dates",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/title_date_caption",
+            "type": "LinguisticObject",
+            "value": "Red and Yellow Cliffs, 1940"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/caption/",
+            "label": "Georgia O'Keeffe. Red and Yellow Cliffs, 1940. Oil on canvas, 24 x 36 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.4). \u00a9 Metropolitan Museum of Art",
+            "type": "LinguisticObject"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -258,6 +331,30 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300028702",
+                    "label": "inscriptions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/signaturemarks",
+            "type": "LinguisticObject",
+            "value": "Backing: 1. \"Georgia O'Keeffe / Summer of 1940 / Red and Yellow Cliffs / Ghost Ranch\" (black ink) 2. {6star} (black ink) 3. Varnished {crossed out} waxed by Mrs. Keck April 8 46 \u2013 My First Effort\" (graphite) 4. AAP2"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300026687",
+                    "label": "acknowledgments",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/8943/CreditLine/",
+            "type": "LinguisticObject",
+            "value": "The Metropolitan Museum of Art, New York. Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.4)      "
+        },
+        {
+            "classified_as": [
+                {
                     "id": "aat:300025103",
                     "label": "artists",
                     "type": "Type"
@@ -275,40 +372,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/title_date_caption",
-            "type": "LinguisticObject",
-            "value": "Red and Yellow Cliffs, 1940"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300026687",
-                    "label": "acknowledgments",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/CreditLine/",
-            "type": "LinguisticObject",
-            "value": "The Metropolitan Museum of Art, New York. Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.4)      "
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300266036",
                     "label": "dimensions",
                     "type": "Type"
@@ -317,40 +380,6 @@
             "id": "http://data.okeeffemuseum.org/object/8943/Measurement/",
             "type": "LinguisticObject",
             "value": "24 x 36 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/caption/",
-            "label": "Georgia O'Keeffe. Red and Yellow Cliffs, 1940. Oil on canvas, 24 x 36 inches. Metropolitan Museum of Art. The Metropolitan Museum of Art, New York. Alfred Stieglitz Collection, Bequest of Georgia O'Keeffe, 1986 (1987.377.4). \u00a9 Metropolitan Museum of Art",
-            "type": "LinguisticObject"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/medium_dim_caption",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas, 24 x 36 inches"
         },
         {
             "classified_as": [
@@ -367,43 +396,14 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/8943/maker_role",
+            "id": "http://data.okeeffemuseum.org/object/8943/Right/",
             "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300010358",
-                    "label": "materials",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/Materials/",
-            "type": "LinguisticObject",
-            "value": "Oil on canvas"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300028702",
-                    "label": "inscriptions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/8943/signaturemarks",
-            "type": "LinguisticObject",
-            "value": "Backing: 1. \"Georgia O'Keeffe / Summer of 1940 / Red and Yellow Cliffs / Ghost Ranch\" (black ink) 2. {6star} (black ink) 3. Varnished {crossed out} waxed by Mrs. Keck April 8 46 \u2013 My First Effort\" (graphite) 4. AAP2"
+            "value": "\u00a9 Metropolitan Museum of Art"
         }
     ],
     "refers_to": [],
@@ -446,6 +446,19 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/exhibition/334",
+            "timespan": {
+                "begin_of_the_begin": "1941-01-27T00:00:00",
+                "end_of_the_end": "1941-03-11T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/227",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/227/title"
@@ -455,19 +468,6 @@
                 "begin_of_the_begin": "1941-01-27T00:00:00",
                 "end_of_the_end": "1941-03-11T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/227/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/334",
-            "timespan": {
-                "begin_of_the_begin": "1941-01-27T00:00:00",
-                "end_of_the_end": "1941-03-11T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/334/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

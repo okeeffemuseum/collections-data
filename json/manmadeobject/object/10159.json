@@ -3,10 +3,6 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300033799",
-            "type": "Type"
-        },
-        {
             "id": "http://data.okeeffemuseum.org/vocab/cr_status/catalogue-raisonn-",
             "label": "Catalogue Raisonn\u00e9 Object",
             "type": "Type"
@@ -19,6 +15,10 @@
         {
             "id": "aat:300133025",
             "label": "works of art",
+            "type": "Type"
+        },
+        {
+            "id": "aat:300033799",
             "type": "Type"
         }
     ],
@@ -37,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300404670",
-                    "label": "preferred terms",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10159/title",
-            "type": "Name",
-            "value": "Antelope Head with Pedernal"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404620",
                     "label": "catalog numbers",
                     "type": "Type"
@@ -57,6 +45,18 @@
             "id": "http://data.okeeffemuseum.org/object/10159/otheridentifier",
             "type": "Identifier",
             "value": "1264"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300404670",
+                    "label": "preferred terms",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10159/identifier",
+            "type": "Identifier",
+            "value": "10159"
         },
         {
             "classified_as": [
@@ -78,24 +78,24 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10159/identifier",
-            "type": "Identifier",
-            "value": "10159"
+            "id": "http://data.okeeffemuseum.org/object/10159/title",
+            "type": "Name",
+            "value": "Antelope Head with Pedernal"
         }
     ],
     "label": "Georgia O'Keeffe. Antelope Head with Pedernal, 1953. Oil on canvas, 20 1/4 x 24 1/4 inches. Gilcrease Museum",
     "made_of": [
-        {
-            "id": "http://data.okeeffemuseum.org/object/10159/material/1",
-            "label": "canvas",
-            "type": "Material"
-        },
         {
             "exact_match": [
                 "aat:300015050"
             ],
             "id": "http://data.okeeffemuseum.org/object/10159/material/0",
             "label": "oil paint",
+            "type": "Material"
+        },
+        {
+            "id": "http://data.okeeffemuseum.org/object/10159/material/1",
+            "label": "canvas",
             "type": "Material"
         }
     ],
@@ -112,6 +112,17 @@
                 "identified_by": [
                     {
                         "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
+                    {
+                        "classified_as": [
                             {
                                 "id": "aat:300404670",
                                 "label": "preferred terms",
@@ -124,27 +135,16 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
@@ -155,6 +155,17 @@
                         "classified_as": [],
                         "id": "http://data.okeeffemuseum.org/person/2",
                         "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
                             {
                                 "classified_as": [
                                     {
@@ -169,27 +180,16 @@
                                 "id": "http://data.okeeffemuseum.org/person/2/name/0",
                                 "type": "Name",
                                 "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
                             }
                         ],
                         "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                             "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                            "Georgia O'Keeffe"
                         ],
                         "type": [
-                            "Actor",
-                            "schema:Thing"
+                            "schema:Thing",
+                            "Actor"
                         ]
                     }
                 ],
@@ -226,6 +226,11 @@
         {
             "classified_as": [
                 {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300404439",
                     "label": "dates",
                     "type": "Type"
@@ -233,11 +238,6 @@
                 {
                     "id": "aat:300417193",
                     "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -248,48 +248,36 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300010358",
-                    "label": "materials",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10159/Materials/",
+            "id": "http://data.okeeffemuseum.org/object/10159/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Oil on canvas"
+            "value": "Oil on canvas, 20 1/4 x 24 1/4 inches"
         },
         {
             "classified_as": [
-                {
-                    "id": "aat:300203630",
-                    "label": "owners",
-                    "type": "Type"
-                },
                 {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10159/institution_caption",
-            "type": "LinguisticObject",
-            "value": "Gilcrease Museum"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300138082",
-                    "label": "techniques",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/10159/maker_role",
-            "type": "LinguisticObject",
-            "value": "Artist: Georgia O'Keeffe"
+            "id": "http://data.okeeffemuseum.org/object/10159/caption/",
+            "label": "Georgia O'Keeffe. Antelope Head with Pedernal, 1953. Oil on canvas, 20 1/4 x 24 1/4 inches. Gilcrease Museum",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -302,6 +290,18 @@
             "id": "http://data.okeeffemuseum.org/object/10159/Measurement/",
             "type": "LinguisticObject",
             "value": "20 1/4 x 24 1/4 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300010358",
+                    "label": "materials",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/10159/Materials/",
+            "type": "LinguisticObject",
+            "value": "Oil on canvas"
         },
         {
             "classified_as": [
@@ -326,11 +326,16 @@
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
+                },
+                {
+                    "id": "aat:300203630",
+                    "label": "owners",
+                    "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10159/caption/",
-            "label": "Georgia O'Keeffe. Antelope Head with Pedernal, 1953. Oil on canvas, 20 1/4 x 24 1/4 inches. Gilcrease Museum",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/10159/institution_caption",
+            "type": "LinguisticObject",
+            "value": "Gilcrease Museum"
         },
         {
             "classified_as": [
@@ -340,19 +345,14 @@
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300138082",
+                    "label": "techniques",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/10159/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/10159/maker_role",
             "type": "LinguisticObject",
-            "value": "Oil on canvas, 20 1/4 x 24 1/4 inches"
+            "value": "Artist: Georgia O'Keeffe"
         }
     ],
     "refers_to": [],
@@ -395,11 +395,11 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/680",
+            "id": "http://data.okeeffemuseum.org/exhibition/584",
             "timespan": {
-                "begin_of_the_begin": "1958-02-04T00:00:00",
-                "end_of_the_end": "1958-03-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/680/timespan",
+                "begin_of_the_begin": "1954-05-23T00:00:00",
+                "end_of_the_end": "1954-07-02T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/584/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -408,28 +408,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/710",
-            "timespan": {
-                "begin_of_the_begin": "1958-04-01T00:00:00",
-                "end_of_the_end": "1958-04-01T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/710/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/486",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/434",
             "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/486/title"
+                "http://data.okeeffemuseum.org/touring-exhibition/434/title"
             ],
-            "label": "Nature in Abstraction: the Relation of Abstract Painting and Sculpture to Nature in Twentieth-Century Art",
+            "label": "What Americans are Painting",
             "timespan": {
-                "begin_of_the_begin": "1958-01-14T00:00:00",
-                "end_of_the_end": "1959-02-08T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/486/timespan",
+                "begin_of_the_begin": "1956-07-02T00:00:00",
+                "end_of_the_end": "1956-07-21T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/434/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -451,23 +438,6 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/472",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/472/title"
-            ],
-            "label": "Contemporary Artists",
-            "timespan": {
-                "begin_of_the_begin": "1958-02-04T00:00:00",
-                "end_of_the_end": "1958-03-04T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/472/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/383",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/383/title"
@@ -477,32 +447,6 @@
                 "begin_of_the_begin": "1954-05-23T00:00:00",
                 "end_of_the_end": "1954-07-02T00:00:00",
                 "id": "http://data.okeeffemuseum.org/touring-exhibition/383/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/584",
-            "timespan": {
-                "begin_of_the_begin": "1954-05-23T00:00:00",
-                "end_of_the_end": "1954-07-02T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/584/timespan",
-                "type": "TimeSpan"
-            },
-            "type": "Activity"
-        },
-        {
-            "classified_as": [
-                "aat:300054766"
-            ],
-            "id": "http://data.okeeffemuseum.org/exhibition/642",
-            "timespan": {
-                "begin_of_the_begin": "1956-07-02T00:00:00",
-                "end_of_the_end": "1956-07-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/642/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -537,15 +481,41 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/434",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/434/title"
-            ],
-            "label": "What Americans are Painting",
+            "id": "http://data.okeeffemuseum.org/exhibition/642",
             "timespan": {
                 "begin_of_the_begin": "1956-07-02T00:00:00",
                 "end_of_the_end": "1956-07-21T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/434/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/642/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/exhibition/710",
+            "timespan": {
+                "begin_of_the_begin": "1958-04-01T00:00:00",
+                "end_of_the_end": "1958-04-01T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/710/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/472",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/472/title"
+            ],
+            "label": "Contemporary Artists",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-04T00:00:00",
+                "end_of_the_end": "1958-03-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/472/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -571,6 +541,23 @@
             "classified_as": [
                 "aat:300054766"
             ],
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/406/title"
+            ],
+            "label": "O'Keeffe Exhibition: New Paintings",
+            "timespan": {
+                "begin_of_the_begin": "1955-03-29T00:00:00",
+                "end_of_the_end": "1955-04-23T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
+            ],
             "id": "http://data.okeeffemuseum.org/touring-exhibition/819",
             "identified_by": [
                 "http://data.okeeffemuseum.org/touring-exhibition/819/title"
@@ -588,11 +575,15 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/exhibition/613",
+            "id": "http://data.okeeffemuseum.org/touring-exhibition/486",
+            "identified_by": [
+                "http://data.okeeffemuseum.org/touring-exhibition/486/title"
+            ],
+            "label": "Nature in Abstraction: the Relation of Abstract Painting and Sculpture to Nature in Twentieth-Century Art",
             "timespan": {
-                "begin_of_the_begin": "1955-03-29T00:00:00",
-                "end_of_the_end": "1955-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
+                "begin_of_the_begin": "1958-01-14T00:00:00",
+                "end_of_the_end": "1959-02-08T00:00:00",
+                "id": "http://data.okeeffemuseum.org/touring-exhibition/486/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"
@@ -618,15 +609,24 @@
             "classified_as": [
                 "aat:300054766"
             ],
-            "id": "http://data.okeeffemuseum.org/touring-exhibition/406",
-            "identified_by": [
-                "http://data.okeeffemuseum.org/touring-exhibition/406/title"
+            "id": "http://data.okeeffemuseum.org/exhibition/680",
+            "timespan": {
+                "begin_of_the_begin": "1958-02-04T00:00:00",
+                "end_of_the_end": "1958-03-04T00:00:00",
+                "id": "http://data.okeeffemuseum.org/exhibition/680/timespan",
+                "type": "TimeSpan"
+            },
+            "type": "Activity"
+        },
+        {
+            "classified_as": [
+                "aat:300054766"
             ],
-            "label": "O'Keeffe Exhibition: New Paintings",
+            "id": "http://data.okeeffemuseum.org/exhibition/613",
             "timespan": {
                 "begin_of_the_begin": "1955-03-29T00:00:00",
                 "end_of_the_end": "1955-04-23T00:00:00",
-                "id": "http://data.okeeffemuseum.org/touring-exhibition/406/timespan",
+                "id": "http://data.okeeffemuseum.org/exhibition/613/timespan",
                 "type": "TimeSpan"
             },
             "type": "Activity"

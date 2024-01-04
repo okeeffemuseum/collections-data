@@ -3,13 +3,13 @@
     "about": [],
     "classified_as": [
         {
-            "id": "aat:300046300",
-            "label": "photographs",
+            "id": "aat:300133025",
+            "label": "works of art",
             "type": "Type"
         },
         {
-            "id": "aat:300133025",
-            "label": "works of art",
+            "id": "aat:300046300",
+            "label": "photographs",
             "type": "Type"
         }
     ],
@@ -37,18 +37,6 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300312355",
-                    "label": "accession numbers",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5779/accessionnumber",
-            "type": "Identifier",
-            "value": "2006.6.849"
-        },
-        {
-            "classified_as": [
-                {
                     "id": "aat:300404670",
                     "label": "preferred terms",
                     "type": "Type"
@@ -69,6 +57,18 @@
             "id": "http://data.okeeffemuseum.org/object/5779/title",
             "type": "Name",
             "value": "Georgia O'Keeffe and Unidentified Man in Woods"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300312355",
+                    "label": "accession numbers",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5779/accessionnumber",
+            "type": "Identifier",
+            "value": "2006.6.849"
         }
     ],
     "label": "Todd Webb. Georgia O'Keeffe and Unidentified Man in Woods, 1961. Gelatin silver print, 12 15/16 x 10 7/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.849]",
@@ -103,14 +103,25 @@
                     }
                 ],
                 "label": [
-                    "Todd Webb",
-                    "Webb, Todd, 1905-2000"
+                    "Webb, Todd, 1905-2000",
+                    "Todd Webb"
                 ],
                 "type": "Actor"
             },
             {
                 "id": "http://data.okeeffemuseum.org/person/2",
                 "identified_by": [
+                    {
+                        "classified_as": [
+                            "aat:acronym"
+                        ],
+                        "exact_match": [
+                            "ulan:500018666"
+                        ],
+                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                        "type": "Name",
+                        "value": "gok"
+                    },
                     {
                         "classified_as": [
                             {
@@ -125,31 +136,75 @@
                         "id": "http://data.okeeffemuseum.org/person/2/name/0",
                         "type": "Name",
                         "value": "Georgia O'Keeffe"
-                    },
-                    {
-                        "classified_as": [
-                            "aat:acronym"
-                        ],
-                        "exact_match": [
-                            "ulan:500018666"
-                        ],
-                        "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                        "type": "Name",
-                        "value": "gok"
                     }
                 ],
                 "label": [
+                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
                     "O'Keeffe, Georgia, 1887-1986",
-                    "Georgia O'Keeffe",
-                    "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
+                    "Georgia O'Keeffe"
                 ],
                 "type": [
-                    "Actor",
-                    "schema:Thing"
+                    "schema:Thing",
+                    "Actor"
                 ]
             }
         ],
         "consists_of": [
+            {
+                "carried_out_by": [
+                    {
+                        "classified_as": [],
+                        "id": "http://data.okeeffemuseum.org/person/2",
+                        "identified_by": [
+                            {
+                                "classified_as": [
+                                    "aat:acronym"
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
+                                "type": "Name",
+                                "value": "gok"
+                            },
+                            {
+                                "classified_as": [
+                                    {
+                                        "id": "aat:300404670",
+                                        "label": "preferred terms",
+                                        "type": "Type"
+                                    }
+                                ],
+                                "exact_match": [
+                                    "ulan:500018666"
+                                ],
+                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
+                                "type": "Name",
+                                "value": "Georgia O'Keeffe"
+                            }
+                        ],
+                        "label": [
+                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence",
+                            "O'Keeffe, Georgia, 1887-1986",
+                            "Georgia O'Keeffe"
+                        ],
+                        "type": [
+                            "schema:Thing",
+                            "Actor"
+                        ]
+                    }
+                ],
+                "classified_as": [],
+                "id": "http://data.okeeffemuseum.org/object/5779/production/dpc",
+                "technique": [
+                    {
+                        "id": "relators:dpc",
+                        "label": "Depicted",
+                        "type": "Type"
+                    }
+                ],
+                "type": "Production"
+            },
             {
                 "carried_out_by": [
                     {
@@ -173,8 +228,8 @@
                             }
                         ],
                         "label": [
-                            "Todd Webb",
-                            "Webb, Todd, 1905-2000"
+                            "Webb, Todd, 1905-2000",
+                            "Todd Webb"
                         ],
                         "type": "Actor"
                     }
@@ -185,61 +240,6 @@
                     {
                         "id": "relators:pht",
                         "label": "Photographer",
-                        "type": "Type"
-                    }
-                ],
-                "type": "Production"
-            },
-            {
-                "carried_out_by": [
-                    {
-                        "classified_as": [],
-                        "id": "http://data.okeeffemuseum.org/person/2",
-                        "identified_by": [
-                            {
-                                "classified_as": [
-                                    {
-                                        "id": "aat:300404670",
-                                        "label": "preferred terms",
-                                        "type": "Type"
-                                    }
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/0",
-                                "type": "Name",
-                                "value": "Georgia O'Keeffe"
-                            },
-                            {
-                                "classified_as": [
-                                    "aat:acronym"
-                                ],
-                                "exact_match": [
-                                    "ulan:500018666"
-                                ],
-                                "id": "http://data.okeeffemuseum.org/person/2/name/1",
-                                "type": "Name",
-                                "value": "gok"
-                            }
-                        ],
-                        "label": [
-                            "O'Keeffe, Georgia, 1887-1986",
-                            "Georgia O'Keeffe",
-                            "O'Keeffe, Georgia, 1887-1986 -- Correspondence"
-                        ],
-                        "type": [
-                            "Actor",
-                            "schema:Thing"
-                        ]
-                    }
-                ],
-                "classified_as": [],
-                "id": "http://data.okeeffemuseum.org/object/5779/production/dpc",
-                "technique": [
-                    {
-                        "id": "relators:dpc",
-                        "label": "Depicted",
                         "type": "Type"
                     }
                 ],
@@ -267,14 +267,48 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300163343",
+                    "label": "media",
+                    "type": "Type"
+                },
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5779/aquisition/method/",
+            "id": "http://data.okeeffemuseum.org/object/5779/medium_dim_caption",
             "type": "LinguisticObject",
-            "value": "Gift"
+            "value": "Gelatin silver print, 12 15/16 x 10 7/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300266036",
+                    "label": "dimensions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5779/Measurement/",
+            "type": "LinguisticObject",
+            "value": "12 15/16 x 10 7/16 inches"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300191074",
+                    "label": "captions",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5779/caption/",
+            "label": "Todd Webb. Georgia O'Keeffe and Unidentified Man in Woods, 1961. Gelatin silver print, 12 15/16 x 10 7/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.849]",
+            "type": "LinguisticObject"
         },
         {
             "classified_as": [
@@ -303,54 +337,13 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5779/Measurement/",
-            "type": "LinguisticObject",
-            "value": "12 15/16 x 10 7/16 inches"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300055547",
-                    "label": "legal concepts",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5779/Right/",
-            "type": "LinguisticObject",
-            "value": "\u00a9 Todd Webb Archive"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300404439",
+                    "label": "dates",
                     "type": "Type"
                 },
                 {
-                    "id": "aat:300025103",
-                    "label": "artists",
-                    "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5779/artist_caption",
-            "type": "LinguisticObject",
-            "value": "Todd Webb"
-        },
-        {
-            "classified_as": [
-                {
-                    "id": "aat:300266036",
-                    "label": "dimensions",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300163343",
-                    "label": "media",
+                    "id": "aat:300417193",
+                    "label": "titles",
                     "type": "Type"
                 },
                 {
@@ -359,32 +352,20 @@
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5779/medium_dim_caption",
+            "id": "http://data.okeeffemuseum.org/object/5779/title_date_caption",
             "type": "LinguisticObject",
-            "value": "Gelatin silver print, 12 15/16 x 10 7/16 inches"
+            "value": "Georgia O'Keeffe and Unidentified Man in Woods, 1961"
         },
         {
             "classified_as": [
                 {
-                    "id": "aat:300080091",
-                    "label": "description",
+                    "id": "aat:300191074",
+                    "label": "captions",
                     "type": "Type"
-                }
-            ],
-            "id": "http://data.okeeffemuseum.org/object/5779/Description/",
-            "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe walking in a grove of Aspen trees ( possible on the Aspen Vista Trail, in the Hyde Memorial State Park, in Santa Fe) with an unidentified man (who could be Eliot Porter ).  She is wearing a matching light colored cotton jacket and skirt with her black gaucho hat hanging on her back."
-        },
-        {
-            "classified_as": [
+                },
                 {
                     "id": "aat:300203630",
                     "label": "owners",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
                     "type": "Type"
                 }
             ],
@@ -412,36 +393,55 @@
         {
             "classified_as": [
                 {
-                    "id": "aat:300417193",
-                    "label": "titles",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300404439",
-                    "label": "dates",
-                    "type": "Type"
-                },
-                {
-                    "id": "aat:300191074",
-                    "label": "captions",
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5779/title_date_caption",
+            "id": "http://data.okeeffemuseum.org/object/5779/aquisition/method/",
             "type": "LinguisticObject",
-            "value": "Georgia O'Keeffe and Unidentified Man in Woods, 1961"
+            "value": "Gift"
         },
         {
             "classified_as": [
                 {
+                    "id": "aat:300025103",
+                    "label": "artists",
+                    "type": "Type"
+                },
+                {
                     "id": "aat:300191074",
                     "label": "captions",
                     "type": "Type"
                 }
             ],
-            "id": "http://data.okeeffemuseum.org/object/5779/caption/",
-            "label": "Todd Webb. Georgia O'Keeffe and Unidentified Man in Woods, 1961. Gelatin silver print, 12 15/16 x 10 7/16 inches. Georgia O'Keeffe Museum. Gift of The Georgia O'Keeffe Foundation. \u00a9 Todd Webb Archive. [2006.6.849]",
-            "type": "LinguisticObject"
+            "id": "http://data.okeeffemuseum.org/object/5779/artist_caption",
+            "type": "LinguisticObject",
+            "value": "Todd Webb"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300055547",
+                    "label": "legal concepts",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5779/Right/",
+            "type": "LinguisticObject",
+            "value": "\u00a9 Todd Webb Archive"
+        },
+        {
+            "classified_as": [
+                {
+                    "id": "aat:300080091",
+                    "label": "description",
+                    "type": "Type"
+                }
+            ],
+            "id": "http://data.okeeffemuseum.org/object/5779/Description/",
+            "type": "LinguisticObject",
+            "value": "Georgia O'Keeffe walking in a grove of Aspen trees ( possible on the Aspen Vista Trail, in the Hyde Memorial State Park, in Santa Fe) with an unidentified man (who could be Eliot Porter ).  She is wearing a matching light colored cotton jacket and skirt with her black gaucho hat hanging on her back."
         }
     ],
     "refers_to": [],
